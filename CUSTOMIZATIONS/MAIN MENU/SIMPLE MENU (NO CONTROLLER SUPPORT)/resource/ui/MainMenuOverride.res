@@ -258,7 +258,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayLabel"
 		"font"			"chippyBlack22"
-		"labelText"		"KBNHud v3.6.9.2"
+		"labelText"		"KBNHud v3.7.0"
 		"textAlignment"	"west"
 		"xpos"			"55"
 		"ypos"			"65"

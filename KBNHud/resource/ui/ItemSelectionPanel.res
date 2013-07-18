@@ -117,6 +117,48 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
+
+	"NameFilterLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"NameFilterLabel"
+		"font"			"HudFontSmallestBold"
+		"labelText"		"#Store_NameFilterLabel"
+		"textAlignment"	"west"
+		"xpos"			"c+175"
+		"ypos"			"3"
+		"zpos"			"1"
+		"wide"			"90"
+		"tall"			"20"
+		"autoResize"	"1"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"StoreDarkTan"
+	}
+
+	"NameFilterTextEntry"
+	{
+		"ControlName"		"TextEntry"
+		"fieldName"		"NameFilterTextEntry"
+		"xpos"		"c+175"
+		"ypos"		"18"
+		"zpos"		"2"
+		"wide"		"120"
+		"tall"		"16"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"		"1"
+		"textHidden"		"0"
+		"editable"		"1"
+		"unicode"		"1"
+		"fgcolor_override"	"117 107 94 255"
+		"bgcolor_override"	"251 235 202 255"
+		"paintbackgroundtype" "2"
+		"font"		"HudFontSmallest"
+	}
 	
 	"TopLine"
 	{
@@ -208,7 +250,27 @@
 		"Command"		"vguicancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+	
+	"OnlyAllowUniqueQuality"
+	{
+		"ControlName"	"CheckButton"
+		"fieldName"		"OnlyAllowUniqueQuality"
+		"labelText"		"#OnlyAllowUniqueQuality"
+		"Font"			"HudFontSmallestBold"
+		"textAlignment"	"east"
+		"xpos"			"c-306"
+		"ypos"			"340"
+		"zpos"			"1"
+		"wide"			"290"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}	
 	
 	"ShowBackpack"
 	{

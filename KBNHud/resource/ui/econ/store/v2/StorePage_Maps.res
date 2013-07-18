@@ -13,7 +13,6 @@
 			
 			"itemmodelpanel"
 			{
-				"inventory_image_type" "2"
 				"force_square_image"	"1"
 			}
 		}

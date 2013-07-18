@@ -18,57 +18,95 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		///////////////////////////////////////////////////////////
+		//////////      COLOR CUSTOMIZATION SECTION     ///////////
+		//////////                                      ///////////
+		//////////    NUMBERS: RED GREEN BLUE OPACITY   ///////////
+		//////////        DO NOT MODIFY OPACITY!        ///////////
+		///////////////////////////////////////////////////////////
+
+		"Damage Numbers"      		"255 255 255 255"
+	
+		"Low Health flash 1"        "255 0 0 255"
+		"Low Health flash 2"        "255 75 75 255"
+		"Low Health flash 3"        "255 75 75 75" //Identical RGB values as flash 2, excepting the opacity variable, and they share option 2 in the installer UI
+	
+		"Overheal flash 1"          "75 175 255 255"
+		"Overheal flash 2"          "150 200 255 75"
+
+		"TargetID Low Health"     	"255 0 0 255"
+		"TargetID Overheal"  		"90 200 255 255"		
+
+		"Ubercharge percentage" 	"255 255 255 255"
+		"Ubercharge bar"   			"255 255 255 255"
+		"Full Ubercharge flash 1"   "75 175 255 255"
+		"Full Ubercharge flash 2"   "150 200 255 255"
+		
+		"Ammo in clip"  			"255 225 255 255"
+		"Ammo in reserve"  			"225 255 255 255"
+		
+		"Low Ammo flash 1"  		"200 0 0 255"
+		"Low Ammo flash 2"  		"255 75 75 255"
+		
+		"Damage Circle base color" 	"0 0 0 255"
+		"Damage Circle flash color" "255 0 0 255"
+
+
+		///////////////////////////////////////////////////////////
+		/////////// END OF COLOR CUSTOMIZATION SECTION ////////////
+		///////////////////////////////////////////////////////////
+
 		// chippy colors
-		"White"		"255 255 255 255"
-		"Black"		"0 0 0 255"
-		"Damage"	"145 225 25 255"
-		"Low2"	"255 75 75 255"
-		"HPAmmoBonus"	"75 175 255 255"
-		"HPAmmoBonusPulse"	"0 200 255 255"
-		"HPAmmoDanger"	"255 0 0 255"
-		"HPAmmoDangerPulse"	"255 75 75 255"
-		"OmpText"			"255 255 255 255"
+		"White"						"255 255 255 255"
+		"Black"						"0 0 0 255"
+		"Damage"					"145 225 25 255"
+		"Low2"						"255 75 75 255"
+		"HPAmmoBonus"				"75 175 255 255"
+		"HPAmmoBonusPulse"			"0 200 255 255"
+		"HPAmmoDanger"				"255 0 0 255"
+		"HPAmmoDangerPulse"			"255 75 75 255"
+		"OmpText"					"255 255 255 255"
 		
 		// base colors
 		"Garm3nHUDxHair"			"0 255 0 255"
-		"Garm3nHUDBonusPulse"			"0 175 255 255"
-		"Garm3nHUDDyingPulse"		 "255 0 0 255"
-		"Orange"			"178 82 22 255"
-		"OrangeDim"			"178 82 22 120"
-		"LightOrange"		"188 112 0 128"
-		"GoalOrange"		"255 133 0"
-		"TFOrange"			"145 73 59 255"
+		"Garm3nHUDBonusPulse"		"0 175 255 255"
+		"Garm3nHUDDyingPulse"		"255 0 0 255"
+		"Orange"					"178 82 22 255"
+		"OrangeDim"					"178 82 22 120"
+		"LightOrange"				"188 112 0 128"
+		"GoalOrange"				"255 133 0"
+		"TFOrange"					"145 73 59 255"
 		
-		"White"				"235 235 235 255"
-		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255"
-		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
-		//"Black"				"0 0 0 255"
+		"White"						"235 235 235 255"
+		"Red"						"192 28 0 140"
+		"RedSolid"					"192 28 0 255"
+		"Blue"						"0 28 162 140"
+		"Yellow"					"251 235 202 255"
+		"TransparentYellow"			"251 235 202 140"
+		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
 		
-		"Black"				"46 43 42 255"
-		"TransparentBlack"	"0 0 0 196"
-		"TransparentLightBlack"	"0 0 0 90"
-		"FooterBGBlack"		"52 48 55 255"
+		"Black"						"46 43 42 255"
+		"TransparentBlack"			"0 0 0 196"
+		"TransparentLightBlack"		"0 0 0 90"
+		"FooterBGBlack"				"52 48 55 255"
 		
-		"HUDBlueTeam"		"104 124 155 127"
-		"HUDRedTeam"		"180 92 77 127"
-		"HUDSpectator"		"124 124 124 127"
-		"HUDBlueTeamSolid"	"104 124 155 255"
-		"HUDRedTeamSolid"	"180 92 77 255"
-		"HUDDeathWarning"	"255 0 0 255"
-		"HudWhite"			"255 255 255 255"
-		"HudOffWhite"		"200 187 161 255"
-		"HudBlack"			"65 65 65 255"
+		"HUDBlueTeam"				"104 124 155 127"
+		"HUDRedTeam"				"180 92 77 127"
+		"HUDSpectator"				"124 124 124 127"
+		"HUDBlueTeamSolid"			"104 124 155 255"
+		"HUDRedTeamSolid"			"180 92 77 255"
+		"HUDDeathWarning"			"255 0 0 255"
+		"HudWhite"					"255 255 255 255"
+		"HudOffWhite"				"200 187 161 255"
+		"HudBlack"					"65 65 65 255"
 		
-		"Gray"				"178 178 178 255"
+		"Gray"						"178 178 178 255"
 
-		"Blank"				"0 0 0 0"
-		"ForTesting"		"255 0 0 32"
-		"ForTesting_Magenta"	"255 0 255 255"
-		"ForTesting_MagentaDim"	"255 0 255 120"
+		"Blank"						"0 0 0 0"
+		"ForTesting"				"255 0 0 32"
+		"ForTesting_Magenta"		"255 0 255 255"
+		"ForTesting_MagentaDim"		"255 0 255 120"
 
 		"HudPanelForeground"		"123 110 59 184"
 		"HudPanelBackground"		"123 110 59 184"
@@ -86,25 +124,25 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
-		"TanLight"				"235 226 202 255"
-		"TanDarker"				"46 43 42 255"
+		"TanDark"					"117 107 94 255"
+		"TanLight"					"235 226 202 255"
+		"TanDarker"					"46 43 42 255"
 		
 		// Building HUD Specific
-		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
-		"HealthBgGrey"		"72 71 69 255"
+		"LowHealthRed"				"255 0 0 255"
+		"ProgressOffWhite"			"251 235 202 255"
+		"ProgressBackground"		"250 234 201 51"
+		"HealthBgGrey"				"72 71 69 255"
 		
 		"ProgressOffWhiteTransparent"	"251 235 202 128"
 		
-		"LabelDark"			"48 43 42 255"
-		"LabelTransparent"	"109 96 80 180"
+		"LabelDark"					"48 43 42 255"
+		"LabelTransparent"			"109 96 80 180"
 		
-		"BuildMenuActive"	"248 231 198 255"
+		"BuildMenuActive"			"248 231 198 255"
 		
-		"DisguiseMenuIconRed"	"192 56 63 255"
-		"DisguiseMenuIconBlue"	"92 128 166 255"
+		"DisguiseMenuIconRed"		"192 56 63 255"
+		"DisguiseMenuIconBlue"		"92 128 166 255"
 
  		"MatchmakingDialogTitleColor"			"200 184 151 255"
  		"MatchmakingMenuItemBackground"			"46 43 42 255"
@@ -112,41 +150,41 @@ Scheme
 		"MatchmakingMenuItemTitleColor"			"200 184 151 255"
 		"MatchmakingMenuItemDescriptionColor"	"200 184 151 255"
 		
-		"HTMLBackground"						"95 92 101 255"
+		"HTMLBackground"				"95 92 101 255"
 		
-		"ItemAttribLevel"						"117 107 94 255"
-		"ItemAttribNeutral"						"235 226 202 255"
-		"ItemAttribPositive"					"153 204 255 255"
-		"ItemAttribNegative"					"255 64 64 255"
+		"ItemAttribLevel"				"117 107 94 255"
+		"ItemAttribNeutral"				"235 226 202 255"
+		"ItemAttribPositive"			"153 204 255 255"
+		"ItemAttribNegative"			"255 64 64 255"
 
-		"ItemSetName"							"225 255 15 255"
-		"ItemSetItemEquipped"					"149 175 12 255"
-		"ItemSetItemMissing"					"139 137 137 255"
-		"ItemIsotope"							"225 255 15 255"
-		"ItemBundleItem"						"149 175 12 255"
-		"ItemLimitedUse"						"0 160 0 255"
-		"ItemFlags"								"117 107 94 255"
+		"ItemSetName"					"225 255 15 255"
+		"ItemSetItemEquipped"			"149 175 12 255"
+		"ItemSetItemMissing"			"139 137 137 255"
+		"ItemIsotope"					"225 255 15 255"
+		"ItemBundleItem"				"149 175 12 255"
+		"ItemLimitedUse"				"0 160 0 255"
+		"ItemFlags"						"117 107 94 255"
 		
-		"QualityColorNormal"					"178 178 178 255"
-		"QualityColorrarity1"					"77 116 85 255"
-		"QualityColorrarity2"					"141 131 75 255"
-		"QualityColorrarity3"					"112 85 15 255"
-		"QualityColorrarity4"					"134 80 172 255"
-		"QualityColorVintage"					"71 98 145 255"
-		"QualityColorUnique"					"255 215 0 255"
-		"QualityColorCommunity"					"112 176 74 255"
-		"QualityColorDeveloper"					"165 15 121 255"
-		"QualityColorSelfMade"					"112 176 74 255"
-		"QualityColorCustomized"				"71 98 145 255"
-		"QualityColorStrange"					"207 106 50 255"
-		"QualityColorCompleted"					"134 80 172 255"
-		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorNormal"			"178 178 178 255"
+		"QualityColorrarity1"			"77 116 85 255"
+		"QualityColorrarity2"			"141 131 75 255"
+		"QualityColorrarity3"			"112 85 15 255"
+		"QualityColorrarity4"			"134 80 172 255"
+		"QualityColorVintage"			"71 98 145 255"
+		"QualityColorUnique"			"255 215 0 255"
+		"QualityColorCommunity"			"112 176 74 255"
+		"QualityColorDeveloper"			"165 15 121 255"
+		"QualityColorSelfMade"			"112 176 74 255"
+		"QualityColorCustomized"		"71 98 145 255"
+		"QualityColorStrange"			"207 106 50 255"
+		"QualityColorCompleted"			"134 80 172 255"
+		"QualityColorHaunted"			"56 243 171 255"
 
 		"SaleGreen"						"76 107 34 255"
 
 		"LightRed"						"200 80 60 255"
-		"LighterRed"						"220 100 80 255"
-		"LighterDarkBrown"					"59 54 48 255"
+		"LighterRed"					"220 100 80 255"
+		"LighterDarkBrown"				"59 54 48 255"
 		"DarkBrown"						"41 37 38 255"
 	}
 
@@ -426,7 +464,7 @@ Scheme
 				"outline" "1"
 			}
 		}
-		"chippyRegular11"
+		"kbnRegular11"
 		{
 			"1"
 			{
@@ -437,7 +475,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyRegular12"
+		"kbnRegular12"
 		{
 			"1"
 			{
@@ -448,7 +486,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium8"
+		"kbnMedium8"
 		{
 			"1"
 			{
@@ -459,7 +497,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium9"
+		"kbnMedium9"
 		{
 			"1"
 			{
@@ -470,7 +508,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium9OL"
+		"kbnMedium9OL"
 		{
 			"1"
 			{
@@ -482,7 +520,7 @@ Scheme
 			"outline"	"0 0 0 150"
 			}
 		}
-		"chippyMedium10"
+		"kbnMedium10"
 		{
 			"1"
 			{
@@ -493,7 +531,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium11"
+		"kbnMedium11"
 		{
 			"1"
 			{
@@ -504,7 +542,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium12"
+		"kbnMedium12"
 		{
 			"1"
 			{
@@ -515,7 +553,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium14"
+		"kbnMedium14"
 		{
 			"1"
 			{
@@ -526,7 +564,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium16"
+		"kbnMedium16"
 		{
 			"1"
 			{
@@ -537,7 +575,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium18"
+		"kbnMedium18"
 		{
 			"1"
 			{
@@ -548,7 +586,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium21"
+		"kbnMedium21"
 		{
 			"1"
 			{
@@ -559,7 +597,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium24"
+		"kbnMedium24"
 		{
 			"1"
 			{
@@ -570,7 +608,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium30"
+		"kbnMedium30"
 		{
 			"1"
 			{
@@ -581,7 +619,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium36"
+		"kbnMedium36"
 		{
 			"1"
 			{
@@ -592,7 +630,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyMedium50"
+		"kbnMedium50"
 		{
 			"1"
 			{
@@ -603,7 +641,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold8"
+		"kbnBold8"
 		{
 			"1"
 			{
@@ -614,7 +652,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold9"
+		"kbnBold9"
 		{
 			"1"
 			{
@@ -625,7 +663,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold10"
+		"kbnBold10"
 		{
 			"1"
 			{
@@ -636,7 +674,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold11"
+		"kbnBold11"
 		{
 			"1"
 			{
@@ -647,7 +685,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold12"
+		"kbnBold12"
 		{
 			"1"
 			{
@@ -658,7 +696,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold14"
+		"kbnBold14"
 		{
 			"1"
 			{
@@ -669,7 +707,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold16"
+		"kbnBold16"
 		{
 			"1"
 			{
@@ -680,7 +718,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold18"
+		"kbnBold18"
 		{
 			"1"
 			{
@@ -692,7 +730,7 @@ Scheme
 			"outline"	"0"
 			}
 		}
-		"chippyBold18OL"
+		"kbnBold18OL"
 		{
 			"1"
 			{
@@ -704,7 +742,7 @@ Scheme
 			"outline"	"1"
 			}
 		}
-		"chippyBold21"
+		"kbnBold21"
 		{
 			"1"
 			{
@@ -715,7 +753,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold22"
+		"kbnBold22"
 		{
 			"1"
 			{
@@ -726,7 +764,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold24"
+		"kbnBold24"
 		{
 			"1"
 			{
@@ -737,7 +775,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold30"
+		"kbnBold30"
 		{
 			"1"
 			{
@@ -748,7 +786,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBold36"
+		"kbnBold36"
 		{
 			"1"
 			{
@@ -759,7 +797,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack8"
+		"kbnBlack8"
 		{
 			"1"
 			{
@@ -770,7 +808,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack9"
+		"kbnBlack9"
 		{
 			"1"
 			{
@@ -781,7 +819,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack10"
+		"kbnBlack10"
 		{
 			"1"
 			{
@@ -792,7 +830,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack11"
+		"kbnBlack11"
 		{
 			"1"
 			{
@@ -803,7 +841,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack11OL"
+		"kbnBlack11OL"
 		{
 			"1"
 			{
@@ -815,7 +853,7 @@ Scheme
 			"outline"	"0 0 0 255"
 			}
 		}
-		"chippyBlack12"
+		"kbnBlack12"
 		{
 			"1"
 			{
@@ -826,7 +864,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack12OL"
+		"kbnBlack12OL"
 		{
 			"1"
 			{
@@ -838,7 +876,7 @@ Scheme
 			"outline"	"1"
 			}
 		}
-		"chippyBlack14"
+		"kbnBlack14"
 		{
 			"1"
 			{
@@ -849,7 +887,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack16"
+		"kbnBlack16"
 		{
 			"1"
 			{
@@ -860,7 +898,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack18"
+		"kbnBlack18"
 		{
 			"1"
 			{
@@ -871,7 +909,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack20"
+		"kbnBlack20"
 		{
 			"1"
 			{
@@ -882,7 +920,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack21"
+		"kbnBlack21"
 		{
 			"1"
 			{
@@ -893,7 +931,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack22"
+		"kbnBlack22"
 		{
 			"1"
 			{
@@ -904,7 +942,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack24"
+		"kbnBlack24"
 		{
 			"1"
 			{
@@ -915,7 +953,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack30"
+		"kbnBlack30"
 		{
 			"1"
 			{
@@ -926,7 +964,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"chippyBlack36"
+		"kbnBlack36"
 		{
 			"1"
 			{
@@ -935,6 +973,490 @@ Scheme
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
+			}
+		}
+		"size: 10, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"10"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 11, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"11"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 12, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"12"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 13, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"13"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 14, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"14"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 15, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"15"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 16, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"16"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 17, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"17"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 18, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"18"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 19, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"19"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 20, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"20"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 21, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"21"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 22, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"22"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 23, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"23"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 24, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"24"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 25, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"25"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 26, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 27, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"26"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 28, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"28"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 29, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"29"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 30, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"30"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 31, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"31"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 32, outline: off"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"32"
+				"antialias" "1"
+				"additive"	"0"
+				"outline"	"0"
+			}
+		}
+		"size: 12, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"12"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 13, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"13"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 14, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"14"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 15, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"15"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 16, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"16"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 17, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"17"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 18, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"18"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 19, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"19"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 20, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"20"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 21, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"21"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 22, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"22"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 23, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"23"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 24, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"24"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 25, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"25"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 26, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 27, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"26"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 28, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"28"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 29, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"29"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 30, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"30"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 31, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"31"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
+			}
+		}
+		"size: 32, outline: on"
+		{
+			"1"
+			{
+				"name"	"broeselhud Crosshairs"
+				"tall"	"32"
+				"antialias" "0"
+				"additive"	"0"
+				"outline"	"1"
 			}
 		}
 		"Xhair"
@@ -2718,32 +3240,37 @@ Scheme
 		}
 		"7"
 		{
-			"font" "resource/MavenPro-Regular.ttf"
+			"font" "resource/fonts/MavenPro-Regular.ttf"
 			"name" "Maven Pro Regular"
 		}
 		"8"
 		{
-			"font" "resource/MavenPro-Medium.ttf"
+			"font" "resource/fonts/MavenPro-Medium.ttf"
 			"name" "Maven Pro Medium"
 		}
 		"9"
 		{
-			"font" "resource/MavenPro-Bold.ttf"
+			"font" "resource/fonts/MavenPro-Bold.ttf"
 			"name" "Maven Pro Bold"
 		}
 		"10"
 		{
-			"font" "resource/MavenPro-Black.ttf"
+			"font" "resource/fonts/MavenPro-Black.ttf"
 			"name" "Maven Pro Black"
 		}
 		"11" 
 		{
-			"font" "resource/FORMASGE.ttf"
+			"font" "resource/fonts/FORMASGE.ttf"
 			"name" "FORMASGE"
 		}
 		"12"
 		{
-		"font" "resource/crosshairs.ttf"
+		"font" "resource/fonts/Crosshairs.ttf"
+		"name" "broeselhud Crosshairs"
+		}
+		"13"
+		{
+		"font" "resource/fonts/kbnCrosshairs.ttf"
 		"name" "Crosshairs"
 		}
 	}

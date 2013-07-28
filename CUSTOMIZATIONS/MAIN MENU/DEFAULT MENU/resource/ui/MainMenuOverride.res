@@ -274,7 +274,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"KBNHud v3.6.9.2"
+		"labelText"		"KBNHud v3.6.9"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"91"

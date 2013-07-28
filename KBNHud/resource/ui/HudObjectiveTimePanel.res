@@ -165,4 +165,37 @@
 		"image"				"../hud/objectives_timepanel_suddendeath"	
 		"scaleImage"		"1"	
 	}	
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"5"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"100"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"wrap"			"0"
+		"font"			"chippyMedium12"
+	}	
+	"ServerTimeLimitLabelBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"ServerTimeLimitLabelBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"1"
+		"wide"			"78"
+		"tall"			"20"
+		"tall_minmode"	"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			"../hud/objectives_timepanel_suddendeath"	
+		"scaleImage"	"1"	
+	}
 }

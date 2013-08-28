@@ -407,18 +407,19 @@ event FlagOutline
 // Spy Disguise
 event HudSpyDisguiseChanged
 {
-	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.1
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
 	
-	Animate PlayerStatusSpyOutlineImage		Position	"0 367"	Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"65 65"		Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-50"	Linear 0.0 0.2		// 200 200
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2		// 400 400
 
 	RunEvent HudSpyDisguiseHide	0.7
 }
 
 event HudSpyDisguiseHide
 {
-	Animate PlayerStatusSpyOutlineImage		Position	"23 398"			Linear 0.0 0.2
-	Animate PlayerStatusSpyOutlineImage		Size		"23 23"			Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Position	"c-290 r90"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"40 40"			Linear 0.0 0.2
 	
 	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
 }
@@ -426,16 +427,15 @@ event HudSpyDisguiseHide
 event HudSpyDisguiseFadeIn
 {
 	RunEvent HudSpyDisguiseChanged	0
-	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.0 0.0
-	
-	Animate PlayerStatusClassImage			Alpha		"235"			Linear 0.0 0.0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"40 40"			Linear 0.0 0.0
 }
 
 event HudSpyDisguiseFadeOut
 {
-	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.0 0.0
-	
-	Animate PlayerStatusClassImage			Alpha		"0"				Linear 0.0 0.0
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"0 0"			Linear 0.0 0.0
 }
 
 

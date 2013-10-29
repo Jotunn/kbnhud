@@ -707,6 +707,22 @@
 
 	}
 
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"250"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"

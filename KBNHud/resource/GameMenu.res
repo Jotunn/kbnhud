@@ -55,6 +55,13 @@
 		"subimage" "glyph_steamworkshop"
 		"tooltip" "#MMenu_SteamWorkshop"
 	}
+	"VRModeButton"
+	{
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
+	}
 	"KBNHudButton"
     {
         "command" "engine play vo/sniper_specialcompleted03"

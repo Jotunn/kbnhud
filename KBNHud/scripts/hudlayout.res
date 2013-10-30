@@ -869,7 +869,6 @@
 		"enabled"				"1"
 		"xpos"					"r177"
 		"ypos"					"-45"
-		"ypos_minmode"			"-55"
 		"zpos"					"100"
 		"wide"					"175"
 		"tall"					"400"
@@ -878,9 +877,7 @@
 		"item_tall"				"16"
 		
 		"fade_in_time"			"0.06"
-		"fade_in_time_minmode"		"0.03"
-		"fade_out_time"			"0.5"
-		"fade_out_time_minmode"	"0.2"		
+		"fade_out_time"			"0.5"	
 		
 		"show_avatar"			"1"
 		"avatar_xpos"			"34"

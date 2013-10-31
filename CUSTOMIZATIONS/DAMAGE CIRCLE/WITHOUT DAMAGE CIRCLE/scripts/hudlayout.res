@@ -1,11 +1,11 @@
 "Resource/HudLayout.res"
 {
-		xHairCirclePulse
+	xHairCirclePulse
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCirclePulse"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-100"
@@ -246,12 +246,12 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-91"	[$WIN32]
-		"ypos"			"r175"	[$WIN32]
+		"xpos"			"c-108"	[$WIN32]
+		"ypos"			"r235"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
-		"wide"			"250"
-		"tall"			"100"
+		"wide"			"500"
+		"tall"			"1000"
 	}
 	
 	HudDemomanCharge
@@ -259,7 +259,7 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-73"	[$WIN32]
+		"xpos"			"c-69"	[$WIN32]
 		"ypos"			"r167"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
@@ -707,6 +707,22 @@
 
 	}
 
+	HudSpellMenu
+	{
+		"fieldName" "HudSpellMenu"
+		"visible" "1"
+		"enabled" "1"
+		"wide"	 "640"
+		"tall"	 "480"
+		"zpos" 	"2"
+		"xpos"			"250"
+		"ypos"			"r61"
+		
+		"TextFont"				"Default"
+		"ItemFont"				"Default"
+		"ItemFontPulsing"		"Default"
+	}
+	
 	HudCloseCaption
 	{
 		"fieldName" "HudCloseCaption"
@@ -853,7 +869,6 @@
 		"enabled"				"1"
 		"xpos"					"r177"
 		"ypos"					"-45"
-		"ypos_minmode"			"-55"
 		"zpos"					"100"
 		"wide"					"175"
 		"tall"					"400"
@@ -862,9 +877,7 @@
 		"item_tall"				"16"
 		
 		"fade_in_time"			"0.06"
-		"fade_in_time_minmode"		"0.03"
-		"fade_out_time"			"0.5"
-		"fade_out_time_minmode"	"0.2"		
+		"fade_out_time"			"0.5"	
 		
 		"show_avatar"			"1"
 		"avatar_xpos"			"34"
@@ -1352,7 +1365,7 @@
 		
 	}
 
-HudInspectPanel
+	HudInspectPanel
 	{
 		"fieldName"				"HudInspectPanel"
 		"visible"				"1"

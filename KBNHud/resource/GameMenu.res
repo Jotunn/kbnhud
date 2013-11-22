@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/sniper_specialcompleted03"
+        "command" "engine play mvm/sentrybuster/mvm_sentrybuster_intro.wav"
         "label" "                         "
     }
 	"TrainingButton"

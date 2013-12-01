@@ -824,6 +824,6 @@ event NotificationsPresentBlinkStop
 //===========================================
 event DamagedPlayer
 {
-	Animate xHairCirclePulse FgColor "255 0 0 255" Linear 0.0 0.1
-	Animate xHairCirclePulse FgColor "0 0 0 255" Linear 0.2 0.200001 //Change to this for white circle: "255 255 255 255" Linear 0.2 0.200001
+	Animate xHairCirclePulse FgColor "255 0 0 180" Linear 0.0 0.1
+	Animate xHairCirclePulse FgColor "0 0 0 0" Linear 0.2 0.200001 //Change to this for white circle: "255 255 255 255" Linear 0.2 0.200001
 }

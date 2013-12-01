@@ -14,10 +14,10 @@
 		"tall"			"200"
 
 		"font"			"xHairCirclePulse"
-		"labelText"		"i"
+		"labelText"		"v"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 0 0 255" //Change to this for white circle: "255 255 255 255"
+		"fgcolor"		"0 0 0 0" //Change to this for white circle: "255 255 255 255"
 	}
 	HudxHairDot
 	{

@@ -34,7 +34,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"4"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairMultiDot
@@ -77,7 +77,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudxHairSplitCross1"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -88,7 +88,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"l"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairSplitCross2 //Without dot in center
@@ -106,7 +106,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"m"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairSplitCrossLarge1 //With dot in center
@@ -167,7 +167,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudxHairWings2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -178,7 +178,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"d"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudPlayerStatus

@@ -34,7 +34,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"4"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairMultiDot
@@ -106,7 +106,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"m"
-		"fgcolor"		"255 0 255 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairSplitCrossLarge1 //With dot in center

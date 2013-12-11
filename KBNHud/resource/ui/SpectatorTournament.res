@@ -10,7 +10,7 @@
 		"pinCorner"		"0"
 		"enabled"		"1"
 				
-		"team1_player_base_offset_x"		"-430"
+		"team1_player_base_offset_x"		"-465"
 		"team1_player_base_offset_x_minmode"	"265"
 		"team1_player_base_y"				"300"
 		"team1_player_base_y_minmode"		"300"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"chippyBold12"
+				"font"			"kbnBold12"
 				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -230,7 +230,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"chippyBold12"
+				"font"			"kbnBold12"
 				"xpos"			"26"
 				"ypos"			"4"
 				"zpos"			"5"
@@ -284,7 +284,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"chippyBold12"
+				"font"			"kbnBold12"
 				"xpos"			"127"
 				"ypos"			"1"
 				"zpos"			"6"
@@ -301,7 +301,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"chippyBold12"
+				"font"			"kbnBold12"
 				"xpos"			"128"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -373,7 +373,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"chippyBlack18"
+		"font"			"kbnBlack18"
 		"zpos"			"5"
 		"fgcolor_override"	"255 255 255 255"
 	}
@@ -513,7 +513,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"chippyBold12"
+			"font"			"kbnBold12"
 			"xpos"			"2"
 			"ypos"			"0"
 			"zpos"			"10"

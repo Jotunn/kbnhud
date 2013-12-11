@@ -201,20 +201,20 @@ event KeyHintMessageHide
 
 //===========================================
 
+
 // HP Bonus
 event HudHealthBonusPulse
 {
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"150 200 255 75"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"HPAmmoBonus"			Linear 0.2 0.4
-	Animate PlayerStatusHealthValue		FgColor		"HPAmmoBonus"			Linear 0.0 0.2
-    	Animate PlayerStatusHealthValue		FgColor		"HPAmmoBonusPulse"		Linear 0.2 0.4
-	Animate PlayerStatusHealthIndicator	BgColor		"255 255 255 75"		Linear 0.0 0.075
-    	Animate PlayerStatusHealthIndicator	BgColor		"255 255 255 100"		Linear 0.125 0.075
-	Animate	PlayerStatusHealthValueSpec		FgColor		"90 200 255 255" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecT	FgColor		"255 255 255 75" 		Linear 0.1 0.2
-	Animate	xHairCirclePulse 	FgColor		"Garm3nHUDBonusPulse"		Linear 0.0 0.0
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.2
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4	
+	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"Overheal flash 2"		Linear 0.0 0.2		//Overheal flash #2
+	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"Overheal flash 1"		Linear 0.2 0.4		//Overheal flash #1
+	Animate PlayerStatusHealthValue			FgColor		"Overheal flash 1"		Linear 0.0 0.2		//Overheal flash #1
+	Animate PlayerStatusHealthIndicator		BgColor		"Overheal flash 1"		Linear 0.0 0.075	//Overheal flash #1
+    	Animate PlayerStatusHealthIndicator		BgColor		"255 255 255 100"		Linear 0.125 0.075
+	Animate	PlayerStatusHealthValueSpec		FgColor		"TargetID Overheal" 		Linear 0.0 0.0		//TargetID Overheal 
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"TargetID Overheal" 		Linear 0.1 0.2		//TargetID Overheal 
+	Animate	xHairCirclePulse 			FgColor		"Garm3nHUDBonusPulse"		Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.6
 }
@@ -233,14 +233,14 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 		0.0
 	StopEvent HudHealthBonusPulseLoop 	0.0
-	Animate	PlayerStatusHealthStatusImageBonus	BgColor		"150 200 255 0"			Accel 	0.0 0.3
-	Animate PlayerStatusHealthValue 	Alpha 		255 		Linear 	0.0 0.0
-	Animate PlayerStatusHealthValue 	FgColor 	"White" 	Accel 	0.0 0.0
-	Animate PlayerStatusHealthIndicator	Alpha		255		Linear	0.0 0.0
-	Animate PlayerStatusHealthIndicator	BgColor		"0 0 0 0"	Linear	0.0 0.0
-	Animate	PlayerStatusHealthValueSpec			FgColor		"white" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthStatusImageBonus	BgColor		"150 200 255 0"	Accel 	0.0 0.3
+	Animate PlayerStatusHealthValue 		Alpha 		255 		Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor 	"White" 	Accel 	0.0 0.0
+	Animate PlayerStatusHealthIndicator		Alpha		255		Linear	0.0 0.0
+	Animate PlayerStatusHealthIndicator		BgColor		"0 0 0 0"	Linear	0.0 0.0
+	Animate	PlayerStatusHealthValueSpec		FgColor		"white" 	Linear 0.0 0.0
 	Animate	PlayerStatusHealthValueSpecT		FgColor		"white" 	Linear 0.0 0.2
-	Animate xHairCirclePulse 	FgColor		"Garm3nHUDxHair"		Linear 0.0 0.0
+	Animate xHairCirclePulse 			FgColor		"Garm3nHUDxHair"	Linear 0.0 0.0
 }
 
 //===========================================
@@ -248,19 +248,19 @@ event HudHealthBonusPulseStop
 // Low HP
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthStatusImageDanger 	BgColor		"255 75 75 75"			Linear 0.0 0.075
-	Animate	PlayerStatusHealthStatusImageDanger		BgColor		"255 0 0 255"			Linear 0.125 0.075
+	Animate	PlayerStatusHealthStatusImageDanger 	BgColor		"Low Health flash 3"	Linear 0.0 0.075	//Low Health flash #3
+	Animate	PlayerStatusHealthStatusImageDanger	BgColor		"Low Health flash 1"	Linear 0.125 0.075	//Low Health flash #1
 	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075
 	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate PlayerStatusHealthValue         FgColor		"HPAmmoDangerPulse"		Linear 0.0 0.075
-    	Animate PlayerStatusHealthValue         FgColor		"HPAmmoDanger"	Linear 0.125 0.075
-	Animate PlayerStatusHealthIndicator	BgColor		"HPAmmoDanger"		Linear 0.0 0.075
-    	Animate PlayerStatusHealthIndicator	BgColor		"HPAmmoDangerPulse"	Linear 0.125 0.075
-	Animate	PlayerStatusHealthValueSpec				FgColor		"255 40 40 255"		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecT			FgColor		"255 40 40 255"		Linear 0.1 0.1		
-	Animate	PlayerStatusHealthValueShadowBorder		FgColor		"240 0 0 255"	Linear 0.0 0.075
-	Animate	PlayerStatusHealthValueShadowBorder		FgColor		"black"			Linear 0.125 0.075
-	Animate xHairCirclePulse 	FgColor		"Garm3nHUDDyingPulse"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue         	FgColor		"Low Health flash 2"	Linear 0.0 0.075	//Low Health flash #2
+    	Animate PlayerStatusHealthValue         	FgColor		"Low Health flash 1"	Linear 0.125 0.075	//Low Health flash #1
+	Animate PlayerStatusHealthIndicator		BgColor		"Low Health flash 1"	Linear 0.0 0.075	//Low Health flash #1
+    	Animate PlayerStatusHealthIndicator		BgColor		"Low Health flash 2"	Linear 0.125 0.075	//Low Health flash #2
+	Animate	PlayerStatusHealthValueSpec		FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"TargetID Low Health"	Linear 0.1 0.1		//TargetID Low Health
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"TargetID Low Health"	Linear 0.0 0.075	//TargetID Low Health
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"black"			Linear 0.125 0.075	
+	Animate xHairCirclePulse 			FgColor		"Garm3nHUDDyingPulse"	Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -275,8 +275,8 @@ event HudHealthDyingPulseLoop
 	StopPanelAnimations PlayerStatusHealthValueSpec				0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT			0.0
 	
-	Animate	PlayerStatusHealthValueShadow			FgColor			"Black" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueShadowBorder		FgColor			"Black" 		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadow		FgColor		"Black" 		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"Black" 		Linear 0.0 0.0
 }
 
 event HudHealthDyingPulseStop
@@ -285,33 +285,33 @@ event HudHealthDyingPulseStop
 	StopEvent HudHealthDyingPulseLoop 	0.0
 	
 	StopPanelAnimations PlayerStatusHealthValueShadow 			0.0
-	StopPanelAnimations PlayerStatusHealthValueShadowBorder		0.0
+	StopPanelAnimations PlayerStatusHealthValueShadowBorder			0.0
 	StopPanelAnimations PlayerStatusHealthValueSpec				0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT			0.0
-	Animate	PlayerStatusHealthStatusImageDanger	BgColor 		"255 75 75 0"			Accel 	0.0 0.0
-	Animate PlayerStatusHealthValue 	Alpha 		255 			Accel 	0.0 0.0
-	Animate PlayerStatusHealthValue 	FgColor 	"White" 		Accel 	0.0 0.0
-	Animate PlayerStatusHealthIndicator	Alpha 		255 			Linear 	0.0 0.0
-	Animate PlayerStatusHealthIndicator	BgColor 	"255 255 255 0" 	Accel 	0.0 0.0
-	Animate	PlayerStatusHealthValueShadow			FgColor			"Black" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueShadowBorder		FgColor			"Black" 		Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpec				FgColor			"white" 	Linear 0.0 0.0
-	Animate	PlayerStatusHealthValueSpecT			FgColor			"white" 	Linear 0.0 0.2
-	Animate xHairCirclePulse 		FgColor		"Garm3nHUDxHair"	Linear 0.0 0.0
+	Animate	PlayerStatusHealthStatusImageDanger		BgColor 	"255 75 75 0"	Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			Alpha 		255 		Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"White" 	Accel 	0.0 0.0
+	Animate PlayerStatusHealthIndicator			Alpha 		255 		Linear 	0.0 0.0
+	Animate PlayerStatusHealthIndicator			BgColor 	"255 255 255 0" Accel 	0.0 0.0
+	Animate	PlayerStatusHealthValueShadow			FgColor		"Black" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadowBorder		FgColor		"Black" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec			FgColor		"white" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpecT			FgColor		"white" 	Linear 0.0 0.2
+	Animate xHairCirclePulse 				FgColor		"Garm3nHUDxHair"	Linear 0.0 0.0
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate AmmoInClip		FgColor		"HPAmmoDanger"			Linear 0.0 0.075
-        Animate AmmoInClip		FgColor		"HPAmmoDangerPulse"		Linear 0.125 0.075
+	Animate AmmoInClip		FgColor		"Low Ammo flash 1"		Linear 0.0 0.075
+        Animate AmmoInClip		FgColor		"Low Ammo flash 2"		Linear 0.125 0.075
 	
-        Animate AmmoInReserve		FgColor		"HPAmmoDangerPulse"		Linear 0.0 0.075
-        Animate AmmoInReserve		FgColor		"HPAmmoDanger"			Linear 0.125 0.075
+        Animate AmmoInReserve		FgColor		"Low Ammo flash 2"		Linear 0.0 0.075
+        Animate AmmoInReserve		FgColor		"Low Ammo flash 1"		Linear 0.125 0.075
 	
-        Animate AmmoNoClip		FgColor		"HPAmmoDanger"			Linear 0.0 0.075
-        Animate AmmoNoClip		FgColor		"HPAmmoDangerPulse"		Linear 0.125 0.075
+        Animate AmmoNoClip		FgColor		"Low Ammo flash 1"		Linear 0.0 0.075
+        Animate AmmoNoClip		FgColor		"Low Ammo flash 2"		Linear 0.125 0.075
 
         RunEvent HudLowAmmoPulseLoop	0.25
 }
@@ -328,10 +328,10 @@ event HudLowAmmoPulseStop
 	StopEvent HudLowAmmoPulseLoop 0.0
 
 	Animate AmmoInClip alpha 255 linear 0.0 0.0
-	Animate AmmoInClip fgcolor "White" accel 0.0 0.0
+	Animate AmmoInClip fgcolor "Ammo in clip" accel 0.0 0.0
 
 	Animate AmmoInReserve alpha 255 linear 0.0 0.0
-	Animate AmmoInReserve fgcolor "White" accel 0.0 0.0
+	Animate AmmoInReserve fgcolor "Ammo in reserve" accel 0.0 0.0
 
 	Animate AmmoNoClip alpha 255 linear 0.0 0.0
 	Animate AmmoNoClip fgcolor "White" accel 0.0 0.0
@@ -520,14 +520,14 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"HPAmmoBonus"			Linear 0.0 0.1
-	Animate	ChargeLabel 	FgColor		"HPAmmoBonusPulse"		Linear 0.3 0.4
-	Animate	ChargeLabel2 	FgColor		"HPAmmoBonus"			Linear 0.0 0.0001
-	Animate	ChargeLabel2 	FgColor		"HPAmmoBonusPulse"		Linear 0.3 0.4
+	Animate	ChargeLabel 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+	Animate	ChargeLabel2 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.0001
+	Animate	ChargeLabel2 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"HPAmmoBonus"			Linear 0.0 0.1
-	Animate	ChargeMeter 	FgColor		"HPAmmoBonusPulse"		Linear 0.3 0.4
-
+	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+	
 	RunEvent HudMedicChargedLoop	0.6
 }
 event HudMedicChargedLoop
@@ -540,9 +540,9 @@ event HudMedicChargedStop
 	StopEvent HudMedicCharged 	0.0
 	StopEvent HudMedicChargedLoop 	0.0
 	
-	Animate	ChargeLabel 	FgColor		"White"		Linear 0.0 0.0001
-	Animate	ChargeLabel2 	FgColor		"White"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
+	Animate	ChargeLabel 	FgColor		"Ubercharge percentage"		Linear 0.0 0.0001
+	Animate	ChargeLabel2 	FgColor		"Ubercharge percentage"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"Ubercharge bar"		Linear 0.0 0.0001
 }
 
 //====================================
@@ -824,6 +824,54 @@ event NotificationsPresentBlinkStop
 //===========================================
 event DamagedPlayer
 {
-	Animate xHairCirclePulse FgColor "255 0 0 255" Linear 0.0 0.1
-	Animate xHairCirclePulse FgColor "0 0 0 255" Linear 0.2 0.200001 //Change to this for white circle: "255 255 255 255" Linear 0.2 0.200001
+	Animate xHairCirclePulse FgColor "Damage Circle flash color" Linear 0.0 0.1
+	Animate xHairCirclePulse FgColor "Damage Circle base color" Linear 0.2 0.200001 //Change to this for white circle: "255 255 255 255" Linear 0.2 0.200001
 }
+//===========================================
+
+//===========================================
+// Respec in Win
+event RespecEarnedPulse
+{
+        Animate        RespecTextLabelWin        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelWin        FgColor        "RedSolid"                Linear 0.3 0.4
+        
+        RunEvent RespecEarnedPulseLoop                0.5
+}
+
+event RespecEarnedPulseLoop
+{
+        RunEvent RespecEarnedPulse                        0.0
+}
+
+event RespecEarnedPulseEnd
+{
+        Animate        RespecTextLabelWin         FgColor                "TanLight"                Linear 0.0 0.1
+        
+        StopEvent RespecEarnedPulse                        0.0
+        StopEvent RespecEarnedPulseLoop                0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+        Animate        RespecTextLabelLoss        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss        FgColor        "RedSolid"                Linear 0.3 0.4
+        
+        RunEvent RespecEarnedPulseLoopLoss                0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+        RunEvent RespecEarnedPulseLoss                        0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+        
+        StopEvent RespecEarnedPulseLoss                0.0
+        StopEvent RespecEarnedPulseLoopLoss        0.0
+}
+//===========================================

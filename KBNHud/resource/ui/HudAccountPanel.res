@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 150"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"chippyMedium14"
+		"delta_item_font"		"kbnMedium14"
 	}
 	
 	"AccountBG"
@@ -78,7 +78,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"chippyMedium16"
+		"font"			"kbnMedium16"
 		"fgcolor_override"	"255 255 255 255"
 	}
 	"AccountValueShadow"
@@ -99,7 +99,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"chippyMedium16"
+		"font"			"kbnMedium16"
 		"fgcolor_override"	"0 0 0 255"
 	}
 	"AccountValueBG"

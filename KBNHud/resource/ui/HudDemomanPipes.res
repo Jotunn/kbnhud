@@ -105,7 +105,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"chippyMedium16"
+			"font"			"kbnMedium16"
 			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -127,7 +127,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"chippyMedium16"
+			"font"			"kbnMedium16"
 			"fgcolor"		"black"
 		}		
 	}
@@ -178,7 +178,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"chippyMedium16"
+			"font"			"kbnMedium16"
 			"fgcolor"		"White"
 		}
 		"NumPipesLabelDropshadow"
@@ -200,7 +200,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"1"
 			"brighttext"	"0"
-			"font"			"chippyMedium16"
+			"font"			"kbnMedium16"
 			"fgcolor"		"black"
 		}			
 	}				

@@ -10,7 +10,7 @@
 		"PositiveColor"			"75 175 255 255"
 		"NegativeColor"			"255 75 75 255" //"144 223 23 255"
 		"delta_lifetime"		"2"
-		"delta_item_font"		"chippyBlack16"
-		"delta_item_font_big"		"chippyBlack16"
+		"delta_item_font"		"kbnBlack16"
+		"delta_item_font_big"		"kbnBlack16"
 	}
 }

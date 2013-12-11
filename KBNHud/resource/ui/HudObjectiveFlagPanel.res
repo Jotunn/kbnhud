@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"chippyBold30"
+		"font"			"kbnBold30"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -133,7 +133,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"chippyBold30"
+		"font"			"kbnBold30"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -164,7 +164,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"ChippyBold30"
+		"font"			"kbnBold30"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -195,7 +195,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"chippyBold30"
+		"font"			"kbnBold30"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -263,7 +263,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"chippyBlack14"
+		"font"			"kbnBlack14"
 		"fgcolor"		"White"
 		
 		"if_hybrid"

@@ -110,7 +110,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"chippyBlack30"		//"HudFontGiantBold"
+		"font"			"kbnBlack30"		//"HudFontGiantBold"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"12"
 		"zpos"			"3"
@@ -152,7 +152,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ToggleLabel"
-		"font"			"chippyMedium10"
+		"font"			"kbnMedium10"
 		"xpos"			"180"
 		"ypos"			"20"
 		"zpos"			"2"
@@ -172,7 +172,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CancelLabel"
-		"font"			"chippyMedium10"
+		"font"			"kbnMedium10"
 		"xpos"			"180"
 		"ypos"			"30"
 		"zpos"			"2"
@@ -441,7 +441,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"fgcolor"		"Black"
 		"xpos"			"62"
 		"ypos"			"93"
@@ -478,7 +478,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"fgcolor"		"Black"
 		"xpos"			"192"
 		"ypos"			"93"
@@ -515,7 +515,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"fgcolor"		"Black"
 		"xpos"			"322"
 		"ypos"			"93"

@@ -130,7 +130,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"White"
 	}	
 	"PlayerStatusHealthValueOutline"
@@ -146,7 +146,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
 	}
 	"PlayerStatusHealthValueOutline3"
@@ -162,7 +162,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
 	}
 	"PlayerStatusHealthValueOutline4"
@@ -178,7 +178,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
 	}
 	"PlayerStatusHealthValueOutline2"
@@ -194,7 +194,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"West"	
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
 	}
 	"TeamBG"

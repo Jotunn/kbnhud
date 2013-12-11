@@ -57,7 +57,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyBold8"
+		"font"					"kbnBold8"
 		"fgcolor_override"		"0 0 0 255"
 	}
 

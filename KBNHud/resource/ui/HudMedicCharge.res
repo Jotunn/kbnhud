@@ -30,8 +30,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_UberchargeMinHUD" //#TF_Ubercharge
 		"textAlignment"		"East"
-		"font"			"chippyBlack24"
-		"fgcolor"		"White"
+		"font"			"kbnBlack24"
+		"fgcolor"		"Ubercharge percentage"
 	}
 	"ChargeLabelShadow"
 	{
@@ -46,7 +46,7 @@
 		"enabled"		"0"
 		"labelText"		"#TF_UberchargeMinHUD" //#TF_Ubercharge
 		"textAlignment"		"East"
-		"font"			"chippyBlack24"
+		"font"			"kbnBlack24"
 		"fgcolor"		"Black"
 	}
 	"IndividualChargesLabel"
@@ -67,7 +67,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"chippyBlack18"
+		"font"			"kbnBlack18"
 		"fgcolor"		"0 200 255 255"
 	}
 	"ChargeMeter"
@@ -80,13 +80,15 @@
 		"zpos"			"2"
 		"wide"			"195"
 		"tall"			"5"				
-		"autoResize"		"0"
+		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"		"Left"
+		"textAlignment"	"Left"
 		"dulltext"		"0"
-		"brighttext"		"0"
+		"brighttext"	"0"
+		"fgcolor"		"Ubercharge bar"
+		"fgcolor_override"	"Ubercharge bar"
 	}		
 	"ChargeMeter1"
 	{	

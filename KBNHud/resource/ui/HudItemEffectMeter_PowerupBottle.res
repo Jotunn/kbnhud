@@ -71,7 +71,7 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyMedium8"
+		"font"					"kbnMedium8"
 	}
 
 	"ItemEffectMeter"
@@ -110,6 +110,6 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyBlack24"
+		"font"					"kbnBlack24"
 	}
 }

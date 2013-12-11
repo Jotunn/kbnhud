@@ -50,7 +50,7 @@
 		"zpos"			"3"
 		"wide"			"13"
 		"tall"			"13"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
@@ -68,7 +68,7 @@
 		"enabled"			"1"
 		"labeltext"			"%Health%"
 		"textAlignment"		"west"
-		"font"				"chippyBlack14"
+		"font"				"kbnBlack14"
 		"fgcolor"			"white"
 	}
 	"PlayerStatusHealthValueSpecShadow"
@@ -85,6 +85,6 @@
 		"fgcolor"			"0 0 0 255"
 		"labeltext"			"%Health%"
 		"textAlignment"		"west"
-		"font"				"chippyBlack14"
+		"font"				"kbnBlack14"
 	}
 }

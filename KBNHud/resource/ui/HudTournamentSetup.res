@@ -46,7 +46,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"TournamentTeamNameLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"xpos"			"-99999"
 		"ypos"			"-99999"
 		"zpos"			"1"
@@ -83,7 +83,7 @@
 		"wrap"			"0"
 		"labelText"		"%teamname%"
 		"fgcolor_override"	"255 255 255 255"
-		"font"			"chippyBold11"
+		"font"			"kbnBold11"
 		"textAlignment"		"Center"
 	}
 
@@ -123,7 +123,7 @@
 		"brighttext"	"0"
 		"command"		"teamnotready"
 		"default"		"1"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor_override"	"255 255 255 255"
 	}
 
@@ -146,7 +146,7 @@
 		"brighttext"	"0"
 		"command"		"teamready" 
 		"default"		"1"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor"	"255 255 255 255"
 	}
 }

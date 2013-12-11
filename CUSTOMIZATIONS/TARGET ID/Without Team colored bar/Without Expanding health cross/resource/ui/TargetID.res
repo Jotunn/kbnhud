@@ -87,7 +87,7 @@
 	{	
 		"ControlName"			"CExLabel"
 		"fieldName"			"TargetNameLabel"
-		"font"				"chippyBlack10"
+		"font"				"kbnBlack10"
 		"xpos"				"55"
 		"ypos"				"7"
 		"zpos"				"1"
@@ -108,7 +108,7 @@
 	{	
 		"ControlName"			"Label"
 		"fieldName"			"TargetDataLabel"
-		"font"				"DefaultSmallShadow"
+		"font"				"kbnBlack9"
 		"xpos"				"55"
 		"ypos"				"19"
 		"zpos"				"1"
@@ -122,6 +122,7 @@
 		"textAlignment"		"Left"
 		"dulltext"			"0"
 		"brighttext"			"0"
+		"fgcolor_override"			"144 223 23 255"
 	}
 	"SpectatorGUIHealth"
 	{

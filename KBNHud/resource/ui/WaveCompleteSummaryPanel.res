@@ -276,6 +276,7 @@
 			"fgcolor"		"White"
 		}
 	}
+	
 	"RespecBackground"
     {
 		"ControlName"        "ScalableImagePanel"
@@ -308,7 +309,7 @@
         "visible"            "1"
         "PaintBackgroundType" "2"
 		}
-		
+	
         "RespecTextLabelWin"
         {
             "ControlName"        "CExLabel"

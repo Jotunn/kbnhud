@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"labelText"		"%popfile%"
 		"textAlignment"		"east"
 		"xpos"			"235"
@@ -43,7 +43,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyLabel"
-			"font"			"chippyBold16"
+			"font"			"kbnBold16"
 			"labelText"		"#TF_MvM_Difficulty"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -57,7 +57,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DifficultyValue"
-			"font"			"chippyBold10"
+			"font"			"kbnBold10"
 			"labelText"		"%difficultyvalue%"
 			"textAlignment"	"center"
 			"xpos"			"0"
@@ -154,7 +154,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"chippyMedium14"
+			"font"			"kbnMedium14"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
 			"xpos"			"0"
@@ -210,7 +210,7 @@
 			"wide"			"235"
 			"visible"		"1"
 		}
-	}
+	}	
 	"RespecStatusLabel"
     {
         "ControlName"    "CExLabel"

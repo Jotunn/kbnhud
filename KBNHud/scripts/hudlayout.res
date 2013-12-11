@@ -17,7 +17,7 @@
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 0 0 255" //Change to this for white circle: "255 255 255 255"
+		"fgcolor"		"Damage Circle base color"
 	}
 	HudxHairDot
 	{
@@ -34,7 +34,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"4"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairMultiDot
@@ -77,7 +77,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudxHairSplitCross1"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -88,7 +88,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"l"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairSplitCross2 //Without dot in center
@@ -106,7 +106,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"m"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHairSplitCrossLarge1 //With dot in center
@@ -167,7 +167,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudxHairWings2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -178,7 +178,7 @@
 
 		"font"			"HudxHair"
 		"labelText"		"d"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudPlayerStatus
@@ -856,8 +856,6 @@
 		"enabled" "1"
 		"xpos" "r42" 	[$WIN32]
 		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
 		"wide" "32"
 		"tall" "32"
 	}
@@ -877,7 +875,9 @@
 		"item_tall"				"16"
 		
 		"fade_in_time"			"0.06"
-		"fade_out_time"			"0.5"	
+		"fade_in_time_minmode"		"0.03"
+		"fade_out_time"			"0.5"
+		"fade_out_time_minmode"	"0.2"		
 		
 		"show_avatar"			"1"
 		"avatar_xpos"			"34"
@@ -1473,4 +1473,17 @@
 		"wide"					"320"
 		"tall"					"150"
 	}
+	
+	"CTFKillStreakNotice"
+    {
+        "fieldName"                "CTFKillStreakNotice"
+        "xpos"                        "0"                        
+        "ypos"                        "0"
+        "wide"                        "640"
+        "tall"                        "480"
+        "visible"                "1"
+        "enabled"                "1"
+        "bgcolor_override"        "0 0 0 0"
+        "PaintBackgroundType"        "0" // rounded corners
+    }
 }

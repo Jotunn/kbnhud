@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"chippyBlack18"
+		"font"			"kbnBlack18"
 		"zpos"			"5"
 		"fgcolor_override"	"255 255 255 255"
 	}
@@ -342,7 +342,7 @@
 		{	
 			"ControlName"		"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"chippyBold12"
+			"font"			"kbnBold12"
 			"xpos"			"2"
 			"ypos"			"0"
 			"zpos"			"10"

@@ -50,7 +50,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyMedium8"//"HudFontSmallest"
+		"font"					"kbnMedium8"//"HudFontSmallest"
 		"fgcolor_override"		"255 255 255 100"
 	}
 
@@ -90,7 +90,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyMedium12"
+		"font"					"kbnMedium12"
 		"fgcolor_override"	"255 255 255 255"
 	}
 	"ItemEffectMeterCountShadow"
@@ -110,7 +110,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"chippyMedium12"
+		"font"					"kbnMedium12"
 		"fgcolor_override"	"0 0 0 255"
 	}
 }

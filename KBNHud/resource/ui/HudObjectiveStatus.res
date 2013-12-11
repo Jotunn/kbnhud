@@ -24,7 +24,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"			"TimePanelValue"
-			"font"				"chippyBlack18"
+			"font"				"kbnBlack18"
 			"fgcolor"			"White"
 			"xpos"				"31"
 			"ypos"				"7"

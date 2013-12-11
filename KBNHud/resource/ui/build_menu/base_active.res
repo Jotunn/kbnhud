@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"chippyBlack10"
+		"font"			"kbnBlack10"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -73,7 +73,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"chippyMedium14"
+		"font"			"kbnMedium14"
 		"fgcolor"		"White" //"TanDarker"
 		"xpos"			"32"
 		"ypos"			"48"
@@ -127,7 +127,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"fgcolor"		"Black"
 		"xpos"			"6"
 		"ypos"			"59"

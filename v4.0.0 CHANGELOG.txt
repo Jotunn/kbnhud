@@ -1,0 +1,62 @@
+#######################################################################
+#----KBNHUD v4.0.0 - Birthday V2 Edition - CHANGELOG----###############
+#######################################################################
+
+
+#####################################################################
+#-----ADDED-----#####################################################
+#####################################################################
+
+
+-Class image overrides are now on/off settings
+-Advanced color customization in ClientScheme.res
+-Better net_graph and cl_showfps text
+
+#####################################################################
+#----CHANGED----#####################################################
+#####################################################################
+
+-Changed the setup of many lines of code to streamline customization
+-Changed design of the disguise status panel slightly
+
+MAJOR COLOR CUSTOMIZATION CHANGES FOLLOW:
+
+-Moved damage circle color changing to the Customization section of
+ClientScheme.res
+-Moved damage indicator color changing to the Customization section
+of ClientScheme.res
+-Moved Overheal/Low health color changing to the Customization
+section of ClientScheme.res
+
+#####################################################################
+#-----FIXED-----#####################################################
+#####################################################################
+
+
+-Fixed overlapping of spy-cicle meter and healer ID
+-Bypassed placement issues with medic vaccinator resistance icon
+-Fixed some aspect ratio compatability issues
+-Fixed class images not showing up
+-Various things that I really should have fixed a long time ago
+-Multiple broken overrides
+ 
+#####################################################################
+#----REMOVED----#####################################################
+#####################################################################
+
+
+
+
+#####################################################################
+#-----NOTES-----#####################################################
+#####################################################################
+
+
+
+#####################################################################
+#-SPECIAL THANKS-####################################################
+#####################################################################
+
+
+-Rays for new net_graph and cl_showfps stuff
+

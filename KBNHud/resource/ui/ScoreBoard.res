@@ -110,7 +110,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"chippyBold12"
+		"font"			"kbnBold12"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -133,7 +133,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -158,7 +158,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -185,7 +185,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"m0refont16"
-		"font_minmode"		"chippyBold10"
+		"font_minmode"		"kbnBold10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"east"
@@ -208,7 +208,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"chippyBold12"
+		"font"			"kbnBold12"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -231,7 +231,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -259,7 +259,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -289,7 +289,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"m0refont16"
-		"font_minmode"		"chippyBold10"
+		"font_minmode"		"kbnBold10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
@@ -314,8 +314,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"chippyBold14"
-		"font_minmode"		"chippyBold12"
+		"font"			"kbnBold14"
+		"font_minmode"		"kbnBold12"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -339,8 +339,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"chippyBold14"
-		"font_minmode"		"chippyBold12"
+		"font"			"kbnBold14"
+		"font_minmode"		"kbnBold12"
 		"fgcolor" "black"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -390,8 +390,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"chippyBold11"
-		"font_minmode"		"chippyBold10"
+		"font"			"kbnBold11"
+		"font_minmode"		"kbnBold10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
@@ -416,8 +416,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"chippyBold11"
-		"font_minmode"		"chippyBold10"
+		"font"			"kbnBold11"
+		"font_minmode"		"kbnBold10"
 		"fgcolor" "black"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
@@ -526,8 +526,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"chippyBold8"
-		"font_minmode"		"chippyBold8"
+		"font"			"kbnBold8"
+		"font_minmode"		"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -552,8 +552,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsS"
-		"font"			"chippyBold8"
-		"font_minmode"		"chippyBold8"
+		"font"			"kbnBold8"
+		"font_minmode"		"kbnBold8"
 		"fgcolor" "Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -578,8 +578,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"chippyBold8"
-		"font_minmode"		"chippyMedium9"
+		"font"			"kbnBold8"
+		"font_minmode"		"kbnMedium9"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"48"
@@ -647,8 +647,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"chippyBold9"
-		"font_minmode"		"chippyBold9"
+		"font"			"kbnBold9"
+		"font_minmode"		"kbnBold9"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -691,7 +691,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
 		"font"			"ScoreboardMedium"
-		"font_minmode"		"chippyBold9"
+		"font_minmode"		"kbnBold9"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
@@ -732,7 +732,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
 			"font"			"ScoreboardSmall"
-			"font_minmode"		"chippyMedium9"
+			"font_minmode"		"kbnMedium9"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -830,8 +830,8 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"chippybold24"
-				"font_minmode"		"chippybold12"
+				"font"			"kbnbold24"
+				"font_minmode"		"kbnbold12"
 			}
 			"Score"
 			{
@@ -851,8 +851,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"chippybold24"
-				"font_minmode"		"chippybold18"
+				"font"			"kbnbold24"
+				"font_minmode"		"kbnbold18"
 			}
 		}
 		"OpponentData"
@@ -920,8 +920,8 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"chippybold24"
-				"font_minmode"		"chippybold12"
+				"font"			"kbnbold24"
+				"font_minmode"		"kbnbold12"
 			}
 			"Score"
 			{
@@ -941,8 +941,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"chippybold24"
-				"font_minmode"		"chippybold18"
+				"font"			"kbnbold24"
+				"font_minmode"		"kbnbold18"
 			}
 		}		
 	}
@@ -969,8 +969,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillsLabel"
-		"font"			"chippyBold36"
-		"font_minmode"		"chippyBold9"
+		"font"			"kbnBold36"
+		"font_minmode"		"kbnBold9"
 		"labelText"		"#TF_ScoreBoard_KillsLabel"
 		"textAlignment"		"east"
 		"xpos"			"180"
@@ -989,7 +989,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Kills"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%kills%"
 		"textAlignment"		"east"
@@ -1009,7 +1009,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Kills2"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "0 0 0 255"
 		"labelText"		"%kills%"
 		"textAlignment"		"east"
@@ -1030,7 +1030,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DeathsLabel"
-		"font"			"chippyBold36"
+		"font"			"kbnBold36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		":"
 		"textAlignment"		"west"
@@ -1050,7 +1050,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Deaths"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%deaths%"
 		"textAlignment"		"west"
@@ -1070,7 +1070,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Deaths2"
-		"font"			"chippyBlack36"
+		"font"			"kbnBlack36"
 		"fgcolor" "0 0 0 255"
 		"labelText"		"%deaths%"
 		"textAlignment"		"west"
@@ -1091,7 +1091,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapturesLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_CapturesLabel"
 		"textAlignment"		"east"
@@ -1111,7 +1111,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Captures"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%captures%"
 		"textAlignment"		"west"
@@ -1132,7 +1132,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AssistsLabel"
 		"fgcolor" "255 255 255 255"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"labelText"		"#TF_ScoreBoard_AssistsLabel"
 		"textAlignment"		"east"
 		"xpos"			"175"
@@ -1151,7 +1151,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Assists"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%assists%"
 		"textAlignment"		"west"
@@ -1171,7 +1171,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DestructionLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_DestructionLabel"
 		"textAlignment"		"east"
@@ -1191,7 +1191,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Destruction"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%destruction%"
 		"textAlignment"		"west"
@@ -1211,7 +1211,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DefensesLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_DefensesLabel"
 		"textAlignment"		"east"
@@ -1232,7 +1232,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Defenses"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%defenses%"
 		"textAlignment"		"west"
@@ -1252,7 +1252,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DominationLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_DominationLabel"
 		"textAlignment"		"east"
@@ -1272,7 +1272,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Domination"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%dominations%"
 		"textAlignment"		"west"
@@ -1292,7 +1292,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RevengeLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_RevengeLabel"
 		"textAlignment"		"east"
@@ -1312,7 +1312,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Revenge"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%Revenge%"
 		"textAlignment"		"west"
@@ -1332,7 +1332,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"InvulnLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_InvulnLabel"
 		"textAlignment"		"east"
@@ -1352,7 +1352,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Invuln"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%invulns%"
 		"textAlignment"		"west"
@@ -1372,7 +1372,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HeadshotsLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 		"textAlignment"		"east"
@@ -1392,7 +1392,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Headshots"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%headshots%"
 		"textAlignment"		"west"
@@ -1412,7 +1412,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TeleportsLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 		"textAlignment"		"east"
@@ -1432,7 +1432,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Teleports"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%teleports%"
 		"textAlignment"		"west"
@@ -1452,7 +1452,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HealingLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_HealingLabel"
 		"textAlignment"		"east"
@@ -1472,7 +1472,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Healing"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%healing%"
 		"textAlignment"		"west"
@@ -1492,7 +1492,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BackstabsLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 		"textAlignment"		"east"
@@ -1512,7 +1512,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Backstabs"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%backstabs%"
 		"textAlignment"		"west"	
@@ -1532,7 +1532,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BonusLabel"
-		"font"			"chippyMedium8"
+		"font"			"kbnMedium8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"#TF_ScoreBoard_BonusLabel"
 		"textAlignment"		"east"
@@ -1553,7 +1553,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Bonus"
-		"font"			"chippyBold8"
+		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%bonus%"
 		"textAlignment"		"west"
@@ -1573,7 +1573,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"chippyBold12"
+		"font"			"kbnBold12"
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"			"530"
@@ -1594,8 +1594,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"gametype"
-		"font"			"chippyBold9"
-		"font_minmode"		"chippyBold10"
+		"font"			"kbnBold9"
+		"font_minmode"		"kbnBold10"
 		"labelText"		"%gametype%"
 		"textAlignment"		"center"
 		"textAlignment_minmode"	"east"

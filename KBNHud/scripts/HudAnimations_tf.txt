@@ -334,7 +334,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoInReserve fgcolor "Ammo in reserve" accel 0.0 0.0
 
 	Animate AmmoNoClip alpha 255 linear 0.0 0.0
-	Animate AmmoNoClip fgcolor "White" accel 0.0 0.0
+	Animate AmmoNoClip fgcolor "Ammo in clip" accel 0.0 0.0
 }
 
 //===========================================

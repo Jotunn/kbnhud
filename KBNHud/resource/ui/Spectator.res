@@ -295,7 +295,7 @@
 		"fieldName"			"itempanel"
 		"xpos"				"r260"
 		"ypos"				"r175"
-		"zpos"				"1"
+		"zpos"				"10"
 		"wide"				"255"
 		"tall"				"180"
 		"visible"			"0"
@@ -323,7 +323,7 @@
     		"fieldName"			"BG"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-10"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
@@ -356,26 +356,6 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"		"0"
-		}
-		
-		"attriblabel"
-		{
-			"ControlName"		"CExLabel"
-			"fieldName"		"attriblabel"
-			"font"			"ItemFontAttribLarge"
-			"xpos"			"0"
-			"ypos"			"30"
-			"zpos"			"2"
-			"wide"			"140"
-			"tall"			"60"
-			"autoResize"		"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"labelText"		"%attriblist%"
-			"textAlignment"	"south"
-			"fgcolor"		"180 170 140 255"	//"235 226 202 255"
-			"centerwrap"		"1"
 		}
 	}	
 }

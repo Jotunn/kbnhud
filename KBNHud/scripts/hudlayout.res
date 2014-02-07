@@ -19,165 +19,75 @@
 		
 		"fgcolor"		"Damage Circle base color"
 	}
-	HudxHairDot
+	HudxHair
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairDot"
+		"fieldName"	 	"HudCrossHair2"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-17"
-		"ypos"			"c-12"
-		"wide"			"27"
-		"tall"			"27"
-
-		"font"			"HudxHair"
-		"labelText"		"4"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHairMultiDot
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairMultiDot"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-12"
-		"ypos"			"c-12"
-		"wide"			"27"
-		"tall"			"27"
-
-		"font"			"HudxHair"
-		"labelText"		"0"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHairCross
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairCross"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-21"
-		"ypos"			"c-16"
-		"wide"			"30"
-		"tall"			"30"
-
-		"font"			"HudxHair"
-		"labelText"		"+"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHairSplitCross1 //With dot in center
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairSplitCross1"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-15"
+		"xpos"			"c-14"
 		"ypos"			"c-11"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"27"
+		"tall"			"27"
 
-		"font"			"HudxHair"
-		"labelText"		"l"
+		"font"			"HudCrossHair"
+		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHairSplitCross2 //Without dot in center
+	HudxHair2
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairSplitCross2"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-15"
-		"ypos"			"c-12"
-		"wide"			"30"
-		"tall"			"30"
-
-		"font"			"HudxHair"
-		"labelText"		"m"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHairSplitCrossLarge1 //With dot in center
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairSplitCrossLarge1"
+		"fieldName"	 	"HudCrossHair2"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"c-14"
-		"ypos"			"c-15"
-		"wide"			"30"
-		"tall"			"30"
+		"ypos"			"c-11"
+		"wide"			"27"
+		"tall"			"27"
 
-		"font"			"HudxHair"
-		"labelText"		"h"
+		"font"			"HudCrossHair"
+		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHairSplitCrossLarge2 //Without dot in center
+	HudCrossHair3
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairSplitCrossLarge2"
+		"fieldName"	 	"HudCrossHair3"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"c-14"
-		"ypos"			"c-15"
-		"wide"			"30"
-		"tall"			"30"
+		"ypos"			"c-11"
+		"wide"			"27"
+		"tall"			"27"
 
-		"font"			"HudxHair"
-		"labelText"		"i"
+		"font"			"HudCrossHair"
+		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHairWings1 //With cross in center
+	HudCrossHair4
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairWings1"
+		"fieldName"	 	"HudCrossHair4"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-15"
-		"ypos"			"c-12"
-		"wide"			"30"
-		"tall"			"30"
+		"xpos"			"c-14"
+		"ypos"			"c-11"
+		"wide"			"27"
+		"tall"			"27"
 
-		"font"			"HudxHair"
-		"labelText"		"c"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHairWings2 //Without cross in center
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudxHairWings2"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-15"
-		"ypos"			"c-12"
-		"wide"			"30"
-		"tall"			"30"
-
-		"font"			"HudxHair"
-		"labelText"		"d"
+		"font"			"HudCrossHair"
+		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}

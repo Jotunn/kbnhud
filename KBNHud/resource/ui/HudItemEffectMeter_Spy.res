@@ -93,10 +93,10 @@
 		"font"					"kbnMedium12"
 		"fgcolor" "255 255 255 255"
 	}
-	"ItemEffectMeterCount2"
+	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCount2"
+		"fieldName"				"ItemEffectMeterCountShadow"
 		"xpos"					"c-17"
 		"ypos"					"0"
 		"zpos"					"2"

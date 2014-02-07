@@ -57,26 +57,6 @@
 				"use_item_rendertarget" "0"
 				"allow_rot"				"0"
 			}
-			
-			"namelabel"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"namelabel"
-				"xpos"			"0"
-				"ypos"			"0"
-				"zpos"			"2"
-				"wide"			"50"
-				"tall"			"30"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"labelText"		"%itemname%"
-				"textAlignment"	"south"
-				"fgcolor"		"235 226 202 255"
-				"wrap"			"1"
-				"centerwrap"	"1"
-			}
 		}
 		
 		"recipebuttons_kv"
@@ -365,7 +345,7 @@
     		"fieldName"			"BG"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-10"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"
@@ -378,7 +358,7 @@
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
 			"ypos"			"30"
-			"zpos"			"2"
+			"zpos"			"10"
 			"wide"			"140"
 			"tall"			"60"
 			"autoResize"	"0"
@@ -443,7 +423,7 @@
 			"textAlignment"	"center"
 			"xpos"			"20"
 			"ypos"			"10"
-			"zpos"			"2"
+			"zpos"			"10"
 			"wide"			"100"
 			"tall"			"30"
 			"autoResize"	"0"

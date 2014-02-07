@@ -35,6 +35,9 @@
 			"text_center"	"0"
 			"text_yoffset"	"2"
 			"inset_eq_y"	"55"
+
+			"deferred_description"	"1"
+			"deferred_icon"			"1"
 		}
 		"modelpanels_kv"
 		{
@@ -59,6 +62,8 @@
 			
 			"inset_eq_x"	"4"
 			"inset_eq_y"	"2"
+
+			"deferred_description"	"1"
 			
 			"itemmodelpanel"
 			{
@@ -195,10 +200,10 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"HudFontsmallBold"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"west"
-		"xpos"			"c-55"
+		"xpos"			"c-90"
 		"ypos"			"15"
 		"zpos"			"1"
 		"wide"			"375"
@@ -446,7 +451,7 @@
     		"fieldName"			"BG"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-10"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"

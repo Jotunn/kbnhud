@@ -474,7 +474,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"HudxHair"
+		"HudCrossHair"
 		{
 			"1"
 			{
@@ -2490,6 +2490,17 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 			}
 		}
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name"		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
 		"MenuMainTitle"
 		{
 			"1"
@@ -3291,7 +3302,7 @@ Scheme
 		}
 		"13"
 		{
-		"font" "resource/fonts/kbnCrosshairs.ttf"
+		"font" "resource/fonts/crosshairs.ttf"
 		"name" "Crosshairs"
 		}
 	}

@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play mvm/sentrybuster/mvm_sentrybuster_intro.wav"
+        "command" "engine play vo/taunts/demoman_taunts16"
         "label" "                         "
     }
 	"TrainingButton"

@@ -1,6 +1,6 @@
-########################################################################
-#-----KBNHUD v4.0.0.1 - Birthday V2.1 Edition - README-----#############
-########################################################################
+###################################################################
+#-----KBNHUD v4.0.1 - Blood Soup Edition - README-----#############
+###################################################################
 
 
 # Hello, and again welcome to the instructional readme file.
@@ -31,10 +31,12 @@
 #---HUD CROSSHAIR INSTRUCTIONS:---#
 ###################################
 
--Go to "tf/custom/KBNHud/scripts" and open "hudlayout.res" with a text editor program (eg. Notepad). The settings for the first crosshair should say "HudxHairDot"
--That is the first HUD crosshair and as the name says, is a dot in the middle of the screen.  
--To change its position, the instructions to do that are the same as the damage circle, so just scroll up because I am too damn lazy to write it out again.
--The name of each hud crosshair will always have "HudxHair" at the beginning of it, so when you stop seeing "HudxHair," stop scrolling down because you might mess up another part of the HUD if you don't.
+-Go to "tf/custom/KBNHud/scripts" and open "hudlayout.res" with a text editor program (eg. Notepad). 
+-There are 4 individual crosshair code batches. Each one can use one crosshair image.
+-Using the guide linked below, replace the character next to the "labeltext" to the character that corresponds with the desired crosshair.
+-Color customization is the same as before.
+-Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair.
+-The following link has the guide for which letter or symbol enables which crosshair: https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
 
 
 ############################

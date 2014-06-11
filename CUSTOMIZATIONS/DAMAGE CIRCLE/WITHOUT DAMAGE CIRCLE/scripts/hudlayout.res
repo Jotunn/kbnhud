@@ -73,7 +73,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudCrossHair4
+	HudCrossHair4 //Feel free to copy and paste in more crosshair code batches if you want or need to do so
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair4"
@@ -358,7 +358,7 @@
 		"xpos"		"0"	[$WIN32]
 		"ypos"		"0"	[$WIN32]
 		"xpos"		"32"	[$X360]
-		"ypos"		"16"	[$X360]		
+		"ypos"		"59"	[$X360]		
 		"wide"		"640"
 		"tall"		"480"
 		
@@ -372,7 +372,7 @@
 		"enabled"				"1"
 		"xpos"					"-18"
 		"zpos"					"10"
-		"ypos"					"-35"		// spec fix
+		"ypos"					"110"		// spec fix
 		"wide"					"640"
 		"tall"					"480"
 		
@@ -1036,6 +1036,18 @@
 		"PaintBackgroundType"	"0"
 	}
 	
+	"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-125"
+		"ypos"			"r150"
+		"wide"			"250"
+		"tall"			"195"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"HudMenuSpyDisguise"
 	{
 		"fieldName" 	"HudMenuSpyDisguise"
@@ -1396,4 +1408,18 @@
         "bgcolor_override"        "0 0 0 0"
         "PaintBackgroundType"        "0" // rounded corners
     }
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
 }

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"chippyBlack10"
+		"font"			"kbnBlack10"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -34,14 +34,14 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_item_bg_outline"
-		"iconColor"		"0 0 0 255"
+		"iconColor"		"ProgressOffWhiteTransparent"
 	}
 	
 	"NotBuiltLabel"
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"xpos"			"6"
 		"ypos"			"21"
 		"zpos"			"2"
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"DefaultSmall"
+		"font"			"kbnBold10"
 		"xpos"			"6"
 		"ypos"			"36"
 		"zpos"			"2"
@@ -76,6 +76,7 @@
 		"textAlignment"	"Center"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor"		"0 255 0 255"
 	}		
 
 	"NumberBg"	
@@ -98,7 +99,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"chippyBold10"
+		"font"			"kbnBold10"
 		"fgcolor"		"Black"
 		"xpos"			"6"
 		"ypos"			"49"
@@ -113,6 +114,5 @@
 		"textAlignment"	"Center"
 		"dulltext"		"1"
 		"brighttext"	"0"
-		"fgcolor"		"0 255 0 255"
 	}
 }

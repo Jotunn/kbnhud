@@ -337,5 +337,5 @@
             "tall"               "20"
             "fgcolor"            "CreditsGreen"
         }
-	}
+	
 }

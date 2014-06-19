@@ -184,7 +184,7 @@
     		"fieldName"			"BG"
     		"xpos"				"0"
     		"ypos"				"0"
-    		"zpos"				"1"
+    		"zpos"				"-10"
     		"wide"				"f0"
     		"tall"	 			"f0"
     		"visible"			"1"

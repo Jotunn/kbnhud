@@ -664,6 +664,7 @@
 		"enabled"		"1"
 		"enabled_minmode"	"0"
 	}							
+	
 	"HorizontalLine"
 	{
 		"ControlName"		"ImagePanel"
@@ -686,6 +687,55 @@
 		"fillcolor"		"127 127 127 153"
 		"PaintBackgroundType"	"0"
 	}
+	
+	"MapName"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"mapname"
+		"font"			"kbnBold12"
+		"labelText"		"%mapname%"
+		"textAlignment"		"center"
+		"xpos"			"45"
+		"xpos_minmode"		"5"
+		"ypos"			"430"
+		"ypos_minmode"		"360"
+		"zpos"			"3"
+		"wide"			"120"
+		"wide_minmode"		"100"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"255 255 255 255"
+	}	
+	"GameType"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"gametype"
+		"font"			"kbnBold9"
+		"font_minmode"		"kbnBold10"
+		"labelText"		"%gametype%"
+		"textAlignment"		"center"
+		"textAlignment_minmode"	"east"
+		"xpos"			"530"
+		"xpos_minmode"		"400"
+		"xpos_lodef"	"105"
+		"ypos"			"21"
+		"ypos_minmode"		"372"
+		"zpos"			"3"
+		"wide"			"89"
+		"wide_minmode"		"0"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"visible_minmode"	"0"
+		"enabled"		"0"
+		"fgcolor"		"255 255 255 255"
+		"fgcolor_minmode"	"185 177 153 255"	
+	}
+	
 	"PlayerScoreLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -1569,54 +1619,84 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"MapName"
+	
+	"SupportLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"mapname"
-		"font"			"kbnBold12"
-		"labelText"		"%mapname%"
-		"textAlignment"		"center"
-		"xpos"			"530"
-		"xpos_minmode"		"5"
-		"ypos"			"8"
-		"ypos_minmode"		"40"
+		"fieldName"		"SupportLabel"
+		"font"			"kbnBold8"
+		"labelText"		"#TF_Scoreboard_Support"
+		"textAlignment"	"east"
+		"xpos"			"493"	[$WIN32]
+		"xpos_minmode"		"-60"
+		"ypos"			"3"	[$WIN32]
+		"ypos_minmode"		"50"
 		"zpos"			"3"
-		"wide"			"89"
-		"wide_minmode"		"100"
+		"wide"			"95"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 255 255 255"
-	}	
-	"GameType"
+	}
+	"Support"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"gametype"
-		"font"			"kbnBold9"
-		"font_minmode"		"kbnBold10"
-		"labelText"		"%gametype%"
-		"textAlignment"		"center"
-		"textAlignment_minmode"	"east"
-		"xpos"			"530"
-		"xpos_minmode"		"400"
-		"xpos_lodef"	"105"
-		"ypos"			"21"
-		"ypos_minmode"		"372"
+		"fieldName"		"Support"
+		"font"			"kbnBold8"
+		"labelText"		"%support%"
+		"textAlignment"	"west"		[$WIN32]
+		"xpos"			"590"	[$WIN32]
+		"xpos_minmode"		"35"
+		"ypos"			"3"	[$WIN32]
+		"ypos_minmode"		"50"
 		"zpos"			"3"
-		"wide"			"89"
-		"wide_minmode"		"0"
+		"wide"			"35"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
-		"fgcolor"		"255 255 255 255"
-		"fgcolor_minmode"	"185 177 153 255"
-	}	
-	}								
+	}
+	"DamageLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageLabel"
+		"font"			"kbnBold8"
+		"labelText"		"#TF_Scoreboard_Damage"
+		"textAlignment"	"east"
+		"xpos"			"493"	[$WIN32]
+		"xpos_minmode"		"-10"
+		"ypos"			"15"	[$WIN32]
+		"ypos_minmode"		"50"
+		"zpos"			"3"
+		"wide"			"95"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	"Damage"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"Damage"
+		"font"			"kbnBold8"
+		"labelText"		"%damage%"
+		"textAlignment"	"west"		[$WIN32]
+		"xpos"			"590"	[$WIN32]
+		"xpos_minmode"		"85"
+		"ypos"			"15"	[$WIN32]
+		"ypos_minmode"		"50"
+		"zpos"			"3"
+		"wide"			"35"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"	
+	}
+
 	"ButtonLegendBG"
 	{
 		"ControlName"	"ImagePanel"

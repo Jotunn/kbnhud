@@ -1,6 +1,6 @@
-##################################################################
-#----KBNHUD v4.0.2 - Finals Edition - CHANGELOG----###############
-##################################################################
+########################################################################
+#----KBNHUD v4.1.0 - Wild Whiskey Edition - CHANGELOG----###############
+########################################################################
 
 
 #####################################################################
@@ -8,7 +8,7 @@
 #####################################################################
 
 
--More minimal taunt selection dialog
+-Any and all new panels and such
 
 #####################################################################
 #----CHANGED----#####################################################
@@ -21,7 +21,9 @@
 #####################################################################
 
 
--Any and all broken pieces of engy build/destroy menus
+-Any and all broken pieces and panels
+-Map name showing up as [unknown] in scoreboard
+-Item stats being greyed over in the store
  
 #####################################################################
 #----REMOVED----#####################################################
@@ -41,6 +43,8 @@
 #####################################################################
 
 
--Sinders for lending me a Pip-Boy to fix those versions of the menus
+-Sinders for lending me a B.A.S.E Jumper for testing the icon and for
+general help
+-Nordblum for edition name
 
 

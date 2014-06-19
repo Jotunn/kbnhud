@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/taunts/demoman_taunts16"
+        "command" "engine play vo/demoman_gibberish02.wav"
         "label" "                         "
     }
 	"TrainingButton"

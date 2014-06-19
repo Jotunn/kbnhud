@@ -8,10 +8,10 @@
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-100"
+		"xpos"			"c-101"
 		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
+		"wide"			"202"
+		"tall"			"202"
 
 		"font"			"xHairCirclePulse"
 		"labelText"		"i"
@@ -23,36 +23,36 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
+		"xpos"			"c-15"
 		"ypos"			"c-11"
-		"wide"			"27"
-		"tall"			"27"
+		"wide"			"30"
+		"tall"			"30"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"m"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
+		"xpos"			"c-15"
+		"ypos"			"c-10"
 		"wide"			"27"
 		"tall"			"27"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"d"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudCrossHair3
@@ -73,7 +73,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudCrossHair4 //Feel free to copy and paste in more crosshair code batches if you want or need to do so
+	HudCrossHair4
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair4"

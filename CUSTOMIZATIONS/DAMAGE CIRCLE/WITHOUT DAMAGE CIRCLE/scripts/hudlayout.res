@@ -8,10 +8,10 @@
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-100"
+		"xpos"			"c-101"
 		"ypos"			"c-100"
-		"wide"			"200"
-		"tall"			"200"
+		"wide"			"202"
+		"tall"			"202"
 
 		"font"			"xHairCirclePulse"
 		"labelText"		"i"
@@ -73,7 +73,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudCrossHair4 //Feel free to copy and paste in more crosshair code batches if you want or need to do so
+	HudCrossHair4
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair4"
@@ -1414,12 +1414,12 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c-245"
 		"ypos"			"c-52"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"400"
 		"PaintBackgroundType"	"0"
 	}
 }

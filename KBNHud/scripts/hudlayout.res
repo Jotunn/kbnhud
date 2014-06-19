@@ -23,36 +23,36 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-15"
+		"xpos"			"c-14"
 		"ypos"			"c-11"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"27"
+		"tall"			"27"
 
 		"font"			"HudCrossHair"
-		"labelText"		"m"
-		"fgcolor"		"255 0 255 255"
+		"labelText"		"`"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-15"
-		"ypos"			"c-10"
+		"xpos"			"c-14"
+		"ypos"			"c-11"
 		"wide"			"27"
 		"tall"			"27"
 
 		"font"			"HudCrossHair"
-		"labelText"		"d"
-		"fgcolor"		"255 0 255 255"
+		"labelText"		"`"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudCrossHair3
@@ -1414,12 +1414,12 @@
 		"fieldName" 	"HudMenuTauntSelection"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c-245"
 		"ypos"			"c-52"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"
 		"wide"			"470"
-		"tall"			"200"
+		"tall"			"400"
 		"PaintBackgroundType"	"0"
 	}
 }

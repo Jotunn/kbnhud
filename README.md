@@ -29,7 +29,9 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 ## Customization
 
 **Hud_damagedplayer circle fix instructions**
+
 ***YOU DON'T NEED TO DO THIS IF YOU REMOVED CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050***
+
 -Go to "tf/custom/KBNHud/scripts" and open "hudlayout.res" with a text editor program (eg. Notepad). The first thing you see should say "xHairCirclePulse".
 -Under that, find "xpos" and "ypos. "xpos" moves it left or right. "ypos" move it up and down. DON'T TOUCH "zpos"! 
 -Now, open your game and create a normal server. Have "hud_reloadscheme" ready in console. 
@@ -40,6 +42,7 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 
 
 **HUD Crosshairs instructions**
+
 -Go to "tf/custom/KBNHud/scripts" and open "hudlayout.res" with a text editor program (eg. Notepad). 
 -There are 4 individual crosshair code batches. Each one can use one crosshair image.
 -Using the guide linked below, replace the character next to the "labeltext" to the character that corresponds with the desired crosshair.
@@ -49,7 +52,8 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 
 
 
-**Changing HUD colors
+**Changing HUD colors**
+
 -Go to "tf/custom/resource/" and open ClientScheme.res with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying "COLOR CUSTOMIZATION SECTION," having a online RGB sampler site is recommended.
 -Under that are a bunch of groups of color options. Each name will have an RGBA value on the same line. 
 -Pick the color you want from the sampler site. if you want to change the "Damage Numbers" value, which changes the color of the damage indicators from white "255 255 255 255" to red, change the value to "255 0 0 255"
@@ -57,7 +61,7 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 -HEADS UP: The First 3 numbers for "Low Health flash 2" and "Low Health flash 3" MUST ALWAYS BE THE SAME! If you change the value for "Low Health flash 2" to "204 204 0 255," then you must change the value for "Low health flash 3" to "204 204 0 75," leaving the last "255" and the last "75" as they are!
 
 
-## Link & more info
+## Links & more info
 
 Steam community group link is in the blurb at the top of the repo screen
 

@@ -26,7 +26,9 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 
 Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
+
 ## Customization
+
 
 **Hud_damagedplayer circle fix instructions**
 
@@ -46,6 +48,7 @@ see should say "xHairCirclePulse".
 -EVERY TIME YOU CHANGE THE NUMBER, SAVE THE FILE, THEN ENTER "hud_reloadscheme" INTO YOUR CONSOLE, UNTIL IT IS CENTERED! (You need to do this to see any changes)
 
 -When you have properly centered it around the crosshair, then you have successfully made the HUD work. Congratulations!
+
 
 
 **HUD Crosshairs instructions**
@@ -75,6 +78,7 @@ see should say "xHairCirclePulse".
 -DO NOT CHANGE THE FOURTH NUMBER IN THE RGBA VALUES UNLESS YOU KNOW WHAT YOU ARE DOING! That will change the transparency of the object being colored.
 
 -HEADS UP: The First 3 numbers for "Low Health flash 2" and "Low Health flash 3" MUST ALWAYS BE THE SAME! If you change the value for "Low Health flash 2" to "204 204 0 255," then you must change the value for "Low health flash 3" to "204 204 0 75," leaving the last "255" and the last "75" as they are!
+
 
 
 ## Links & more info

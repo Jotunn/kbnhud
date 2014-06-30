@@ -57,19 +57,19 @@
 ############
 #-WINDOWS:-#
 ############
-Place "HUD" folder that contains "resource" and "scripts" from the download in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 #####################
 #-WINDOWS (64-BIT):-#
 #####################
-Place "HUD" folder that contains "resource" and "scripts" from the download in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ###########
 #-MAC OS:-#
 ###########
-Place "HUD" folder that contains "resource" and "scripts" from the download in: "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ##########
 #-LINUX:-#
 ##########
-Place "HUD" folder that contains "resource" and "scripts" from the download in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"

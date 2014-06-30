@@ -11,12 +11,15 @@ To download the HUD, press the "Download ZIP" button at the bottom of the right 
 **DO NOT PACK THE HUD INTO A .vpk FILE! IT MESSES UP THE FONTS!
 
 ***Windows***
+
 Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Windows 64-bit***
+
 Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Mac OS***
+
 Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Linux***

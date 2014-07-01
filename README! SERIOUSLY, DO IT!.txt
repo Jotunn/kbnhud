@@ -1,6 +1,6 @@
-#####################################################################
-#-----KBNHUD v4.1.0 - Wild Whiskey Edition - README-----#############
-#####################################################################
+########################################################################
+#-----KBNHUD v4.1.1 - Prowling Panama Edition - README-----#############
+########################################################################
 
 
 # Hello, and again welcome to the instructional readme file.
@@ -39,6 +39,15 @@
 -The following link has the guide for which letter or symbol enables which crosshair: https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
 
 
+################################
+#---SERVER SHORTCUT BUTTONS:---#
+################################
+
+-To assign servers to the shortcut buttons, open your autoexec.cfg in "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg"
+-Next, copy in this: [alias ServerShortcut1 "connect SERVERIP"] (Without brackets) replacing "SERVERIP" with (obviously) the IP of the server you want to assign. 
+-For the other 5 buttons, change "ServerShortcut1" to "ServerShortcut2", "ServerShortcut3" and so on, assigning different IP's as you go.
+
+
 ############################
 #---CHANGING HUD COLORS:---#
 ############################
@@ -57,19 +66,19 @@
 ############
 #-WINDOWS:-#
 ############
-Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "HUD" folder that contains "resource" and "scripts" from the download in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 #####################
 #-WINDOWS (64-BIT):-#
 #####################
-Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "HUD" folder that contains "resource" and "scripts" from the download in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ###########
 #-MAC OS:-#
 ###########
-Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "HUD" folder that contains "resource" and "scripts" from the download in: "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ##########
 #-LINUX:-#
 ##########
-Place "KBNHhud" folder that contains "resource" and "scripts" from the download in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place "HUD" folder that contains "resource" and "scripts" from the download in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"

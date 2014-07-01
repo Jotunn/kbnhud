@@ -55,9 +55,16 @@
 		"subimage" "glyph_steamworkshop"
 		"tooltip" "#MMenu_SteamWorkshop"
 	}
+	"VRModeButton"
+	{
+		"label" "#MMenu_VRMode_Activate"
+		"command" "engine vr_toggle"
+		"subimage" "glyph_vr"
+		"OnlyWhenVREnabled" "1"
+	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/sniper_domination03"
+        "command" "engine play vo/burp05.wav"
         "label" "                         "
     }
 	"TrainingButton"
@@ -161,5 +168,60 @@
 		"subimage"		"icon_resume"
 		"tooltip" "Change scoreboard"
 		"OnlyInGame" "1"
+	}
+	"ServerShortcutInfo"
+	{
+		"command" "engine showconsole;echo;echo;echo;echo;echo;echo;echo;echo View the ReadMe.txt if you need help setting up your quick join shortcuts."
+		"tooltip" "Quick join shortcuts >>"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut1"
+	{
+		"label" "#1"
+		"command" "engine ServerShortcut1"
+		"tooltip" "Join Server #1"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut2"
+	{
+		"label" "#2"
+		"command" "engine ServerShortcut2"
+		"tooltip" "Join Server #2"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut3"
+	{
+		"label" "#3"
+		"command" "engine ServerShortcut3"
+		"tooltip" "Join Server #3"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut4"
+	{
+		"label" "#4"
+		"command" "engine ServerShortcut4"
+		"tooltip" "Join Server #4"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut5"
+	{
+		"label" "#5"
+		"command" "engine ServerShortcut5"
+		"tooltip" "Join Server #5"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut6"
+	{
+		"label" "#6"
+		"command" "engine ServerShortcut6"
+		"tooltip" "Join Server #6"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
 	}
 }

@@ -67,6 +67,16 @@ see should say "xHairCirclePulse".
 
 
 
+**Server Shortcut Buttons**
+
+-To assign servers to the shortcut buttons, open your autoexec.cfg in "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg"
+
+-Next, copy in this: [alias ServerShortcut1 "connect SERVERIP"] (Without brackets) replacing "SERVERIP" with (obviously) the IP of the server you want to assign. 
+
+-For the other 5 buttons, change "ServerShortcut1" to "ServerShortcut2", "ServerShortcut3" and so on, assigning different IP's as you go.
+
+
+
 **Changing HUD colors**
 
 -Go to "tf/custom/resource/" and open ClientScheme.res with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying "COLOR CUSTOMIZATION SECTION," having a online RGB sampler site is recommended.

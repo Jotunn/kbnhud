@@ -974,6 +974,17 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"kbnBlack26"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"26"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"kbnBlack30"
 		{
 			"1"
@@ -2546,6 +2557,27 @@ Scheme
 				"antialias" 	"1"
 			}
 		}		
+		"DonateText12"
+		{
+			"1"
+			{
+				"name"			"TF2 Professor"
+				"tall"			"12"
+				"antialias"		"1" 
+				"weight"		"500"
+			}
+		}
+		
+		"DonateText14"
+		{
+			"1"
+			{
+				"name"			"TF2 Professor"
+				"tall"			"14"
+				"antialias"		"1" 
+				"weight"		"500"
+			}
+		}
 		
 		"ChalkboardTitle"
 		{

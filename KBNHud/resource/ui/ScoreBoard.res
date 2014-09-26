@@ -322,10 +322,10 @@
 		"xpos"			"46"
 		"xpos_minmode"		"1"
 		"xpos_hidef"	"31"
-		"ypos"			"105"
-		"ypos_minmode"		"69"
+		"ypos"			"103"
+		"ypos_minmode"		"64"
 		"ypos_lodef"	"62"
-		"wide"			"211"
+		"wide"			"311"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -347,11 +347,11 @@
 		"xpos"			"47"
 		"xpos_minmode"		"2"
 		"xpos_hidef"	"31"
-		"ypos"			"106"
-		"ypos_minmode"		"70"
+		"ypos"			"104"
+		"ypos_minmode"		"73"
 		"ypos_lodef"	"62"
 		"zpos"		"-1"
-		"wide"			"211"
+		"wide"			"311"
 		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -367,10 +367,10 @@
 			"ControlName"			"ScalableImagePanel"
 			"fieldName"				"BlackBG"
 			"xpos"					"45"
-			"ypos"					"106"
+			"ypos"					"100"
 			"zpos"					"-10"
 			"wide"					"510"
-			"tall"					"19"
+			"tall"					"25"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -1624,7 +1624,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"kbnBold8"
+		"font"			"kbnMedium8"
+		"fgcolor" 		"255 255 255 255"
 		"labelText"		"#TF_Scoreboard_Support"
 		"textAlignment"	"east"
 		"xpos"			"493"	[$WIN32]
@@ -1644,6 +1645,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Support"
 		"font"			"kbnBold8"
+		"fgcolor" 		"255 255 255 255"
 		"labelText"		"%support%"
 		"textAlignment"	"west"		[$WIN32]
 		"xpos"			"590"	[$WIN32]
@@ -1662,7 +1664,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageLabel"
-		"font"			"kbnBold8"
+		"font"			"kbnMedium8"
+		"fgcolor" 		"255 255 255 255"
 		"labelText"		"#TF_Scoreboard_Damage"
 		"textAlignment"	"east"
 		"xpos"			"493"	[$WIN32]
@@ -1682,6 +1685,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"Damage"
 		"font"			"kbnBold8"
+		"fgcolor" 		"255 255 255 255"
 		"labelText"		"%damage%"
 		"textAlignment"	"west"		[$WIN32]
 		"xpos"			"590"	[$WIN32]

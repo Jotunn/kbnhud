@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/burp05.wav"
+        "command" "engine play vo/demoman_autodejectedtie01"
         "label" "                         "
     }
 	"TrainingButton"

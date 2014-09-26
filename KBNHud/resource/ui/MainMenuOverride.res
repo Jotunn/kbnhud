@@ -251,7 +251,7 @@
 		"tabPosition"			"0"	
 		"fillcolor"				"30 30 30 200"
 		"PaintBackgroundType"	"0"
-	}	
+	}
 	"PlayLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -274,7 +274,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"KBNHud v4.1.1"
+		"labelText"		"KBNHud v4.1.2"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"

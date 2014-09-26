@@ -23,14 +23,14 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"c-14"
 		"ypos"			"c-11"
-		"wide"			"27"
-		"tall"			"27"
+		"wide"			"30"
+		"tall"			"30"
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
@@ -41,7 +41,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -170,7 +170,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-69"	[$WIN32]
-		"ypos"			"r167"	[$WIN32]
+		"ypos"			"r170"	[$WIN32]
 		"xpos"			"r112"	[$X360]
 		"ypos"			"r45"	[$X360]
 		"zpos"			"1"			// draw in front of ammo
@@ -183,10 +183,10 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-59"	[$WIN32]
-		"ypos"			"r170"	[$WIN32]
+		"visible"		"0"
+		"enabled"		"0"
+		"xpos"			"99999"	[$WIN32]
+		"ypos"			"99999"	[$WIN32]
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"10"
@@ -915,9 +915,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-140"
-		"ypos"					"295"
+		"ypos"					"240"
 		"wide"					"280"
-		"tall"					"203"
+		"tall"					"303"
 		"zpos"					"10"
 	}
 
@@ -1408,6 +1408,18 @@
         "bgcolor_override"        "0 0 0 0"
         "PaintBackgroundType"        "0" // rounded corners
     }
+	
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
+	}
 	
 	"HudMenuTauntSelection"
 	{

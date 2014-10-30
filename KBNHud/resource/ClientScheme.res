@@ -51,7 +51,7 @@ Scheme
 		"Low Ammo flash 1"  		"200 0 0 255"
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
-		"Damage Circle base color" 	"255 255 255 255"
+		"Damage Circle base color" 	"0 0 0 255"
 		"Damage Circle flash color" "255 0 0 255"
 
 

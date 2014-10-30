@@ -23,7 +23,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -41,7 +41,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -1433,5 +1433,15 @@
 		"wide"			"470"
 		"tall"			"400"
 		"PaintBackgroundType"	"0"
+	}
+	HudMiniGame
+	{
+		"fieldName" "HudMiniGame"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"480"
 	}
 }

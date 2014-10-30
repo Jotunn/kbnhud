@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/burp05.wav"
+        "command" "engine play vo/engineer_mvm_get_upgrade01"
         "label" "                         "
     }
 	"TrainingButton"

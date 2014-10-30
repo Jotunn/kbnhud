@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"CTFImagePanel"
 		"fieldName"			"TargetIDBG"
-		"xpos"				"13"
+		"xpos"				"8"
 		"ypos"				"-24"
 		"zpos"				"-1"
 		"wide"				"252"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"			"TargetIDBG_Black_Bar"
-		"xpos"				"13"
+		"xpos"				"8"
 		"ypos"				"5"
 		"zpos"				"0"
 		"wide"				"350"
@@ -88,7 +88,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"			"TargetNameLabel"
 		"font"				"kbnBlack10"
-		"xpos"				"55"
+		"xpos"				"65"
 		"ypos"				"7"
 		"zpos"				"1"
 		"wide"				"640"

@@ -51,8 +51,8 @@ Scheme
 		"Low Ammo flash 1"  		"200 0 0 255"
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
-		"Damage Circle base color" 	"0 0 0 255"
-		"Damage Circle flash color" "255 0 0 255"
+		"Damage Circle base color" 	"0 0 0 0"
+		"Damage Circle flash color" "0 255 0 255"
 
 
 		//////////////////////////////////////////////////////////////////
@@ -85,6 +85,7 @@ Scheme
 		"Red"						"192 28 0 140"
 		"RedSolid"					"192 28 0 255"
 		"Blue"						"0 28 162 140"
+		"BlueSolid"					"0 28 162 255"
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		//"Black"					"0 0 0 255"

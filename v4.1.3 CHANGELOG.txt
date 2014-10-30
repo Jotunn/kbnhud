@@ -1,6 +1,6 @@
-###################################################################
-#----KBNHUD v4.1.2 - Proteus Edition - CHANGELOG----###############
-###################################################################
+###############################################################################
+#----KBNHUD v4.1.3 - Target Sorta Locked Edition - CHANGELOG----###############
+###############################################################################
 
 #####################################################################
 #-----ADDED-----#####################################################
@@ -13,18 +13,14 @@
 #----CHANGED----#####################################################
 #####################################################################
 
--Widened server name box on big scoreboard (finally) and cleaned up
-some other bits on the scoreboard.
+
 
 #####################################################################
 #-----FIXED-----#####################################################
 #####################################################################
 
 
--Backpack panels
--Huntsman showing two arrow meters(this has the side effect of the
-demoman's stickylauncher charge meter having marker lines)
--Highest killstreak player on the end-of-round winpanel not being shown
+-All the crap Valve broke.
  
 #####################################################################
 #----REMOVED----#####################################################
@@ -37,9 +33,13 @@ demoman's stickylauncher charge meter having marker lines)
 #-----NOTES-----#####################################################
 #####################################################################
 
--Still haven't figured out why the ammo counters still have the 
-reddish/blue-ish tint to them. Sorry for those whom are annoyed at 
-this problem.
+-The TargetID is sorta transparent because it's opacity is now linked
+to a client-side (your computer) ConVar. I don't know the exact command
+to change the opacity as I write this, but I will find it. The Health \
+showing above their heads will jitter and flash a crapton because of 
+how Valve rigged it to attach to the playermodels, and when they go up
+stairs, it will be near impossible to read. I disagree with this change
+personally.
 
 #####################################################################
 #-SPECIAL THANKS-####################################################

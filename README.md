@@ -32,7 +32,7 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 
 **Hud_damagedplayer circle fix instructions**
 
-***YOU DON'T NEED TO DO THIS IF YOU REMOVED CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050***
+***YOU DON'T NEED TO DO THIS IF YOU REMOVED CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050 or any 16:9 aspect ratio.***
 
 -Go to "tf/custom/KBNHud/scripts" and open "hudlayout.res" with a text editor program (eg. Notepad). The first thing you 
 see should say "xHairCirclePulse".

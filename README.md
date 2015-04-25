@@ -114,4 +114,4 @@ This or simply sending me a ping over on steam are the best ways to let me know 
 
         
 		
-Thanks to: Chippy, Quartz, Garm3n, Sinders, rays (GO WATCH HIS TWITCH STREAM AT http://www.twitch.tv/raysfire, OMP
+Thanks to: Chippy, Quartz, Garm3n, Sinders, rays (GO WATCH HIS TWITCH STREAM AT http://www.twitch.tv/raysfire), OMP

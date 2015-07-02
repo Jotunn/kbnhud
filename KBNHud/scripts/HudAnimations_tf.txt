@@ -824,8 +824,20 @@ event NotificationsPresentBlinkStop
 //===========================================
 event DamagedPlayer
 {
-	Animate xHairCirclePulse FgColor "Damage Circle flash color" Linear 0.0 0.1
-	Animate xHairCirclePulse FgColor "Damage Circle base color" Linear 0.2 0.200001 //Change to this for white circle: "255 255 255 255" Linear 0.2 0.200001
+	Animate DefaultHitmarker FgColor "Default Hitmarker flash color" Linear 0.0 0.1
+	Animate DefaultHitmarker FgColor "Default Hitmarker base color" Linear 0.2 0.200001
+
+	Animate    CODHitmarkerLeftTop FgColor "COD Hitmarker flash color"     Linear 0.0 0.00001
+	Animate    CODHitmarkerLeftTop FgColor "COD Hitmarker base color"         Linear 0.15 0.1
+
+	Animate    CODHitmarkerLeftBottom FgColor "COD Hitmarker flash color"     Linear 0.0 0.00001
+	Animate    CODHitmarkerLeftBottom FgColor "COD Hitmarker base color"         Linear 0.15 0.1
+
+	Animate    CODHitmarkerRightTop FgColor "COD Hitmarker flash color"     Linear 0.0 0.00001
+	Animate    CODHitmarkerRightTop FgColor "COD Hitmarker base color"         Linear 0.15 0.1
+
+	Animate    CODHitmarkerRightBottom FgColor "COD Hitmarker flash color"     Linear 0.0 0.00001
+	Animate    CODHitmarkerRightBottom FgColor "COD Hitmarker base color"         Linear 0.15 0.1
 }
 //===========================================
 

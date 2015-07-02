@@ -1,26 +1,31 @@
-###############################################################################
-#----KBNHUD v4.1.3 - Target Sorta Locked Edition - CHANGELOG----###############
-###############################################################################
+######################################################################
+#----KBNHUD v4.1.4 - Mun Gettle Edition - CHANGELOG----###############
+######################################################################
 
 #####################################################################
 #-----ADDED-----#####################################################
 #####################################################################
 
 
-
+-Scoreboard override that changes the 6v6 (sixes) minmode scoreboard to a
+highlander 9v9 
+-Gun Mettle Update Scoreboard changes (coins)
 
 #####################################################################
 #----CHANGED----#####################################################
 #####################################################################
 
-
+-Renamed CUSTOMIZATIONS folder to Overrides
+-Ranamed "Damage Circle" to "Hit marker" everywhere it is mentioned
+ to be more general, given the ease of customizing the shown shape
+-Added a CoD/Battlefield-esque "four diagonal lines" hitmarker
 
 #####################################################################
 #-----FIXED-----#####################################################
 #####################################################################
 
 
--All the crap Valve broke.
+
  
 #####################################################################
 #----REMOVED----#####################################################
@@ -33,19 +38,15 @@
 #-----NOTES-----#####################################################
 #####################################################################
 
--The TargetID is sorta transparent because it's opacity is now linked
-to a client-side (your computer) ConVar. I don't know the exact command
-to change the opacity as I write this, but I will find it. The Health \
-showing above their heads will jitter and flash a crapton because of 
-how Valve rigged it to attach to the playermodels, and when they go up
-stairs, it will be near impossible to read. I disagree with this change
-personally.
+-Switched off all-caps in the overrides stuff
+-Have a good one everybody! Enjoy spy not smacking his face with his 
+own gun!
 
 #####################################################################
 #-SPECIAL THANKS-####################################################
 #####################################################################
 
-
-
+-Delfy for the new hitmarker code and stuff.
+-1112e for the edition name
 
 

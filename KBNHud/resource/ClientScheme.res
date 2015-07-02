@@ -51,8 +51,11 @@ Scheme
 		"Low Ammo flash 1"  		"200 0 0 255"
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
-		"Damage Circle base color" 	"0 0 0 255"
-		"Damage Circle flash color" "255 0 0 255"
+		"Default Hitmarker base color" 	"0 0 0 255"
+		"Default Hitmarker flash color" "255 0 0 255"
+		
+		"COD Hitmarker base color"		"0 0 0 0"
+		"COD Hitmarker flash color"		"0 255 0 255"
 
 
 		//////////////////////////////////////////////////////////////////
@@ -465,7 +468,7 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"xHairCirclePulse"
+		"DefaultHitmarker"
 		{
 			"1"
 			{
@@ -484,6 +487,18 @@ Scheme
 				"weight"	"0"
 				"additive"	"0"
 				"outline" "1"
+			}
+		}
+		"CODHitmarker"
+		{
+			"1"
+			{
+				"name"		"xhairs"
+				"tall"		"4"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias"	"1"
+				"outline"	"0"
 			}
 		}
 		"kbnRegular11"
@@ -3274,6 +3289,80 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"QuestFlavorText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"400"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+
+		"QuestObjectiveText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"800"
+				"yres"		"480 599"
+				"additive"	"0"
+				"antialias"	"1"
+			}
+			"2"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"600 1023"
+				"antialias"	"1"
+			}
+			"3"
+			{
+				"name"		"ocra"
+				"tall"		"18"
+				"weight"	"800"
+				"additive"	"0"
+				"yres"		"1024 6000"
+				"antialias"	"1"
+			}
+		}
+		
+		"QuestLargeText"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"16"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+	
 	}
 
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
@@ -3337,6 +3426,16 @@ Scheme
 		{
 		"font" "resource/fonts/crosshairs.ttf"
 		"name" "Crosshairs"
+		}
+		"14"
+		{
+		"font" "resource/fonts/xhairs.otf"
+		"name" "xhairs"
+		}
+		"15"
+		{
+		"font" "resource/fonts/ocra.ttf"
+		"name" "ocra"
 		}
 	}
 	//

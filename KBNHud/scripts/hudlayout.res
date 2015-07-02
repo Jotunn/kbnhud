@@ -1,6 +1,6 @@
 "Resource/HudLayout.res"
 {
-	xHairCirclePulse
+	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCirclePulse"
@@ -10,14 +10,14 @@
 
 		"xpos"			"c-101"
 		"ypos"			"c-100"
-		"wide"			"202"
-		"tall"			"202"
+		"wide"			"207"
+		"tall"			"207"
 
-		"font"			"xHairCirclePulse"
+		"font"			"DefaultHitmarker"
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"Damage Circle base color"
+		"fgcolor"		"Default Hitmarker base color"
 	}
 	HudxHair
 	{
@@ -29,12 +29,12 @@
 
 		"xpos"			"c-14"
 		"ypos"			"c-11"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"35"
+		"tall"			"35"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"m"
+		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
@@ -52,10 +52,10 @@
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"
 	}
-	HudCrossHair3
+	HudxHair3
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair3"
@@ -73,7 +73,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudCrossHair4
+	HudxHair4
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair4"
@@ -91,6 +91,86 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
+	CODHitmarker
+	{
+		"ControlName"		"EditablePanel"
+		"fieldname"			"CODxhair"
+		"visible"			"0"
+		"enabled"			"1"
+		"wide"				"f0"
+		"tall"				"480"
+		"CODHitmarkerLeftTop"
+		{
+			"xpos"				"c-20"
+			"ypos"				"c-19"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"COD Hitmarker base color"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODHitmarkerLeftTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+		"CODHitmarkerLeftBottom"
+		{
+			"xpos"				"c-20"
+			"ypos"				"c-4"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"COD Hitmarker base color"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODHitmarkerLeftBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODHitmarkerRightTop"
+		{
+			"xpos"				"c-5"
+			"ypos"				"c-19"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"COD Hitmarker base color"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODHitmarkerRightTop"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"/"
+			"textAlignment"		"center" 
+		}
+		"CODHitmarkerRightBottom"
+		{
+			"xpos"				"c-5"
+			"ypos"				"c-4"
+			"wide"				"26"
+			"tall"				"24"
+			"fgcolor"			"COD Hitmarker base color"
+			"controlName"		"ceXLabel"
+			"fieldName"			"CODHitmarkerRightBottom"
+			"visible"			"1"
+			"visible_minmode"	"1"
+			"enabled"			"1"
+			"zpos"				"1"
+			"font"				"CODHitmarker"
+			"labelText"			"\"
+			"textAlignment"		"center" 
+		}
+	}
+	
+//=========================DO NOT TOUCH STUFF BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING============================
+	
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"

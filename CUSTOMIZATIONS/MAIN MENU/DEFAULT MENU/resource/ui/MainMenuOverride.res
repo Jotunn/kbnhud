@@ -3118,10 +3118,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"c176"
+		"xpos"			"c180"
 		"ypos"			"437"
 		"zpos"			"1"
-		"wide"			"134"
+		"wide"			"130"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"

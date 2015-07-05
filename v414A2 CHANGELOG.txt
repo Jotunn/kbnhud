@@ -1,52 +1,49 @@
-######################################################################
-#----KBNHUD v4.1.4 - Mun Gettle Edition - CHANGELOG----###############
-######################################################################
+############################################################################
+#----KBNHUD v414A2 - All these colors Edition - CHANGELOG----###############
+############################################################################
 
 #####################################################################
 #-----ADDED-----#####################################################
 #####################################################################
 
 
--Scoreboard override that changes the 6v6 (sixes) minmode scoreboard to a
-highlander 9v9 
--Gun Mettle Update Scoreboard changes (coins)
+
 
 #####################################################################
 #----CHANGED----#####################################################
 #####################################################################
 
--Renamed CUSTOMIZATIONS folder to Overrides
--Ranamed "Damage Circle" to "Hit marker" everywhere it is mentioned
- to be more general, given the ease of customizing the shown shape
--Added a CoD/Battlefield-esque "four diagonal lines" hitmarker
+-HUD update numbering scheme. A2, A3, and onward indicate a mini 
+patch to the latest update. It is also faster to type, and easier for 
+the Gamebanana mirror. LAZINESS INBOUND!
 
 #####################################################################
 #-----FIXED-----#####################################################
 #####################################################################
 
 
-
+-New spectator information
  
 #####################################################################
 #----REMOVED----#####################################################
 #####################################################################
 
 
-
+-Custom Tournament mode spectator panel placements. Valve broke the 
+two panels being moved independently of each other, so no point in
+custom placements
 
 #####################################################################
 #-----NOTES-----#####################################################
 #####################################################################
 
--Switched off all-caps in the overrides stuff
--Have a good one everybody! Enjoy spy not smacking his face with his 
-own gun!
+
 
 #####################################################################
 #-SPECIAL THANKS-####################################################
 #####################################################################
 
--Delfy for the new hitmarker code and stuff.
--1112e for the edition name
+-My mixtape for entertaining me while making this. Shit's straight
+fire fam.
 
 

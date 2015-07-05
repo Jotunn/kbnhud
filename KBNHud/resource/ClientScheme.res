@@ -52,7 +52,7 @@ Scheme
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
 		"Default Hitmarker base color" 	"0 0 0 255"
-		"Default Hitmarker flash color" "255 0 0 255"
+		"Default Hitmarker flash color" "0 0 0 255"
 		
 		"COD Hitmarker base color"		"0 0 0 0"
 		"COD Hitmarker flash color"		"0 255 0 255"
@@ -188,6 +188,7 @@ Scheme
 		"QualityColorCompleted"			"134 80 172 255"
 		"QualityColorHaunted"			"56 243 171 255"
 		"QualityColorCollectors"		"131 0 0 255"
+		"QualityColorPaintkitWeapon"	"250 250 250 255"
 
 		"QualityColorNormal_GreyedOut"		"44 44 44 255"
 		"QualityColorrarity1_GreyedOut"     "20 29 21 255"

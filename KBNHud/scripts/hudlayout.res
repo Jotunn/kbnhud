@@ -27,13 +27,13 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
+		"xpos"			"c-17"
+		"ypos"			"c-14"
 		"wide"			"35"
 		"tall"			"35"
 
 		"font"			"HudCrossHair"
-		"labelText"		"m"
+		"labelText"		"`"
 		"fgcolor"		"0 0 0 255"
 		"textAlignment"	"center"
 	}

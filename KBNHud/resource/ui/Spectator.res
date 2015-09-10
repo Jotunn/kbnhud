@@ -289,7 +289,7 @@
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
-"itempanel"
+	"itempanel"
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
@@ -301,6 +301,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"paintborder"			"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"

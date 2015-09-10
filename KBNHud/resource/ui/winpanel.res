@@ -541,6 +541,20 @@
 		"fillcolor"		"235 235 235 255"
 		"PaintBackgroundType"	"0"
 	}
+	"Player1Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player1Medal"
+		"xpos"			"5"
+		"ypos"			"195"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
 	"Player1Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -610,6 +624,20 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 	}
+	"Player2Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player1Medal"
+		"xpos"			"195"
+		"ypos"			"137"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
+	}
 	"Player2Avatar"
 	{
 		"ControlName"	"CAvatarImagePanel"
@@ -678,6 +706,20 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
+	}
+	"Player3Medal"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"Player1Medal"
+		"xpos"			"195"
+		"ypos"			"159"
+		"zpos"			"3"
+		"wide"			"12"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"			""
+		"scaleImage"		"1"	
 	}
 	"Player3Avatar"
 	{

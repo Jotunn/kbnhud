@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play ambient/crow2.wav"
+        "command" "engine play weapons/breadmonster/sapper/bm_sapper_scream_01"
         "label" "                         "
     }
 	"TrainingButton"

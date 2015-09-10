@@ -468,6 +468,31 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
 	
+	"MarketPlaceButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MarketPlaceButton"
+		"xpos"			"c-295"
+		"ypos"			"c-50"
+		"zpos"			"2"
+		"wide"			"220"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#Store_MarketPlace"
+		"font"			"HudFontSmallestBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"1"
+		"Command"		"marketplace"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"

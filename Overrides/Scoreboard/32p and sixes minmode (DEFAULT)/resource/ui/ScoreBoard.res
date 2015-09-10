@@ -1036,10 +1036,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Kills"
+	"KillsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Kills"
+		"fieldName"		"KillsCount"
 		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%kills%"
@@ -1056,10 +1056,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Kills2"
+	"KillsShadow"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Kills2"
+		"fieldName"		"KillsShadow"
 		"font"			"kbnBlack36"
 		"fgcolor" "0 0 0 255"
 		"labelText"		"%kills%"
@@ -1097,10 +1097,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Deaths"
+	"DeathsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Deaths"
+		"fieldName"		"DeathsCount"
 		"font"			"kbnBlack36"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%deaths%"
@@ -1117,10 +1117,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Deaths2"
+	"DeathsShadow"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Deaths2"
+		"fieldName"		"DeathsShadow"
 		"font"			"kbnBlack36"
 		"fgcolor" "0 0 0 255"
 		"labelText"		"%deaths%"
@@ -1158,10 +1158,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Captures"
+	"CapturesCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Captures"
+		"fieldName"		"CapturesCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%captures%"
@@ -1198,10 +1198,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Assists"
+	"AssistsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Assists"
+		"fieldName"		"AssistsCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%assists%"
@@ -1238,10 +1238,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}												
-	"Destruction"
+	"DestructionCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Destruction"
+		"fieldName"		"DestructionCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%destruction%"
@@ -1279,10 +1279,10 @@
 		"enabled"		"1"
 	}						
 
-	"Defenses"
+	"DefensesCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Defenses"
+		"fieldName"		"DefensesCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%defenses%"
@@ -1319,10 +1319,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Domination"
+	"DominationCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Domination"
+		"fieldName"		"DominationCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%dominations%"
@@ -1359,10 +1359,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Revenge"
+	"RevengeCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Revenge"
+		"fieldName"		"RevengeCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%Revenge%"
@@ -1399,10 +1399,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Invuln"
+	"InvulnCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Invuln"
+		"fieldName"		"InvulnCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%invulns%"
@@ -1439,10 +1439,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Headshots"
+	"HeadshotsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Headshots"
+		"fieldName"		"HeadshotsCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%headshots%"
@@ -1479,10 +1479,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Teleports"
+	"TeleportsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Teleports"
+		"fieldName"		"TeleportsCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%teleports%"
@@ -1519,10 +1519,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}						
-	"Healing"
+	"HealingCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Healing"
+		"fieldName"		"HealingCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%healing%"
@@ -1559,10 +1559,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Backstabs"
+	"BackstabsCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Backstabs"
+		"fieldName"		"BackstabsCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%backstabs%"
@@ -1600,10 +1600,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Bonus"
+	"BonusCount"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"Bonus"
+		"fieldName"		"BonusCount"
 		"font"			"kbnBold8"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%bonus%"
@@ -1641,10 +1641,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Support"
+	"SupportCount"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Support"
+		"fieldName"		"SupportCount"
 		"font"			"kbnBold8"
 		"fgcolor" 		"255 255 255 255"
 		"labelText"		"%support%"
@@ -1681,10 +1681,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	"Damage"
+	"DamageCount"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"Damage"
+		"fieldName"		"DamageCount"
 		"font"			"kbnBold8"
 		"fgcolor" 		"255 255 255 255"
 		"labelText"		"%damage%"

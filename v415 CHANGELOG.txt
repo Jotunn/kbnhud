@@ -20,7 +20,6 @@ mediguns.
 #-----FIXED-----#####################################################
 #####################################################################
 
-
 -Green numbers on all scoreboards, big board, sixes, and highlander
 -Backpack panels
 -Gun mettle rarity colors
@@ -28,6 +27,7 @@ mediguns.
 #####################################################################
 #----REMOVED----#####################################################
 #####################################################################
+
 
 
 
@@ -42,7 +42,8 @@ mediguns.
 #-SPECIAL THANKS-####################################################
 #####################################################################
 
--My mixtape for entertaining me while making this. Shit's straight
-fire fam.
+-My mixtape for entertaining me while making this. Shit's straight 
+lava fam.
+-Rays for idea to fix green scoreboard
 
 

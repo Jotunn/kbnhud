@@ -67,7 +67,7 @@ see should say "xHairCirclePulse".
 
 -Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair. The method is nearly identical to fixing the circle.
 
--[Click here to see which character enables which crosshair](https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png)
+-__[Click here to see which character enables which crosshair](https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png)__
 
 
 **Server Shortcut Buttons**

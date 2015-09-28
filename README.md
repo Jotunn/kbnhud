@@ -8,7 +8,7 @@ To download the HUD, press the "Download ZIP" button at the bottom of the right 
 
 **Installation**
 
-**To install the HUD as a .vpk file (somewhat advanced): 
+__To install the HUD as a .vpk file (somewhat advanced):__
 
 Cut the "fonts" folder from inside "resource". Create a new folder inside "custom" called KBNHud fonts, and create a new "resource" folder inside that. Place the "fonts" folder in there. Then run the main KBNHud folder through vpk.exe and install that. Your "custom" folder should look like this: http://i.imgur.com/WewuqEH.png
 

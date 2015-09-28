@@ -10,9 +10,9 @@ To download the HUD, press the "Download ZIP" button at the bottom of the right 
 
 __To install the HUD as a .vpk file (somewhat advanced):__
 
-Cut the "fonts" folder from inside "resource". Create a new folder inside "custom" called KBNHud fonts, and create a new "resource" folder inside that. Place the "fonts" folder in there. Then run the main KBNHud folder through vpk.exe and install that. Your "custom" folder should look like this: http://i.imgur.com/WewuqEH.png
+Cut the "fonts" folder from inside "resource". Create a new folder inside "custom" called KBNHud fonts, and create a new "resource" folder inside that. Place the "fonts" folder in there. Then run the main KBNHud folder through vpk.exe and install that. Your "custom" folder should look like [this](http://i.imgur.com/WewuqEH.png).
 
-Thanks to Calcium (http://steamcommunity.com/id/TheCalcium) for this info.
+Thanks to [Calcium](http://steamcommunity.com/id/TheCalcium) for this info.
 
 ***Windows***
 
@@ -67,15 +67,14 @@ see should say "xHairCirclePulse".
 
 -Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair. The method is nearly identical to fixing the circle.
 
--The following link has the guide for which letter or symbol enables which crosshair: https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
-
+-[Click here to see which character enables which crosshair](https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png)
 
 
 **Server Shortcut Buttons**
 
 -To assign servers to the shortcut buttons, open your autoexec.cfg in "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/cfg"
 
--Next, copy in this: [alias ServerShortcut1 "connect SERVERIP"] (Without brackets) replacing "SERVERIP" with (obviously) the IP of the server you want to assign. 
+-Next, copy in this: alias ServerShortcut1 "connect SERVERIP" (Without brackets) replacing "SERVERIP" with (obviously) the IP of the server you want to assign. 
 
 -For the other 5 buttons, change "ServerShortcut1" to "ServerShortcut2", "ServerShortcut3" and so on, assigning different IP's as you go.
 
@@ -111,11 +110,10 @@ This can help resolve issues:
 * verify TF2's game cache on steam
 * re-download & re-install the hud
 
-You can submit bug reports & questions via the  GitHub issue tracker.
-https://github.com/Jotunn/KBNHud/issues
+You can submit bug reports & questions via the [GitHub issue tracker](https://github.com/Jotunn/KBNHud/issues).
 This or simply sending me a ping over on steam are the best ways to let me know something is borked.
 
 
         
 		
-Thanks to: Chippy, Quartz, Garm3n, Sinders, rays (GO WATCH HIS TWITCH STREAM AT http://www.twitch.tv/raysfire), OMP
+Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP

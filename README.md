@@ -111,6 +111,7 @@ This can help resolve issues:
 * re-download & re-install the hud
 
 You can submit bug reports & questions via the [GitHub issue tracker](https://github.com/Jotunn/KBNHud/issues).
+You may also [Submit a pull request](https://github.com/Jotunn/KBNHud/pulls), and that is great for me since you can make your own fixes and I can simply merge them into the master branch, and copy them into the versions stored on my computer.
 This or simply sending me a ping over on steam are the best ways to let me know something is borked.
 
 

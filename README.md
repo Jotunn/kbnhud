@@ -117,4 +117,6 @@ This or simply sending me a ping over on steam are the best ways to let me know 
 
         
 		
-Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP
+Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP  
+
+Further thanks to Vissol Ltd. for the creation of Maven Pro, the core font of this HUD, and making the font available to all for free. If you want the font for yourself, the files for all of the types are in the HUD fonts folder, alternatively, you can download the font [right here](http://vissol.co.uk/mavenpro/).

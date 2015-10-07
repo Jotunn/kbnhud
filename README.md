@@ -115,7 +115,7 @@ You may also [Submit a pull request](https://github.com/Jotunn/KBNHud/pulls), an
 This or simply sending me a ping over on steam are the best ways to let me know something is borked.
 
 
-        
+## Special Thanks      
 		
 Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP  
 

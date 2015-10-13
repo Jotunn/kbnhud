@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/engineer_mvm_get_upgrade01"
+        "command" "engine play items/scout_boombox_05"
         "label" "                         "
     }
 	"TrainingButton"

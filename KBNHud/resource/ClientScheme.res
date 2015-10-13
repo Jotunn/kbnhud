@@ -536,7 +536,7 @@ Scheme
 				"outline"	"0"
 			}
 		}
-		"kbnRegular11"
+		"MavenProRegular11"
 		{
 			"1"
 			{
@@ -547,7 +547,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnRegular12"
+		"MavenProRegular12"
 		{
 			"1"
 			{
@@ -558,7 +558,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium8"
+		"MavenProMedium8"
 		{
 			"1"
 			{
@@ -569,7 +569,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium9"
+		"MavenProMedium9"
 		{
 			"1"
 			{
@@ -580,7 +580,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium9OL"
+		"MavenProMedium9OL"
 		{
 			"1"
 			{
@@ -592,7 +592,7 @@ Scheme
 			"outline"	"0 0 0 150"
 			}
 		}
-		"kbnMedium10"
+		"MavenProMedium10"
 		{
 			"1"
 			{
@@ -603,7 +603,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium11"
+		"MavenProMedium11"
 		{
 			"1"
 			{
@@ -614,7 +614,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium12"
+		"MavenProMedium12"
 		{
 			"1"
 			{
@@ -625,7 +625,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium14"
+		"MavenProMedium14"
 		{
 			"1"
 			{
@@ -636,7 +636,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium16"
+		"MavenProMedium16"
 		{
 			"1"
 			{
@@ -647,7 +647,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium18"
+		"MavenProMedium18"
 		{
 			"1"
 			{
@@ -658,7 +658,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium21"
+		"MavenProMedium21"
 		{
 			"1"
 			{
@@ -669,7 +669,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium24"
+		"MavenProMedium24"
 		{
 			"1"
 			{
@@ -680,7 +680,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium30"
+		"MavenProMedium30"
 		{
 			"1"
 			{
@@ -691,7 +691,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium36"
+		"MavenProMedium36"
 		{
 			"1"
 			{
@@ -702,7 +702,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnMedium50"
+		"MavenProMedium50"
 		{
 			"1"
 			{
@@ -713,7 +713,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold8"
+		"MavenProBold8"
 		{
 			"1"
 			{
@@ -724,7 +724,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold9"
+		"MavenProBold9"
 		{
 			"1"
 			{
@@ -735,7 +735,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold10"
+		"MavenProBold10"
 		{
 			"1"
 			{
@@ -746,7 +746,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold11"
+		"MavenProBold11"
 		{
 			"1"
 			{
@@ -757,7 +757,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold12"
+		"MavenProBold12"
 		{
 			"1"
 			{
@@ -768,7 +768,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold14"
+		"MavenProBold14"
 		{
 			"1"
 			{
@@ -779,7 +779,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold16"
+		"MavenProBold16"
 		{
 			"1"
 			{
@@ -790,7 +790,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold18"
+		"MavenProBold18"
 		{
 			"1"
 			{
@@ -802,7 +802,7 @@ Scheme
 			"outline"	"0"
 			}
 		}
-		"kbnBold18OL"
+		"MavenProBold18OL"
 		{
 			"1"
 			{
@@ -814,7 +814,7 @@ Scheme
 			"outline"	"1"
 			}
 		}
-		"kbnBold21"
+		"MavenProBold21"
 		{
 			"1"
 			{
@@ -825,7 +825,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold22"
+		"MavenProBold22"
 		{
 			"1"
 			{
@@ -836,7 +836,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold24"
+		"MavenProBold24"
 		{
 			"1"
 			{
@@ -847,7 +847,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold30"
+		"MavenProBold30"
 		{
 			"1"
 			{
@@ -858,7 +858,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBold36"
+		"MavenProBold36"
 		{
 			"1"
 			{
@@ -869,7 +869,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack8"
+		"MavenProBlack8"
 		{
 			"1"
 			{
@@ -880,7 +880,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack9"
+		"MavenProBlack9"
 		{
 			"1"
 			{
@@ -891,7 +891,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack10"
+		"MavenProBlack10"
 		{
 			"1"
 			{
@@ -902,7 +902,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack11"
+		"MavenProBlack11"
 		{
 			"1"
 			{
@@ -913,7 +913,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack11OL"
+		"MavenProBlack11OL"
 		{
 			"1"
 			{
@@ -925,7 +925,7 @@ Scheme
 			"outline"	"0 0 0 255"
 			}
 		}
-		"kbnBlack12"
+		"MavenProBlack12"
 		{
 			"1"
 			{
@@ -936,7 +936,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack12OL"
+		"MavenProBlack12OL"
 		{
 			"1"
 			{
@@ -948,7 +948,7 @@ Scheme
 			"outline"	"1"
 			}
 		}
-		"kbnBlack14"
+		"MavenProBlack14"
 		{
 			"1"
 			{
@@ -959,7 +959,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack16"
+		"MavenProBlack16"
 		{
 			"1"
 			{
@@ -970,7 +970,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack18"
+		"MavenProBlack18"
 		{
 			"1"
 			{
@@ -981,7 +981,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack20"
+		"MavenProBlack20"
 		{
 			"1"
 			{
@@ -992,7 +992,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack21"
+		"MavenProBlack21"
 		{
 			"1"
 			{
@@ -1003,7 +1003,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack22"
+		"MavenProBlack22"
 		{
 			"1"
 			{
@@ -1014,7 +1014,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack24"
+		"MavenProBlack24"
 		{
 			"1"
 			{
@@ -1025,7 +1025,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack26"
+		"MavenProBlack26"
 		{
 			"1"
 			{
@@ -1036,7 +1036,18 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack30"
+		"MavenProBlack28"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"28"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProBlack30"
 		{
 			"1"
 			{
@@ -1047,7 +1058,7 @@ Scheme
 			"antialias"	"1"
 			}
 		}
-		"kbnBlack36"
+		"MavenProBlack36"
 		{
 			"1"
 			{

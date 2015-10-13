@@ -50,7 +50,7 @@
         "textAlignment"     "center"
         "dulltext"          "0"
         "brighttext"        "0"
-        "font"              "kbnMedium8"
+        "font"              "MavenProMedium8"
     }
 
 	"ItemEffectMeterLabelShadow"
@@ -71,7 +71,7 @@
         "textAlignment"     "center"
         "dulltext"          "0"
         "brighttext"        "0"
-        "font"              "kbnMedium8"
+        "font"              "MavenProMedium8"
 		"fgcolor" 			"Black"
 	}
 	
@@ -111,7 +111,7 @@
         "textAlignment"     "north"
         "dulltext"          "0"
         "brighttext"        "0"
-        "font"              "kbnMedium12"
+        "font"              "MavenProMedium12"
     }
 	"ItemEffectMeterCountShadow"
     {
@@ -130,7 +130,7 @@
         "textAlignment"     "north"
         "dulltext"          "0"
         "brighttext"        "0"
-        "font"              "kbnMedium12"
+        "font"              "MavenProMedium12"
 		"fgcolor" 			"Black"
 	}
 	

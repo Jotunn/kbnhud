@@ -6,7 +6,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"kbnBlack10"
+		"font"			"MavenProBlack10"
 		"xpos"			"5"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -43,7 +43,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"xpos"			"3"
 		"ypos"			"18"
 		"zpos"			"2"
@@ -90,7 +90,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"fgcolor"		"Black"
 		"xpos"			"-15"
 		"ypos"			"42"

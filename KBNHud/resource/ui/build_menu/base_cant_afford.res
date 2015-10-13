@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"kbnBlack10"
+		"font"			"MavenProBlack10"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"fgcolor"		"RedSolid"
 		"xpos"			"0"
 		"ypos"			"24"
@@ -76,7 +76,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"kbnMedium14"
+		"font"			"MavenProMedium14"
 		"fgcolor"		"RedSolid"
 		"xpos"			"32"
 		"ypos"			"48"
@@ -130,7 +130,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"fgcolor"		"Black"
 		"xpos"			"6"
 		"ypos"			"59"

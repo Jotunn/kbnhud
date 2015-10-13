@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"kbnBlack18"
+		"font"			"MavenProBlack18"
 		"zpos"			"5"
 		"fgcolor_override"	"255 255 255 255"
 	}

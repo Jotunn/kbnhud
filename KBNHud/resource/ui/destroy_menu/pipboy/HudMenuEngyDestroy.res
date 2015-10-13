@@ -114,7 +114,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"kbnBlack20"
+		"font"			"MavenProBlack20"
 		"xpos"			"85"			// align me to the left edge of the first selection
 		"ypos"			"2"
 		"zpos"			"2"

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"kbnBlack10"
+		"font"			"MavenProBlack10"
 		"xpos"			"6"
 		"ypos"			"0"
 		"zpos"			"1"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NotBuiltLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"xpos"			"6"
 		"ypos"			"21"
 		"zpos"			"2"
@@ -61,7 +61,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"UnavailableLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"xpos"			"6"
 		"ypos"			"36"
 		"zpos"			"2"
@@ -97,7 +97,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"fgcolor"		"Black"
 		"xpos"			"6"
 		"ypos"			"49"

@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"HeaderLabel"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"labelText"		"%header%"
 		"textAlignment" 	"north-west"
 		"xpos"			"0"
@@ -31,7 +31,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"labelText"		"#TF_PVE_Collected"
 		"textAlignment" 	"west"
 		"xpos"			"5"
@@ -45,7 +45,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"kbnMedium10"
+		"font"			"MavenProMedium10"
 		"labelText"		"%creditscollected%"
 		"textAlignment" 	"east"
 		"xpos"			"180"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedTextLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"labelText"		"#TF_PVE_Missed"
 		"textAlignment" "west"
 		"xpos"			"5"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditMissedCountLabel"
-		"font"			"kbnMedium10"
+		"font"			"MavenProMedium10"
 		"labelText"		"%creditsmissed%"
 		"textAlignment" "east"
 		"xpos"			"180"
@@ -87,7 +87,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedTextLabel"
-		"font"			"kbnBold10"
+		"font"			"MavenProBold10"
 		"labelText"		"#TF_PVE_Bonus"
 		"textAlignment" "west"
 		"xpos"			"5"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CreditCollectedCountLabel"
-		"font"			"kbnMedium10"
+		"font"			"MavenProMedium10"
 		"labelText"		"%creditbonus%"
 		"textAlignment" "east"
 		"xpos"			"180"

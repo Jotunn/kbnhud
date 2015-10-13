@@ -1,4 +1,4 @@
-"Resource/UI/HudObjectiveFlagPanel.res"
+"Resource/UI/HudObjectivePlayerDestruction.res"
 {	
 	"ObjectiveStatusRobotDestruction"
 	{
@@ -118,11 +118,11 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"CarriedContainer"
-		"xpos"				"c-75"
-		"ypos"				"r137"
+		"xpos"				"0"
+		"ypos"				"r100"
 		"zpos"				"1"
-		"wide"				"150"
-		"tall"				"80"
+		"wide"				"100"
+		"tall"				"100"
 		"visible"			"0"
 		"enabled"			"1"
 		"bgcolor_override"		"0 0 0 0"
@@ -131,14 +131,14 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"CarriedImage"
-			"xpos"			"0"
-			"ypos"			"0"
-			"zpos"			"10"
-			"wide"			"f0"
-			"tall"			"f0"
+			"xpos"			"38"
+			"ypos"			"73"
+			"zpos"			"4"
+			"wide"			"14"
+			"tall"			"14"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/obj_rd_powersupply_outline"
+			"image"			"../hud/hud_obj_status_ammo_64"
 			"scaleImage"	"1"
 			"proportionalToParent"	"1"
 		}	
@@ -149,39 +149,28 @@
 			"ControlName"			"ImagePanel"
 			"xpos"					"0"
 			"ypos"					"0"
-			"zpos"					"10"
+			"zpos"					"0"
 			"wide"					"f0"
 			"tall"					"f0"
 			"scaleimage"			"0"
-			"visible"				"1"
+			"visible"				"0"
 			"proportionalToParent"	"1"
-			"positionImage"			"0"
-			"drawcolor"				"84 111 127 255"
-			"Image"					"../HUD/obj_rd_powersupply_meter"
-
-			"left_offset"			"30"
-			"right_offset"			"30"
-			"standard_color"		"84  111 127 255"
-			"bright_color"			"110 159 189 255"
-			"left_to_right"			"1"
 		}
 
 		"FlagValue"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValue"
-			"xpos"			"c-50"
-			"ypos"			"23"
-			"zpos"			"11"
-			"wide"			"100"
-			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
+			"xpos"			"52"
+			"ypos"			"72"
+			"zpos"			"4"
+			"wide"			"25"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"MavenProBold15"
+			"font"			"MavenProBlack10"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -190,20 +179,63 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"FlagValueShadow"
-			"xpos"			"c-49"
-			"ypos"			"24"
-			"zpos"			"11"
-			"wide"			"100"
-			"tall"			"35"
-			"tall_hidef"	"100"
-			"tall_lodef"	"75"
+			"xpos"			"53"
+			"ypos"			"73"
+			"zpos"			"3"
+			"wide"			"25"
+			"tall"			"15"
 			"visible"		"1"
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"MavenProBold15"
+			"font"			"MavenProBlack10"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
+		}
+
+		"WhiteBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"WhiteBG"
+			"xpos"			"36"
+			"ypos"			"71"
+			"zpos"			"1"
+			"wide"			"40"
+			"tall"			"18"
+			"visible"		"1"
+			"enabled"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"TanLight"
+		}	
+	
+		"GreenBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"GreenBG"
+			"xpos"			"37"
+			"ypos"			"72"
+			"zpos"			"2"
+			"wide"			"38"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"PaintBackgroundType"	"0"
+			"bgcolor_override"	"CreditsGreen"
+		}
+
+		"TeamLeaderImage"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"TeamLeaderImage"
+			"xpos"			"29"
+			"ypos"			"64"
+			"zpos"			"12"
+			"wide"			"15"
+			"tall"			"15"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"importtool_goldstar"
+			"scaleImage"	"1"	
 		}
 	}
 
@@ -249,6 +281,110 @@
 				"proportionalToParent"	"1"
 			}
 
+			"FlagImageBlue"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FlagImageBlue"
+				"xpos"			"15"
+				"ypos"			"8"
+				"zpos"			"4"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/hud_obj_status_ammo_64"
+				"scaleImage"	"1"
+				"proportionalToParent"	"1"
+			}
+
+			"EscrowBlue"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowBlue"
+				"xpos"			"40"
+				"ypos"			"7"
+				"zpos"			"4"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%blue_escrow%"
+				"font"			"MavenProBold16"
+				"fgcolor"		"White"		
+				"proportionalToParent"	"1"
+			}
+			
+			"EscrowBlueShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowBlueShadow"
+				"xpos"			"41"
+				"ypos"			"8"
+				"zpos"			"4"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%blue_escrow%"
+				"font"			"MavenProBold16"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
+			}
+
+			"FlagImageRed"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"FlagImageRed"
+				"xpos"			"271"
+				"ypos"			"8"
+				"zpos"			"4"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"../hud/hud_obj_status_ammo_64"
+				"scaleImage"	"1"
+				"proportionalToParent"	"1"
+			}
+
+			"EscrowRed"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowRed"
+				"xpos"			"235"
+				"ypos"			"7"
+				"zpos"			"4"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%red_escrow%"
+				"font"			"MavenProBold16"
+				"fgcolor"		"White"		
+				"proportionalToParent"	"1"
+			}
+			
+			"EscrowRedShadow"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"EscrowRedShadow"
+				"xpos"			"236"
+				"ypos"			"8"
+				"zpos"			"4"
+				"wide"			"25"
+				"tall"			"16"
+				"visible"		"1"
+				"enabled"		"1"
+				"textAlignment"	"center"	
+				"labelText"		"%red_escrow%"
+				"font"			"MavenProBold16"
+				"fgcolor"		"Black"		
+				"proportionalToParent"	"1"
+			}
+
 			"BlueVictoryContainer"
 			{
 				"fieldName"				"BlueVictoryContainer"
@@ -276,7 +412,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
 					"font"			"MavenProBold16"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"White"		
 					"proportionalToParent"	"1"
 				}
 
@@ -312,7 +448,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"MavenProBold16"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"White"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -420,7 +556,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
 					"font"			"MavenProBold16"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"White"		
 					"proportionalToParent"	"1"
 				}
 
@@ -456,7 +592,7 @@
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
 					"font"			"MavenProBold16"
-					"fgcolor"		"TanLight"		
+					"fgcolor"		"White"		
 					"proportionalToParent"	"1"
 
 					"pin_to_sibling"               "VictoryLabel"
@@ -566,7 +702,7 @@
 				"textAlignment"	"west"	
 				"labelText"		"%score%"
 				"font"			"MavenProBlack30"
-				"fgcolor"		"TanLight"		
+				"fgcolor"		"White"		
 				"proportionalToParent"	"1"
 			}	
 		
@@ -617,7 +753,7 @@
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
 				"font"			"MavenProBlack30"
-				"fgcolor"		"TanLight"	
+				"fgcolor"		"White"	
 				"proportionalToParent"	"1"	
 			}	
 		
@@ -715,7 +851,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"
+				"font"			"MavenProBlack10"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
@@ -734,7 +870,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
+				"font"			"MavenProBlack10"	
 				"fgcolor"		"Black"
 				"proportionalToParent"	"1"
 			}
@@ -815,7 +951,7 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"
+				"font"			"MavenProBlack10"
 				"fgcolor"		"TanLight"		
 				"bgcolor_override"		"0 0 0 0"
 				"proportionalToParent"	"1"
@@ -834,10 +970,94 @@
 				"enabled"		"1"
 				"textAlignment"	"center"	
 				"labelText"		"%intelvalue%"
-				"font"			"HudFontSmallishBold"	
+				"font"			"MavenProBlack10"	
 				"fgcolor"		"Black"	
 				"proportionalToParent"	"1"
 			}
+		}
+	}
+
+	"CountdownContainer"
+	{
+		"fieldName"				"CountdownContainer"
+		"ControlName"			"EditablePanel"
+		"xpos"					"c-150"
+		"ypos"					"r110"
+		"zpos"					"1"
+		"wide"					"300"
+		"tall"					"110"
+		"visible"				"0"
+		"enabled"				"1"
+		"proportionalToParent"	"1"
+
+		"Background"
+		{
+			"ControlName"	"CTFImagePanel"
+			"fieldName"		"Background"
+			"xpos"			"105"
+			"ypos"			"10"
+			"zpos"			"1"
+			"wide"			"90"
+			"tall"			"45"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/ammo_blue_bg"
+			"scaleImage"	"1"	
+			"teambg_2"		"../hud/ammo_red_bg"
+			"teambg_3"		"../hud/ammo_blue_bg"
+			"proportionalToParent"	"1"
+		}
+
+		"CountdownImage"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"CountdownImage"
+			"xpos"			"115"
+			"ypos"			"15"
+			"zpos"			"2"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"0"
+			"enabled"		"1"
+			"image"			"../hud/arrow_big_down"
+			"scaleImage"		"1"	
+			"proportionalToParent"	"1"
+		}
+		
+		"CountdownLabelTime"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTime"
+			"xpos"			"150"
+			"ypos"			"17"
+			"zpos"			"8"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"MavenProBlack24"
+			"fgcolor"		"TanLight"		
+			"proportionalToParent"	"1"
+		}
+
+		"CountdownLabelTimeTimeShadow"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"CountdownLabelTimeTimeShadow"
+			"xpos"			"151"
+			"ypos"			"18"
+			"zpos"			"7"
+			"wide"			"35"
+			"tall"			"35"
+			"visible"		"1"
+			"enabled"		"1"
+			"textAlignment"	"center"	
+			"labelText"		"%countdowntime%"
+			"font"			"MavenProBlack24"
+			"fgcolor"		"Black"		
+			"proportionalToParent"	"1"
 		}
 	}
 }

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapCountdownLabel"
-		"font"			"kbnBold16"
+		"font"			"MavenProBold16"
 		"xpos"			"0"
 		"ypos"			"-2"
 		"zpos"			"1"

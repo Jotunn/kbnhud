@@ -102,7 +102,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -133,7 +133,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -164,7 +164,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -195,7 +195,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -263,7 +263,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"kbnBlack14"
+		"font"			"MavenProBlack14"
 		"fgcolor"		"White"
 		
 		"if_hybrid"

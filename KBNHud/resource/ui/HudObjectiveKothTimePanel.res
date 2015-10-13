@@ -17,13 +17,13 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"kbnBlack14"
+		"delta_item_font"		"MavenProBlack14"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"kbnBlack20"
+			"font"			"MavenProBlack20"
 			"fgcolor"		"TanLight"
 			"xpos"			"32"
 			"ypos"			"11"
@@ -54,13 +54,13 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"kbnBlack20"
+		"delta_item_font"		"MavenProBlack20"
 		
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"kbnBlack20"
+			"font"			"MavenProBlack20"
 			"fgcolor"		"TanLight"
 			"xpos"			"32"
 			"ypos"			"11"

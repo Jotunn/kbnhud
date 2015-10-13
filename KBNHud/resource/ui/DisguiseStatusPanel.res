@@ -73,7 +73,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"kbnBlack10"
+		"font"			"MavenProBlack10"
 		"xpos"			"50"
 		"ypos"			"14"
 		"zpos"			"1"
@@ -91,7 +91,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"kbnBlack10"
+		"font"			"MavenProBlack10"
 		"xpos"			"51"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -110,7 +110,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"kbnBlack9"
+		"font"			"MavenProBlack9"
 		"xpos"			"24"
 		"ypos"			"26"
 		"zpos"			"1"

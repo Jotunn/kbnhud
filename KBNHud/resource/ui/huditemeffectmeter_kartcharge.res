@@ -53,7 +53,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor"				"White"
-		"font"					"kbnBlack20"
+		"font"					"MavenProBlack20"
 	}
 
 	"ItemEffectMeter"
@@ -92,7 +92,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"kbnBlack24"
+		"font"					"MavenProBlack24"
 		"fgcolor"				"White"
 	}
 }

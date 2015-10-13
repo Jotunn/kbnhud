@@ -87,7 +87,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetNameLabel"
-		"font"				"kbnBlack10"
+		"font"				"MavenProBlack10"
 		"xpos"				"55"
 		"ypos"				"7"
 		"zpos"				"1"
@@ -108,7 +108,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"			"TargetDataLabel"
-		"font"				"kbnBlack9"
+		"font"				"MavenProBlack9"
 		"xpos"				"55"
 		"ypos"				"19"
 		"zpos"				"1"

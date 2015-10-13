@@ -45,7 +45,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"		"CapNumPlayers"
-		"font"			"kbnBold14"
+		"font"			"MavenProBold14"
 		"xpos"			"7"
 		"ypos"			"-6"
 		"zpos"			"4"

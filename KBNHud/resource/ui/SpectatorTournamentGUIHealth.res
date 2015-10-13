@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"kbnBold14"
+		"font"			"MavenProBold14"
 		"fgcolor"		"235 226 202 255"
 	}				
 }

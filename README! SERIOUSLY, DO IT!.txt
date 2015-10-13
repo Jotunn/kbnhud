@@ -1,6 +1,6 @@
-######################################################################
-#-----KBNHUD v415 - I live in a Bag Edition - README-----#############
-######################################################################
+################################################################
+#-----KBNHUD v416 - Learnding Edition - README-----#############
+################################################################
 
 
 # Hello, and again welcome to the instructional readme file.
@@ -62,6 +62,17 @@
 ###############################
 #-------How to Install:-------#
 ###############################
+
+
+#############################
+#-MAKING .vpk INSTALL WORK:-#
+#############################
+
+-Cut the "fonts" folder from inside "resource". Create a new folder inside "custom" called KBNHud fonts, and create a new "resource" folder inside that. 
+-Paste the "fonts" folder in there. Then run the main KBNHud folder through vpk.exe and install that. 
+-Your "custom" folder should look like this: http://i.imgur.com/WewuqEH.png
+
+Thanks to Calcium (http://steamcommunity.com/id/TheCalcium) for this info.
 
 ############
 #-WINDOWS:-#

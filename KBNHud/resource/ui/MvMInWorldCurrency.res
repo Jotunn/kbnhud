@@ -24,7 +24,7 @@
 		"zpos"			"2"
 		"wide"			"57"
 		"tall"			"15"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"221 182 72 250"	
@@ -40,7 +40,7 @@
 		"wide"		"15"
 		"tall"		"15"
 		"image"			"../HUD/mvm_cash"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"	"1"
 	}
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyGood"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"18"
 		"ypos"			"6"
@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyBad"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"fgcolor"		"255 0 0 255"
 		"xpos"			"18"
 		"ypos"			"6"

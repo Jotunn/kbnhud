@@ -71,7 +71,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold36"
+		"font"			"MavenProBold36"
 		"fgcolor"		"TanLight"
 	}	
 		
@@ -88,7 +88,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold36"
+		"font"			"MavenProBold36"
 		"fgcolor"		"HUDBlueTeam"
 	}	
 							
@@ -105,7 +105,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold36"
+		"font"			"MavenProBold36"
 		"fgcolor"		"TanLight"		
 	}	
 		
@@ -122,7 +122,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold36"
+		"font"			"MavenProBold36"
 		"fgcolor"		"Red"		
 	}
 
@@ -143,7 +143,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"PlayingTo"
 			"xpos"			"c-70"
-			"ypos"			"r57"
+			"ypos"			"r47"
 			"zpos"			"4"
 			"wide"			"140"
 			"tall"			"30"
@@ -153,7 +153,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"kbnBlack14"
+			"font"			"MavenProBlack14"
 			"fgcolor"		"TanLight"
 		}	
 				
@@ -162,7 +162,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PlayingToBG"
 			"xpos"			"c-75"
-			"ypos"			"r60"
+			"ypos"			"r50"
 			"zpos"			"3"
 			"wide"			"150"
 			"tall"			"30"

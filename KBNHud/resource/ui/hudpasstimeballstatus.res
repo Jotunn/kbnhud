@@ -153,12 +153,12 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"ProgressBallCarrierName"
-		//font					TargetID
+		"font"					"MavenProBold10"
 		"visible"				"1"
 		"enabled"				"1"
 		"zpos"					"-400"
 		"xpos"					"0"
-		"ypos"					"0"
+		"ypos"					"11"
 		"wide"					"150"
 		"tall"					"16"
 		"textAlignment"			"center"

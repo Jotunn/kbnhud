@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play weapons/breadmonster/sapper/bm_sapper_scream_01"
+        "command" "engine play items/scout_boombox_05"
         "label" "                         "
     }
 	"TrainingButton"

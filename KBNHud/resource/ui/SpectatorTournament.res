@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"kbnBold12"
+				"font"			"MavenProBold12"
 				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -227,7 +227,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"kbnBold12"
+				"font"			"MavenProBold12"
 				"xpos"			"5"
 				"ypos"			"5"
 				"zpos"			"5"
@@ -245,7 +245,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"kbnBold12"
+				"font"			"MavenProBold12"
 				"xpos"			"6"
 				"ypos"			"6"
 				"zpos"			"5"
@@ -282,7 +282,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"kbnBold12"
+				"font"			"MavenProBold12"
 				"xpos"			"130"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -299,7 +299,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"kbnBold12"
+				"font"			"MavenProBold12"
 				"xpos"			"131"
 				"ypos"			"3"
 				"zpos"			"6"

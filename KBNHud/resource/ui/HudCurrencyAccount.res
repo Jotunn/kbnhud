@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Currency"
-		"font"			"kbnBlack18"
+		"font"			"MavenProBlack18"
 		"fgcolor"		"CreditsGreen"
 		"xpos"			"2"
 		"ypos"			"1"
@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurrencyShadow"
-		"font"			"kbnBlack18"
+		"font"			"MavenProBlack18"
 		"fgcolor"		"Black"
 		"xpos"			"3"
 		"ypos"			"2"

@@ -58,7 +58,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"White"
 	}	
 		
@@ -75,7 +75,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"HUDBlueTeamSolid"
 	}	
 							
@@ -92,7 +92,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"White"		
 	}	
 		
@@ -109,7 +109,7 @@
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
-		"font"			"kbnBold30"
+		"font"			"MavenProBold30"
 		"fgcolor"		"HUDRedTeamSolid"		
 	}
 															
@@ -128,7 +128,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"kbnBlack14"
+		"font"			"MavenProBlack14"
 		"fgcolor"		"White"
 	}	
 			

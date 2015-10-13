@@ -39,7 +39,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClip"
-		"font"			"kbnBlack24"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Ammo in clip"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -56,7 +56,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInClipShadow"
-		"font"			"kbnBlack24"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 		"xpos"			"1"
 		"ypos"			"6"
@@ -73,7 +73,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
-		"font"			"kbnMedium16"
+		"font"			"MavenProMedium16"
 		"fgcolor"		"Ammo in reserve"
 		"xpos"			"25"
 		"ypos"			"16"
@@ -89,7 +89,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserveShadow"
-		"font"			"kbnMedium16"
+		"font"			"MavenProMedium16"
 		"fgcolor"		"Black"
 		"xpos"			"26"
 		"ypos"			"17"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClip"
-		"font"			"kbnBlack24"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Ammo in clip"
 		"xpos"			"0"
 		"ypos"			"5"
@@ -122,7 +122,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow"
-		"font"			"kbnBlack24"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 		"xpos"			"1"
 		"ypos"			"6"
@@ -139,7 +139,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoNoClipShadow2"
-		"font"			"kbnBlack24"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 		"xpos"			"-1"
 		"ypos"			"5"

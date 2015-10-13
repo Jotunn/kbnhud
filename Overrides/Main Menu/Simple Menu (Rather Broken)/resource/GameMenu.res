@@ -19,7 +19,7 @@
 		"label" "PLAY COOP" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		//"OnlyAtMenu" "1"
 	}
 	"ServerBrowserButton"
 	{
@@ -83,6 +83,13 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
+	"QuitButtonHidden"
+	{
+		"label"			"QUIT"
+		"command"		"quit"
+		"subimage"		"glyph_close_X"
+		"OnlyInGame"	"1"
+	}
 	"ResumeGameButton"
 	{
 		"label"			"RESUME GAME"

@@ -102,7 +102,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"kbnBold30"
+			"font"			"MavenProBold30"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"20"
@@ -120,7 +120,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamLabelShadow"
-			"font"			"kbnBold30"
+			"font"			"MavenProBold30"
 			"labelText"		"%blueteamname%"
 			"textAlignment"	"west"
 			"xpos"			"21"
@@ -138,7 +138,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"kbnMedium50"
+			"font"			"MavenProMedium50"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
 			"xpos"			"63"
@@ -156,7 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"BlueTeamScoreDropshadow"
-			"font"			"kbnMedium50"
+			"font"			"MavenProMedium50"
 			"fgcolor"		"Black"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"	"east"
@@ -175,7 +175,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"kbnBold30"
+			"font"			"MavenProBold30"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"xpos"			"180"
@@ -193,7 +193,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamLabelShadow"
-			"font"			"kbnBold30"
+			"font"			"MavenProBold30"
 			"labelText"		"%redteamname%"
 			"textAlignment"	"east"
 			"fgcolor"		"Black"
@@ -211,7 +211,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"kbnMedium50"
+			"font"			"MavenProMedium50"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
 			"xpos"			"155"
@@ -229,7 +229,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RedTeamScoreDropshadow"
-			"font"			"kbnMedium50"
+			"font"			"MavenProMedium50"
 			"fgcolor"		"Black"
 			"labelText"		"%redteamscore%"
 			"textAlignment"	"west"
@@ -337,7 +337,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabel"
-		"font"			"kbnMedium21"		//"ScoreboardTeamName"
+		"font"			"MavenProMedium21"		//"ScoreboardTeamName"
 		"xpos"			"-6"
 		"ypos"			"66"
 		"zpos"			"4"
@@ -356,7 +356,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"WinningTeamLabelDropshadow"
-		"font"			"kbnMedium21"
+		"font"			"MavenProMedium21"
 		"fgcolor"		"black"
 		"xpos"			"-6"
 		"ypos"			"68"

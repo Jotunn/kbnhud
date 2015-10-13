@@ -26,7 +26,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabel"
-		"font"			"kbnBlack16"
+		"font"			"MavenProBlack16"
 		"fgcolor"		"TanLight"
 		"xpos"			"198"
 		"ypos"			"0"
@@ -42,7 +42,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"WaveCountLabelShadow"
-		"font"			"kbnBlack16"
+		"font"			"MavenProBlack16"
 		"fgcolor"		"Black"
 		"xpos"			"199"
 		"ypos"			"1"

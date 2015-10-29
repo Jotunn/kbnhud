@@ -1,40 +1,27 @@
-###################################################################
-#----KBNHUD v416 - Learnding Edition - CHANGELOG----###############
-###################################################################
+############################################################################
+#----KBNHUD v417 - Some Quality Drugs Edition - CHANGELOG----###############
+############################################################################
 
 #####################################################################
 #-----ADDED-----#####################################################
 #####################################################################
 
 
-
+-Mannpower PowerUp icons
 
 #####################################################################
 #----CHANGED----#####################################################
 #####################################################################
 
--Renamed all instances of the main font from kbn to actual font name,
-MavenPro (i.e kbnBlack12 is now MavenProBlack12)
--Placement of MvM power canteen counter to be below currency counters
--Moved some parts of MvM scoreboard (moved and enlarged map name and
-campaign name)
--Removed yellow background from missed currency counter
--Fixed most of Robot Destruction HUD, further modification would require
-me making whole new images to work with, so this is unlikely
--Minor edits to robot destruction HUD, not able to do too much given
-that further edits would require me to create custom images for meters
-and other elements
--Player Destruction edits that are very similar to edits made to robot
-destruction, mentioned above
+
 
 #####################################################################
 #-----FIXED-----#####################################################
 #####################################################################
 
 
--Numerous small things, too many to list individually
--A few console errors
--Most, if not all issues caused by Invasion Update
+-Stuff for Scream Fortress 2015
+-Font issues in all overrides
  
 #####################################################################
 #----REMOVED----#####################################################

@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play items/scout_boombox_05"
+        "command" "engine play ui/halloween_boss_defeated.wav"
         "label" "                         "
     }
 	"TrainingButton"

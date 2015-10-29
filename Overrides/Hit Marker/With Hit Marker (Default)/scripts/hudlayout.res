@@ -34,7 +34,7 @@
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
@@ -52,7 +52,7 @@
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
-		"fgcolor"		"0 0 0 255"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair3

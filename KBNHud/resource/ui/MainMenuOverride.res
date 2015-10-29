@@ -120,6 +120,60 @@
 		}
 	}	
 	
+	"mouseoveritempanel"
+	{
+		"ControlName"	"CItemModelPanel"
+		"fieldName"		"mouseoveritempanel"
+		"xpos"			"c-70"
+		"ypos"			"270"
+		"zpos"			"100"
+		"wide"			"300"
+		"tall"			"300"
+		"visible"		"0"
+		"bgcolor_override"		"0 0 0 0"
+		"noitem_textcolor"		"117 107 94 255"
+		"PaintBackgroundType"	"0"
+		"paintborder"	"0"
+		
+		"text_ypos"			"20"
+		"text_center"		"1"
+		"model_hide"		"1"
+		"resize_to_text"	"1"
+		"padding_height"	"25"
+		
+		"BG"
+    	{
+    		"ControlName"			"ImagePanel"
+    		"fieldName"			"BG"
+    		"xpos"				"0"
+    		"ypos"				"0"
+    		"zpos"				"-10"
+    		"wide"				"f0"
+    		"tall"	 			"f0"
+    		"visible"			"1"
+    		"enabled"			"1"
+    		"fillcolor"			"55 55 55 255"
+    	}
+		
+		"attriblabel"
+		{
+			"font"			"ItemFontAttribLarge"
+			"xpos"			"0"
+			"ypos"			"30"
+			"zpos"			"2"
+			"wide"			"140"
+			"tall"			"60"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%attriblist%"
+			"textAlignment"	"center"
+			"fgcolor"		"180 170 140 255"
+			"centerwrap"	"1"
+		}
+	}
+	
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
@@ -150,6 +204,10 @@
 		{
 			"image"		"../console/title_team_halloween2014"
 		}
+		if_halloween_4
+		{
+			"image"		"../console/title_team_halloween2015"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon"
@@ -161,6 +219,10 @@
 		if_eotl_launch
 		{
 			"image"		"../console/title_eotl01"
+		}
+		if_operation
+		{
+			"image"		"../console/title_team_halloween2015"
 		}
 		if_community_update
 		{
@@ -290,7 +352,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"HudFontMediumSmallBold"
-		"labelText"		"KBNHud v416"
+		"labelText"		"KBNHud v417"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -4342,11 +4404,184 @@
 		}		
 	}
 	
+	"EventPromo"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"EventPromo"
+		"xpos"			"c0"
+		"ypos"			"0"
+		"zpos"			"-60"
+		"wide"			"320"
+		"tall"			"f0"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+
+			
+		"EventImage"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"EventImage"
+			"xpos"					"cs-0.5"
+			"ypos"					"50"
+			"zpos"					"-1"
+			"wide"					"p0.9"
+			"tall"					"o1"
+			"visible"				"0"
+			"enabled"				"1"
+			"image"					"menu_background_eotl_duck"
+			"scaleImage"			"1"
+			"proportionaltoparent"	"1"
+		}	
+
+
+		"Background"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"Background"
+			"xpos"			"cs-0.5"
+			"ypos"			"300"
+			"zpos"			"0"
+			"wide"			"p0.8"
+			"tall"			"120"
+			"visible"		"1"
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+
+			"paintborder"	"1"
+			"border"		"MainMenuBGBorder"
+
+			"OperationTitleLabel"
+			{
+				"ControlName"	"CExLabel"
+				"fieldName"		"OperationTitleLabel"
+				"font"			"HudFontSmallBold"
+				"labelText"		"#MMenu_Update"
+				"textAlignment"	"west"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"30"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"textinsetx"	"20"
+				"fgcolor_override"	"235 227 203 255"
+			}
+
+			"ViewDetailsButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewDetailsButton"
+				"xpos"			"p0.02"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateDetails"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_page"
+					"actionsignallevel"	"4"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+				
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				
+					"image_drawcolor"	"117 107 94 255"
+					"image_armedcolor"	"235 226 202 255"
+				}
+			}
+			
+			"ViewComicButton"
+			{
+				"ControlName"	"EditablePanel"
+				"fieldname"		"ViewComicButton"
+				"xpos"			"p0.5"
+				"ypos"			"27"
+				"zpos"			"11"
+				"wide"			"p0.48"
+				"tall"			"26"
+				"visible"		"1"
+				"PaintBackgroundType"	"0"
+				"proportionaltoparent"	"1"
+
+				"SubButton"
+				{
+					"ControlName"	"CExImageButton"
+					"fieldName"		"SubButton"
+					"xpos"			"cs-0.5"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
+					"autoResize"	"0"
+					"pinCorner"		"3"
+					"visible"		"1"
+					"enabled"		"1"
+					"tabPosition"	"0"
+					"use_proportional_insets" "1"
+					"font"			"HudFontSmallBold"
+					"textAlignment"	"center"
+					"dulltext"		"0"
+					"brighttext"	"0"
+					"default"		"1"
+					"sound_depressed"	"UI/buttonclick.wav"
+					"sound_released"	"UI/buttonclickrelease.wav"
+					"labeltext"		"#MMenu_ViewUpdateComic"
+					"proportionaltoparent"	"1"
+					"command"		"view_update_comic"
+					"actionsignallevel"	"4"
+			
+					"border_default"	"MainMenuButtonDefault"
+					"border_armed"		"MainMenuButtonArmed"
+					"paintbackground"	"0"
+					
+					"defaultFgColor_override" "46 43 42 255"
+					"armedFgColor_override" "235 226 202 255"
+					"depressedFgColor_override" "46 43 42 255"
+				
+					"image_drawcolor"	"117 107 94 255"
+					"image_armedcolor"	"235 226 202 255"
+				}
+			}
+
+			"CyclingAd"
+			{
+				"ControlName"			"CCyclingAdContainerPanel"
+				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"25"
+				"ypos"					"p0.47"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"60"
+				"tall"					"p0.5"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4358,37 +4593,22 @@
 				{
 					"0"
 					{
-						"item"		"Unused Invasion Pass"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Halloween 2015 Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Invasion Key"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
-						"show_market"	"0"
+						"item"		"Halloween 2015 case"
 					}
 					"2"
 					{
-						"item"		"Invasion Case 01"
-
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Zoomin' Broom"
+						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Invasion Case 02"
-						
-						"wide"		"f0"
-						"tall"		"f0"
-						"proportionaltoparent"	"1"
+						"item"		"Taunt: Maggot's Condolence"
+						"show_market"	"0"
 					}
 				}
 			}

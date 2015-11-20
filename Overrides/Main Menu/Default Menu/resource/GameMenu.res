@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play items/scout_boombox_05"
+        "command" "engine play ambient/cow1.wav"
         "label" "                         "
     }
 	"TrainingButton"

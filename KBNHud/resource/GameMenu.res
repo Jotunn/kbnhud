@@ -64,7 +64,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play ui/halloween_boss_defeated.wav"
+        "command" "engine play ambient/cow1.wav"
         "label" "                         "
     }
 	"TrainingButton"

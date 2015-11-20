@@ -49,7 +49,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/sniper_domination03"
+        "command" "engine play ambient/cow1.wav"
         "label" "                         "
     }
 	"TrainingButton"

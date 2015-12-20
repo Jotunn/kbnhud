@@ -21,6 +21,14 @@
 		"subimage" "glyph_coop"
 		//"OnlyAtMenu" "1"
 	}
+	"PlayCompetitiveButton"
+	{
+		"label" "#MMenu_PlayComp" 
+		"command" "ladder_ui_show"
+		"subimage" "glyph_practice"
+		"OnlyAtMenu" "1"
+		"OnlyWhenCompetitiveEnabled" "1"
+	}
 	"ServerBrowserButton"
 	{
 		"label" "#MMenu_Servers"	//"#MMenu_BrowseServers" 
@@ -64,7 +72,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play ambient/cow1.wav"
+        "command" "engine play ui/hitsound_beepo"
         "label" "                         "
     }
 	"TrainingButton"

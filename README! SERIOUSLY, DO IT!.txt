@@ -1,5 +1,5 @@
 ##########################################################################
-#-----KBNHUD v417A2 - Nuka-Cola Quantum Edition - README-----#############
+#-----KBNHUD v418 - Forgot how to Human Edition - README-----#############
 ##########################################################################
 
 
@@ -37,6 +37,7 @@
 -Color customization is the same as before.
 -Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair.
 -The following link has the guide for which letter or symbol enables which crosshair: https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png
+-You can also change the font line to read KnucklesCrosses for a different set of crosshairs that you can use. Link for crosshair guide: http://i.imgur.com/w0AcH2l.png
 
 
 ################################

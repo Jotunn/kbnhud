@@ -63,13 +63,13 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
+		"xpos"			"c-13"
+		"ypos"			"c-13"
 		"wide"			"27"
 		"tall"			"27"
 
-		"font"			"HudCrossHair"
-		"labelText"		"`"
+		"font"			"KnucklesCrosses"
+		"labelText"		"9"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -81,13 +81,13 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
+		"xpos"			"c-13"
+		"ypos"			"c-13"
 		"wide"			"27"
 		"tall"			"27"
 
-		"font"			"HudCrossHair"
-		"labelText"		"`"
+		"font"			"KnucklesCrosses"
+		"labelText"		"9"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -1523,5 +1523,27 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	"MatchMakingContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"MatchMakingContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+	}
+
+	HudSpectatorExtras
+	{
+		"fieldName" "HudSpectatorExtras"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
 	}
 }

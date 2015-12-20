@@ -98,6 +98,7 @@ Scheme
 		"BlueSolid"					"0 28 162 255"
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
+		"Bright Yellow"				"251 235 0 255"
 		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
 		
@@ -527,6 +528,17 @@ Scheme
 			{
 				"name"		"Crosshairs"
 				"tall"		"28"
+				"weight"	"0"
+				"additive"	"0"
+				"outline" "1"
+			}
+		}
+		"KnucklesCrosses"
+		{
+			"1"
+			{
+				"name"		"KnucklesCrosses"
+				"tall"		"18"
 				"weight"	"0"
 				"additive"	"0"
 				"outline" "1"
@@ -2802,6 +2814,20 @@ Scheme
 				"additive"	"0"
 			}
 		}
+		"ScoreboardTeamNameNew"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"tall_hidef"	"24"
+				"tall_lodef"	"24"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamNameLarge"
 		{
 			"1"
@@ -2816,7 +2842,18 @@ Scheme
 				"additive"	"0"
 			}
 		}
-
+		"ScoreboardTeamScoreNew"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"tall_hidef"	"48"
+				"weight"	"500"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
 		"ScoreboardTeamScore"
 		{
 			"1"
@@ -3753,6 +3790,11 @@ Scheme
 		{
 		"font" "resource/fonts/ocra.ttf"
 		"name" "ocra"
+		}
+		"16"
+		{
+		"font" "resource/fonts/KnucklesCrosses.ttf"
+		"name" "KnucklesCrosses"
 		}
 	}
 	//

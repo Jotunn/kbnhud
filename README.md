@@ -69,6 +69,8 @@ see should say "xHairCirclePulse".
 
 -__[Click here to see which character enables which crosshair](https://dl.dropboxusercontent.com/u/21833101/crosshairsv3.png)__
 
+--You can also change the font line to read KnucklesCrosses for a different set of crosshairs that you can use. [Click here to see which character enables which crosshair](http://i.imgur.com/w0AcH2l.png)
+
 
 **Server Shortcut Buttons**
 

@@ -5,27 +5,28 @@
 		"ControlName"		"CTFClientScoreBoardDialog"
 		"fieldName"		"scoreinfo"
 		"xpos"			"c-300"
-		"xpos_lodef"	"34"
-		"xpos_hidef"	"4"
 		"ypos"			"0"
 		"ypos_minmode"	"0"
-		"wide"			"600"
-		"wide_lodef"	"560"
-		"wide_hidef"	"620"
+		"wide"			"640"
 		"tall"			"516"
-		"tall_minmode"		"516"
+		"tall_minmode"		"520"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"avatar_width"		"57"
-		"name_width"		"75"
-		"status_width"		"15"
-		"nemesis_width"		"15"
-		"class_width"		"15"
-		"score_width"		"25"
+		"avatar_width"		"65"
+		"spacer"			"5"
+		"name_width"		"200"
+		"name_width_short"	"200"
+		"nemesis_width"		"25"
+		"class_width"		"25"
+		"score_width"		"30"
+		"ping_width"		"25"
+		"stats_width"		"30"
+		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
 	}
 	"BlueScoreBG"
 	{
@@ -112,7 +113,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"fgcolor" "White"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"
@@ -135,7 +136,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "White"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -160,7 +161,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "black"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
@@ -187,7 +188,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
 		"font"			"m0refont16"
-		"font_minmode"		"kbnBold10"
+		"font_minmode"		"MavenProBold10"
 		"fgcolor" "White"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"east"
@@ -210,7 +211,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"fgcolor" "White"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
@@ -233,7 +234,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "White"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -261,7 +262,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "black"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
@@ -291,7 +292,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
 		"font"			"m0refont16"
-		"font_minmode"		"kbnBold10"
+		"font_minmode"		"MavenProBold10"
 		"fgcolor" "White"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
@@ -316,8 +317,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"kbnBold14"
-		"font_minmode"		"kbnBold12"
+		"font"			"MavenProBold14"
+		"font_minmode"		"MavenProBold12"
 		"fgcolor" "White"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -341,8 +342,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"kbnBold14"
-		"font_minmode"		"kbnBold12"
+		"font"			"MavenProBold14"
+		"font_minmode"		"MavenProBold12"
 		"fgcolor" "black"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
@@ -363,6 +364,28 @@
         {
             "visible"   "0"
         }
+	}
+	"ServerTimeLeft"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"ServerTimeLeft"
+		"font"			"ScoreboardVerySmall"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"east"
+		"xpos"			"305"
+		"ypos"			"60"
+		"wide"			"300"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"ypos"			"0"
+			"visible"		"1"
+		}
 	}
 	"BlackBG"
 	{
@@ -392,8 +415,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"kbnBold11"
-		"font_minmode"		"kbnBold10"
+		"font"			"MavenProBold11"
+		"font_minmode"		"MavenProBold10"
 		"fgcolor" "White"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
@@ -418,8 +441,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"kbnBold11"
-		"font_minmode"		"kbnBold10"
+		"font"			"MavenProBold11"
+		"font_minmode"		"MavenProBold10"
 		"fgcolor" "black"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
@@ -528,8 +551,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"kbnBold8"
-		"font_minmode"		"kbnBold8"
+		"font"			"MavenProBold8"
+		"font_minmode"		"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -554,8 +577,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsS"
-		"font"			"kbnBold8"
-		"font_minmode"		"kbnBold8"
+		"font"			"MavenProBold8"
+		"font_minmode"		"MavenProBold8"
 		"fgcolor" "Black"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
@@ -580,8 +603,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"kbnBold8"
-		"font_minmode"		"kbnMedium9"
+		"font"			"MavenProBold8"
+		"font_minmode"		"MavenProMedium9"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"48"
@@ -645,12 +668,205 @@
 		"image"			"../hud/class_scoutred"
 		"scaleImage"		"1"	
 	}
+	"classmodelpanel"
+	{
+		"ControlName"	"CTFPlayerModelPanel"
+		"fieldName"		"classmodelpanel"
+		
+		"xpos"			"9999999"
+		"ypos"			"9999999"
+		"zpos"			"10"		
+		"wide"			"130"
+		"tall"			"260"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		
+		"render_texture"	"0"
+		"fov"			"12"
+		"allow_rot"		"1"
+
+		"disable_speak_event"	"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+				
+		"model"
+		{
+			"force_pos"	"1"
+
+			"angles_x" "0"
+			"angles_y" "172"
+			"angles_z" "0"
+			"origin_x" "200"
+			"origin_y" "0"
+			"origin_z" "-60"
+			"frame_origin_x"	"0"
+			"frame_origin_y"	"0"
+			"frame_origin_z"	"0"
+			"spotlight" "1"
+		
+			"modelname"		""
+			
+			"animation"
+			{
+				"name"		"PRIMARY"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+				"default"	"1"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY"
+				"activity"	"ACT_MP_STAND_SECONDARY"
+			}
+			"animation"
+			{
+				"name"		"MELEE"
+				"activity"	"ACT_MP_STAND_MELEE"
+			}
+			"animation"
+			{
+				"name"		"BUILDING"
+				"activity"	"ACT_MP_STAND_BUILDING"
+			}
+			"animation"
+			{
+				"name"		"PDA"
+				"activity"	"ACT_MP_STAND_PDA"
+			}
+			"animation"
+			{
+				"name"		"ITEM1"
+				"activity"	"ACT_MP_STAND_ITEM1"
+			}						
+			"animation"
+			{
+				"name"		"ITEM2"
+				"activity"	"ACT_MP_STAND_ITEM2"
+			}									
+			"animation"
+			{
+				"name"		"MELEE_ALLCLASS"
+				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
+			}
+			"animation"
+			{
+				"name"		"PRIMARY2"
+				"activity"	"ACT_MP_STAND_PRIMARY"
+			}
+			"animation"
+			{
+				"name"		"SECONDARY2"
+				"activity"	"ACT_MP_STAND_SECONDARY2"
+			}
+		}
+
+		"customclassdata"
+		{
+			"undefined"
+			{
+			}
+			"Scout"
+			{
+				"fov"			"25"
+				"angles_x"		"-17"
+				"angles_y"		"145"
+				"angles_z"		"0"
+				"origin_x"		"105"
+				"origin_y"		"4"
+				"origin_z"		"-82"
+			}
+			"Sniper"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"130"
+				"origin_y"		"-3"
+				"origin_z"		"-97"
+			}
+			"Soldier"
+			{
+				"fov"			"25"
+				"angles_x"		"-10"
+				"angles_y"		"170"
+				"angles_z"		"0"
+				"origin_x"		"145"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Demoman"
+			{
+				"fov"			"25"
+				"angles_x"		"-13"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"138"
+				"origin_y"		"-4"
+				"origin_z"		"-93"
+			}
+			"Medic"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"178"
+				"angles_z"		"0"
+				"origin_x"		"150"
+				"origin_y"		"-5"
+				"origin_z"		"-96"
+			}
+			"Heavy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"200"
+				"angles_z"		"0"
+				"origin_x"		"200"
+				"origin_y"		"0"
+				"origin_z"		"-102"
+			}
+			"Pyro"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"172"
+				"angles_z"		"0"
+				"origin_x"		"175"
+				"origin_y"		"-5"
+				"origin_z"		"-90"
+			}
+			"Spy"
+			{
+				"fov"			"20"
+				"angles_x"		"-5"
+				"angles_y"		"160"
+				"angles_z"		"0"
+				"origin_x"		"160"
+				"origin_y"		"0"
+				"origin_z"		"-95"
+			}
+			"Engineer"
+			{
+				"fov"			"20"
+				"angles_x"		"-10"
+				"angles_y"		"168"
+				"angles_z"		"0"
+				"origin_x"		"140"
+				"origin_y"		"-2"
+				"origin_z"		"-82"
+			}
+		}
+	}
 	"PlayerNameLabel"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"kbnBold9"
-		"font_minmode"		"kbnBold9"
+		"font"			"MavenProBold9"
+		"font_minmode"		"MavenProBold9"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -694,7 +910,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"kbnBold12"
+		"font"			"MavenProBold12"
 		"labelText"		"%mapname%"
 		"textAlignment"		"center"
 		"xpos"			"45"
@@ -715,8 +931,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"gametype"
-		"font"			"kbnBold9"
-		"font_minmode"		"kbnBold10"
+		"font"			"MavenProBold9"
+		"font_minmode"		"MavenProBold10"
 		"labelText"		"%gametype%"
 		"textAlignment"		"center"
 		"textAlignment_minmode"	"east"
@@ -743,7 +959,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerScoreLabel"
 		"font"			"ScoreboardMedium"
-		"font_minmode"		"kbnBold9"
+		"font_minmode"		"MavenProBold9"
 		"labelText"		"%playerscore%"
 		"textAlignment"	"east"
 		"xpos"			"440"
@@ -784,7 +1000,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
 			"font"			"ScoreboardSmall"
-			"font_minmode"		"kbnMedium9"
+			"font_minmode"		"MavenProMedium9"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -882,8 +1098,8 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"east"
-				"font"			"kbnbold24"
-				"font_minmode"		"kbnbold12"
+				"font"			"MavenProbold24"
+				"font_minmode"		"MavenProbold12"
 			}
 			"Score"
 			{
@@ -903,8 +1119,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"kbnbold24"
-				"font_minmode"		"kbnbold18"
+				"font"			"MavenProbold24"
+				"font_minmode"		"MavenProbold18"
 			}
 		}
 		"OpponentData"
@@ -972,8 +1188,8 @@
 				"wrap"			"0"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"font"			"kbnbold24"
-				"font_minmode"		"kbnbold12"
+				"font"			"MavenProbold24"
+				"font_minmode"		"MavenProbold12"
 			}
 			"Score"
 			{
@@ -993,8 +1209,8 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"kbnbold24"
-				"font_minmode"		"kbnbold18"
+				"font"			"MavenProbold24"
+				"font_minmode"		"MavenProbold18"
 			}
 		}		
 	}
@@ -1021,8 +1237,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillsLabel"
-		"font"			"kbnBold36"
-		"font_minmode"		"kbnBold9"
+		"font"			"MavenProBold36"
+		"font_minmode"		"MavenProBold9"
 		"labelText"		"#TF_ScoreBoard_KillsLabel"
 		"textAlignment"		"east"
 		"xpos"			"180"
@@ -1041,7 +1257,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillsCount"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "White"
 		"labelText"		"%kills%"
 		"textAlignment"		"east"
@@ -1061,7 +1277,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"KillsShadow"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "Black"
 		"labelText"		"%kills%"
 		"textAlignment"		"east"
@@ -1082,7 +1298,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DeathsLabel"
-		"font"			"kbnBold36"
+		"font"			"MavenProBold36"
 		"fgcolor" "White"
 		"labelText"		":"
 		"textAlignment"		"west"
@@ -1102,7 +1318,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DeathsCount"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "White"
 		"labelText"		"%deaths%"
 		"textAlignment"		"west"
@@ -1122,7 +1338,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DeathsShadow"
-		"font"			"kbnBlack36"
+		"font"			"MavenProBlack36"
 		"fgcolor" "Black"
 		"labelText"		"%deaths%"
 		"textAlignment"		"west"
@@ -1143,7 +1359,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapturesLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_CapturesLabel"
 		"textAlignment"		"east"
@@ -1163,7 +1379,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"CapturesCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%captures%"
 		"textAlignment"		"west"
@@ -1184,7 +1400,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"AssistsLabel"
 		"fgcolor" "White"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"labelText"		"#TF_ScoreBoard_AssistsLabel"
 		"textAlignment"		"east"
 		"xpos"			"175"
@@ -1203,7 +1419,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"AssistsCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%assists%"
 		"textAlignment"		"west"
@@ -1223,7 +1439,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DestructionLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_DestructionLabel"
 		"textAlignment"		"east"
@@ -1243,7 +1459,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DestructionCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%destruction%"
 		"textAlignment"		"west"
@@ -1263,7 +1479,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DefensesLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_DefensesLabel"
 		"textAlignment"		"east"
@@ -1284,7 +1500,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DefensesCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%defenses%"
 		"textAlignment"		"west"
@@ -1304,7 +1520,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DominationLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_DominationLabel"
 		"textAlignment"		"east"
@@ -1324,7 +1540,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DominationCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%dominations%"
 		"textAlignment"		"west"
@@ -1344,7 +1560,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RevengeLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_RevengeLabel"
 		"textAlignment"		"east"
@@ -1364,7 +1580,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RevengeCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%Revenge%"
 		"textAlignment"		"west"
@@ -1384,7 +1600,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"InvulnLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_InvulnLabel"
 		"textAlignment"		"east"
@@ -1404,7 +1620,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"InvulnCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%invulns%"
 		"textAlignment"		"west"
@@ -1424,7 +1640,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HeadshotsLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 		"textAlignment"		"east"
@@ -1444,7 +1660,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HeadshotsCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%headshots%"
 		"textAlignment"		"west"
@@ -1464,7 +1680,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TeleportsLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 		"textAlignment"		"east"
@@ -1484,7 +1700,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"TeleportsCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%teleports%"
 		"textAlignment"		"west"
@@ -1504,7 +1720,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HealingLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_HealingLabel"
 		"textAlignment"		"east"
@@ -1524,7 +1740,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"HealingCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%healing%"
 		"textAlignment"		"west"
@@ -1544,7 +1760,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BackstabsLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 		"textAlignment"		"east"
@@ -1564,7 +1780,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BackstabsCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%backstabs%"
 		"textAlignment"		"west"	
@@ -1584,7 +1800,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BonusLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" "White"
 		"labelText"		"#TF_ScoreBoard_BonusLabel"
 		"textAlignment"		"east"
@@ -1605,7 +1821,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BonusCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" "White"
 		"labelText"		"%bonus%"
 		"textAlignment"		"west"
@@ -1626,7 +1842,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" 		"White"
 		"labelText"		"#TF_Scoreboard_Support"
 		"textAlignment"	"east"
@@ -1646,7 +1862,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SupportCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" 		"White"
 		"labelText"		"%support%"
 		"textAlignment"	"west"		[$WIN32]
@@ -1666,7 +1882,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageLabel"
-		"font"			"kbnMedium8"
+		"font"			"MavenProMedium8"
 		"fgcolor" 		"White"
 		"labelText"		"#TF_Scoreboard_Damage"
 		"textAlignment"	"east"
@@ -1686,7 +1902,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DamageCount"
-		"font"			"kbnBold8"
+		"font"			"MavenProBold8"
 		"fgcolor" 		"White"
 		"labelText"		"%damage%"
 		"textAlignment"	"west"		[$WIN32]

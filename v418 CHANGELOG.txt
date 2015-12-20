@@ -1,5 +1,5 @@
 #############################################################################
-#----KBNHUD v417A2 - Nuka-Cola Quantum Edition - CHANGELOG----###############
+#----KBNHUD v418 - Forgot how to Human Edition - CHANGELOG----###############
 #############################################################################
 
 #####################################################################
@@ -7,10 +7,8 @@
 #####################################################################
 
 
--Preliminary support for new Steam controller HUD elements, however 
-testing and refining these requires me to have a steam controller, and
-that requires money that I don't have.
--Updates to ClientScheme.res
+-Tough Break Stuff
+-KnucklesCrosses crosshairs
 
 #####################################################################
 #----CHANGED----#####################################################
@@ -23,7 +21,7 @@ that requires money that I don't have.
 #####################################################################
 
 
--Disabled Halloween 2015 stuff
+-Random small things
  
 #####################################################################
 #----REMOVED----#####################################################
@@ -36,8 +34,7 @@ that requires money that I don't have.
 #-----NOTES-----#####################################################
 #####################################################################
 
--Took a while to realize that I had to disable Halloween 2015 stuff 
-becuase of Fallout 4. Hence the name.
+-Sorry I took two days to realize that a major update happened.
 
 #####################################################################
 #-SPECIAL THANKS-####################################################

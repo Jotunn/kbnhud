@@ -3284,7 +3284,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"9"
+				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -3293,7 +3293,7 @@ Scheme
 			"2"
 			{
 				"name"		"Maven Pro Medium"
-				"tall"		"11"
+				"tall"		"12"
 				"weight"	"0"
 				//"range"		"0x0000 0x017F"	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
@@ -3302,7 +3302,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"14"
+				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"

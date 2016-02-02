@@ -1,6 +1,6 @@
-####################################################################
-#----KBNHUD v419 - Unemployed Edition - CHANGELOG----###############
-####################################################################
+#########################################################################
+#----KBNHUD v419A2 - Inconceivable Edition - CHANGELOG----###############
+#########################################################################
 
 #####################################################################
 #-----ADDED-----#####################################################
@@ -20,22 +20,8 @@
 #####################################################################
 
 
--Scoreboard cutting off player names. Done my reducing space between 
-other elements. Names will still be cut off on the sixes and highlander
-scoreboards due to the reduced overall width, but it is far less 
-obnoxious than before. If the Ping value is cut off in the minmode 
-scoreboards, disable and re-enable minmode. Did the trick for me.
-
--Overlapping of item meters, and in the process, standardizing the 
-design of all the item effect meters to the same style, wide and thin
-instead of a mix of that and thick, short ones. To tell the difference,
-simply remember that the order in which the meters are stacked 
-corresponds to which weapon slot they read from. If a scout has the 
-Soda Popper, Mad Milk/Cleaver, and the Sandman/Wrap Assassin equipped,
-the Soda Popper meter will be on top, Milk/Cleaver in the middle, and 
-Sandman/Assassin at the bottom. Same for Soldier's Grordbort weapons.
-Focus meter over Jarate, Loose Cannon over Shield charge, etc.
-
+-New team icons (eeugh) not showing up on scoreboard. Team names will 
+also properly show up when in tournament mode and names are set by the team.
  
 #####################################################################
 #----REMOVED----#####################################################

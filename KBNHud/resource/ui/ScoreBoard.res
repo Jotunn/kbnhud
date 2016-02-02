@@ -110,27 +110,51 @@
 	}							
 	"BlueTeamLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
-		"font"			"MavenProBold12"
-		"fgcolor" "255 255 255 255"
-		"labelText"		"%blueteamname%"
+		"ControlName"			"CExLabel"
+		"fieldName"			"BlueTeamLabel"
+		"font"				"MavenProBold16"
+		"labelText"			"%blueteamname%"
 		"textAlignment"		"west"
-		"xpos"			"50"
-		"xpos_minmode"		"5"
-		"xpos_hidef"		"40"
-		"ypos"			"125"
+		"xpos"				"90"
+		"xpos_minmode"		"40"
+		"ypos"				"125"
 		"ypos_minmode"		"83"
-		"wide"			"140"
-		"tall"			"18"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-	if_mvm
-        {
-            "visible"   "0"
-        }"enabled"	"1"
+		"wide"				"200"
+		"tall"				"18"
+		"autoResize"			"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"White"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
+	"BlueTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"BlueTeamImage"
+		"xpos"			"45"
+		"xpos_minmode"		"5"
+		"ypos"			"115"
+		"ypos_minmode"		"80"
+		"zpos"			"20"
+		"wide"			"40"
+		"wide_minmode"	"30"
+		"tall"			"40"
+		"tall_minmode"	"30"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/team_blue"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"BlueTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -186,14 +210,13 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"m0refont16"
+		"font"			"MavenProBold10"
 		"font_minmode"		"MavenProBold10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"east"
-		"xpos"			"125"
-		"xpos_minmode"		"55"
-		"xpos_hidef"		"100"
+		"xpos"			"140"
+		"xpos_minmode"		"90"
 		"ypos"			"125"
 		"ypos_minmode"		"83"
 		"wide"			"100"
@@ -208,27 +231,51 @@
 	}							
 	"RedTeamLabel"
 	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
-		"font"			"MavenProBold12"
-		"fgcolor" "255 255 255 255"
-		"labelText"		"%redteamname%"
+		"ControlName"			"CExLabel"
+		"fieldName"			"RedTeamLabel"
+		"font"				"MavenProBold16"
+		"labelText"			"%redteamname%"
 		"textAlignment"		"east"
-		"textAlignment_minmode"	"west"
-		"xpos"			"410"
-		"xpos_minmode"		"5"
+		"textAlignment_minmode"		"west"
+		"xpos"			"380"
+		"xpos_minmode"		"40"
 		"ypos"			"125"
-		"ypos_minmode"		"291"
+		"ypos_minmode"		"290"
 		"wide"			"140"
 		"tall"			"18"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-	if_mvm
-        {
-            "visible"   "0"
-        }
+		"autoResize"			"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fgcolor"			"White"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}							
+	"RedTeamImage"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"RedTeamImage"
+		"fieldName"		"BlueTeamImage"
+		"xpos"			"518"
+		"xpos_minmode"		"2"
+		"ypos"			"110"
+		"ypos_minmode"		"283"
+		"zpos"			"20"
+		"wide"			"45"
+		"tall"			"45"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/team_red"
+		"scaleImage"		"1"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 	"RedTeamScore"
 	{
 		"ControlName"		"CExLabel"
@@ -290,14 +337,14 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"m0refont16"
+		"font"			"MavenProBold10"
 		"font_minmode"		"MavenProBold10"
 		"fgcolor" "255 255 255 255"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
 		"textAlignment_minmode" "east"
-		"xpos"			"375"
-		"xpos_minmode"		"55"
+		"xpos"			"360"
+		"xpos_minmode"		"90"
 		"xpos_lodef"	"376"
 		"xpos_hidef"	"418"
 		"ypos"			"125"

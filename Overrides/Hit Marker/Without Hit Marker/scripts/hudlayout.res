@@ -249,10 +249,8 @@
 		"fieldName"		"HudDemomanCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-69"	[$WIN32]
-		"ypos"			"r170"	[$WIN32]
-		"xpos"			"r112"	[$X360]
-		"ypos"			"r45"	[$X360]
+		"xpos"			"c-69"
+		"ypos"			"r177"
 		"zpos"			"1"			// draw in front of ammo
 		"wide"			"120"
 		"tall"			"12"
@@ -349,10 +347,9 @@
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-47"	[$WIN32]
 		"ypos"					"r320"	[$WIN32]
-		"xpos"					"r194"	[$X360]
-		"ypos"					"r174"	[$X360]
+
 		"wide"					"116"
-		"tall"  				"180"
+		"tall"  				"210"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -1148,9 +1145,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r190"	[$WIN32]
-		"xpos"			"r194"	[$X360]
-		"ypos"			"r74"	[$X360]
+		"ypos"			"r180"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"50"

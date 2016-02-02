@@ -72,7 +72,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/pauling/plng_give_bigcontract_allclass_09.mp3"
+        "command" "engine play vo/soldier_dominationsoldier01.mp3"
         "label" "                         "
     }
 	"TrainingButton"

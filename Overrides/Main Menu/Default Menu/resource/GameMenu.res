@@ -72,7 +72,7 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play ui/hitsound_beepo"
+        "command" "engine play vo/soldier_dominationsoldier01.mp3"
         "label" "                         "
     }
 	"TrainingButton"

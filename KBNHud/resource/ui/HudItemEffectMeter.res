@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"0"
 		"enabled"		"1"
-		"xpos"			"c-50"	[$WIN32]
-		"ypos"			"r160"	[$WIN32] //r160
-		"wide"			"250"
-		"tall"			"100"
+		"xpos"			"c-62"	
+		"ypos"			"r163"	
+		"wide"			"200"
+		"tall"			"50"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -52,12 +52,30 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
+	"ItemEffectMeter"
+	{	
+		"ControlName"			"ContinuousProgressBar"
+		"fieldName"				"ItemEffectMeter"
+		"font"					"Default"
+		"xpos"					"12"
+		"ypos"					"2"
+		"zpos"					"2"
+		"wide"					"100"
+		"tall"					"3"				
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"textAlignment"			"Left"
+		"dulltext"				"0"
+		"brighttext"			"0"
+	}	
 	"BG"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"BG"
-		"xpos"					"0"
-		"ypos"					"2"
+		"xpos"					"12"
+		"ypos"					"5"
 		"zpos"					"0"
 		"wide"					"100"
 		"tall"					"1"
@@ -68,22 +86,4 @@
 		"fillcolor"				"0 0 0 150"
 		"PaintBackgroundType"	"0"
 	}
-	"ItemEffectMeter"
-	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"-2"
-		"zpos"					"2"
-		"wide"					"100"
-		"tall"					"4"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"enabled"				"1"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
 }

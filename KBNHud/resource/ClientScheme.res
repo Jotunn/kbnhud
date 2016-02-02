@@ -538,7 +538,7 @@ Scheme
 			"1"
 			{
 				"name"		"KnucklesCrosses"
-				"tall"		"18"
+				"tall"		"14"
 				"weight"	"0"
 				"additive"	"0"
 				"outline" "1"
@@ -3284,7 +3284,7 @@ Scheme
 			"1"
 			{
 				"name"		"Verdana"
-				"tall"		"10"
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"480 599"
@@ -3293,7 +3293,7 @@ Scheme
 			"2"
 			{
 				"name"		"Maven Pro Medium"
-				"tall"		"12"
+				"tall"		"11"
 				"weight"	"0"
 				//"range"		"0x0000 0x017F"	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"600 1199"
@@ -3302,7 +3302,7 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-				"tall"		"15"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"		"1200 6000"

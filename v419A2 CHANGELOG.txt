@@ -22,6 +22,8 @@
 
 -New team icons (eeugh) not showing up on scoreboard. Team names will 
 also properly show up when in tournament mode and names are set by the team.
+Added override that disables the team icons and moves team names back 
+to where they were placed before.
  
 #####################################################################
 #----REMOVED----#####################################################

@@ -34,7 +34,7 @@ Place "KBNHhud" folder that contains "resource" and "scripts" from the download 
 ## Customization
 
 
-**Hud_damagedplayer circle fix instructions**
+**Hud_damagedplayer hitmarker centering fix instructions**
 
 ***YOU DON'T NEED TO DO THIS IF YOU REMOVED CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050 or any 16:9 aspect ratio.***
 

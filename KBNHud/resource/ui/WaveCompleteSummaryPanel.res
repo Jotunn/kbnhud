@@ -308,7 +308,6 @@
         "tall"               "25"
         "visible"            "1"
         "PaintBackgroundType" "2"
-		}
 	
         "RespecTextLabelWin"
         {

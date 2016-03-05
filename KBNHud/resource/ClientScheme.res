@@ -99,6 +99,11 @@ Scheme
 		"Yellow"					"251 235 202 255"
 		"TransparentYellow"			"251 235 202 140"
 		"Bright Yellow"				"251 235 0 255"
+		"Grey"						"150 150 150 255"
+		"MenuBlue"					"0 138 201 255"
+		"Highlight"					"0 138 201 255"
+		"Highlight2"				"0 138 201 255"
+		"MainMenuBG"				"11 7 6 190"
 		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
 		
@@ -556,6 +561,72 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		"MavenProLight9"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Light"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProLight10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Light"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProLight11"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Light"
+			"tall"		"11"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProLight12"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Light"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProLight14"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Light"
+			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProRegular10"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"10"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProRegular11"
 		{
 			"1"
@@ -678,6 +749,17 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"MavenProMedium20"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"20"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProMedium21"
 		{
 			"1"
@@ -706,6 +788,17 @@ Scheme
 			{
 			"name"		"Maven Pro Medium"
 			"tall"		"30"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProMedium32"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"32"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
@@ -832,6 +925,17 @@ Scheme
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			"outline"	"1"
+			}
+		}
+		"MavenProBold20"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"20"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
 			}
 		}
 		"MavenProBold21"
@@ -1084,6 +1188,17 @@ Scheme
 			{
 			"name"		"Maven Pro Black"
 			"tall"		"36"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProBlack40"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"40"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
@@ -2904,7 +3019,29 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
+		"MatchSummaryTeamScores"
+		{
+			"1"
+			{
+				"name"		"TF2"
+				"tall"		"36"
+				"weight"	"500"
+				"range"		"0x0000 0x007F"	//	Basic Latin
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}
+		"MatchSummaryStatsAndMedals"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Link"
 		{
 			"1"
@@ -3719,84 +3856,6 @@ Scheme
 			}
 		}
 	}
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
-		{
-			"font" "resource/tf2.ttf"
-			"name" "TF2"
-		}
-		"4" 
-		{
-			"font" "resource/tf2Secondary.ttf"
-			"name" "TF2 Secondary"
-		}
-		"5" 
-		{
-			"font" "resource/tf2Professor.ttf"
-			"name" "TF2 Professor"
-		}	
-		"6" 
-		{
-			"font" "resource/tf2Build.ttf"
-			"name" "TF2 Build"
-		}
-		"7"
-		{
-			"font" "resource/fonts/MavenPro-Regular.ttf"
-			"name" "Maven Pro Regular"
-		}
-		"8"
-		{
-			"font" "resource/fonts/MavenPro-Medium.ttf"
-			"name" "Maven Pro Medium"
-		}
-		"9"
-		{
-			"font" "resource/fonts/MavenPro-Bold.ttf"
-			"name" "Maven Pro Bold"
-		}
-		"10"
-		{
-			"font" "resource/fonts/MavenPro-Black.ttf"
-			"name" "Maven Pro Black"
-		}
-		"11" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"12"
-		{
-		"font" "resource/fonts/Crosshairs.ttf"
-		"name" "broeselhud Crosshairs"
-		}
-		"13"
-		{
-		"font" "resource/fonts/crosshairs.ttf"
-		"name" "Crosshairs"
-		}
-		"14"
-		{
-		"font" "resource/fonts/xhairs.otf"
-		"name" "xhairs"
-		}
-		"15"
-		{
-		"font" "resource/fonts/ocra.ttf"
-		"name" "ocra"
-		}
-		"16"
-		{
-		"font" "resource/fonts/KnucklesCrosses.ttf"
-		"name" "KnucklesCrosses"
-		}
-	}
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -4172,6 +4231,29 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		
 		ToolTipBorder
 		{
 			"inset" "0 0 1 1"
@@ -5594,6 +5676,146 @@ Scheme
 		{
 		}
 
+		QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+			
+		}
 	}
-}
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font" "resource/TF2.ttf"
+			"name" "TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"4" 
+		{
+			"font" "resource/TF2Secondary.ttf"
+			"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"5" 
+		{
+			"font" "resource/TF2Professor.ttf"
+			"name" "TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+		}	
+		"6" 
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}			
+		"7" 
+		{	
+			"font" "resource/ocra.ttf"
+			"name" "ocra"
+		}
+		"8"
+		{
+			"font" "resource/fonts/MavenPro-Hairline.otf"
+			"name" "Maven Pro Hairline"
+		}
+		"9"
+		{
+			"font" "resource/fonts/MavenPro-Lighter.otf"
+			"name" "Maven Pro Lighter"
+		}
+		"10"
+		{
+			"font" "resource/fonts/MavenPro-Lighter.otf"
+			"name" "Maven Pro Light"
+		}
+		"11"
+		{
+			"font" "resource/fonts/MavenPro-Regular.ttf"
+			"name" "Maven Pro Regular"
+		}
+		"12"
+		{
+			"font" "resource/fonts/MavenPro-Medium.ttf"
+			"name" "Maven Pro Medium"
+		}
+		"13"
+		{
+			"font" "resource/fonts/MavenPro-Bold.ttf"
+			"name" "Maven Pro Bold"
+		}
+		"14"
+		{
+			"font" "resource/fonts/MavenPro-Black.ttf"
+			"name" "Maven Pro Black"
+		}
+		"15" 
+		{
+			"font" "resource/fonts/FORMASGE.ttf"
+			"name" "FORMASGE"
+		}
+		"16"
+		{
+		"font" "resource/fonts/Crosshairs.ttf"
+		"name" "broeselhud Crosshairs"
+		}
+		"17"
+		{
+		"font" "resource/fonts/crosshairs.ttf"
+		"name" "Crosshairs"
+		}
+		"18"
+		{
+		"font" "resource/fonts/xhairs.otf"
+		"name" "xhairs"
+		}
+		"19"
+		{
+		"font" "resource/fonts/KnucklesCrosses.ttf"
+		"name" "KnucklesCrosses"
+		}
+	}
 

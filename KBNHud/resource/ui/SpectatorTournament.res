@@ -117,7 +117,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"MavenProBold12"
+				"font"			"MavenProMedium14"
 				"xpos"			"50"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -227,8 +227,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"MavenProBold12"
-				"xpos"			"27"
+				"font"			"MavenProMedium12"
+				"xpos"			"5"
 				"ypos"			"5"
 				"zpos"			"5"
 				"wide"			"23"
@@ -245,8 +245,8 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"MavenProBold12"
-				"xpos"			"28"
+				"font"			"MavenProMedium12"
+				"xpos"			"6"
 				"ypos"			"6"
 				"zpos"			"5"
 				"wide"			"23"
@@ -282,7 +282,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"MavenProBold12"
+				"font"			"MavenProMedium12"
 				"xpos"			"125"
 				"ypos"			"2"
 				"zpos"			"6"
@@ -299,7 +299,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"MavenProBold12"
+				"font"			"MavenProMedium12"
 				"xpos"			"126"
 				"ypos"			"3"
 				"zpos"			"6"
@@ -469,7 +469,6 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"			"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -499,7 +498,7 @@
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 155"
+			"fillcolor" "0 0 0 100"
 		}
 		"TitleBackground"
 		{
@@ -512,7 +511,7 @@
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
-			"visible" "0"
+			"visible" "1"
 			"enabled" "1"
 			"fillcolor" "0 0 0 100"
 		}

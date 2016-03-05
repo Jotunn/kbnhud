@@ -60,7 +60,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"tabPosition"		"0"
-		"labelText"			"Random"
+		"labelText"			"Random (R)"
 		"textAlignment"		"center"
 		"Command"			"select 12"
 		"Default"			"1"
@@ -76,8 +76,8 @@
 		"depressedFgColor_override" "OmpText"
 		"selectedFgColor_override" "125 225 30 255"
 		
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		//"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/duel_challenge_accepted.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 		
 		"paintbackground"	"0"
@@ -105,7 +105,25 @@
 			"scaleImage"	"1"
 		}				
 	}
-		
+	
+	"random_shortcut"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"random_shortcut"
+		"xpos"				"c180"
+		"ypos"				"122"
+		"zpos"				"-5"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&R"
+		"Command"			"joinclass random"
+		"Default"			"1"
+		"font"				"MenuKeys"
+		"fgcolor"			"TanDark"
+	}
+	
 	"Offense"
 	{
 		"ControlName"	"CExLabel"
@@ -751,7 +769,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"Edit Loadout"
+		"labelText"		"Edit Loadout (E)"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
 		"font"			"MavenProRegular11"
@@ -767,7 +785,25 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"sound_armed"		"UI/buttonrollover.wav"
 	}
-
+	
+	"loadout_shortcut"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"loadout_shortcut"
+		"xpos"				"c180"
+		"ypos"				"122"
+		"zpos"				"-10"
+		"wide"				"0"
+		"tall"				"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"labelText"			"&E"
+		"Command"			"openloadout"
+		"Default"			"1"
+		"font"				"MenuKeys"
+		"fgcolor"			"TanDark"
+	}
+	
 	"ResetButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"

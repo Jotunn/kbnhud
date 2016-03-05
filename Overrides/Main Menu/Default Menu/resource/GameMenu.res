@@ -2,7 +2,7 @@
 {
 	"QuickplayButton"
 	{
-		"label" "#MMenu_PlayMultiplayer"	//"#MMenu_StartPlaying" 
+		"label" "Quickplay"	//"#MMenu_StartPlaying" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"	//"glyph_server"
 		"OnlyAtMenu" "1"
@@ -21,13 +21,12 @@
 		"subimage" "glyph_coop"
 		//"OnlyAtMenu" "1"
 	}
-	"PlayCompetitiveButton"
+	"CompetitiveButton"
 	{
-		"label" "#MMenu_PlayComp" 
+		"label" "Competitive" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
+		"OnlyAtMenu" "0"
 	}
 	"ServerBrowserButton"
 	{
@@ -45,8 +44,14 @@
 	}
 	"ReplayBrowserButton"
 	{
-		"label" "#GameUI_GameMenu_ReplayDemos"
+		"label" "Replays"
 		"command" "engine replay_reloadbrowser"
+		"subimage" "replay/replayicon"
+	}
+	"DemoUIButton"
+	{
+		"label" "DemoUI"
+		"command" "engine demoui"
 		"subimage" "glyph_tv"
 	}
 	//"AchievementBrowserButton"
@@ -72,15 +77,21 @@
 	}
 	"KBNHudButton"
     {
-        "command" "engine play vo/soldier_dominationsoldier01.mp3"
-        "label" "                         "
+        "command" "engine toggleconsole;
+			play engine play ui/no.wav
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------;
+			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;
+			echo -------------------------------------------------------------------------------;
+			echo -------------------------------------------------------------------------------"
+		"label" ""
     }
 	"TrainingButton"
 	{
-		"label" "#TF_Training"
+		"label" "Training"
 		"command" "offlinepractice"
 		"subimage" "glyph_practice"
-		"tooltip" "#TF_Training"
+		"tooltip" "Training"
 		//"OnlyAtMenu" "1"
 	}
 	
@@ -88,16 +99,16 @@
 	{
 		"label"		"#MMenu_AdvOptions"
 		"command"	"opentf2options"
-		"subimage"	"glyph_options"
+		"subimage"	"glyph_adv_options"
 		"tooltip"	"#MMenu_OptionsHighlightPanel_Title"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
 	"CreateServerButton"
 	{
-		"label" "#GameUI_GameMenu_CreateServer"
+		"label" "Create Server"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"tooltip" "#GameUI_GameMenu_CreateServer"
+		"tooltip" "Create Server"
 		//"OnlyAtMenu" "1"
 	}
 	"GeneralStoreButton"
@@ -109,7 +120,7 @@
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "#MMenu_CharacterSetup"
+		"label" "Items"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -125,7 +136,7 @@
 	}
 	"ResumeGameButton"
 	{
-		"label"			"#MMenu_ResumeGame"
+		"label"			"Resume Game"
 		"command"		"ResumeGame"
 		"subimage"		"icon_resume"
 		"OnlyInGame"	"1"
@@ -173,7 +184,7 @@
 	{
 		"label" ""
 		"command" "engine toggle cl_hud_minmode"
-		"subimage"		"icon_resume"
+		"subimage"		"glyph_view"
 		"tooltip" "Change scoreboard"
 		"OnlyInGame" "1"
 	}
@@ -186,7 +197,7 @@
 	}
 	"ServerShortcut1"
 	{
-		"label" "#1"
+		"label" "1"
 		"command" "engine ServerShortcut1"
 		"tooltip" "Join Server #1"
 		//"OnlyAtMenu"	"1"
@@ -194,7 +205,7 @@
 	}
 	"ServerShortcut2"
 	{
-		"label" "#2"
+		"label" "2"
 		"command" "engine ServerShortcut2"
 		"tooltip" "Join Server #2"
 		//"OnlyAtMenu"	"1"
@@ -202,7 +213,7 @@
 	}
 	"ServerShortcut3"
 	{
-		"label" "#3"
+		"label" "3"
 		"command" "engine ServerShortcut3"
 		"tooltip" "Join Server #3"
 		//"OnlyAtMenu"	"1"
@@ -210,7 +221,7 @@
 	}
 	"ServerShortcut4"
 	{
-		"label" "#4"
+		"label" "4"
 		"command" "engine ServerShortcut4"
 		"tooltip" "Join Server #4"
 		//"OnlyAtMenu"	"1"
@@ -218,7 +229,7 @@
 	}
 	"ServerShortcut5"
 	{
-		"label" "#5"
+		"label" "5"
 		"command" "engine ServerShortcut5"
 		"tooltip" "Join Server #5"
 		//"OnlyAtMenu"	"1"
@@ -226,9 +237,25 @@
 	}
 	"ServerShortcut6"
 	{
-		"label" "#6"
+		"label" "6"
 		"command" "engine ServerShortcut6"
 		"tooltip" "Join Server #6"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut7"
+	{
+		"label" "7"
+		"command" "engine ServerShortcut7"
+		"tooltip" "Join Server #7"
+		//"OnlyAtMenu"	"1"
+		//"OnlyInGame"	"1"
+	}
+	"ServerShortcut8"
+	{
+		"label" "8"
+		"command" "engine ServerShortcut8"
+		"tooltip" "Join Server #8"
 		//"OnlyAtMenu"	"1"
 		//"OnlyInGame"	"1"
 	}

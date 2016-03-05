@@ -4,12 +4,12 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairCirclePulse"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-101"
-		"ypos"			"c-100"
+		"xpos"			"c-103"
+		"ypos"			"c-103"
 		"wide"			"207"
 		"tall"			"207"
 
@@ -1075,6 +1075,17 @@
 		"tall"					"64"
 	}
 
+	"HudUpgradePanel"
+	{
+		"fieldName"		"HudUpgradePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"c-200"
+		"ypos"			"260"
+		"wide"			"400"
+		"tall"			"160"		
+	}
+	
 	"HudChat"
 	{
 		"ControlName"		"EditablePanel"
@@ -1471,6 +1482,19 @@
 		"tall"					"150"
 	}
 	
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
 	"CTFKillStreakNotice"
     {
         "fieldName"                "CTFKillStreakNotice"
@@ -1509,6 +1533,17 @@
 		"tall"			"400"
 		"PaintBackgroundType"	"0"
 	}
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
@@ -1518,6 +1553,27 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
 	"MatchMakingContainer"
 	{

@@ -11,6 +11,24 @@
 		"visible"	"1"
 		"enabled"	"1"
 	}
+	
+	"LoadingText"
+    {
+        "ControlName"	"CExLabel"
+        "fieldName"		"LoadingText"
+        "font"			"MavenProMedium32"
+        "labelText"		"Loading..."
+        "textAlignment"	"west"
+        "xpos"			"5"
+        "ypos"			"414"
+        "zpos"			"201"
+        "wide"			"f0"
+        "tall"			"96"
+        "autoResize"	"0"
+        "pinCorner"		"0"
+        "visible"		"1"
+        "enabled"		"1"
+    }
 
 	"MainBackground"
 	{
@@ -34,7 +52,7 @@
 		"ypos"		"0"
 		"wide"		"f0"
 		"tall"		"480"
-		"visible"	"0"
+		"visible"	"1"
 		"enabled"	"1"
 		"bgcolor_override"	"46 43 42 255"
 	
@@ -62,7 +80,7 @@
 			"tall"			"33"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFThinLineBorder"
 		}
@@ -142,7 +160,8 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"15 15 15 150"
 		}
 
 		"Title"
@@ -206,7 +225,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OnYourWayLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold24"
 		"labelText"		"#LoadingMap"
 		"textAlignment"		"center"
 		"xpos"			"c+10"
@@ -224,7 +243,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontMediumBigBold"
+		"font"			"MavenProBold36"
 		"labelText"		"%maplabel%"
 		"textAlignment"		"center"
 		"xpos"			"c-25"
@@ -242,7 +261,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapType"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold24"
 		"labelText"		"%maptype%"
 		"textAlignment"	"center"
 		"xpos"			"c-25"
@@ -313,7 +332,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"ScoreboardSmall"
+				"font"			"MavenProMedium9"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
@@ -336,7 +355,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"ScoreboardSmall"
+				"font"			"MavenProMedium9"
 				"font_hidef"	"Default"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
@@ -358,7 +377,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"ScoreboardSmall"
+				"font"			"MavenProMedium9"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+124"
@@ -461,17 +480,18 @@
 			"ypos"			"165"
 			"ypos_hidef"			"22"
 			"ypos_lodef"			"22"
-			"wide"			"406"
+			"wide"			"600"
 			"wide_hidef"	"566"
 			"wide_lodef"	"566"
-			"tall"			"235"
-			"tall_hidef"			"633"
-			"tall_lodef"			"633"
+			"tall"			"320"
+			"tall_hidef"			"653"
+			"tall_lodef"			"653"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"border"		"TFThinLineBorder"
+			"border"		"NoBorder"
+			"bgcolor_override"		"15 15 15 150"
 		}
 		"TipBG2"
 		{
@@ -483,7 +503,7 @@
 			"tall"			"33"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFThinLineBorder"
 		}
@@ -491,7 +511,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"HudFontMediumBold"
+			"font"			"MavenProBlack26"
 			"labelText"		"#StatSummary_Label_PerformanceReport"
 			"textAlignment"		"west"
 			"textAlignment_hidef"		"center"
@@ -599,7 +619,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -620,7 +640,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -641,9 +661,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -748,7 +768,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -769,7 +789,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -790,9 +810,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"	"ScoreboardVerySmall"
+			"font_lodef"	"MavenProMedium8"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -897,7 +917,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -918,7 +938,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -939,9 +959,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1046,7 +1066,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1067,7 +1087,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1088,9 +1108,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1195,7 +1215,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1216,7 +1236,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1237,9 +1257,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1344,7 +1364,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1365,7 +1385,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1386,9 +1406,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1493,7 +1513,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1514,7 +1534,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1535,9 +1555,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1642,7 +1662,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1663,7 +1683,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1684,9 +1704,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1791,7 +1811,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1812,7 +1832,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1833,9 +1853,9 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"ScoreboardSmall"
+			"font"			"MavenProMedium9"
 			"font_hidef"	"Default"
-			"font_lodef"			"ScoreboardVerySmall"
+			"font_lodef"			"MavenProMedium8"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1867,7 +1887,7 @@
 			"tall_lodef"			"633"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"visible_hidef"		"0"
 			"visible_lodef"		"0"
 			"enabled"		"1"
@@ -1879,7 +1899,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"HudFontSmallBold" //"ScoreboardMediumSmall"
+			"font"			"MavenProBlack14" //"ScoreboardMediumSmall"
 			"labelText"		"#StatSummary_Label_BestMoments"
 			"textAlignment"		"west"
 
@@ -1941,7 +1961,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1label%"
 			"textAlignment"		"west"
@@ -1965,7 +1985,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord1Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord1value%"
 			"textAlignment"		"west"
@@ -1989,7 +2009,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord2label%"
 			"textAlignment"		"west"
@@ -2013,7 +2033,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord2Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord2value%"
 			"textAlignment"		"west"
@@ -2037,7 +2057,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord3label%"
 			"textAlignment"		"west"
@@ -2061,7 +2081,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord3Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord3value%"
 			"textAlignment"		"west"
@@ -2085,7 +2105,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord4label%"
 			"textAlignment"		"west"
@@ -2109,7 +2129,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord4Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord4value%"
 			"textAlignment"		"west"
@@ -2133,7 +2153,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord5label%"
 			"textAlignment"		"west"
@@ -2157,7 +2177,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord5Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord5value%"
 			"textAlignment"		"west"
@@ -2181,7 +2201,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord6label%"
 			"textAlignment"		"west"
@@ -2205,7 +2225,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord6Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord6value%"
 			"textAlignment"		"west"
@@ -2229,7 +2249,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord7label%"
 			"textAlignment"		"west"
@@ -2253,7 +2273,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord7Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord7value%"
 			"textAlignment"		"west"
@@ -2277,7 +2297,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord8label%"
 			"textAlignment"		"west"
@@ -2301,7 +2321,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord8Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord8value%"
 			"textAlignment"		"west"
@@ -2325,7 +2345,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord9label%"
 			"textAlignment"		"west"
@@ -2349,7 +2369,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord9Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord9value%"
 			"textAlignment"		"west"
@@ -2373,7 +2393,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord10label%"
 			"textAlignment"		"west"
@@ -2397,7 +2417,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord10Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord10value%"
 			"textAlignment"		"west"
@@ -2421,7 +2441,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord11label%"
 			"textAlignment"		"west"
@@ -2445,7 +2465,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord11Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord11value%"
 			"textAlignment"		"west"
@@ -2469,7 +2489,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12label%"
 			"textAlignment"		"west"
@@ -2493,7 +2513,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord12Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord12value%"
 			"textAlignment"		"west"
@@ -2517,7 +2537,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord13label%"
 			"textAlignment"		"west"
@@ -2541,7 +2561,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord13Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord13value%"
 			"textAlignment"		"west"
@@ -2565,7 +2585,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord14label%"
 			"textAlignment"		"west"
@@ -2589,7 +2609,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord14Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord14value%"
 			"textAlignment"		"west"
@@ -2613,7 +2633,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Label"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord15label%"
 			"textAlignment"		"west"
@@ -2637,7 +2657,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"OverallRecord15Value"
-			"font"			"ScoreboardVerySmall"
+			"font"			"MavenProMedium8"
 			"font_hidef"	"Default"
 			"labelText"		"%classrecord15value%"
 			"textAlignment"		"west"
@@ -2678,7 +2698,7 @@
 	{
 		"ControlName"			"Label"
 		"fieldName"				"TipText"
-		"font"					"ScoreboardVerySmall"
+		"font"					"MavenProMedium9"
 		"font_hidef"			"Default"
 		"labelText"				"%tiptext%"
 		"textAlignment"			"west"

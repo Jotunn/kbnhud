@@ -273,14 +273,6 @@ DESCRIPTION INFO_OPTIONS
 			{ "0.1" }
 		}
 		
-		"fps_max"
-		{
-			"FPS cap"
-			"Limits the FPS to a certain value Min 10-Max 1000."
-			{ NUMBER 10 1000 }
-			{ "300" }
-		}
-		
 		"exec       "
 		{
 			"Transparent viewmodels - broken"

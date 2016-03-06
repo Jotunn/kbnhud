@@ -12,7 +12,7 @@ __BEFORE INSTALLING ON ANY OS, YOU MUST DO THE FOLLOWING:__
 
 For the HUD to use proper fonts, you have to install the custom fonts to your computer. Do not worry, the font files are safe and virus free.
 
-To do so, go to KBNHud/resource/fonts, and open all the files in there. In the preview window that pops up, click the button to install it to your computer and confirm. This is all you need to do, and the HUD should work as intended. This also solves long-existing issues with mac and linux not using proper fonts, and is permanent unless you reinstall your OS.
+To do so, go to KBNHud/resource/fonts, and select all the files in there, right click, and click the install option. This is all you need to do, and the HUD should work as intended. This also solves long-existing issues with mac and linux not using proper fonts, and is permanent unless you reinstall your OS.
 
 
 __To install the HUD as a .vpk file (somewhat advanced):__

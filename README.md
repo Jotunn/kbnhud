@@ -8,7 +8,7 @@ To download the HUD, press the "Download ZIP" button at the bottom of the right 
 
 **Installation**
 
-__BEFORE INSTALLING ON ANY OS, YOU MUST DO THE FOLLOWING:__
+__BEFORE INSTALLING ON MAC AND LINUX, YOU MUST DO THE FOLLOWING:__
 
 For the HUD to use proper fonts, you have to install the custom fonts to your computer. Do not worry, the font files are safe and virus free.
 

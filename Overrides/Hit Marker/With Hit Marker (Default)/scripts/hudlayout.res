@@ -3,13 +3,13 @@
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"xHairCirclePulse"
+		"fieldName"	 	"DefaultHitmarker"
 		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
-		"xpos"			"c-101"
-		"ypos"			"c-100"
+		"xpos"			"c-103"
+		"ypos"			"c-103"
 		"wide"			"207"
 		"tall"			"207"
 
@@ -712,23 +712,23 @@
 	
 	HudCloseCaption
 	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"fieldName"				"HudCloseCaption"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c145"
+		"xpos_minmode"			"c125"
+		"ypos"					"200"
+		"ypos_minmode"			"190"
+		"wide"					"170"
+		"wide_minmode"			"132"
+		"tall"					"136"
+		"BgAlpha"				"100"
 
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
+		"GrowTime"				"0.15"
+		"ItemHiddenTime"		"0.1"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"		"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"		"0.3"
+		"topoffset"				"0"
 	}
 
 	HudHistoryResource 
@@ -1075,6 +1075,17 @@
 		"tall"					"64"
 	}
 
+	"HudUpgradePanel"
+	{
+		"fieldName"		"HudUpgradePanel"
+		"visible"		"0"
+		"enable"		"1"
+		"xpos"			"c-200"
+		"ypos"			"260"
+		"wide"			"400"
+		"tall"			"160"		
+	}
+	
 	"HudChat"
 	{
 		"ControlName"		"EditablePanel"
@@ -1471,6 +1482,19 @@
 		"tall"					"150"
 	}
 	
+	"CTFStreakNotice"
+	{
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
 	"CTFKillStreakNotice"
     {
         "fieldName"                "CTFKillStreakNotice"
@@ -1509,6 +1533,17 @@
 		"tall"			"400"
 		"PaintBackgroundType"	"0"
 	}
+	"ItemAttributeTracker"
+	{
+		"fieldName" 	"ItemAttributeTracker"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"			"f5"
+		"tall"			"f0"
+		"PaintBackgroundType"	"0"
+	}
 	HudMiniGame
 	{
 		"fieldName" "HudMiniGame"
@@ -1518,6 +1553,27 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"480"
+	}
+	"QuestNotificationPanel"
+	{
+		"fieldName"	"QuestNotificationPanel"
+		"visible" "1"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	"QuestLogContainer"
+	{
+		"ControlName"		"EditablePanel"
+		"fieldName" 		"QuestLogContainer"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
 	}
 	"MatchMakingContainer"
 	{
@@ -1540,5 +1596,26 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	HudCompetitive
+	{
+		"fieldName"				"HudCompetitive"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 }

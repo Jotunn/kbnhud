@@ -23,7 +23,7 @@
 	}
 	"PlayPVEButton"
 	{
-		"label" "Cooperative"
+		"label" "Co-Op"
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
@@ -78,7 +78,7 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v420"
+		"label" "KBNHud v420A2"
 		"command"		"engine toggleconsole;
 			play engine play ui/no.wav
 			echo -------------------------------------------------------------------------------;

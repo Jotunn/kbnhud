@@ -9,8 +9,8 @@
 		"PositiveColor"			"144 223 23 255"
 		"NegativeColor"			"Damage Numbers"		
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"MavenProblack12OL"
-		"delta_item_font_big"		"MavenProblack12OL"
+		"delta_item_font"		"MavenProblack14OL"
+		"delta_item_font_big"		"MavenProblack14OL"
 	}
 	"DamageAccountValue"
 	{

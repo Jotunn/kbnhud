@@ -1,6 +1,6 @@
-###############################################################################
-#-----KBNHUD v420 - Not what you think it is Edition - README-----#############
-###############################################################################
+#################################################################################
+#-----KBNHUD v420A1 - Not what you think it is Edition - README-----#############
+#################################################################################
 
 
 # Hello, and again welcome to the instructional readme file.
@@ -11,6 +11,17 @@
 ########------------INSTRUCTIONS:------------#########
 ########-------------------------------------#########
 ######################################################
+
+
+##########################
+#---CRITICAL FONT FIX:---#
+##########################
+Before installing the HUD for the first time, you must install the fonts to your computer. The files are safe, and I have had zero issues with them, and this fix is permanent.
+
+To do so, go to KBNHud/resource/fonts, and select all the files in there, right click, and then click Install.
+
+That is all you need to do. This will cause the HUD to use the proper font. I apologize for this being necessary, but something is causing the game to not recognize the files anymore, and I apologize.
+
 
 ##########################################
 #---HITMARKER CIRCLE FIX INSTRUCTIONS:---#

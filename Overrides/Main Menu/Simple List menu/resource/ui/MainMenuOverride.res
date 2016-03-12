@@ -198,8 +198,8 @@
 			"paintbackground"	"0"
 			
 			"defaultFgColor_override" "Highlight"
-			"armedFgColor_override" "OmpText"
-			"depressedFgColor_override" "OmpText"
+			"armedFgColor_override" "Highlight"
+			"depressedFgColor_override" "Highlight"
 			
 			"image_drawcolor"	"235 226 202 255"
 			"image_armedcolor"	"235 226 202 255"	
@@ -219,6 +219,69 @@
 				"scaleImage"	"1"
 			}	
 		}		
+	}
+	
+	"UsernameBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"UsernameBG"
+		"xpos"			"155"
+		"ypos"			"15"
+		"wide"			"85"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"MainMenuBG"
+	}
+	
+	"AvatarImage"
+	{
+		"ControlName" "CAvatarImagePanel"
+		"fieldName" "AvatarImage"
+		"xpos" "53"
+		"ypos" "15"
+		"zpos" "1"
+		"wide" "32"
+		"tall" "32"
+		"visible" "1"
+		"enabled" "1"
+		"image" ""
+		"scaleImage" "1"
+		"color_outline" "52 48 45 255"
+	}
+	
+	"TopLeftDataPanel"
+	{
+		"ControlName" "EditablePanel"
+		"fieldName" "TopLeftDataPanel"
+		"xpos" "0"
+		"ypos" "0"
+		"zpos" "0"
+		"wide" "f0"
+		"tall" "480"
+		"visible" "1"
+		"PaintBackgroundType" "2"
+		"bgcolor_override" "46 43 42 0"
+
+		"WelcomeLabel"
+		{
+			"ControlName" "CExLabel"
+			"fieldName" "WelcomeLabel"
+			"font" "MavenProMedium16"
+			"labelText" "#WelcomeBack"
+			"textAlignment" "west"
+			"xpos" "89"
+			"ypos" "20"
+			"zpos"	"99"
+			"wide" "197"
+			"tall" "20"
+			"autoResize" "0"
+			"pinCorner" "0"
+			"visible" "1"
+			"enabled" "1"
+		}
 	}
 	
 	"Scoreboard"
@@ -2240,8 +2303,8 @@
 		"ControlName"	"ImagePanel"
 		"fieldname"		"CompetitiveBetaImage"
 		// Competitive button, plus offset.
-		"xpos"			"300"
-		"ypos"			"178"
+		"xpos"			"130"
+		"ypos"			"111"
 		"zpos"			"12"
 		"wide"			"30"
 		"tall"			"30"
@@ -2257,8 +2320,8 @@
 		if_competitive_stress_event
 		{
 			// Move up/left 10px, bump up to 20x20
-			"ypos"	"178"
-			"xpos"	"300"
+			"ypos"	"101"
+			"xpos"	"130"
 			"wide"	"56"
 			"tall"	"56"
 			"image"	"beta_stress"

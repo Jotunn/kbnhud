@@ -3,8 +3,8 @@
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"xHairCirclePulse"
-		"visible"		"0"
+		"fieldName"	 	"DefaultHitmarker"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -22,8 +22,8 @@
 	HudxHair
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
+		"fieldName"	 	"HudCrossHair1"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -33,8 +33,8 @@
 		"tall"			"35"
 
 		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"m"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
@@ -69,8 +69,8 @@
 		"tall"			"27"
 
 		"font"			"KnucklesCrosses"
-		"labelText"		"9"
-		"fgcolor"		"255 255 255 255"
+		"labelText"		"x"
+		"fgcolor"		"255 0 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair4
@@ -81,8 +81,8 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-13"
-		"ypos"			"c-13"
+		"xpos"			"c-14"
+		"ypos"			"c-11"
 		"wide"			"27"
 		"tall"			"27"
 
@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"CODxhair"
-		"visible"			"0"
+		"visible"			"1"
 		"enabled"			"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -712,23 +712,23 @@
 	
 	HudCloseCaption
 	{
-		"fieldName" "HudCloseCaption"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"c-250"
-		"ypos"		"276"	[$WIN32]
-		"ypos"		"236"	[$X360]
-		"wide"		"500"
-		"tall"		"136"	[$WIN32]
-		"tall"		"176"	[$X360]
+		"fieldName"				"HudCloseCaption"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c145"
+		"xpos_minmode"			"c125"
+		"ypos"					"200"
+		"ypos_minmode"			"190"
+		"wide"					"170"
+		"wide_minmode"			"132"
+		"tall"					"136"
+		"BgAlpha"				"100"
 
-		"BgAlpha"	"128"
-
-		"GrowTime"		"0.25"
-		"ItemHiddenTime"	"0.2"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
-		"ItemFadeInTime"	"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
-		"ItemFadeOutTime"	"0.3"
-		"topoffset"		"0"
+		"GrowTime"				"0.15"
+		"ItemHiddenTime"		"0.1"  // Nearly same as grow time so that the item doesn't start to show until growth is finished
+		"ItemFadeInTime"		"0.15"	// Once ItemHiddenTime is finished, takes this much longer to fade in
+		"ItemFadeOutTime"		"0.3"
+		"topoffset"				"0"
 	}
 
 	HudHistoryResource 
@@ -1596,5 +1596,26 @@
 		"ypos"	"0"
 		"wide"	"f0"
 		"tall"	"f0"
+	}
+	MatchSummary
+	{
+		"fieldName" "MatchSummary"
+		"visible" "0"
+		"enabled" "1"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"f0"
+		"tall"	"f0"
+	}
+	HudCompetitive
+	{
+		"fieldName"				"HudCompetitive"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
 	}
 }

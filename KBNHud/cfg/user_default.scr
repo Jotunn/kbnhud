@@ -307,6 +307,14 @@ DESCRIPTION INFO_OPTIONS
 		{ CATEGORY }
 	}
 		
+		"cl_playerspraydisable"
+		{
+			"#GameUI_DisableSprays"
+			"#Tooltip_DisableSprays"
+			{ BOOL }
+			{ "0" }
+		}
+		
 		"tf_particles_disable_weather"
 		{
 			"#TF_DisableWeatherParticles"
@@ -355,19 +363,6 @@ DESCRIPTION INFO_OPTIONS
 				"High Quality" "_frames/highquality"
 				"Max Quality" "_frames/maxquality"
 				"Cinema(Better for Demos)" "_frames/cinema"
-			}
-			{ "0" }
-		}
-		
-		"exec       "
-		{
-			"Sprays:"
-			"Note: Disabling sprays will not remove existing sprays unless you reconnect to the server"
-			{
-				LIST
-				" " "w/null"
-				"Enable" "_tweaks/sprays/on"
-				"Disable" "_tweaks/sprays/off"
 			}
 			{ "0" }
 		}

@@ -386,11 +386,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v420"
+		"labelText"		"KBNHud v420A2"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
-		"wide"			"150"
+		"wide"			"180"
 		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -405,7 +405,7 @@
 		"xpos"			"20"
 		"ypos"			"61"
 		"zpos"			"11"
-		"wide"			"150"
+		"wide"			"180"
 		"tall"			"20"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
@@ -474,7 +474,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipSubLabel"
-			"font"			"MavenProLight14"
+			"font"			"MavenProMedium16"
 			"labelText"		"%tipsubtext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -494,7 +494,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TipLabel"
-			"font"			"MavenProLight14"
+			"font"			"MavenProMedium16"
 			"labelText"		"%tiptext%"
 			"textAlignment"	"center"
 			"xpos"			"20"
@@ -1227,13 +1227,13 @@
 		}
 	}
 
-	"CompetitiveBetaImage"
+	"CompetitiveBeta"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldname"		"CompetitiveBetaImage"
+		"fieldname"		"CompetitiveBeta"
 		// Competitive button, plus offset.
-		"xpos"			"300"
-		"ypos"			"178"
+		"xpos"			"245"
+		"ypos"			"140"
 		"zpos"			"12"
 		"wide"			"30"
 		"tall"			"30"
@@ -1249,8 +1249,8 @@
 		if_competitive_stress_event
 		{
 			// Move up/left 10px, bump up to 20x20
-			"ypos"	"178"
-			"xpos"	"300"
+			"ypos"	"135"
+			"xpos"	"265"
 			"wide"	"56"
 			"tall"	"56"
 			"image"	"beta_stress"

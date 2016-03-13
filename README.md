@@ -14,7 +14,7 @@ For the HUD to use proper fonts, you have to install the custom fonts to your co
 
 To do so, go to KBNHud/resource/fonts, and select all the files in there, right click, and click the install option. This is all you need to do, and the HUD should work as intended. This also solves long-existing issues with mac and linux not using proper fonts, and is permanent unless you reinstall your OS.
 
-__TO MAKE THE INCLUDED CAPTIONS WORK, YOU MUST ADD THE FOLLOWING TO YOUR autoexec.cfg (ALL OPERATING SYSTEMS):__
+__TO MAKE [CLOVERVIDIA'S](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) CAPTIONS WORK, YOU MUST ADD THE FOLLOWING TO YOUR autoexec.cfg (ALL OPERATING SYSTEMS):__
 				
 				closecaption 1
 				cc_subtitles 1

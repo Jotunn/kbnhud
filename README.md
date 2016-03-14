@@ -17,7 +17,7 @@ To do so, go to KBNHud/resource/fonts, and select all the files in there, right 
 __TO MAKE [CLOVERVIDIA'S](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) CAPTIONS WORK, YOU MUST ADD THE FOLLOWING TO YOUR autoexec.cfg (ALL OPERATING SYSTEMS):__
 				
 				closecaption 1
-				cc_subtitles 1
+				cc_subtitles 0
 				cc_lang "clovervidiar"
 				cc_predisplay_time 0
 

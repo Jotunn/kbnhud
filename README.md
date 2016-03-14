@@ -18,7 +18,7 @@ __TO MAKE [CLOVERVIDIA'S](https://steamcommunity.com/sharedfiles/filedetails/?id
 				
 				closecaption 1
 				cc_subtitles 0
-				cc_lang "clovervidiar"
+				cc_lang "clovervidiac"
 				cc_predisplay_time 0
 
 

@@ -1,5 +1,5 @@
 #################################################################################
-#-----KBNHUD v420A1 - Not what you think it is Edition - README-----#############
+#-----KBNHUD v420A2 - Not what you think it is Edition - README-----#############
 #################################################################################
 
 
@@ -13,14 +13,27 @@
 ######################################################
 
 
-##########################
-#---CRITICAL FONT FIX:---#
-##########################
-Before installing the HUD for the first time, you must install the fonts to your computer. The files are safe, and I have had zero issues with them, and this fix is permanent.
+############################################
+#---CRITICAL FONT FIX FOR MAC AND LINUX:---#
+############################################
+
+Before installing the HUD for the first time, you must install the fonts to your computer if you are on Mac or Linux. The files are safe, and I have had zero issues with them, and this fix is permanent.
 
 To do so, go to KBNHud/resource/fonts, and select all the files in there, right click, and then click Install.
 
-That is all you need to do. This will cause the HUD to use the proper font. I apologize for this being necessary, but something is causing the game to not recognize the files anymore, and I apologize.
+That is all you need to do. This will cause the HUD to use the proper font. 
+
+
+#######################################################
+#---TO MAKE THE INCLUDED CLOVERVIDIA CAPTIONS WORK:---#
+#######################################################
+
+You must add these commands to your autoexec.cfg:
+
+closecaption 1
+cc_subtitles 0
+cc_lang "clovervidiar"
+cc_predisplay_time 0
 
 
 ##########################################

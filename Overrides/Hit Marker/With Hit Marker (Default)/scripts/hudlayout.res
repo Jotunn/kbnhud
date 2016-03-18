@@ -716,11 +716,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c145"
-		"xpos_minmode"			"c125"
-		"ypos"					"200"
-		"ypos_minmode"			"190"
+		"ypos"					"193"
 		"wide"					"170"
-		"wide_minmode"			"132"
 		"tall"					"136"
 		"BgAlpha"				"100"
 
@@ -1093,7 +1090,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"42"	
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1607,9 +1604,21 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-	HudCompetitive
+	HudMatchStatus
 	{
-		"fieldName"				"HudCompetitive"
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"

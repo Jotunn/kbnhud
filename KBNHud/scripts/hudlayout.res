@@ -22,8 +22,8 @@
 	HudxHair
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair1"
-		"visible"		"1"
+		"fieldName"	 	"HudCrossHair2"
+		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
 
@@ -33,8 +33,8 @@
 		"tall"			"35"
 
 		"font"			"HudCrossHair"
-		"labelText"		"m"
-		"fgcolor"		"255 0 255 255"
+		"labelText"		"`"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair2
@@ -69,8 +69,8 @@
 		"tall"			"27"
 
 		"font"			"KnucklesCrosses"
-		"labelText"		"x"
-		"fgcolor"		"255 0 255 255"
+		"labelText"		"9"
+		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
 	HudxHair4
@@ -81,8 +81,8 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
+		"xpos"			"c-13"
+		"ypos"			"c-13"
 		"wide"			"27"
 		"tall"			"27"
 
@@ -95,7 +95,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldname"			"CODxhair"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -716,11 +716,8 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c145"
-		"xpos_minmode"			"c125"
-		"ypos"					"200"
-		"ypos_minmode"			"190"
+		"ypos"					"193"
 		"wide"					"170"
-		"wide_minmode"			"132"
 		"tall"					"136"
 		"BgAlpha"				"100"
 
@@ -1093,7 +1090,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
+		"xpos"			"42"	
 		"ypos"			"275"
 		"wide"	 		"320"
 		"tall"	 		"120"
@@ -1607,9 +1604,21 @@
 		"wide"	"f0"
 		"tall"	"f0"
 	}
-	HudCompetitive
+	HudMatchStatus
 	{
-		"fieldName"				"HudCompetitive"
+		"fieldName"				"HudMatchStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"0"
+		"ypos"					"0"
+		"zpos"					"2"
+		"wide"					"f0"
+		"tall"					"f0"
+	}
+
+	HudTeamStatus
+	{
+		"fieldName"				"HudTeamStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"

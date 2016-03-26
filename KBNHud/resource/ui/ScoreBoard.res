@@ -108,7 +108,7 @@
             "visible"   "0"
         }	"scaleImage"		"1"
 	}							
-	"BlueTeamLabel"
+	"TeamBlueLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"			"BlueTeamLabel"

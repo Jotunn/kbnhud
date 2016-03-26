@@ -8,7 +8,7 @@
 		"ypos"				"0"
 		"zpos"				"2"
 		"wide"				"58"
-		"tall"				"16"
+		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"	
@@ -95,7 +95,7 @@
 		{
 			"wide"	"0"
 		}
-	
+	}
 	"OvertimeLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -112,16 +112,14 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"MavenProMedium10"
+		"font"				"MavenProBold14"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"MavenProBold14"
 		}
 	}	
 	"OvertimeBG"
@@ -160,16 +158,14 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"MavenProMedium10"
+		"font"				"MavenProBold14"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"MavenProBold14"
 		}
 	
 	}			
@@ -209,16 +205,14 @@
 		"dulltext"			"0"
 		"brighttext"		"0"
 		"wrap"				"0"
-		"font"				"MavenProMedium10"
+		"font"				"MavenProBold14"
 	
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"MavenProBold14"
 		}
 	
 	}	
@@ -258,16 +252,14 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"MavenProMedium12"
+		"font"			"MavenProBold14"
 		
 		if_comp
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"font"					"MavenProBold14"
 		}
 	
 	}	

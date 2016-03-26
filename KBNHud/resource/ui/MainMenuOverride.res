@@ -386,7 +386,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v420A3"
+		"labelText"		"KBNHud v420A4"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -603,7 +603,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcutInfo"
 		"navRight"		"ServerShortcut2"
@@ -650,7 +649,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut1"
 		"navRight"		"ServerShortcut3"
@@ -697,7 +695,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut2"
 		"navRight"		"ServerShortcut4"
@@ -744,7 +741,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut3"
 		"navRight"		"ServerShortcut5"
@@ -791,7 +787,6 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut4"
 		"navRight"		"ServerShortcut6"
@@ -838,10 +833,9 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
 		"navLeft"		"ServerShortcut5"
-		"navRight"		"MOTD_ShowButtonPanel"
+		"navRight"		"ServerShortcut7"
 		"navToRelay"	"SubButton"
 		
 		"SubButton"
@@ -886,10 +880,9 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
-		"navLeft"		"ServerShortcut5"
-		"navRight"		"MOTD_ShowButtonPanel"
+		"navLeft"		"ServerShortcut6"
+		"navRight"		"ServerShortcut8"
 		"navToRelay"	"SubButton"
 		
 		"SubButton"
@@ -934,9 +927,8 @@
 		"tall"			"20"
 		"visible"		"1"
 		
-		"navUp"			"QuitButtonHidden"
 		"navDown"		"QuickplayButton"
-		"navLeft"		"ServerShortcut5"
+		"navLeft"		"ServerShortcut7"
 		"navRight"		"MOTD_ShowButtonPanel"
 		"navToRelay"	"SubButton"
 		
@@ -1885,8 +1877,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"c188"
-		"ypos"			"28"
+		"xpos"			"270"
+		"ypos"			"92"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -1895,9 +1887,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"SettingsButton"
-		"navLeft"		"QuickplayButton"
+		"navLeft"		"MOTD_ShowButtonPanel"
 		"navRight"		"Notifications_Panel"
 		"navToRelay"	"Notifications_ShowButtonPanel_SB"
 		
@@ -1943,8 +1933,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1973,8 +1963,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"32"
-				"tall"			"32"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"button_Alert"
@@ -1983,12 +1973,12 @@
 		}
 	}
 
-	"QuestLogButton"
+	"WatchStreamButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"QuestLogButton"
-		"xpos"			"c228"
-		"ypos"			"28"
+		"fieldName"		"WatchStreamButton"
+		"xpos"			"210"
+		"ypos"			"66"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -1998,8 +1988,8 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		
-		"navUp"			"Notifications_Panel"
-		"navLeft"		"SettingsButton"
+		"navRight"			"QuestLogButton"
+		"navToRelay"		"SubButton"
 
 		"SubButton"
 		{
@@ -2007,8 +1997,100 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"f0"
-			"tall"			"f0"
+			"wide"			"25"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"textinsetx"	"25"
+			"labelText"		""
+			"use_proportional_insets" "1"
+			"font"			"HudFontSmallBold"
+			"command"		"watch_stream"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"vo/null.mp3"
+			"actionsignallevel" "2"
+			"proportionaltoparent"	"1"
+				
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground"	"0"
+			"paintborder"		"0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"cs-0.5"
+				"ypos"			"cs-0.5"
+				"zpos"			"1"
+				"wide"			"25"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+				"image"			"button_streaming"
+
+				"proportionaltoparent"	"1"
+				"mouseinputenabled"	"0"
+				"keyboardinputenabled" "0"
+			}		
+		}
+	}
+
+	"StreamListPanel"
+	{
+		"ControlName"	"CTFStreamListPanel"
+		"fieldName"		"StreamListPanel"
+		"xpos"			"c5"
+		"ypos"			"65"
+		"zpos"			"1"
+		"wide"			"300"
+		"tall"			"350"
+		"visible"		"0"
+		"PaintBackgroundType"	"2"
+		"paintbackground"	"0"
+		"border"		"MainMenuHighlightBorder"
+
+		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
+	}
+	
+	"QuestLogButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"QuestLogButton"
+		"xpos"			"240"
+		"ypos"			"66"
+		"zpos"			"1"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		
+		"navLeft"			"WatchStreamButton"
+		"navDown"			"MOTD_ShowButtonPanel"
+		"navToRelay"		"SubButton"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -2042,8 +2124,8 @@
 				"xpos"			"cs-0.5"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"f0"
-				"tall"			"f0"
+				"wide"			"25"
+				"tall"			"25"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -2122,10 +2204,10 @@
 		"visible"		"1"
 		"enabled"		"1"
 
-		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
+		"navUp"			"QuestLogButton"				// pass through when naving up to this or the fully displayed MOTD
 		"navDown"		"QuickplayButton"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"MOTD_Panel"		// when a sub element can't nav left it will pass through this
-		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
+		"navLeft"		"ServerShortcut8"		// when a sub element can't nav left it will pass through this
+		"navRight"		"Notifications_ShowButtonPanel"				// pass through when naving right to this or the fully displayed MOTD
 		"navToRelay"		"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
 		"MOTD_ShowButtonPanel_SB"
@@ -2135,8 +2217,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"
-			"wide"			"32"
-			"tall"			"32"
+			"wide"			"25"
+			"tall"			"25"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"

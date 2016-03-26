@@ -103,7 +103,7 @@ Scheme
 		"MenuBlue"					"0 138 201 255"
 		"Highlight"					"0 138 201 255"
 		"Highlight2"				"0 138 201 255"
-		"MainMenuBG"				"11 7 6 190"
+		"MainMenuBG"				"11 7 6 240"
 		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
 		

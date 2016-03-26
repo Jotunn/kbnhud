@@ -1,5 +1,5 @@
 ####################################################################################
-#----KBNHUD v420A3 - Not what you think it is Edition - CHANGELOG----###############
+#----KBNHUD v420A4 - Not what you think it is Edition - CHANGELOG----###############
 ####################################################################################
 
 #####################################################################
@@ -7,21 +7,23 @@
 #####################################################################
 
 
--New player panels for comp, compatibility for stress test 8+9
+-New main menu Streamer button, see people currently streaming TF2 on 
+Twitch.tv to all main menus.
 
 #####################################################################
 #----CHANGED----#####################################################
 #####################################################################
 
--Moved Chat to top left corner to stop overlapping with tournament
-spectator panels
+-Main menu background to one of my actual hometown. See who knows what
+town it is and its historical signifigance.
 
 #####################################################################
 #-----FIXED-----#####################################################
 #####################################################################
 
 
-
+-Missing animation for in match player icons at the top of the screen
+-Missing round timers in and out of comp mode for cp_ maps
  
 #####################################################################
 #----REMOVED----#####################################################

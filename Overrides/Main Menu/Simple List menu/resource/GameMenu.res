@@ -78,7 +78,7 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v420A2"
+		"label" "KBNHud v420A4"
 		"command"		"engine toggleconsole;
 			play engine play ui/no.wav
 			echo -------------------------------------------------------------------------------;

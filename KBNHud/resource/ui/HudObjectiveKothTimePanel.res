@@ -1,5 +1,53 @@
 "Resource/UI/HudObjectiveKothTimePanel.res"
 {	
+	"TimePanelBGBlu"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"TimePanelBG"
+		"xpos"				"40"
+		"ypos"				"10"
+		"zpos"				"2"
+		"wide"				"58"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
+	}
+	
+	"TimePanelBGRed"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"TimePanelBG"
+		"xpos"				"102"
+		"ypos"				"10"
+		"zpos"				"2"
+		"wide"				"58"
+		"tall"				"8"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_red_bg"	
+		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+		
+		if_comp
+		{
+			"visible"	"0"
+		}
+	}
+	
 	"HudKothTimeStatus"
 	{
 		if_comp
@@ -7,6 +55,7 @@
 			"zpos"		"5"
 		}
 	}
+	
 	
 	"BlueTimer"
 	{
@@ -45,9 +94,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MavenProBlack20"
-			"fgcolor"		"TanLight"
-			"xpos"			"32"
+			"font"			"MavenProBold20"
+			"xpos"			"33"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -62,7 +110,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"15"
-				"ypos"			"19"
+				"ypos"			"21"
 				"tall"			"10"
 				"wide"			"35"
 				"font"			"MavenProMedium14"
@@ -110,9 +158,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MavenProBlack20"
-			"fgcolor"		"TanLight"
-			"xpos"			"32"
+			"font"			"MavenProBold20"
+			"xpos"			"33"
 			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
@@ -127,7 +174,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"rs1-15"
-				"ypos"			"19"
+				"ypos"			"21"
 				"wide"			"35"
 				"tall"			"10"
 				"font"			"MavenProMedium14"
@@ -148,8 +195,7 @@
 		"wide"				"56"
 		"tall"				"8"
 		"visible"			"1"
-		"enabled"			"1"
-		"image"				"../hud/objectives_timepanel_active_bg"	
+		"enabled"			"1"	
 		"fillcolor"			"255 255 255 75"
 		"PaintBackgroundType"		"0"
 		

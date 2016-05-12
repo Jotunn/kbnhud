@@ -561,6 +561,17 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		"MavenProRegular9"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"9"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProRegular10"
 		{
 			"1"
@@ -600,6 +611,39 @@ Scheme
 			{
 			"name"		"Maven Pro Regular"
 			"tall"		"14"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProRegular24"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProRegular48"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"48"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProRegular72"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"72"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
@@ -3022,6 +3066,50 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"MatchSummaryWinner"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"20"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"CompMatchStartTeamNames"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ControlPointTimer"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"ControlPointTimerSmaller"
+		{
+			"1"
+			{
+				"name"		"TF2 Secondary"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"Link"
 		{
 			"1"
@@ -4233,7 +4321,6 @@ Scheme
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"	
 		}
-		
 		TFFatLineBorderOpaque
 		{
 			"bordertype"			"scalable_image"
@@ -4267,6 +4354,17 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBGOpaque_Store
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_opaque"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"11"	
+		}
 		TFFatLineBorderRedBG
 		{
 			"bordertype"			"scalable_image"
@@ -4278,12 +4376,56 @@ Scheme
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"5"	
 		}
+		TFFatLineBorderRedBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_red_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
 		TFFatLineBorderBlueBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
 			"image"					"../hud/color_panel_blu"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderBlueBGMoreOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_more_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderBlueBGOpaque
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_blu_opaque"
+			"src_corner_height"		"23"				// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+		TFFatLineBorderClearBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

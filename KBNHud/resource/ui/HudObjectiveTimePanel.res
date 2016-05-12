@@ -22,7 +22,6 @@
 		{
 			"visible"	"0"
 		}
-	
 	}
 	
 	"TimePanelProgressBar"
@@ -71,10 +70,8 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
-			"font"					"HudFontSmallestBold"
-			"font_hidef"			"HudFontSmallestBold"
-			"font_lodef"			"HudFontSmallestBold"
+			"ypos"					"21"
+			"font"					"MavenProBold14"
 		}
 	}					
 	"WaitingForPlayersBG"
@@ -100,8 +97,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"OvertimeLabel"
-		"xpos"				"6"
-		"ypos"				"37"
+		"xpos"				"5"
+		"ypos"				"30"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -118,7 +115,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"ypos"					"21"
 			"font"					"MavenProBold14"
 		}
 	}	
@@ -147,7 +144,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"5"
-		"ypos"				"25"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -164,7 +161,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"ypos"					"21"
 			"font"					"MavenProBold14"
 		}
 	
@@ -194,7 +191,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SetupLabel"
 		"xpos"				"5"
-		"ypos"				"25"
+		"ypos"				"20"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"
@@ -211,7 +208,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"ypos"					"25"
 			"font"					"MavenProBold14"
 		}
 	
@@ -240,10 +237,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"5"
-		"ypos"			"3"
+		"fgcolor"		"White"
+		"xpos"			"-5"
+		"ypos"			"-6"
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"120"
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
@@ -252,13 +250,15 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"MavenProBold14"
+		"font"			"MavenProRegular12"
 		
 		if_comp
 		{
+			"visible"				"0
+			"
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"17"
+			"ypos"					"21"
 			"font"					"MavenProBold14"
 		}
 	

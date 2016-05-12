@@ -977,36 +977,24 @@
 
 	WinPanel
 	{
-		//"fieldName"				"WinPanel"
-		//"visible"				"1"
-		//"enabled"				"1"
-		//"xpos"					"c-150"//c-150
-		//"ypos"					"r200"
-		//"wide"					"300"//300
-		//"tall"					"215"
-		//#######
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-140"
-		"ypos"					"240"
-		"wide"					"280"
-		"tall"					"303"
-		"zpos"					"10"
+		"xpos"					"c-100"
+		"ypos"					"50"
+		"wide"					"200"
+		"tall"					"300"
 	}
-
 
 	ArenaWinPanel
 	{
 		"fieldName"				"ArenaWinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"230"
-		"wide"					"400"
-		"tall"					"211"
-		
-		"zpos_minmode"			"1"
+		"xpos"					"c-225"
+		"ypos"					"260"
+		"wide"					"450"
+		"tall"					"300"
 	}
 	StatPanel
 	{
@@ -1182,7 +1170,7 @@
 		"ypos"					"15"
 		"ypos_lodef"			"75"
 		"wide"					"320"
-		"tall"					"245"
+		"tall"					"260"
 	}
 
 	HudTeamSwitch
@@ -1266,7 +1254,7 @@
 		"ypos"					"15"
 		"ypos_lodef"				"75"
 		"wide"					"125"
-		"tall"					"55"
+		"tall"					"70"
 	}
 	
 	NotificationPanel
@@ -1607,18 +1595,6 @@
 	HudMatchStatus
 	{
 		"fieldName"				"HudMatchStatus"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"2"
-		"wide"					"f0"
-		"tall"					"f0"
-	}
-
-	HudTeamStatus
-	{
-		"fieldName"				"HudTeamStatus"
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"

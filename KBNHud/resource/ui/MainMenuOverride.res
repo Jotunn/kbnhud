@@ -386,7 +386,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v420A4"
+		"labelText"		"KBNHud v420A5"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -4912,38 +4912,43 @@
 				{
 					"0"
 					{
-						"item"		 	"Unused Operation Tough Break Pass"
+						"item"		"Mayflower Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Tough Break Case 01 Pyroland"
+						"item"		"Mayflower Cosmetic Case"
 						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Tough Break Case 02 Warbirds"
-						"show_market"	"1"
-					}
-					"3"
-					{
 						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
-					"4"
+					"3"
 					{
 						"item"		"Tough Break Cosmetic Case"
 						"show_market"	"1"
 					}
-					"5"
+					"4"
 					{
 						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
 					}
 					"5"
 					{
-						"item"		"Taunt: Aerobic Taunt"
+						"item"		"Taunt: Mannrobics"
 						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
+					}
+					"7"
+					{
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					
 				}

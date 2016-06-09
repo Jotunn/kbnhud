@@ -192,11 +192,11 @@
 		"xpos"				"40"
 		"ypos"				"35"
 		"zpos"				"1"
-		"wide"				"56"
+		"wide"				"57"
 		"tall"				"8"
 		"visible"			"1"
 		"enabled"			"1"	
-		"fillcolor"			"255 255 255 75"
+		"fillcolor"			"255 255 255 155"
 		"PaintBackgroundType"		"0"
 		
 		if_comp

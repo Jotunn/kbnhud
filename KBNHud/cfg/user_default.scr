@@ -753,6 +753,90 @@ DESCRIPTION INFO_OPTIONS
 
 	"category8"
 	{
+		"#TF_OptionCategory_DemoSupport"
+		{ CATEGORY }
+	}
+
+		"ds_enable"
+		{
+			"#TF_DemoSupport"
+			"#TF_DemoSupport_ToolTip"
+			{ LIST
+				"#TF_DemoSupport_Manual" "0"
+				"#TF_DemoSupport_Comp" "1"
+				"#TF_DemoSupport_All" "2"
+			}
+			{ "0" }
+		}
+
+		"ds_dir"
+		{
+			"#TF_DemoSupport_Dir"
+			"#TF_DemoSupport_Dir_ToolTip"
+			{ STRING }
+			{ "Demos" }
+		}
+
+		"ds_prefix"
+		{
+			"#TF_DemoSupport_Prefix"
+			"#TF_DemoSupport_Prefix_ToolTip"
+			{ STRING }
+			{ "" }
+		}
+	
+		"ds_sound"
+		{
+			"#TF_DemoSupport_Sound"
+			{ BOOL }
+			{ "1" }
+		}
+
+		"ds_log"
+		{
+			"#TF_DemoSupport_Log"
+			"#TF_DemoSupport_Log_ToolTip"
+			{ BOOL }
+			{ "1" }
+		}
+
+		"ds_notify"
+		{
+			"#TF_DemoSupport_Notify"
+			{ LIST
+				"#TF_DemoSupport_Notify_ConsoleOnly" "0"
+				"#TF_DemoSupport_Notify_Chat" "1"
+				"#TF_DemoSupport_Notify_HUD" "2"
+			}
+			{ "0" }
+		}
+
+		"ds_screens"
+		{
+			"#TF_DemoSupport_Screens"
+			{ BOOL }
+			{ "1" }
+		}
+
+		"ds_min_streak"
+		{
+			"#TF_DemoSupport_MinStreak"
+			"#TF_DemoSupport_MinStreak_ToolTip"
+			{ NUMBER 2 1000 }
+			{ "4" }
+		}
+
+		"ds_kill_delay"
+		{
+			"#TF_DemoSupport_KillDelay"
+			"#TF_DemoSupport_KillDelay_ToolTip"
+			{ NUMBER 5 1000 }
+			{ "15" }
+		}
+
+	
+	"category9"
+	{
 		"#TF_OptionCategory_Replay"
 		{ CATEGORY }
 	}
@@ -805,7 +889,7 @@ DESCRIPTION INFO_OPTIONS
 			{ "1" }
 		}
 	
-	"category9"
+	"category10"
 	{
 		"#TF_OptionCategory_Misc"
 		{ CATEGORY }
@@ -890,7 +974,7 @@ DESCRIPTION INFO_OPTIONS
 			{ "1" }
 		}
 		
-	"category10"
+	"category11"
 	{
 		"Visions (pyrovision/romevision)"
 		{ CATEGORY }

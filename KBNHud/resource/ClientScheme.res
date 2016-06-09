@@ -45,8 +45,8 @@ Scheme
 		"Full Ubercharge flash 1"   "75 175 255 255"
 		"Full Ubercharge flash 2"   "150 200 255 255"
 		
-		"Ammo in clip"  			"255 225 255 255"
-		"Ammo in reserve"  			"225 255 255 255"
+		"Ammo in clip"  			"235 235 235 255"
+		"Ammo in reserve"  			"235 235 235 255"
 		
 		"Low Ammo flash 1"  		"200 0 0 255"
 		"Low Ammo flash 2"  		"255 75 75 255"

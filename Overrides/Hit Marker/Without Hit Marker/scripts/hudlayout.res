@@ -715,7 +715,7 @@
 		"fieldName"				"HudCloseCaption"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c145"
+		"xpos"					"c185"
 		"ypos"					"193"
 		"wide"					"170"
 		"tall"					"136"

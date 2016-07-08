@@ -9,29 +9,29 @@
 	}
 	"QuickplayButton"
 	{
-		"label" "Quickplay"
-		"command" "quickplay"
+		"label" "Casual"
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame"
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
 		"label" "Co-Op"
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
     "CompetitiveButton"
     {
         "label" "Competitive" 
-        "command" "ladder_ui_show"
+        "command" "play_competitive"
         "subimage" "glyph_practice"
         "OnlyAtMenu" "1"
     }	
@@ -78,7 +78,7 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v421"
+		"label" "KBNHud v421A2"
 		"command"		"engine toggleconsole;
 			play engine play ui/wurt.wav
 			echo -------------------------------------------------------------------------------;

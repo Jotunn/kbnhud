@@ -2,29 +2,29 @@
 {
 	"QuickplayButton"
 	{
-		"label" "Quickplay"	//"#MMenu_StartPlaying" 
-		"command" "quickplay"
+		"label" "Casual"	//"#MMenu_StartPlaying" 
+		"command" "play_casual"
 		"subimage" "glyph_multiplayer"	//"glyph_server"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
 		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
+		"command" "play_casual"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
 		"label" "#MMenu_PlayCoop" 
-		"command" "playpve"
+		"command" "play_mvm"
 		"subimage" "glyph_coop"
 		//"OnlyAtMenu" "1"
 	}
 	"CompetitiveButton"
 	{
 		"label" "Competitive" 
-		"command" "ladder_ui_show"
+		"command" "play_competitive"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "0"
 	}

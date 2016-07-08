@@ -78,7 +78,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play engine play ui/no.wav
+			play engine play ui/wurt.wav
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;

@@ -51,10 +51,10 @@
 				"PaintBackgroundType"	"2"
 				"paintborder"	"0"
 				
-				"model_xpos"	"3"
-				"model_ypos"	"3"
-				"model_wide"	"80"
-				"model_tall"	"53"
+				"model_xpos"	"2"
+				"model_ypos"	"0"
+				"model_wide"	"85"
+				"model_tall"	"58"
 				
 				"text_xpos"		"110"
 				"text_ypos"		"24"
@@ -68,7 +68,6 @@
 				{
 					"use_item_rendertarget" "0"
 					"allow_rot"				"0"
-					"inventory_image_type"	"1"
 				}
 			}
 			
@@ -280,41 +279,9 @@
 			"wide"			"600"
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
-			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
+			"fgcolor_override"	"59 54 48 255"
 			"bgcolor_override"	"51 47 46 255"
 			"autohide_buttons" "1"
-			
-			"Scrollbar"
-			{
-				"xpos"			"586"
-				"wide"			"11"
-				"tall"			"240"
-				"zpos"			"1000"
-				
-				"Slider"
-				{
-					"PaintBackgroundType"	"2"
-				}
-				
-				"nobuttons"		"1"
-				"UpButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"UpButton"
-					"visible"		"0"
-					"tall"			"0"
-					"wide"			"0"
-				}
-				
-				"DownButton"
-				{
-					"ControlName"	"Button"
-					"FieldName"		"DownButton"
-					"visible"		"0"
-					"tall"			"0"
-					"wide"			"0"
-				}
-			}
 			
 			"ItemListContainer"
 			{
@@ -427,56 +394,55 @@
 				}
 			}
 		}
+		
+		"CheckoutButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CheckoutButton"
+			"xpos"			"c170"
+			"ypos"			"321"
+			"zpos"			"1"
+			"wide"			"130"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"#Store_Checkout"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"checkout"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}
+		
+		"CloseButton"
+		{
+			"ControlName"	"CExButton"
+			"fieldName"		"CloseButton"
+			"xpos"			"c-300"
+			"ypos"			"321"
+			"zpos"			"2"
+			"wide"			"200"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		"#Store_ContinueShopping"
+			"font"			"HudFontSmallBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"Command"		"close"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+		}		
 	}	
-	
-	"CloseButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CloseButton"
-		"xpos"			"c-300"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"200"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_ContinueShopping"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"close"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
-	
-	"CheckoutButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"CheckoutButton"
-		"xpos"			"c170"
-		"ypos"			"437"
-		"zpos"			"2"
-		"wide"			"130"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#Store_Checkout"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"default"		"1"
-		"Command"		"checkout"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-	
 }

@@ -96,7 +96,7 @@
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c175"
 		"ypos"			"20"
-		"zpos"			"15"
+		"zpos"			"5"
 		"wide"			"120"
 		"tall"			"25"
 		"autoResize"	"0"

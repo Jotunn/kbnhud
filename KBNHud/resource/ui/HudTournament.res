@@ -36,7 +36,7 @@
 			"team2_player_delta_x"			"52"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"							"cs-0.5"
 			"ypos"							"0"
@@ -78,7 +78,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_competitive
+			if_match
 			{
 				"visible"		"1"
 			}
@@ -138,7 +138,7 @@
 					"font"				"MavenProMedium8"
 				}
 				
-				if_competitive
+				if_match
 				{
 					"xpos"				"2"
 					"ypos"				"25"
@@ -180,7 +180,7 @@
 					"image"			"../vgui/hud_connecting"
 				}
 				
-				if_competitive
+				if_match
 				{
 					"xpos"			"9"
 					"ypos"			"4"
@@ -217,7 +217,7 @@
 					"visible"		"0"
 				}
 				
-				if_competitive
+				if_match
 				{
 					"visible"		"0"
 				}
@@ -273,7 +273,7 @@
 					"zpos"			"-2"
 				}
 
-				if_competitive
+				if_match
 				{
 					"visible"		"1"
 					"zpos"			"-2"					
@@ -314,7 +314,7 @@
 					"visible"		"1"
 				}
 				
-				if_competitive
+				if_match
 				{
 					"visible"		"1"
 				}
@@ -341,6 +341,19 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
+				
+				
+				if_readymode
+				{
+					"font"			"MavenProMedium20"
+					"xpos"			"8"
+					"ypos"			"5"
+					"zpos"			"5"
+					"wide"			"40"
+					"tall"			"25"
+				}
+
+
 			}
 			
 			"chargeamount"
@@ -390,7 +403,7 @@
 				"tall"		"35"
 			}
 			
-			if_competitive
+			if_match
 			{
 				"wide"		"40"
 				"tall"		"35"
@@ -414,7 +427,7 @@
 			"team2_player_delta_x"			"42"
 		}
 
-		if_competitive
+		if_match
 		{
 			"xpos"							"0"
 			"ypos"							"0"
@@ -467,7 +480,7 @@
 			"visible"		"0"
 		}
 
-		if_competitive
+		if_match
 		{
 			"xpos"			"195"
 			"ypos"			"5"
@@ -502,7 +515,7 @@
 		{
 			"visible"		"0"
 		}
-		if_competitive
+		if_match
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -541,7 +554,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -577,7 +590,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"207"
 			"visible"		"0"
@@ -603,6 +616,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
 		"textAlignment"		"east"
@@ -612,7 +626,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"251"
 			"visible"		"0"
@@ -651,7 +665,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"320"
 			"visible"		"0"
@@ -686,7 +700,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"370"
 			"visible"		"0"
@@ -721,7 +735,7 @@
 			"visible"		"0"
 		}
 
-		if_competitive
+		if_match
 		{
 			"xpos"			"325"
 			"visible"		"0"
@@ -761,11 +775,11 @@
 		if_readymode
 		{
 			"wide"			"f0"
-			"xpos"			"0"
+			"xpos"			"-65"
 			"ypos"			"16"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"wide"			"f0"
 			"xpos"			"0"
@@ -777,8 +791,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
-		"xpos"			"0"
-		"ypos"			"49"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"12"
@@ -800,7 +814,7 @@
 			"visible"		"0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"visible"		"0"
 		}
@@ -821,7 +835,7 @@
 		"wide"			"250"
 		"tall"			"18"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
@@ -832,10 +846,10 @@
 
 		if_readymode
 		{
-			"xpos"			"c-125"
+			"xpos"			"c-150"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"c-125"
 		}		
@@ -849,7 +863,7 @@
 		"xpos"			"c-125"
 		"ypos"			"51"
 		"wide"			"250"
-		"tall"			"13"
+		"tall"			"15"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -871,11 +885,12 @@
 		
 		if_readymode
 		{
-			"xpos"			"0"
+			"xpos"			"-65"
+			"ypos"			"46"
 			"wide"			"f0"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"0"
 			"wide"			"f0"
@@ -907,10 +922,11 @@
 		
 		if_readymode
 		{
-			"xpos"			"c-125"
+			"xpos"			"c-190"
+			"ypos"			"46"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"355"
 			"ypos"			"118"
@@ -950,7 +966,7 @@
 			"xpos"		"c-20"
 		}
 
-		if_competitive
+		if_match
 		{
 			"visible"	"0"
 			"enabled" 	"0"
@@ -960,6 +976,8 @@
 		
 		if_readymode
 		{
+			"xpos"		"9999"
+			"ypos"		"9999"
 			"visible"	"0"
 			"enabled" 	"0"
 			"wide"		"0"
@@ -976,7 +994,7 @@
 		"ypos"			"r55"
 		"wide"			"300"
 		"tall"			"40"
-		"zpos"			"1"
+		"zpos"			"2"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -997,7 +1015,7 @@
 		}
 	
 	
-		if_competitive
+		if_match
 		{
 			"xpos"			"c-152"
 			"ypos"			"130"
@@ -1008,7 +1026,7 @@
 
 		if_readymode
 		{
-			"xpos"			"c-152"
+			"xpos"			"c-215"
 			"ypos"			"130"
 			"tall"			"25"
 			"visible"		"1"
@@ -1042,7 +1060,7 @@
 			"xpos"		"c-20"
 		}
 		
-		if_competitive
+		if_match
 		{
 			"xpos"			"c-150"
 			"ypos"			"130"
@@ -1053,7 +1071,7 @@
 
 		if_readymode
 		{
-			"xpos"			"c-150"
+			"xpos"			"c-215"
 			"ypos"			"130"
 			"tall"			"29"
 			"visible"		"1"

@@ -248,7 +248,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProBold20"
 
-		if_comp
+		if_match
 		{
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
@@ -275,7 +275,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 

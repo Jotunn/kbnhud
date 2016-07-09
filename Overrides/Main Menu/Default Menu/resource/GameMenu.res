@@ -7,9 +7,9 @@
 		"subimage" "glyph_multiplayer"	//"glyph_server"
 		"OnlyAtMenu" "1"
 	}
-	"QuickplayChangeButton"
+	"EnterCasualInGame"
 	{
-		"label" "#MMenu_NewGame" 
+		"label" "Casual" 
 		"command" "play_casual"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"

@@ -311,50 +311,6 @@ Scheme
 			}
 		}
 
-		"MarlettSmall"
-		{
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"7"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"9"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"11"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"symbol"	"1"
-			}
-		}
-
 		"ChatFont"
 		{
 			"1"
@@ -369,7 +325,6 @@ Scheme
 			"2"
 			{
 				"name"		"Verdana"
-
 				"tall"		"13"	[$WIN32]
 				"tall"		"17"	[$X360]
 				"weight"	"900"
@@ -379,7 +334,6 @@ Scheme
 			"3"
 			{
 				"name"		"Verdana"
-
 				"tall"		"13"	[$WIN32]
 				"tall"		"18"	[$X360]
 				"weight"	"900"
@@ -389,7 +343,6 @@ Scheme
 			"4"
 			{
 				"name"		"Verdana"
-
 				"tall"		"14"	[$WIN32]
 				"tall"		"20"	[$X360]
 				"weight"	"900"
@@ -399,7 +352,6 @@ Scheme
 			"5"
 			{
 				"name"		"Verdana"
-
 				"tall"		"15"	[$WIN32]
 				"tall"		"25"	[$X360]
 				"weight"	"900"

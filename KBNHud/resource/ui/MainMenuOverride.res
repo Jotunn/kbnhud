@@ -363,7 +363,7 @@
 		"PaintBackgroundType"	"2"
 		"border"		"MainMenuBGBorder"
 
-		if_matchetitive
+		if_competitive
 		{
 			//"tall"		"156"
 		}
@@ -442,7 +442,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v421A3"
+		"labelText"		"KBNHud v421A2"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -1033,9 +1033,9 @@
 		"default"		"1"
 		
 		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"EnterCasualInGame"
+		"navDown"		"QuickplayChangeButton"
 		"navRight"		"TrainingButton"
-		"navLeft"		"EnterCasualInGame"
+		"navLeft"		"QuickplayChangeButton"
 		"navToRelay"		"SubButton"
 		
 		"SubButton"
@@ -1088,10 +1088,10 @@
 			}				
 		}
 	}
-	"EnterCasualInGame"
+	"QuickplayChangeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EnterCasualInGame"
+		"fieldname"		"QuickplayChangeButton"
 		"xpos"			"15"
 		"ypos"			"121"
 		"zpos"			"11"
@@ -1121,7 +1121,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"labelText"		"Casual"
+			"labelText"		"#MMenu_NewGame"
 			"font"			"MavenProBlack18"
 			"textAlignment"	"west"
 			"textinsetx"	"25"
@@ -1164,7 +1164,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		
-		"navUp"			"EnterCasualInGame"
+		"navUp"			"QuickplayChangeButton"
 		"navDown"		"ChangeServerButton"
 		"navRight"		"CompetitiveButton"
 		"navLeft"		"ResumeGameButton"
@@ -1225,7 +1225,7 @@
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"EnterCasualInGame"
+		"navUp"			"QuickplayChangeButton"
 		"navDown"		"ServerBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navLeft"		"PlayPVEButton"
@@ -1264,7 +1264,7 @@
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
 				"xpos"			"6"
-				"ypos"			"5"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
@@ -1275,18 +1275,36 @@
 		}
 	}
 
-	"CompetitiveAccessInfoPanel"
+	"CompetitiveBeta"
 	{
-		"ControlName"	"CCompetitiveAccessInfoPanel"
-		"fieldName"		"CompetitiveAccessInfoPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
-		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
+		"ControlName"	"ImagePanel"
+		"fieldname"		"CompetitiveBeta"
+		// Competitive button, plus offset.
+		"xpos"			"245"
+		"ypos"			"140"
+		"zpos"			"12"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"0"
+		"enabled"		"0"
+		"image"			"beta"
+		"scaleImage"	"1"
+		if_competitive
+		{
+				"visible"		"1"
+				"enabled"		"1"
+		}
+		if_competitive_stress_event
+		{
+			// Move up/left 10px, bump up to 20x20
+			"ypos"	"135"
+			"xpos"	"265"
+			"wide"	"56"
+			"tall"	"56"
+			"image"	"beta_stress"
+		}
 	}
-	
+
 	"ServerBrowserButton"
 	{
 		"ControlName"	"EditablePanel"
@@ -1492,7 +1510,7 @@
 		
 		"navUp"			"MutePlayersButton"
 		"navDown"		"CharacterSetupButton"
-		"navRight"		"EnterCasualInGame"
+		"navRight"		"QuickplayChangeButton"
 		"navLeft"		"QuickplayButton"
 		"navToRelay"		"SubButton"
 		
@@ -1850,8 +1868,8 @@
 			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
@@ -1885,8 +1903,8 @@
 				"zpos"			"1"
 				"wide"			"12"
 				"tall"			"12"
-				"visible"		"0"
-				"enabled"		"0"
+				"visible"		"1"
+				"enabled"		"1"
 				"image"			"glyph_items"
 				"scaleImage"	"1"
 			}				
@@ -3274,7 +3292,7 @@
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
-		"navLeft"		"EnterCasualInGame"
+		"navLeft"		"QuickplayChangeButton"
 		"navToRelay"		"SubButton"
 		
 		"SubButton"
@@ -3407,7 +3425,7 @@
 		
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
-		"navRight"		"EnterCasualInGame"
+		"navRight"		"QuickplayChangeButton"
 		"navLeft"		"RequestCoachButton"
 		"navToRelay"		"SubButton"
 		
@@ -4863,6 +4881,7 @@
 			}				
 		}		
 	}
+	
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -5069,28 +5088,43 @@
 				{
 					"0"
 					{
-						"item"		"Competitive Matchmaking Official"
-						"show_market"	"0"
+						"item"		"Tough Break Case 01 Pyroland"
+						"show_market"	"1"
 					}
 					"1"
 					{
-						"item"		"Taunt: The Carlton"
-						"show_market"	"0"
+						"item"		"Tough Break Case 02 Warbirds"
+						"show_market"	"1"
 					}
 					"2"
 					{
-						"item"		"Taunt: The Balloonibouncer"
+						"item"		"Tough Break Key"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Taunt: Disco Fever"
-						"show_market"	"0"
+						"item"		"Tough Break Cosmetic Case"
+						"show_market"	"1"
 					}
 					"4"
 					{
-						"item"		"Taunt: The Fubar Fanfare"
+						"item"		"Tough Break Cosmetic Key"
 						"show_market"	"0"
+					}
+					"5"
+					{
+						"item"		"Taunt: Mannrobics"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Mayflower Cosmetic Key"
+						"show_market"	"0"
+					}
+					"7"
+					{
+						"item"		"Mayflower Cosmetic Case"
+						"show_market"	"1"
 					}
 				}
 			}

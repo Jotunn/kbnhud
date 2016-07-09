@@ -2045,10 +2045,10 @@
 		}
 	}
 		
-	"EnterCasualInGame"
+	"QuickplayChangeButton"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EnterCasualInGame"
+		"fieldname"		"QuickplayChangeButton"
 		"xpos"			"9999"
 		"ypos"			"9999"
 		"zpos"			"11"

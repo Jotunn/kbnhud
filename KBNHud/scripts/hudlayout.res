@@ -1,7 +1,5 @@
 "Resource/HudLayout.res"
 {
-	"Resource/HudLayout.res"
-{
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"

@@ -14,9 +14,9 @@
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
-	"EnterCasualInGame"
+	"QuickplayChangeButton"
 	{
-		"label" "Casual"
+		"label" "#MMenu_NewGame"
 		"command" "play_casual"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
@@ -78,7 +78,7 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v421A3"
+		"label" "KBNHud v421A2"
 		"command"		"engine toggleconsole;
 			play engine play ui/wurt.wav
 			echo -------------------------------------------------------------------------------;

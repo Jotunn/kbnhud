@@ -1,8 +1,8 @@
-"Resource/UI/HudMatchStatus.res"
+"Resource/UI/Competitive.res"
 {
 	"HudMatchStatus"
 	{
-		"fieldName"		"HudMatchStatus"
+		"fieldName"		"RoundSignModel"
 		"avatar_width"	"63"
 		"spacer"		"5"
 		"name_width"	"57"
@@ -27,7 +27,7 @@
 		
 		"model"
 		{
-			"modelname"	"models/props_ui/banner.mdl"
+			"modelname"	"models/props_ui/round_banner.mdl"
 			"skin"		"0"
 			"angles_x"	"30"
 			"angles_y"	"180"
@@ -62,7 +62,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"HudFontGiant"
+		"font"			"MavenProBold20"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.1"
 		"wide"			"40"
@@ -216,15 +216,9 @@
 		"zpos"				"0"
 		"wide"				"365"
 		"tall"				"28"
-		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
-		if_match
-		{
-			"visible"		"1"
-		}
 	}
 
 	"ObjectiveStatusTimePanel"
@@ -248,7 +242,7 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProBold20"
 
-		if_match
+		if_comp
 		{
 			"delta_item_x"			"35"
 			"delta_item_start_y"	"12"
@@ -275,7 +269,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_match
+			if_comp
 			{
 				"proportionaltoparent"	"1"
 
@@ -560,14 +554,8 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-
-		if_large
-		{
-			"ypos"			"65"
-			"tall"			"385"
-		}
 
 		"BlueTeamBG"
 		{
@@ -661,11 +649,6 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
-			if_large
-			{
-				"tall"			"315"
-			}
 		}
 		"BluePlayerListBG"
 		{
@@ -681,11 +664,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
-			if_large
-			{
-				"tall"			"325"
-			}
 		}
 	}
 
@@ -698,14 +676,8 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-
-		if_large
-		{
-			"ypos"			"65"
-			"tall"			"385"
-		}
 
 		"RedTeamBG"
 		{
@@ -799,11 +771,6 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
-			if_large
-			{
-				"tall"			"315"
-			}
 		}
 		"RedPlayerListBG"
 		{
@@ -819,11 +786,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
-			if_large
-			{
-				"tall"			"325"
-			}
 		}
 	}
 }

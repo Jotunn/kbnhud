@@ -30,20 +30,27 @@ Thanks to [Calcium](http://steamcommunity.com/id/TheCalcium) for this info.
 
 ***Windows***
 
-Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: "Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 
+
+"Program Files/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Windows 64-bit***
 
-Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: "Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 
+
+"Program Files(x86)/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Mac OS***
 
 Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 
+
 "(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 ***Linux***
 
-Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: "~/Steam/SteamApps/common/Team Fortress 2/tf/custom"
+Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 
+
+"~/Steam/SteamApps/common/Team Fortress 2/tf/custom"
 
 
 ## Customization

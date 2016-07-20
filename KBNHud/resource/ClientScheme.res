@@ -52,7 +52,7 @@ Scheme
 		"Low Ammo flash 2"  		"255 75 75 255"
 		
 		"Default Hitmarker base color" 	"0 0 0 255"
-		"Default Hitmarker flash color" "0 0 0 255"
+		"Default Hitmarker flash color" "255 0 0 255"
 		
 		"COD Hitmarker base color"		"0 0 0 0"
 		"COD Hitmarker flash color"		"0 255 0 255"
@@ -561,6 +561,17 @@ Scheme
 				"outline"	"0"
 			}
 		}
+		"MavenProRegular8"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"8"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProRegular9"
 		{
 			"1"
@@ -789,6 +800,28 @@ Scheme
 			{
 			"name"		"Maven Pro Medium"
 			"tall"		"24"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProMedium26"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"26"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
+		"MavenProMedium28"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"28"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
@@ -1775,7 +1808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -1783,7 +1816,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Arial"
+				"name"		"Maven Pro Regular"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -1794,7 +1827,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"10"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1805,7 +1838,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1814,7 +1847,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1823,7 +1856,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1833,7 +1866,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1843,7 +1876,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1853,7 +1886,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -1864,7 +1897,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Courier New"
+				"name"		"Maven Pro Medium"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1875,7 +1908,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Black"
 				"tall"		"12"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1884,7 +1917,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Black"
 				"tall"		"14"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1896,7 +1929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1904,7 +1937,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1912,7 +1945,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1921,7 +1954,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1930,7 +1963,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -1939,7 +1972,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Arial"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -1951,7 +1984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1959,7 +1992,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1967,7 +2000,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1976,7 +2009,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Arial"
+				"name"		"Maven Pro Regular"
 				"tall"		"16"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1985,7 +2018,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1997,7 +2030,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2005,7 +2038,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2013,7 +2046,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2022,7 +2055,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2031,7 +2064,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2040,14 +2073,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Arial"
+				"name"		"Maven Pro Regular"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -2071,14 +2104,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -2086,21 +2119,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Maven Pro Regular"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -2110,7 +2143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -2120,7 +2153,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -2130,7 +2163,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -2139,7 +2172,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -2148,7 +2181,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -2160,7 +2193,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -2173,8 +2206,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"35"
+				"name"		"Maven Pro Black"
+				"tall"		"44"
 				"tall_lodef"	"40"
 				"weight"	"500"
 				"additive"	"0"
@@ -2186,7 +2219,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Bold"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -2198,7 +2231,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Medium"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -2209,7 +2242,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -2220,7 +2253,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Medium"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2232,7 +2265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2243,7 +2276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2254,7 +2287,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -2265,7 +2298,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Maven Pro Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2278,7 +2311,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -2291,7 +2324,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -2303,7 +2336,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2314,7 +2347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2326,7 +2359,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2337,7 +2370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2349,7 +2382,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2371,7 +2404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -2382,7 +2415,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -2393,7 +2426,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -2404,7 +2437,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"Maven Pro Black"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -2415,7 +2448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Bold"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -2893,7 +2926,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"Maven Pro Regular"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -2906,7 +2939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"TF2 Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2919,7 +2952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"TF2"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2931,8 +2964,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
-				"tall"		"10"
+				"name"		"TF2 Secondary"
+				"tall"		"20"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
@@ -3519,8 +3552,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"8"
+				"name"		"Maven Pro Black"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3530,8 +3563,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"9"
+				"name"		"Maven Pro Black"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3541,8 +3574,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
-				"tall"		"12"
+				"name"		"Maven Pro Black"
+				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -3552,7 +3585,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"7"
 				"weight"	"500"
 				"additive"	"0"
@@ -3563,7 +3596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3574,7 +3607,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Maven Pro Regular"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -4225,6 +4258,120 @@ Scheme
 		"name" "KnucklesCrosses"
 		}
 	}
+	//////////////////////// CUSTOM FONT FILES /////////////////////////////
+	//
+	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
+	CustomFontFiles
+	{
+		"1" "resource/tf.ttf"
+		"2" "resource/tfd.ttf"
+		"3"
+		{
+			"font" "resource/TF2.ttf"
+			"name" "TF2"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"4" 
+		{
+			"font" "resource/TF2Secondary.ttf"
+			"name" "TF2 Secondary"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"5" 
+		{
+			"font" "resource/TF2Professor.ttf"
+			"name" "TF2 Professor"
+			"russian"
+			{
+				"range" "0x0000 0x00FF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x00FF"
+			}
+		}	
+		"6" 
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"russian"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"polish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+			"turkish"
+			{
+				"range" "0x0000 0xFFFF"
+			}
+		}
+		"7"
+		{
+			"font" "resource/fonts/MavenPro-Regular.ttf"
+			"name" "Maven Pro Regular"
+		}
+		"8"
+		{
+			"font" "resource/fonts/MavenPro-Medium.ttf"
+			"name" "Maven Pro Medium"
+		}
+		"9"
+		{
+			"font" "resource/fonts/MavenPro-Bold.ttf"
+			"name" "Maven Pro Bold"
+		}
+		"10"
+		{
+			"font" "resource/fonts/MavenPro-Black.ttf"
+			"name" "Maven Pro Black"
+		}
+		"11" 
+		{
+			"font" "resource/fonts/FORMASGE.ttf"
+			"name" "FORMASGE"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Crosshairs.ttf"
+			"name" "broeselhud Crosshairs"
+		}
+		"13"
+		{
+			"font" "resource/fonts/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+		"14"
+		{
+			"font" "resource/fonts/xhairs.otf"
+			"name" "xhairs"
+		}
+		"15"
+		{
+			"font" "resource/fonts/ocra.ttf"
+			"name" "ocra"
+		}
+		"16"
+		{
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
+		}
+	}
 	//
 	//////////////////// BORDERS //////////////////////////////
 	//
@@ -4552,8 +4699,8 @@ Scheme
 			"image"					"../hud/color_panel_brown_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorder
 		{
@@ -4563,8 +4710,8 @@ Scheme
 			"image"					"../hud/color_panel_brown"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque
 		{
@@ -4574,8 +4721,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGOpaque_Store
 		{
@@ -4585,8 +4732,8 @@ Scheme
 			"image"					"../hud/color_panel_red_opaque"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
-			"draw_corner_width"		"11"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"11"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBG
 		{
@@ -4596,8 +4743,8 @@ Scheme
 			"image"					"../hud/color_panel_red"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderRedBGMoreOpaque
 		{
@@ -4607,8 +4754,8 @@ Scheme
 			"image"					"../hud/color_panel_red_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBG
 		{
@@ -4618,8 +4765,8 @@ Scheme
 			"image"					"../hud/color_panel_blu"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBGMoreOpaque
 		{
@@ -4629,8 +4776,8 @@ Scheme
 			"image"					"../hud/color_panel_blu_more_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderBlueBGOpaque
 		{
@@ -4640,8 +4787,8 @@ Scheme
 			"image"					"../hud/color_panel_blu_opaque"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		TFFatLineBorderClearBG
 		{
@@ -4651,8 +4798,8 @@ Scheme
 			"image"					"../hud/color_panel_clear"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
-			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"5"	
+			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"0"	
 		}
 		ToolTipBorder
 		{
@@ -6196,119 +6343,5 @@ Scheme
 			"src_corner_width"		"5"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"4"	
-		}
-	}
-	//////////////////////// CUSTOM FONT FILES /////////////////////////////
-	//
-	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
-	CustomFontFiles
-	{
-		"1" "resource/tf.ttf"
-		"2" "resource/tfd.ttf"
-		"3"
-		{
-			"font" "resource/TF2.ttf"
-			"name" "TF2"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"4" 
-		{
-			"font" "resource/TF2Secondary.ttf"
-			"name" "TF2 Secondary"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"5" 
-		{
-			"font" "resource/TF2Professor.ttf"
-			"name" "TF2 Professor"
-			"russian"
-			{
-				"range" "0x0000 0x00FF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0x00FF"
-			}
-		}	
-		"6" 
-		{
-			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
-			"russian"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"polish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-			"turkish"
-			{
-				"range" "0x0000 0xFFFF"
-			}
-		}
-		"7"
-		{
-			"font" "resource/fonts/MavenPro-Regular.ttf"
-			"name" "Maven Pro Regular"
-		}
-		"8"
-		{
-			"font" "resource/fonts/MavenPro-Medium.ttf"
-			"name" "Maven Pro Medium"
-		}
-		"9"
-		{
-			"font" "resource/fonts/MavenPro-Bold.ttf"
-			"name" "Maven Pro Bold"
-		}
-		"10"
-		{
-			"font" "resource/fonts/MavenPro-Black.ttf"
-			"name" "Maven Pro Black"
-		}
-		"11" 
-		{
-			"font" "resource/fonts/FORMASGE.ttf"
-			"name" "FORMASGE"
-		}
-		"12"
-		{
-			"font" "resource/fonts/Crosshairs.ttf"
-			"name" "broeselhud Crosshairs"
-		}
-		"13"
-		{
-			"font" "resource/fonts/crosshairs.ttf"
-			"name" "Crosshairs"
-		}
-		"14"
-		{
-			"font" "resource/fonts/xhairs.otf"
-			"name" "xhairs"
-		}
-		"15"
-		{
-			"font" "resource/fonts/ocra.ttf"
-			"name" "ocra"
-		}
-		"16"
-		{
-			"font" "resource/fonts/KnucklesCrosses.ttf"
-			"name" "KnucklesCrosses"
 		}
 	}

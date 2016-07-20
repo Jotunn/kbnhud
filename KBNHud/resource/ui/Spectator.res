@@ -293,15 +293,14 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"r249"
+		"ypos"			"c50"
 		"zpos"			"10"
-		"wide"			"190"
+		"wide"			"240"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
-		"paintborder"			"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -310,7 +309,7 @@
 		
 		"text_xpos"		"10"
 		"text_ypos"		"10"
-		"text_wide"		"170"
+		"text_wide"		"220"
 		"text_center"	"1"
 		
 		"max_text_height"	"100"
@@ -331,7 +330,7 @@
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 155"
+			"fillcolor" "0 0 0 100"
 		}
 		"TitleBackground"
 		{
@@ -344,7 +343,7 @@
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
-			"visible" "0"
+			"visible" "1"
 			"enabled" "1"
 			"fillcolor" "0 0 0 100"
 		}
@@ -360,7 +359,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Cerbetica12"
+			"font"			"MavenProMedium12"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
@@ -375,7 +374,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"

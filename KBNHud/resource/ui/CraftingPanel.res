@@ -167,7 +167,7 @@
 			"labelText"		"%recipeinputstring%"
 			"textAlignment"	"north-west"
 			"xpos"			"0"
-			"ypos"			"45"
+			"ypos"			"35"
 			"zpos"			"1"
 			"wide"			"280"
 			"tall"			"25"

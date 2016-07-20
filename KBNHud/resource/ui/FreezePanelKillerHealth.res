@@ -68,7 +68,7 @@
 		"enabled"		"1"
 		"labeltext"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"hudfontsmallestbold"
+		"font"			"MavenProBlack14"
 		"fgcolor"		"white"
 	}	
 	"PlayerStatusHealthValueShadow"
@@ -85,6 +85,6 @@
 		"fgcolor"		"Black"
 		"labeltext"		"%Health%"
 		"textAlignment"	"center"
-		"font"			"hudfontsmallestbold"		
+		"font"			"MavenProBlack14"		
 	}		
 }

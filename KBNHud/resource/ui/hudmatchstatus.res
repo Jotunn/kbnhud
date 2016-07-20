@@ -8,19 +8,19 @@
 		"name_width"	"57"
 		"horiz_inset"	"2"
 	}
-
+	
 	"RoundSignModel"
 	{
 		"ControlName"	"CModelPanel"
 		"fieldName"		"RoundSignModel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"3"		
+		"zpos"			"10"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"fov"			"70"
 		"proportionaltoparent"	"1"
@@ -57,7 +57,7 @@
 			}
 		}
 	}
-	
+
 	"CountdownLabel"
 	{	
 		"ControlName"	"CExLabel"
@@ -193,7 +193,7 @@
 				"sequence"		"idle_closed"
 			}
 		}
-	}	
+	}		
 
 	"RoundCounter"
 	{
@@ -205,7 +205,8 @@
 		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+		
+	}
 
 	"BGFrame"
 	{
@@ -215,17 +216,18 @@
 		"ypos"				"-5"
 		"zpos"				"0"
 		"wide"				"365"
-		"tall"				"28"
+		"tall"				"0"
 		"visible"			"0"
-
+		
 		"proportionaltoaparent"	"1"
 		"border"			"TFFatLineBorder"
-
+		
+		
 		if_match
 		{
 			"visible"		"1"
 		}
-	}
+	}	
 
 	"ObjectiveStatusTimePanel"
 	{
@@ -287,6 +289,7 @@
 			}
 		}	
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -302,7 +305,7 @@
 
 		"max_size"	"19"
 
-		"6v6_gap"	"4"
+		"6v6_gap"	"1"
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
@@ -324,10 +327,10 @@
 			"color_portrait_bg_blue"	"62 81 101 255"
 			"color_portrait_bg_red_dead"	"79 54 52 255"
 			"color_portrait_bg_blue_dead"	"44 49 51 255"
-			"color_bar_health_high"	"84 191 58 255"
-			"color_bar_health_med"	"191 183 58 255"
-			"percentage_health_med"	"0.6"
-			"color_bar_health_low"	"191 58 58 255"
+			"color_bar_health_high"	"Overheal flash 1"
+			"color_bar_health_med"	"White"
+			"percentage_health_med"	"0.9"
+			"color_bar_health_low"	"Low Health flash 1"
 			"percentage_health_low"	"0.3"
 			"color_portrait_blend_dead_red"	"255 255 255 255"
 			"color_portrait_blend_dead_blue" "255 255 255 255"
@@ -335,8 +338,8 @@
 			"playername"
 			{
 				"ControlName"	"CExLabel"
+				"font"			"MavenProRegular12"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -472,7 +475,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"PlayerPanelPlayerName"
+				"font"			"MavenProRegular8"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
@@ -489,7 +492,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
+				"font"			"MavenProMedium12"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
@@ -560,9 +563,9 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-
+		
 		if_large
 		{
 			"ypos"			"65"
@@ -602,7 +605,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"MavenProMedium14"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"center"
 			"xpos"			"48"
@@ -661,7 +664,7 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"			"315"
@@ -681,11 +684,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"			"325"
-			}
+			}			
 		}
 	}
 
@@ -698,14 +701,15 @@
 		"zpos"			"50"
 		"wide"			"150"
 		"tall"			"260"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-
+		
 		if_large
 		{
 			"ypos"			"65"
 			"tall"			"385"
 		}
+		
 
 		"RedTeamBG"
 		{
@@ -740,7 +744,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
-			"font"			"CompMatchStartTeamNames"
+			"font"			"MavenProMedium14"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"center"
 			"xpos"			"5"
@@ -799,11 +803,11 @@
 			"linespacing"	"26"
 			"linegap"		"4"
 			//"show_columns"	"1"
-
+			
 			if_large
 			{
 				"tall"			"315"
-			}
+			}			
 		}
 		"RedPlayerListBG"
 		{
@@ -819,11 +823,11 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderClearBG"
-
+			
 			if_large
 			{
 				"tall"			"325"
-			}
+			}			
 		}
 	}
 }

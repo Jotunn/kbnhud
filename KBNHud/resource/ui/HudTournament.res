@@ -1,3 +1,5 @@
+//tick 52000
+
 "Resource/UI/HudTournament.res"
 {
 	HudTournament
@@ -23,44 +25,6 @@
 		"spacer"		"5"
 		"name_width"	"57"
 		"horiz_inset"	"2"
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-		}
-		
-		if_match
-		{
-			"xpos"							"cs-0.5"
-			"ypos"							"0"
-			"wide"							"f0"
-			"tall"							"480"
-
-			"team1_player_base_y"			"75"
-			"team2_player_base_y"			"66"
-			"team2_player_base_offset_x"	"5"
-		}
-		
-		if_readymode
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}
-		
 		"ModeImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -78,7 +42,7 @@
 			"scaleImage"	"1"
 			"proportionaltoparent"	"1"
 
-			if_match
+			if_competitive
 			{
 				"visible"		"1"
 			}
@@ -116,7 +80,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"DefaultVerySmall"
+				"font"			"MavenProMedium12"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -126,22 +90,22 @@
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
-				"textAlignment"	"center"
+				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 					
 				if_mvm
 				{
-					"xpos"				"2"
-					"ypos"				"25"
+					"xpos"				"1"
+					"ypos"				"26"
 					"wide"				"38"
 					"textAlignment"		"center"
 					"font"				"MavenProMedium8"
 				}
 				
-				if_match
+				if_competitive
 				{
-					"xpos"				"2"
-					"ypos"				"25"
+					"xpos"				"1"
+					"ypos"				"26"
 					"wide"				"38"
 					"textAlignment"		"center"
 					"font"				"MavenProMedium8"
@@ -149,8 +113,8 @@
 
 				if_readymode
 				{
-					"xpos"				"2"
-					"ypos"				"25"
+					"xpos"				"1"
+					"ypos"				"26"
 					"wide"				"38"
 					"textAlignment"		"center"
 					"font"				"MavenProMedium8"
@@ -173,28 +137,28 @@
 				
 				if_mvm
 				{
-					"xpos"			"9"
-					"ypos"			"4"
-					"wide"			"22"
-					"tall"			"22"
+					"xpos"			"7"
+					"ypos"			"1"
+					"wide"			"26"
+					"tall"			"26"
 					"image"			"../vgui/hud_connecting"
 				}
 				
-				if_match
+				if_competitive
 				{
-					"xpos"			"9"
-					"ypos"			"4"
-					"wide"			"22"
-					"tall"			"22"
+					"xpos"			"7"
+					"ypos"			"1"
+					"wide"			"26"
+					"tall"			"26"
 					"image"			"../vgui/hud_connecting"
 				}
 				
 				if_readymode
 				{
-					"xpos"			"9"
-					"ypos"			"4"
-					"wide"			"22"
-					"tall"			"22"
+					"xpos"			"7"
+					"ypos"			"1"
+					"wide"			"26"
+					"tall"			"26"
 					"image"			"../vgui/hud_connecting"
 				}
 			}
@@ -214,17 +178,17 @@
 				
 				if_mvm
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 				
-				if_match
+				if_competitive
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 
 				if_readymode
 				{
-					"visible"		"0"
+					"visible"		"1"
 				}
 			}
 			
@@ -250,11 +214,11 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"6"
-				"ypos"			"4"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"2"
-				"wide"			"28"
-				"tall"			"22"
+				"wide"			"55"
+				"tall"			"26"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
@@ -273,7 +237,7 @@
 					"zpos"			"-2"
 				}
 
-				if_match
+				if_competitive
 				{
 					"visible"		"1"
 					"zpos"			"-2"					
@@ -290,31 +254,25 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"6"
-				"ypos"			"4"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"1"
-				"wide"			"28"
-				"tall"			"22"
+				"wide"			"9999"
+				"tall"			"26"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"../HUD/tournament_panel_brown"
-				"fillcolor"	"0 204 0 255"
+				"image"			"hud/checkmark"
+				"fillcolor"	"15 165 165 255"
 				"scaleImage"		"1"
-				
-				"src_corner_height"	"22"				// pixels inside the image
-				"src_corner_width"	"22"
-			
-				"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"0"
-				
+
 				if_mvm
 				{
 					"visible"		"1"
 				}
 				
-				if_match
+				if_competitive
 				{
 					"visible"		"1"
 				}
@@ -329,7 +287,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
+				"font"			"MavenProMedium14"
 				"xpos"			"28"
 				"ypos"			"2"
 				"zpos"			"5"
@@ -341,26 +299,13 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				//"fgcolor"		"235 226 202 255"
-				
-				
-				if_readymode
-				{
-					"font"			"MavenProMedium20"
-					"xpos"			"8"
-					"ypos"			"5"
-					"zpos"			"5"
-					"wide"			"40"
-					"tall"			"25"
-				}
-
-
 			}
 			
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"DefaultSmall"
+				"font"			"MavenProMedium14"
 				"xpos"			"25"
 				"ypos"			"17"
 				"zpos"			"6"
@@ -383,7 +328,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"specindex"
-				"font"			"DefaultVerySmall"
+				"font"			"MavenProMedium12"
 				"xpos"			"4"
 				"ypos"			"2"
 				"zpos"			"5"
@@ -403,7 +348,7 @@
 				"tall"		"35"
 			}
 			
-			if_match
+			if_competitive
 			{
 				"wide"		"40"
 				"tall"		"35"
@@ -427,7 +372,7 @@
 			"team2_player_delta_x"			"42"
 		}
 
-		if_match
+		if_competitive
 		{
 			"xpos"							"0"
 			"ypos"							"0"
@@ -462,7 +407,7 @@
 		"ypos"			"26"
 		"zpos"			"-1"
 		"wide"			"250"
-		"tall"			"18"
+		"tall"			"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -480,7 +425,7 @@
 			"visible"		"0"
 		}
 
-		if_match
+		if_competitive
 		{
 			"xpos"			"195"
 			"ypos"			"5"
@@ -515,7 +460,7 @@
 		{
 			"visible"		"0"
 		}
-		if_match
+		if_competitive
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -554,7 +499,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"200"
 			"visible"		"0"
@@ -575,7 +520,7 @@
 		"xpos"			"c-121"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"65"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -590,7 +535,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"207"
 			"visible"		"0"
@@ -607,15 +552,14 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"MavenProMedium16"
-		"xpos"			"c-85"
+		"xpos"			"c-69"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"65"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
-		"enabled"		"1"
 		"enabled"		"1"
 		"wrap"			"0"
 		"labelText"		"%bluestate%"
@@ -626,7 +570,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"251"
 			"visible"		"0"
@@ -665,7 +609,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"320"
 			"visible"		"0"
@@ -682,10 +626,10 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"MavenProMedium16"
-		"xpos"			"c45"
+		"xpos"			"c55"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"80"
+		"wide"			"65"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -700,7 +644,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"370"
 			"visible"		"0"
@@ -720,7 +664,7 @@
 		"xpos"			"c5"
 		"ypos"			"10"
 		"zpos"			"1"
-		"wide"			"75"
+		"wide"			"65"
 		"tall"			"15"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -735,7 +679,7 @@
 			"visible"		"0"
 		}
 
-		if_match
+		if_competitive
 		{
 			"xpos"			"325"
 			"visible"		"0"
@@ -775,15 +719,58 @@
 		if_readymode
 		{
 			"wide"			"f0"
-			"xpos"			"-65"
+			"xpos"			"0"
 			"ypos"			"16"
 		}
 		
-		if_match
+		if_competitive
+		{
+			"wide"			"f0"
+			"xpos"			"0"
+			"ypos"			"24"
+		}
+	}
+	
+	//used for matchmaking to eliminate the need for a blank bg
+	
+	"TournamentConditionLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"TournamentConditionLabelShadow"
+		"font"			"MavenProMedium14"
+		"fgcolor"		"TransparentBlack"
+		"xpos"			"c-125"
+		"ypos"			"16"
+		"zpos"			"0"
+		"wide"			"250"
+		"tall"			"37"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"wrap"			"0"
+		"labelText"		"%winconditions%"
+		"textAlignment"		"center"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+		
+		if_readymode
 		{
 			"wide"			"f0"
 			"xpos"			"0"
 			"ypos"			"16"
+		}
+		
+		if_competitive
+		{
+			"visible"		"0"
+			"enabled"		"0"
+			"wide"			"f0"
+			"xpos"			"1"
+			"ypos"			"25"
 		}
 	}
 
@@ -791,8 +778,8 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBGHelp"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"0"
+		"ypos"			"49"
 		"zpos"			"-1"
 		"wide"			"250"
 		"tall"			"12"
@@ -814,7 +801,7 @@
 			"visible"		"0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"visible"		"0"
 		}
@@ -835,7 +822,7 @@
 		"wide"			"250"
 		"tall"			"18"
 		"pinCorner"		"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"0 0 0 100"
 		
@@ -846,12 +833,14 @@
 
 		if_readymode
 		{
-			"xpos"			"c-150"
+			"xpos"			"c-125"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"c-125"
+			"ypos"			"32"
+			"visible"		"0"
 		}		
 	}
 	
@@ -859,11 +848,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TournamentInstructionsLabel"
-		"font"			"MavenProMedium14"
+		"font"			"MavenProMedium11"
 		"xpos"			"c-125"
-		"ypos"			"51"
+		"ypos"			"52"
 		"wide"			"250"
-		"tall"			"15"
+		"tall"			"13"
 		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -875,7 +864,7 @@
 		
 		if_mvm
 		{
-			"font"			"MavenProMedium14"
+			"font"			"Cerbetica14"
 			"xpos"			"0"
 			"ypos"			"105"
 			"wide"			"f0"
@@ -885,17 +874,16 @@
 		
 		if_readymode
 		{
-			"xpos"			"-65"
-			"ypos"			"46"
+			"xpos"			"0"
 			"wide"			"f0"
 		}
 		
-		if_match
+		if_competitive
 		{
 			"xpos"			"0"
 			"wide"			"f0"
 			"ypos"			"118"
-			"font"			"MavenProMedium14"
+			"font"			"Cerbetica14"
 			"tall"			"16"
 		}
 		
@@ -922,17 +910,14 @@
 		
 		if_readymode
 		{
-			"xpos"			"c-190"
-			"ypos"			"46"
+			"xpos"			"c-125"
 		}
 		
-		if_match
+		if_competitive
 		{
-			"xpos"			"355"
-			"ypos"			"118"
-			"wide"			"140"
-			"enabled"		"1"
-			"visible"		"1"
+			"xpos"			"195"
+			"enabled"		"0"
+			"visible"		"0"
 		}
 	}
 	
@@ -966,7 +951,7 @@
 			"xpos"		"c-20"
 		}
 
-		if_match
+		if_competitive
 		{
 			"visible"	"0"
 			"enabled" 	"0"
@@ -976,8 +961,6 @@
 		
 		if_readymode
 		{
-			"xpos"		"9999"
-			"ypos"		"9999"
 			"visible"	"0"
 			"enabled" 	"0"
 			"wide"		"0"
@@ -990,11 +973,11 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
 		"font"			"MavenProMedium24"
-		"xpos"			"150"
+		"xpos"			"230"
 		"ypos"			"r55"
-		"wide"			"300"
+		"wide"			"40"
 		"tall"			"40"
-		"zpos"			"2"
+		"zpos"			"1"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -1005,31 +988,27 @@
 		
 		"if_mvm" 
 		{
-			"xpos"		"c-20"
-			"ypos"		"r58"
-			"wide"		"40"
-			"tall"		"40"
 			"visible"	"1"
 			"enabled"	"1"
 			"xpos"		"c-20"
 		}
 	
 	
-		if_match
+		if_competitive
 		{
-			"xpos"			"c-152"
-			"ypos"			"130"
-			"tall"			"25"
-			"zpos"			"11"
 			"visible"		"1"
+			"xpos"			"c-20"
+			"ypos"			"130"
+			"tall"			"40"
+			"zpos"			"11"
 		}
 
 		if_readymode
 		{
-			"xpos"			"c-215"
-			"ypos"			"130"
-			"tall"			"25"
 			"visible"		"1"
+			"xpos"			"c-20"
+			"ypos"			"130"
+			"tall"			"20"
 		}
 	
 	}
@@ -1041,7 +1020,7 @@
 		"font"			"MavenProMedium24"
 		"xpos"			"231"
 		"ypos"			"r54"
-		"wide"			"300"
+		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"1"
 		"autoResize"		"0"
@@ -1055,26 +1034,26 @@
 		
 		"if_mvm" 
 		{
-			"visible"	"0"
+			"visible"	"1"
 			"enabled"	"1"
 			"xpos"		"c-20"
 		}
 		
-		if_match
+		if_competitive
 		{
-			"xpos"			"c-150"
-			"ypos"			"130"
-			"tall"			"29"
-			"zpos"			"10"
 			"visible"		"1"
+			"xpos"			"c-19"
+			"ypos"			"130"
+			"tall"			"41"
+			"zpos"			"10"
 		}
 
 		if_readymode
 		{
-			"xpos"			"c-215"
-			"ypos"			"130"
-			"tall"			"29"
 			"visible"		"1"
+			"xpos"			"c-18"
+			"ypos"			"130"
+			"tall"			"22"
 		}
 	}
 }

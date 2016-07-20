@@ -3875,7 +3875,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
 		"xpos"			"c0"
-		"ypos"			"250"
+		"ypos"			"300"
 		"zpos"			"-50"
 		"wide"			"270"
 		"tall"			"140"
@@ -3901,7 +3901,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBlack20"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"12"
@@ -3961,7 +3961,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
+					"font"			"MavenProBlack18"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -4031,7 +4031,7 @@
 					"enabled"		"1"
 					"tabPosition"	"0"
 					"use_proportional_insets" "1"
-					"font"			"HudFontSmallBold"
+					"font"			"MavenProBlack18"
 					"textAlignment"	"center"
 					"dulltext"		"0"
 					"brighttext"	"0"
@@ -4076,43 +4076,28 @@
 				{
 					"0"
 					{
-						"item"		"Tough Break Case 01 Pyroland"
-						"show_market"	"1"
+						"item"		"Competitive Matchmaking Official"
+						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Tough Break Case 02 Warbirds"
-						"show_market"	"1"
+						"item"		"Taunt: The Carlton"
+						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Tough Break Key"
+						"item"		"Taunt: The Balloonibouncer"
 						"show_market"	"0"
 					}
 					"3"
 					{
-						"item"		"Tough Break Cosmetic Case"
-						"show_market"	"1"
+						"item"		"Taunt: Disco Fever"
+						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Tough Break Cosmetic Key"
+						"item"		"Taunt: The Fubar Fanfare"
 						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: Mannrobics"
-						"show_market"	"0"
-					}
-					"6"
-					{
-						"item"		"Mayflower Cosmetic Key"
-						"show_market"	"0"
-					}
-					"7"
-					{
-						"item"		"Mayflower Cosmetic Case"
-						"show_market"	"1"
 					}
 				}
 			}

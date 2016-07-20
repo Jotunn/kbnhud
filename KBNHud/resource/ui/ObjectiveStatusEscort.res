@@ -172,7 +172,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"ItemFontAttribSmall"				
+			"font"			"ItemFontAttribSmallest"				
 			"xpos"			"23"		
 			"ypos"			"53"			
 			"zpos"			"2"
@@ -189,7 +189,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"ItemFontAttribSmallest"
 				"xpos"			"21"
 				"wide"			"11"
 				"tall"			"10"
@@ -394,7 +394,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"MavenProRegular8"
 				"xpos"			"25"
 				"wide"			"30"
 				"tall"			"10"

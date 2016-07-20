@@ -20,7 +20,7 @@
     {
         "ControlName"        "CExLabel"
         "fieldName"                "SplashLabel"
-        "font"                        "HudFontSmallestBold"
+        "font"                        "MavenProBlack14"
         "labelText"                ""
         "textAlignment" "center"
         "xpos"                        "c-250"

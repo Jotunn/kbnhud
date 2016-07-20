@@ -28,6 +28,8 @@ Cut the "fonts" folder from inside "resource". Create a new folder inside "custo
 
 Thanks to [Calcium](http://steamcommunity.com/id/TheCalcium) for this info.
 
+***MAJOR NOTE: DO NOT DELETE THE "info.vdf" FILE FROM THE HUD FOLDER. THE GAME WILL NOT LOAD THE HUD IF THE FILE IS MISSING!
+
 ***Windows***
 
 Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 

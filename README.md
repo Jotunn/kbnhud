@@ -147,6 +147,6 @@ Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](ht
 
 Thanks to [Clovervidia](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) for the new captions.
 
-Thanks to [Decimation](http://gamebanana.com/members/1449640) for the expanded advanced options menu. Standalone version of the expanded menu availble [here](http://gamebanana.com/guis/31067).
+Thanks to [Decimation](http://gamebanana.com/members/1449640) for the expanded advanced options menu. KBNHud uses a modified version. Standalone version of the expanded menu availble [here](http://gamebanana.com/guis/31067).
 
 Further thanks to Vissol Ltd. for the creation of Maven Pro, the core font of this HUD, and making the font available to all for free. If you want the font for yourself, the files for all of the types are in the HUD fonts folder, alternatively, you can download the font [right here](http://vissol.co.uk/mavenpro/).

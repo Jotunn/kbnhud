@@ -608,12 +608,12 @@
 
 		"MaxDeathNotices" "10"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "11"
+		"LineHeight"	  "8"
 		"LineSpacing"	  "0"
 		"CornerRadius"	  "2"
 		"RightJustify"	  "2"
 		
-		"TextFont"		"Default"
+		"TextFont"		"MavenProBold8"
 		
 		"TeamBlue"		"75 175 255 255"
 		"TeamRed"		"255 0 75 255"

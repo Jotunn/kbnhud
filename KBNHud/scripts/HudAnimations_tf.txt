@@ -204,6 +204,7 @@ event KeyHintMessageHide
 //===========================================
 
 
+
 // HP Bonus
 event HudHealthBonusPulse
 {
@@ -220,6 +221,7 @@ event HudHealthBonusPulse
 
 	RunEvent HudHealthBonusPulseLoop	0.6
 }
+
 
 //===========================================
 
@@ -246,6 +248,7 @@ event HudHealthBonusPulseStop
 }
 
 //===========================================
+
 
 // Low HP
 event HudHealthDyingPulse
@@ -463,6 +466,7 @@ event HudSnapShotReminderIn
 	
 	Animate ScreenshotPanel		Alpha		"0"			Linear 2.5 0.1	
 }
+
 event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder  // not anymore
 {
 	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
@@ -516,7 +520,10 @@ event HudTournamentSetupPanelClose
 	Animate HudTournamentSetup	Position	"c-65 -70"	Spline 0.001 0.2
 }
 
+
+
 //===========================================
+
 
 // Medic Uber
 
@@ -529,9 +536,12 @@ event HudMedicCharged
 	
 	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+
 	
 	RunEvent HudMedicChargedLoop	0.6
 }
+
+
 event HudMedicChargedLoop
 {
 	RunEvent HudMedicCharged 	0.0
@@ -568,6 +578,7 @@ event ArenaVsPanelOnShow
 	Animate bluepanel	Position	"-200 50"	Linear 0.0 0.001
 	Animate redpanel	Position	"r-200 140"	Linear 0.0 0.001
 	Animate vslabel	Alpha	"0"		Linear 0.0 0.001
+
 
 	RunEvent ArenaVsPanelSlideIn	1.0
 	RunEvent ArenaVsPanelSlideOut	4.8
@@ -860,11 +871,22 @@ event NotificationsPresentBlinkStop
 	StopEvent NotificationsPresentBlinkLoop 		0.0
 	Animate	NotificationsPresentPanel 	Alpha		"255"		Linear 0.0 0.1
 }
+
 //===========================================
 
 //===========================================
-event DamagedPlayer
+
+// Stop any 'hitmarker animation events' before starting another
+event DamagedPlayer 
 {
+
+	StopEvent HitMarker 0.0
+	RunEvent HitMarker 0.01
+} 
+	
+event HitMarker 
+{
+	
 	Animate DefaultHitmarker FgColor "Default Hitmarker flash color" Linear 0.0 0.1
 	Animate DefaultHitmarker FgColor "Default Hitmarker base color" Linear 0.2 0.200001
 
@@ -878,6 +900,7 @@ event DamagedPlayer
 	Animate    CODHitmarkerRightTop FgColor "COD Hitmarker base color"         Linear 0.15 0.1
 
 	Animate    CODHitmarkerRightBottom FgColor "COD Hitmarker flash color"     Linear 0.0 0.00001
+
 	Animate    CODHitmarkerRightBottom FgColor "COD Hitmarker base color"         Linear 0.15 0.1
 }
 //===========================================
@@ -888,6 +911,7 @@ event RespecEarnedPulse
 {
         Animate        RespecTextLabelWin        FgColor        "TanLight"                Linear 0.0 0.1
         Animate        RespecTextLabelWin        FgColor        "RedSolid"                Linear 0.3 0.4
+
         
         RunEvent RespecEarnedPulseLoop                0.5
 }
@@ -900,6 +924,7 @@ event RespecEarnedPulseLoop
 event RespecEarnedPulseEnd
 {
         Animate        RespecTextLabelWin         FgColor                "TanLight"                Linear 0.0 0.1
+
         
         StopEvent RespecEarnedPulse                        0.0
         StopEvent RespecEarnedPulseLoop                0.0
@@ -910,6 +935,7 @@ event RespecEarnedPulseLoss
 {
         Animate        RespecTextLabelLoss        FgColor        "TanLight"                Linear 0.0 0.1
         Animate        RespecTextLabelLoss        FgColor        "RedSolid"                Linear 0.3 0.4
+
         
         RunEvent RespecEarnedPulseLoopLoss                0.5
 }
@@ -923,6 +949,7 @@ event RespecEarnedPulseEndLoss
 {
         Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
         Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+
         
         StopEvent RespecEarnedPulseLoss                0.0
         StopEvent RespecEarnedPulseLoopLoss        0.0
@@ -953,6 +980,51 @@ event RDNegativeScorePulse
 	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
 	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //============================================
 event HideStamp
 {
@@ -1055,15 +1127,18 @@ event CollectionCrafting_LetterSend
 	FireCommand	0.2 "playsound ui/trade_up_envelope_slide_out.wav"
 }
 
+
 event PlayNewItemParticles
 {
 	FireCommand 0 "start0"
 }
 
+
 event PlayCrateSmashParticles
 {
 	FireCommand 0 "start1"
 }
+
 
 event PlayEnvelopSendParticles
 {
@@ -1173,6 +1248,7 @@ event CollectionCrafting_WaitForItemsOnly
 	// Fade dimmer down
 	Animate Dimmer Alpha "255" Linear 0 0.4
 }
+
 //=======================================
 event QuestItem_Identify_Expand
 {
@@ -1463,6 +1539,7 @@ event HudTournament_MoveChatWindow
 }
 
 //--------------------------------------------------------------------------
+
 event HudTournament_MoveTimerDown
 {
 	Animate CountdownLabel ypos 150 Linear 0 0
@@ -1521,6 +1598,7 @@ event HudMatchSummary_ShowMatchStartDoors
 	
 	SetVisible CountdownBG 1 11
 }
+
 event HudMatchSummary_ShowCountdown
 {
 	SetVisible CountdownLabel 1 0
@@ -1597,16 +1675,6 @@ event Hud_StatsAndMedals_Show
 	Animate RedMedals ypos 75 Accel 0 0.1
 }
 
-event CompetitiveGame_HideDisconnectButton
-{
-	Animate DisconnectButton ypos r-100 Accel 0 0
-}
-
-event CompetitiveGame_ShowDisconnectButton
-{
-	Animate DisconnectButton ypos r50 Accel 0 0.4
-}
-
 event CompetitiveGame_ShowWinnersSign
 {
 	FireCommand 0.5 "animation intro"
@@ -1677,44 +1745,50 @@ event HudMatchSummary_SlideInPanels
 	Animate RedTeamPanel xpos 0 Accel 0.25 0.25
 }
 
-event MMenu_PlayList_Expand
-{
-	Animate ItemsContainer			ypos 420 Spline 0 0.4
-	Animate EventPromo				ypos 470 Spline 0 0.4
-	Animate SafeMode				ypos 470 Spline 0 0.4
-	Animate VRBGPanel				ypos 633 Spline 0 0.4
-	Animate VRModeButton			ypos 639 Spline 0 0.4
-	Animate ShowPromoCodesButton	ypos 639 Spline 0 0.4
+//event MMenu_PlayList_Expand
 
-	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
+//{
+	//Animate ItemsContainer			ypos 420 Spline 0 0.4
+	//Animate EventPromo				ypos 470 Spline 0 0.4
+	//Animate SafeMode				ypos 470 Spline 0 0.4
+	//Animate VRBGPanel				ypos 633 Spline 0 0.4
+	//Animate VRModeButton			ypos 639 Spline 0 0.4
+	//Animate ShowPromoCodesButton	ypos 639 Spline 0 0.4
 
-	FireCommand 0 "soundentry Panel.SlideDown"
-}
+	//Animate PlayListContainer Tall 260	 Spline	0.0 0.40
 
-event MMenu_PlayList_Collapse
-{
-	Animate ItemsContainer			ypos 160 Spline 0 0.4
-	Animate EventPromo				ypos 210 Spline 0 0.4
-	Animate SafeMode				ypos 210 Spline 0 0.4
-	Animate VRBGPanel				ypos 373 Spline	0 0.4
-	Animate VRModeButton			ypos 379 Spline 0 0.4
-	Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
+	//FireCommand 0 "soundentry Panel.SlideDown"
 
-	Animate PlayListContainer Tall 0 Spline 0 0.4
+//}
 
-	FireCommand 0 "soundentry Panel.SlideUp"
-}
+//event MMenu_PlayList_Collapse
 
-event MMenu_PlayList_Collapse_Immediate
-{
-	Animate ItemsContainer			ypos 160 Spline 0 0
-	Animate EventPromo				ypos 210 Spline 0 0
-	Animate VRBGPanel				ypos 373 Spline	0 0
-	Animate VRModeButton			ypos 379 Spline 0 0
-	Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+//{
+	//Animate ItemsContainer			ypos 160 Spline 0 0.4
+	//Animate EventPromo				ypos 210 Spline 0 0.4
+	//Animate SafeMode				ypos 210 Spline 0 0.4
+	//Animate VRBGPanel				ypos 373 Spline	0 0.4
+	//Animate VRModeButton			ypos 379 Spline 0 0.4
+	//Animate ShowPromoCodesButton	ypos 379 Spline 0 0.4
 
-	Animate PlayListContainer Tall 0 Spline 0 0
-}
+	//Animate PlayListContainer Tall 0 Spline 0 0.4
+
+	//FireCommand 0 "soundentry Panel.SlideUp"
+
+//}
+
+//event MMenu_PlayList_Collapse_Immediate
+
+//{
+	//Animate ItemsContainer			ypos 160 Spline 0 0
+	//Animate EventPromo				ypos 210 Spline 0 0
+	//Animate VRBGPanel				ypos 373 Spline	0 0
+	//2:29 PM 8/1/2016Animate VRModeButton			ypos 379 Spline 0 0
+	//Animate ShowPromoCodesButton	ypos 379 Spline 0 0
+
+	//Animate PlayListContainer Tall 0 Spline 0 0
+
+//}
 
 event MMenu_SafeMode_Blink
 {
@@ -1776,7 +1850,8 @@ event CompetitiveGame_ShowPvPRankPanel
 
 event PvPRankPanelShowXPChange
 {
-	FireCommand 0 "begin_xp_lerp"
+	FireCommand 0 "update_base_state"
+	FireCommand 1 "begin_xp_lerp"
 }
 
 event PyroVsHeavyWar_ShowChooseScene
@@ -1792,6 +1867,19 @@ event PyroVsHeavyWar_ShowChooseScene
 	Animate Heavy		ypos -60	Bias 0.9 0 1
 	Animate Pyro		ypos -60	Bias 0.9 0 1
 	Animate Foreground	ypos 65		Bias 0.9 0 1
+}
+
+event PyroVsHeavyWar_PyroWinnerScene
+{
+	// Reset
+	Animate Background			ypos -220 Linear 0 0
+	Animate PyroWinMidground	ypos -180 Linear 0 0
+	Animate Foreground			ypos 40 Linear 0 0
+
+	// Paralax
+	Animate Background			ypos -175	Bias 0.9 0 1
+	Animate PyroWinMidground	ypos -100	Bias 0.9 0 1
+	Animate Foreground			ypos 75		Bias 0.9 0 1
 }
 
 event CasualCategory_Checkbox_Hide
@@ -1860,14 +1948,87 @@ event MMenu_UpdateButton_SubtleGlow
 	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
 
+event XPSourceShow_Positive
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
+
+	Animate SourceLabel		Alpha		255				Linear 0.1 0.3
+	Animate SourceLabel FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabel ypos		-25					Deaccel  0 3.0
+	Animate SourceLabel Alpha		0					Linear 2.9 0.3
+
+	Animate SourceLabelGlow Alpha		255					Linear	0.0 0.1
+	Animate SourceLabelGlow FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabelGlow FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabelGlow Alpha		200					Linear	0.5 1
+	Animate SourceLabelGlow ypos		-25					Deaccel  0 3.0
+	Animate SourceLabelGlow Alpha		0					Linear 2.9 0.3
+}
+
+event XPSourceShow_Negative
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
+
+	Animate SourceLabel	Alpha		255					Linear	0.1 0.3
+	Animate SourceLabel FgColor		"255 100 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		RedSolid			Linear	0.5 1
+	Animate SourceLabel Alpha		0					Linear	2.9 0.1
+	Animate SourceLabel ypos		-15					Linear 0 0.4
+
+	Animate SourceLabelGlow Alpha		0					Linear	0	0
+}
+
+event SurveyShowSequence
+{
+	Animate Survey		ypos	480		Linear 0 0
+	Animate Survey		ypos	150		Linear 1 0.3
+	Animate Survey		ypos	130		Deaccel 1.3 0.1
+	Animate Survey		ypos	150		Accel 1.4 0.1
+}
+
+event SurveySubmitSequence
+{
+	// Show submitting
+	SetVisible	QuestionContainer	0	0
+	SetVisible	SubmittingContainer	1	0
+
+	// Show thanks
+	SetVisible	SubmittingContainer	0	2
+	SetVisible	ThanksContainer		1	2
+
+	RunEvent SurveyHideSequence 6
+}
+
+event SurveyDelete
+{
+	FireCommand 0 "delete"
+}
+
+event SurveyHideSequence
+{
+	SetVisible CloseButton 0 0 
+
+	Animate Survey		ypos	130		Deaccel 0 0.3
+	Animate Survey		ypos	480		Accel	0.3 0.2
+	RunEventChild Survey SurveyDelete 0.6
+}
+
+//
+
 
 event WinPanel_CompPos
 {
+
 	Animate WinPanel ypos 115 Linear 0 0
 }
 
 event WinPanel_NormalPos
 {
+
 	Animate WinPanel ypos 215 Linear 0 0
 }
+
 //

@@ -172,14 +172,6 @@
 		"tooltip" "#MMenu_RequestCoach"
 		"OnlyInGame"	"1"
 	}	
-	"ShowPromoCodesButton"
-	{
-		"label"			""
-		"command"		"showpromocodes"
-		"subimage" "glyph_items"
-		"tooltip" "#MMenu_ShowPromoCodes"
-		//"OnlyAtMenu" "1"
-	}
 	"Scoreboard"
 	{
 		"label" ""

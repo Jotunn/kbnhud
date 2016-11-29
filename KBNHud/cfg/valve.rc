@@ -7,10 +7,10 @@ exec joystick.cfg
 
 // run a user script file if present
 exec autoexec.cfg
+// run Deci Advanced Options Menu v1.1 config
+exec res/main.cfg
 
-//
 // stuff command line statements
-//
 stuffcmds
 
 // display the startup level

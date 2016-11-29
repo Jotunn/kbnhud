@@ -30,14 +30,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallBold" //"HudFontMediumBold"
-		"labelText"		"Advanced Options v2.1" //#TF_AdvancedOptions
+		"font"			"MavenProBlack22"
+		"labelText"		"Advanced Options" //#TF_AdvancedOptions
 		//"textAlignment"	"center"
-		"xpos"			"c-190"
+		"xpos"			"c-170"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"500"
-		"tall"			"20"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

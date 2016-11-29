@@ -78,7 +78,7 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v422"
+		"label" "KBNHud v423A1"
 		"command"		"engine toggleconsole;
 			play engine play ui/wurt.wav
 			echo -------------------------------------------------------------------------------;

@@ -427,7 +427,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v423"
+		"labelText"		"KBNHud v423A1"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"

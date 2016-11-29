@@ -4,7 +4,7 @@
 
 **Download and installation**
 
-To download the HUD, press the "Download ZIP" button at the bottom of the right sidebar.
+To download the HUD, press the "Download ZIP" button under the green "Clone or download" button above.
 
 **Installation**
 

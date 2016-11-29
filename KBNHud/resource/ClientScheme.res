@@ -53,10 +53,6 @@ Scheme
 		
 		"Default Hitmarker base color" 	"0 0 0 255"
 		"Default Hitmarker flash color" "255 0 0 255"
-		
-		"COD Hitmarker base color"		"0 0 0 0"
-		"COD Hitmarker flash color"		"0 255 0 255"
-
 
 		//////////////////////////////////////////////////////////////////
 		///////////    END OF COLOR CUSTOMIZATION SECTION     ////////////

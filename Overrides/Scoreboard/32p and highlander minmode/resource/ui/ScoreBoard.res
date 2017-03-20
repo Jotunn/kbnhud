@@ -972,6 +972,12 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"White"
+	
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	
 	}	
 	
 	"MapNameShadow"
@@ -995,6 +1001,11 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor"		"Black"
+	
+		if_mvm
+		{
+			"visible"		"0"
+		}
 	}	
 	"GameType"
 	{

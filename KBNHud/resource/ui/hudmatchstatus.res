@@ -201,13 +201,87 @@
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
 		"zpos"			"1"		
-		"wide"			"300"
-		"tall"			"100"
-		"visible"		"1"
+		"wide"			"10000"
+		"tall"			"10000"
+		"visible"		"0"
 		"enabled"		"1"
 		
 	}
 
+	"TimePanelBGBlu"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"TimePanelBG"
+		"xpos"				"341"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"42"
+		"tall"				"10"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_blue_bg"	
+		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+	
+		if_match
+		{
+			"visible"	"1"
+		}
+	
+	}
+	
+	"TimePanelBGRed"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"TimePanelBG"
+		"xpos"				"385"
+		"ypos"				"0"
+		"zpos"				"0"
+		"wide"				"44"
+		"tall"				"10"
+		"visible"			"0"
+		"enabled"			"1"
+		"image"				"../hud/objectives_timepanel_red_bg"	
+		"scaleImage"		"1"	
+		"src_corner_height"	"3"
+		"src_corner_width"	"3"
+		"draw_corner_width"	"0"
+		"draw_corner_height" 	"0"
+	
+		if_match
+		{
+			"visible"	"1"
+		}
+	
+	}
+	
+	"TimePanelTimerBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"TimePanelBG"
+		"xpos"					"341"
+		"ypos"					"10"
+		"zpos"					"0"
+		"wide"					"88"
+		"tall"					"12"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"0"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"41 37 38 230"
+		"PaintBackgroundType"	"0"
+	
+		if_match
+		{
+			"visible"	"1"
+		}
+	
+	}	
+	
 	"BGFrame"
 	{
 		"ControlName"		"EditablePanel"
@@ -265,7 +339,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MavenProBold20"
+			"font"			"MavenProBlack20"
 			"fgcolor"		"TanLight"
 			"xpos"			"28"
 			"ypos"			"0"
@@ -282,7 +356,7 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"12"
+				"ypos"			"10"
 				"ypos_minmode"	"12"
 				"tall"			"10"
 				"font"			"MavenProBold14"
@@ -298,7 +372,7 @@
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"f0"
-		"tall"			"75"
+		"tall"			"100"
 		"visible"		"1"
 		"enabled"		"1"
 

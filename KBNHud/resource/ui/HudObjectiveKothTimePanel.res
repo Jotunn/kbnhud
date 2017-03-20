@@ -113,8 +113,8 @@
 				"ypos"			"21"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"MavenProMedium14"
-				"font_lodef"	"MavenProMedium14"
+				"font"			"MavenProBold14"
+				"font_lodef"	"MavenProBold14"
 			
 			}
 		
@@ -177,8 +177,8 @@
 				"ypos"			"21"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"MavenProMedium14"
-				"font_lodef"	"MavenProMedium14"
+				"font"			"MavenProBold14"
+				"font_lodef"	"MavenProBold14"
 			
 			}
 		

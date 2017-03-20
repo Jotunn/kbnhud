@@ -78,9 +78,9 @@
 	}
 	"KBNHudButton"
 	{
-		"label" "KBNHud v424"
+		"label" "KBNHud v425"
 		"command"		"engine toggleconsole;
-			play engine play ui/hitsound.mp3
+			play engine play ui/snrns.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;

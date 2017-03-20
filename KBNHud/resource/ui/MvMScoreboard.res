@@ -154,12 +154,14 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"MavenProMedium14"
+			"font"			"MavenProBold14"
 			"labelText"		"#TF_PVE_Currency"
 			"textAlignment" "north-west"
-			"xpos"			"0"
-			"ypos"			"18"
+			"xpos"			"-1"
+			"ypos"			"17"
+			"zpos"			"10"
 			"wide"			"200"
+			"tall"			"50"
 			"fgcolor"		"White"
 		}
 		

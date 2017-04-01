@@ -14,9 +14,9 @@
 
 		"left_steal_edge_offset"	"97"
 		"right_steal_edge_offset"	"97"
-		"robot_x_offset"		"78"
-		"robot_y_offset"		"47"
-		"robot_x_step"			"23"
+		"robot_x_offset"		"73"
+		"robot_y_offset"		"30"
+		"robot_x_step"			"18"
 		"robot_y_step"			"0"
 		
 
@@ -44,12 +44,42 @@
 		}
 	}	
 	
+	"ImageTopBlu"
+	{
+		"ControlName"   "ImagePanel"           
+		"fieldName"     "ImageTopBlu"
+		"xpos"          "c-130"
+		"ypos"          "r50"
+		"zpos"          "0"
+		"wide"          "60"
+		"tall"          "20"
+		"visible"       "1"
+		"enabled"       "1"
+		"fillcolor"     "MainBlueSolid"
+		"scaleImage"    "1"
+	}	
+	
+	"ImageTopRed"
+	{
+		"ControlName"   "ImagePanel"           
+		"fieldName"     "ImageTopRed"
+		"xpos"          "c73"
+		"ypos"          "r50"
+		"zpos"          "0"
+		"wide"          "60"
+		"tall"          "20"
+		"visible"       "1"
+		"enabled"       "1"
+		"fillcolor"     "MainRedSolid"
+		"scaleImage"    "1"
+	}
+	
 	"PlayingTo"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r24"	[$WIN32]
+		"ypos"			"r25"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -59,20 +89,19 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"MavenProBlack16"
-		"fgcolor"		"TanLight"
+		"font"			"MavenProBlack14"
+		"fgcolor"		"White"
 		
 		"if_hybrid"
 		{
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-		
-		"if_specialdelivery"
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
@@ -82,12 +111,12 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-75"	[$WIN32]
-		"ypos"			"r16"	[$WIN32]
+		"xpos"			"c-42"	[$WIN32]
+		"ypos"			"r17"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"150"	[$WIN32]
-		"tall"			"16"	[$WIN32]
-		"visible"		"1"
+		"wide"			"84"	[$WIN32]
+		"tall"			"17"	[$WIN32]
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"	"1"	
@@ -103,12 +132,11 @@
 			"visible"	"0"
 		}
 		
-		"if_mvm"
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
-		
-		"if_specialdelivery"
+		"if_mvm"
 		{
 			"visible"	"0"
 		}
@@ -181,7 +209,9 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"MavenProBold15"
+			"font"			"HudFontMediumBold"
+			"font_hidef"	"HudFontGiant"
+			"font_lodef"	"HudFontGiant"
 			"fgcolor"		"TanLight"	
 			"proportionalToParent"	"1"	
 		}	
@@ -201,7 +231,9 @@
 			"enabled"		"1"
 			"textAlignment"	"center"	
 			"labelText"		"%flagvalue%"
-			"font"			"MavenProBold15"
+			"font"			"HudFontMediumBold"
+			"font_hidef"	"HudFontGiant"
+			"font_lodef"	"HudFontGiant"
 			"fgcolor"		"Black"	
 			"proportionalToParent"	"1"	
 		}
@@ -212,8 +244,8 @@
 		"fieldName"				"ScoreContainer"
 		"ControlName"			"EditablePanel"
 		"xpos"					"c-200"
-		"ypos"					"r131"
-		"zpos"					"0"
+		"ypos"					"r114"
+		"zpos"					"-1"
 		"wide"					"400"
 		"tall"					"120"
 		"scaleimage"			"0"
@@ -243,10 +275,25 @@
 				"wide"					"f0"
 				"tall"					"f0"
 				"scaleimage"			"1"
-				"visible"				"1"
+				"visible"				"0"
 				"enabled"				"1"
 				"Image"					"../hud/objectives_corepanel_bg"
 				"proportionalToParent"	"1"
+			}
+			
+			"ImageBack"
+			{
+				"ControlName"   "ImagePanel"           
+				"fieldName"     "ImageBack"
+				"xpos"          "20"
+				"ypos"          "25"
+				"zpos"          "-1"
+				"wide"          "263"
+				"tall"          "30"
+				"visible"       "1"
+				"enabled"       "1"
+				"fillcolor"     "TransparentBlack"
+				"scaleImage"    "1"
 			}
 
 			"BlueVictoryContainer"
@@ -254,7 +301,7 @@
 				"fieldName"				"BlueVictoryContainer"
 				"ControlName"			"EditablePanel"
 				"xpos"					"25"
-				"ypos"					"22"
+				"ypos"					"17"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -275,7 +322,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 				}
@@ -284,7 +331,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"95"
@@ -293,7 +340,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_BlueFinale"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
 				}
@@ -311,7 +358,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 
@@ -324,7 +371,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"55"
@@ -333,7 +380,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
 
@@ -359,9 +406,9 @@
 				"drawcolor"				"84 111 127 255"
 				"Image"					"../hud/objectives_corepanel_meter_solid"
 
-				"left_offset"			"10"
+				"left_offset"			"28"
 				"right_offset"			"0"
-				"standard_color"		"84  111 127 255"
+				"standard_color"		"MainBlue"
 				"bright_color"			"110 159 189 255"
 				"left_to_right"			"0"
 				"blink_threshold"		"1.0"
@@ -384,7 +431,7 @@
 				"drawcolor"				"141 160 171 255"
 				"Image"					"../hud/objectives_corepanel_meter"
 
-				"left_offset"			"10"
+				"left_offset"			"28"
 				"right_offset"			"0"
 				"standard_color"		"127 143 152 255"
 				"bright_color"			"177 193 202 255"
@@ -398,7 +445,7 @@
 				"fieldName"				"RedVictoryContainer"
 				"ControlName"			"EditablePanel"
 				"xpos"					"25"
-				"ypos"					"22"
+				"ypos"					"17"
 				"zpos"					"5"
 				"wide"					"f0"
 				"tall"					"f0"
@@ -419,7 +466,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 				}
@@ -428,7 +475,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelShadow"
-					"xpos"			"141"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"90"
@@ -437,7 +484,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"#TF_RD_RedFinale"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
 				}
@@ -455,7 +502,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"TanLight"		
 					"proportionalToParent"	"1"
 
@@ -468,7 +515,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"VictoryLabelTimeShadow"
-					"xpos"			"1"
+					"xpos"			"9999"
 					"ypos"			"1"
 					"zpos"			"7"
 					"wide"			"55"
@@ -477,7 +524,7 @@
 					"enabled"		"1"
 					"textAlignment"	"west"	
 					"labelText"		"%victorytime%"
-					"font"			"MavenProBold16"
+					"font"			"HudFontSmallBold"
 					"fgcolor"		"Black"		
 					"proportionalToParent"	"1"
 
@@ -502,10 +549,10 @@
 				"proportionalToParent"	"1"
 				"drawcolor"				"171 59 59 255"
 				"Image"					"../hud/objectives_corepanel_meter_solid_right"
-
+				
 				"left_offset"			"0"
-				"right_offset"			"9"
-				"standard_color"		"171 59 59 255"
+				"right_offset"			"10"
+				"standard_color"		"MainRed"
 				"bright_color"			"222 65 65 255"
 				"left_to_right"			"1"
 				"blink_threshold"		"1.0"
@@ -527,9 +574,9 @@
 				"proportionalToParent"	"1"
 				"drawcolor"				"212 151 151 255"
 				"Image"					"../hud/objectives_corepanel_meter_right"
-
+				
 				"left_offset"			"0"
-				"right_offset"			"9"
+				"right_offset"			"22"
 				"standard_color"		"212 151 151 255"
 				"bright_color"			"250 201 201 255"
 				"left_to_right"			"1"
@@ -542,8 +589,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"BlueScoreValueContainer"
-			"xpos"				"80"
-			"ypos"				"r48"
+			"xpos"				"63"
+			"ypos"				"r47"
 			"zpos"				"10"
 			"wide"				"60"
 			"tall"				"60"
@@ -556,17 +603,17 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-22"
+				"xpos"			"10"
+				"ypos"			"c-20"
 				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
+				"wide"			"60"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"west"	
+				"textAlignment"	"Center"	
 				"labelText"		"%score%"
-				"font"			"MavenProBlack30"
-				"fgcolor"		"TanLight"		
+				"font"			"MavenProBold30"
+				"fgcolor"		"White"
 				"proportionalToParent"	"1"
 			}	
 		
@@ -574,16 +621,18 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-21"
+				"xpos"			"9999"
+				"ypos"			"c-19"
 				"zpos"			"7"
 				"wide"			"55"
 				"tall"			"35"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
-				"textAlignment"	"west"	
+				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"MavenProBlack30"
+				"font"			"HudFontMediumBold"
+				"font_hidef"	"HudFontGiant"
+				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}
@@ -593,10 +642,10 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"RedScoreValueContainer"
-			"xpos"				"r140"
-			"ypos"				"r48"
+			"xpos"				"r130"
+			"ypos"				"r47"
 			"zpos"				"10"
-			"wide"				"60"
+			"wide"				"70"
 			"tall"				"60"
 			"visible"			"1"
 			"enabled"			"1"
@@ -607,34 +656,36 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"Score"
-				"xpos"			"c-27"
-				"ypos"			"c-22"
+				"xpos"			"0"
+				"ypos"			"c-20"
 				"zpos"			"8"
-				"wide"			"55"
-				"tall"			"35"
+				"wide"			"60"
+				"tall"			"30"
 				"visible"		"1"
 				"enabled"		"1"
-				"textAlignment"	"east"	
+				"textAlignment"	"Center"	
 				"labelText"		"%score%"
-				"font"			"MavenProBlack30"
-				"fgcolor"		"TanLight"	
-				"proportionalToParent"	"1"	
+				"font"			"MavenProBold30"
+				"fgcolor"		"White"
+				"proportionalToParent"	"1"
 			}	
 		
 			"ScoreShadow"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"ScoreShadow"
-				"xpos"			"c-26"
-				"ypos"			"c-21"
+				"xpos"			"9999"
+				"ypos"			"c-19"
 				"zpos"			"7"
 				"wide"			"55"
 				"tall"			"35"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"textAlignment"	"east"	
 				"labelText"		"%score%"
-				"font"			"MavenProBlack30"
+				"font"			"HudFontMediumBold"
+				"font_hidef"	"HudFontGiant"
+				"font_lodef"	"HudFontGiant"
 				"fgcolor"		"Black"		
 				"proportionalToParent"	"1"
 			}

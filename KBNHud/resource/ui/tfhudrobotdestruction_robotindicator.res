@@ -5,10 +5,10 @@
 		"fieldName"				"RobotStateContainer"
 		"ControlName"			"EditablePanel"
 		"proportionalToParent"	"1"
-		"xpos"					"0"
+		"xpos"					"1"
 		"ypos"					"0"
-		"wide"					"20"
-		"tall"					"20"
+		"wide"					"40"
+		"tall"					"40"
 		"visible"				"0"
 
 		"DeadState"

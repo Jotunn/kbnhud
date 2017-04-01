@@ -54,7 +54,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"PaintBackgroundType"	"2"
-			"fillcolor"		"205 50 50 153"
+			"fillcolor"		"MainRed"
 		}
 		"RedScoreBG2"
 		{

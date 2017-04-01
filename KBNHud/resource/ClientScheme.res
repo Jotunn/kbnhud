@@ -88,8 +88,12 @@ Scheme
 		"QuestBonusHighlight"		"150 160 255 255"
 		
 		"White"						"235 235 235 255"
-		"Red"						"192 28 0 140"
+		"MainRed"					"205 50 50 153"
+		"MainRedSolid"				"205 50 50 255"
+		"Red"						"192 28 0 140"		
 		"RedSolid"					"192 28 0 255"
+		"MainBlue"					"70 130 180 125"
+		"MainBlueSolid"				"70 130 180 255"
 		"Blue"						"0 28 162 140"
 		"BlueSolid"					"0 28 162 255"
 		"Yellow"					"251 235 202 255"
@@ -100,6 +104,8 @@ Scheme
 		"Highlight"					"0 138 201 255"
 		"Highlight2"				"0 138 201 255"
 		"MainMenuBG"				"11 7 6 240"
+		"AlienGreen"				"9 150 82 255"
+		"AlienGreenTransparent"		"9 150 82 150"
 		//"Black"					"0 0 0 255"
 		//Changed black to a NTSC safe color
 		
@@ -539,7 +545,7 @@ Scheme
 			"1"
 			{
 				"name"		"KnucklesCrosses"
-				"tall"		"14"
+				"tall"		"11"
 				"weight"	"0"
 				"additive"	"0"
 				"outline" "1"

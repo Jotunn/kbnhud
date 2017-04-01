@@ -619,6 +619,106 @@
 		}		
 	}
 
+	"Notifications_ShowButtonPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Notifications_ShowButtonPanel"
+		"xpos"			"173"
+		"ypos"			"45"
+		"zpos"			"10"
+		"wide"			"32"
+		"tall"			"32"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+
+		"navLeft"		"MOTD_ShowButtonPanel"
+		"navRight"		"Notifications_Panel"
+		"navToRelay"	"Notifications_ShowButtonPanel_SB"
+		
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"16"
+			"ypos"			"0"
+			"zpos"			"3"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"glyph_achievements"
+			"scaleImage"	"1"
+			"drawcolor" "210 125 33 255"
+		}				
+		
+		"Notifications_CountLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"Notifications_CountLabel"
+			"font"			"HudFontSmallestBold"
+			"labelText"		"%noticount%"
+			"textAlignment"	"center"
+			"xpos"			"16"
+			"ypos"			"0"
+			"zpos"			"4"
+			"wide"			"16"
+			"tall"			"16"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"255 255 255 255"
+		}
+	
+		"Notifications_ShowButtonPanel_SB"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"Notifications_ShowButtonPanel_SB"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"1"
+			"wide"			"25"
+			"tall"			"25"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"labelText"		""
+			"font"			"HudFontSmallestBold"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			"actionsignallevel" "2"
+
+			"Command"		"noti_show"
+			"navActivate"	"<QuickplayButton"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"paintbackground" "0"
+			"image_drawcolor"	"235 226 202 255"
+			"image_armedcolor"	"255 255 255 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"25"
+				"tall"			"25"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"button_Alert"
+				"scaleImage"	"1"
+			}
+		}
+	}
 	
 	"WatchStreamButton"
 	{
@@ -786,7 +886,7 @@
 			"zpos"			"10"
 			"wide"			"16"
 			"tall"			"16"
-			"visible"		"0"
+			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
 			"keyboardinputenabled" "0"
@@ -1281,8 +1381,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_Panel"
-		"xpos"			"c0"
-		"ypos"			"102"
+		"xpos"			"206"
+		"ypos"			"45"
 		"zpos"			"10"
 		"wide"			"210"
 		"tall"			"80"

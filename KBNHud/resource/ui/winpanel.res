@@ -22,7 +22,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HUDBlueTeamSolid"
+			"fillcolor"		"MainBlueSolid"
 			"scaleImage"		"1"
 		}	
 		"RedBG"
@@ -37,7 +37,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"HUDRedTeamSolid"
+			"fillcolor"		"MainRedSolid"
 			"scaleImage"		"1"
 		}
 		
@@ -69,7 +69,7 @@
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"0"
-			"fillcolor"		"205 50 50 153"
+			"fillcolor"		"MainRed"
 			"scaleImage"		"1"
 		}
 		"BlueTeamLabel"

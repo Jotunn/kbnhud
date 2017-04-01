@@ -360,7 +360,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v425"
+		"labelText"		"KBNHud v426"
 		"textAlignment"	"west"
 		"xpos"			"20"
 		"ypos"			"61"
@@ -2162,8 +2162,8 @@
 		"enabled"		"1"
 
 		"navUp"			"MOTD_Panel"				// pass through when naving up to this or the fully displayed MOTD
-		"navDown"		"Notifications_Panel"		// when a sub element can't nav down it will pass through this
-		"navLeft"		"Notifications_Panel"		// when a sub element can't nav left it will pass through this
+		"navDown"		"QuickplayButton"		// when a sub element can't nav down it will pass through this
+		"navLeft"		"ServerShortcut8"		// when a sub element can't nav left it will pass through this
 		"navRight"		"MOTD_Panel"				// pass through when naving right to this or the fully displayed MOTD
 		"navToRelay"	"MOTD_ShowButtonPanel_SB"	// when naving to this it auto navs to this child instead
 		
@@ -2765,7 +2765,7 @@
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"ReplayBrowserButton"
 		"navLeft"		"GeneralStoreButton"
-		"navRight"		"Notifications_ShowButtonPanel"
+		"navRight"		"CharacterSetupButton"
 		"navToRelay"		"SubButton"
 		
 		"SubButton"
@@ -3193,7 +3193,7 @@
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
 		"navRight"		"CallVoteButton"
-		"navLeft"		"EnterCasualInGame"
+		"navLeft"		"ScoreboardButton"
 		"navToRelay"		"SubButton"
 		
 		"SubButton"
@@ -3326,7 +3326,7 @@
 		
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ResumeGameButton"
-		"navRight"		"EnterCasualInGame"
+		"navRight"		"MutePlayersButton"
 		"navLeft"		"RequestCoachButton"
 		"navToRelay"		"SubButton"
 		
@@ -3431,7 +3431,7 @@
 		"default"		"1"
 		"Command"		"view_newuser_forums"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"AchievementsButton"
 		"navRight"		"CommentaryButton"
 		
@@ -3478,7 +3478,7 @@
 		"default"		"1"
 		"Command"		"OpenAchievementsDialog"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"DisconnectButton"
 		"navRight"		"NewUserForumsButton"
 		
@@ -3525,7 +3525,7 @@
 		"default"		"1"
 		"Command"		"OpenLoadSingleplayerCommentaryDialog"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"NewUserForumsButton"
 		"navRight"		"CoachPlayersButton"
 		
@@ -3572,7 +3572,7 @@
 		"default"		"1"
 		"Command"		"engine cl_coach_toggle"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"CommentaryButton"
 		"navRight"		"ReportBugButton"
 		
@@ -3619,7 +3619,7 @@
 		"default"		"1"
 		"Command"		"engine bug"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"CoachPlayersButton"
 		"navRight"		"AdvSettingsButton"
 		
@@ -3653,7 +3653,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navLeft"		"ReportBugButton"
 		"navRight"		"SettingsButton"
 		"navToRelay"		"SubButton"
@@ -3773,7 +3773,7 @@
 		"default"		"1"
 		"Command"		"OpenOptionsDialog"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navRight"		"QuitButtonHidden"
 		"navLeft"		"AdvSettingsButton"
 		
@@ -3821,7 +3821,7 @@
 		"default"		"1"
 		"Command"		"engine replay_confirmquit"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navDown"		"QuitButtonHidden"
 		"navRight"		"DisconnectButton"
 		"navLeft"		"QuitButtonHidden"
@@ -3857,7 +3857,7 @@
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navRight"		"QuitButton"
 		"navLeft"		"SettingsButton"
 		"navToRelay"		"SubButton"
@@ -3930,7 +3930,7 @@
 		"default"		"1"
 		"Command"		"engine disconnect"
 		
-		"navUp"			"ReplayBrowserButton"
+		"navUp"			"DemoUIButton"
 		"navRight"		"AchievementsButton"
 		"navLeft"		"QuitButton"
 		

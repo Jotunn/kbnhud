@@ -54,9 +54,9 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
 		"xpos"			"37"
-		"ypos"			"65"
+		"ypos"			"63"
 		"zpos"			"2"
-		"wide"			"150"
+		"wide"			"175"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"2"
@@ -67,8 +67,8 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"MavenProBlack18"
-		"fgcolor"		"0 200 255 255"
+		"font"			"MavenProBlack20"
+		"fgcolor"		"Ubercharge percentage"
 	}
 	"ChargeMeter"
 	{	

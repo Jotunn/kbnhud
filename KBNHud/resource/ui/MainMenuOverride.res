@@ -229,15 +229,19 @@
 		{
 			"image"		"../console/background_xmas2011_widescreen"
 		}
+		if_operation
+		{
+			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
+		}
 	}
-	
+					
 	"TFLogoImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
-		"xpos"			"c-128"
-		"ypos"			"-3"
-		"zpos"			"-5"
+		"xpos"			"c-0"
+		"ypos"			"24"
+		"zpos"			"-2"
 		"wide"			"256"
 		"tall"			"64"
 		"visible"		"1"
@@ -246,10 +250,36 @@
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
-//		if_operation
-//		{
-//			"image"		"../logo/tough_break_logo"
-//		}
+		if_operation
+		{
+			"xpos"			"c-100"
+			"ypos"			"10"
+			"zpos"			"-53"
+			"wide"			"o2"
+			"tall"			"105"
+			"image"		"../logo/jungle_inferno_logo"
+		}
+	}	
+
+	"JungleInfernoImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"JungleInfernoImage"
+		"xpos"			"c-100+35"
+		"ypos"			"64"
+		"zpos"			"-1"
+		"wide"			"o4"
+		"tall"			"32"
+		"visible"		"0"
+		"enabled"		"1"
+		"image"		"../logo/inferno_logo_anim"
+		"scaleImage"	"1"
+		"mouseinputenabled"	"0"
+
+		if_operation
+		{
+			"visible"		"1"
+		}
 	}	
 	
 	"TFCharacterImage"
@@ -257,6 +287,15 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
+
+		if_taller
+		{
+			if_operation
+			{
+				"xpos"		"c-300"
+			}
+		}
+
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
@@ -264,6 +303,44 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
+	}
+	
+	"RankModelPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"RankModelPanel"
+		"xpos"			"-427"
+		"ypos"			"cs-0.5-116"
+
+		"zpos"			"-51"
+		"wide"			"1000"
+		"tall"			"1000"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"1"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+
+		"show_progress"	"0"
+	}
+	
+	"CRankPanel"
+	{
+		"ControlName"	"CPvPRankPanel"
+		"fieldName"		"CRankPanel"
+		"xpos"			"-20"
+		"ypos"			"71"
+		"zpos"			"-52"
+		"wide"			"320"
+		"tall"			"100"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		"mouseinputenabled"	"0"
+
+		"matchgroup"	"MatchGroup_Casual_12v12"
+		"xp_source_notification_center_x"	"350"
+
+		"show_model"	"0"
 	}
 	
 	"MainMenuBGPanel"
@@ -291,11 +368,11 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MainMenuBGtop"
-		"xpos"					"11"
-		"ypos"					"62"
+		"xpos"					"42"
+		"ypos"					"32"
 		"zpos"					"0"
 		"wide"					"256"
-		"tall"					"146"
+		"tall"					"58"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -308,7 +385,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"ainMenuBGmiddle"
-		"xpos"					"11"
+		"xpos"					"42"
 		"ypos"					"302"
 		"zpos"					"0"
 		"wide"					"256"
@@ -360,10 +437,10 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v426"
+		"labelText"		"KBNHud v430"
 		"textAlignment"	"west"
-		"xpos"			"20"
-		"ypos"			"61"
+		"xpos"			"51"
+		"ypos"			"31"
 		"wide"			"180"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -376,8 +453,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"KBNHudButton"
-		"xpos"			"20"
-		"ypos"			"70"
+		"xpos"			"51"
+		"ypos"			"40"
 		"zpos"			"11"
 		"wide"			"180"
 		"tall"			"15"
@@ -437,7 +514,7 @@
 		"fieldName"		"TooltipPanel"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"1"
+		"zpos"			"20"
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
@@ -489,8 +566,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcutInfo"
-		"xpos"			"15"
-		"ypos"			"95"
+		"xpos"			"46"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"20"
 		"tall"			"20"
@@ -570,8 +647,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut1"
-		"xpos"			"45"
-		"ypos"			"95"
+		"xpos"			"76"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -616,8 +693,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut2"
-		"xpos"			"69"
-		"ypos"			"95"
+		"xpos"			"100"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -662,8 +739,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut3"
-		"xpos"			"93"
-		"ypos"			"95"
+		"xpos"			"124"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -708,8 +785,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut4"
-		"xpos"			"117"
-		"ypos"			"95"
+		"xpos"			"148"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -754,8 +831,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut5"
-		"xpos"			"141"
-		"ypos"			"95"
+		"xpos"			"172"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -800,8 +877,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut6"
-		"xpos"			"165"
-		"ypos"			"95"
+		"xpos"			"196"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -847,8 +924,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut7"
-		"xpos"			"189"
-		"ypos"			"95"
+		"xpos"			"220"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -894,8 +971,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ServerShortcut8"
-		"xpos"			"213"
-		"ypos"			"95"
+		"xpos"			"244"
+		"ypos"			"65"
 		"zpos"			"10"
 		"wide"			"21"
 		"tall"			"20"
@@ -946,14 +1023,14 @@
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"default"		"1"
 		
 		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"EnterCasualInGame"
+		"navDown"		"CasualEntry"
 		"navRight"		"TrainingButton"
-		"navLeft"		"EnterCasualInGame"
+		"navLeft"		"CasualEntry"
 		"navToRelay"		"SubButton"
 		
 		"SubButton"
@@ -1006,21 +1083,21 @@
 			}				
 		}
 	}
-	"EnterCasualInGame"
+	"CasualEntry"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"EnterCasualInGame"
+		"fieldname"		"CasualEntry"
 		"xpos"			"15"
 		"ypos"			"121"
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"default"		"1"
 		
 		"navUp"			"QuickplayButton"
-		"navDown"		"PlayPVEButton"
+		"navDown"		"MvMEntry"
 		"navRight"		"TrainingButton"
 		"navLeft"		"ResumeGameButton"
 		"navToRelay"		"SubButton"
@@ -1070,21 +1147,21 @@
 			}				
 		}
 	}
-	"PlayPVEButton"
+	"MvMEntry"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayPVEButton"
+		"fieldname"		"MvMEntry"
 		"xpos"			"15"
 		"ypos"			"151"
 		"zpos"			"11"
 		"wide"			"122"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		
-		"navUp"			"EnterCasualInGame"
+		"navUp"			"CasualEntry"
 		"navDown"		"ChangeServerButton"
-		"navRight"		"CompetitiveButton"
+		"navRight"		"CompetitiveEntry"
 		"navLeft"		"ResumeGameButton"
 		"navToRelay"		"SubButton"
 		
@@ -1130,23 +1207,23 @@
 		}
 	}
 	
-	"CompetitiveButton"
+	"CompetitiveEntry"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"CompetitiveButton"
+		"fieldname"		"CompetitiveEntry"
 		"xpos"			"142"
 		"ypos"			"151"
 		"zpos"			"11"
 		"wide"			"122"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
-		"navUp"			"EnterCasualInGame"
+		"navUp"			"CasualEntry"
 		"navDown"		"ServerBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
-		"navLeft"		"PlayPVEButton"
+		"navLeft"		"MvMEntry"
 		"navToRelay"	"SubButton"
 
 		"SubButton"
@@ -1214,7 +1291,7 @@
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		
 		"navUp"			"ChangeServerButton"
@@ -1276,10 +1353,10 @@
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		
-		"navUp"			"PlayPVEButton"
+		"navUp"			"MvMEntry"
 		"navDown"		"ServerBrowserButton"
 		"navRight"		"CreateServerButton"
 		"navLeft"		"ResumeGameButton"
@@ -1333,15 +1410,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"TrainingButton"
-		"xpos"			"242"
+		"xpos"			"9999999999"
 		"ypos"			"123"
 		"zpos"			"12"
 		"wide"			"26"
 		"tall"			"26"
-		"visible"		"1"
+		"visible"		"0"
 		
 		"navUp"			"MOTD_ShowButtonPanel"
-		"navDown"		"PlayPVEButton"
+		"navDown"		"MvMEntry"
 		"navLeft"		"QuickplayButton"
 		"navRight"		"Notifications_ShowButtonPanel"
 		"navToRelay"		"SubButton"
@@ -1400,17 +1477,17 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ResumeGameButton"
-		"xpos"			"14"
+		"xpos"			"999999999"
 		"ypos"			"270"
 		"zpos"			"11"
 		"wide"			"270"
 		"tall"			"36"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		
 		"navUp"			"MutePlayersButton"
 		"navDown"		"CharacterSetupButton"
-		"navRight"		"EnterCasualInGame"
+		"navRight"		"CasualEntry"
 		"navLeft"		"QuickplayButton"
 		"navToRelay"		"SubButton"
 		
@@ -1467,7 +1544,7 @@
 		"zpos"			"10"
 		"wide"			"256"
 		"tall"			"40"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"SubButton"
 		{
@@ -1494,14 +1571,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"242"
+		"xpos"			"999999999"
 		"ypos"			"183"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
-		"visible"		"1"
+		"visible"		"0"
 
-		"navUp"			"PlayPVEButton"
+		"navUp"			"MvMEntry"
 		"navDown"		"CharacterSetupButton"
 		"navLeft"		"ServerBrowserButton"
 		"navRight"		"Notifications_ShowButtonPanel"
@@ -1562,7 +1639,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CharacterSetupButton"
-		"xpos"			"15"
+		"xpos"			"46"
 		"ypos"			"306"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1624,7 +1701,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"15"
+		"xpos"			"46"
 		"ypos"			"336"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1687,7 +1764,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"DemoUIButton"
-		"xpos"			"15"
+		"xpos"			"46"
 		"ypos"			"366"
 		"zpos"			"11"
 		"wide"			"270"
@@ -1833,8 +1910,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"270"
-		"ypos"			"92"
+		"xpos"			"310"
+		"ypos"			"62"
 		"zpos"			"10"
 		"wide"			"32"
 		"tall"			"32"
@@ -1934,8 +2011,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"210"
-		"ypos"			"66"
+		"xpos"			"241"
+		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -2025,8 +2102,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"240"
-		"ypos"			"66"
+		"xpos"			"271"
+		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -2086,7 +2163,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
-				"image"			"button_quests"
+				"image"			"button_quests_pda"
 
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -2151,8 +2228,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"240"
-		"ypos"			"92"
+		"xpos"			"271"
+		"ypos"			"62"
 		"zpos"			"1"
 		"wide"			"32"
 		"tall"			"32"
@@ -2754,7 +2831,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"SteamWorkshopButton"
-		"xpos"			"242"
+		"xpos"			"273"
 		"ypos"			"308"
 		"zpos"			"12"
 		"wide"			"20"
@@ -2889,7 +2966,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"222"
+		"xpos"			"253"
 		"ypos"			"308"
 		"zpos"			"12"
 		"wide"			"20"
@@ -3116,11 +3193,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"100"
-		"ypos"			"222"
+		"xpos"			"192"
+		"ypos"			"100"
 		"zpos"			"12"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		
 		"navUp"			"ChangeServerButton"
@@ -3135,8 +3212,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"40"
-			"tall"			"40"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -3167,11 +3244,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"8"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"24"
-				"tall"			"24"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -3183,11 +3260,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"50"
-		"ypos"			"222"
+		"xpos"			"168"
+		"ypos"			"100"
 		"zpos"			"12"
-		"wide"			"40"
-		"tall"			"40"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		
 		"navUp"			"ChangeServerButton"
@@ -3202,8 +3279,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"40"
-			"tall"			"40"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -3234,11 +3311,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"8"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"24"
-				"tall"			"24"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -3250,11 +3327,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"150"
-		"ypos"			"232"
+		"xpos"			"216"
+		"ypos"			"100"
 		"zpos"			"12"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		
 		"navUp"			"ChangeServerButton"
@@ -3269,8 +3346,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -3301,11 +3378,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_create"
@@ -3317,11 +3394,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Scoreboard"
-		"xpos"			"190"
-		"ypos"			"232"
+		"xpos"			"240"
+		"ypos"			"100"
 		"zpos"			"12"
-		"wide"			"30"
-		"tall"			"30"
+		"wide"			"20"
+		"tall"			"20"
 		"visible"		"1"
 		
 		"navUp"			"ChangeServerButton"
@@ -3336,8 +3413,8 @@
 			"fieldName"		"SubButton"
 			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"30"
-			"tall"			"30"
+			"wide"			"20"
+			"tall"			"20"
 			"autoResize" 	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -3368,11 +3445,11 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"6"
-				"ypos"			"6"
+				"xpos"			"2"
+				"ypos"			"2"
 				"zpos"			"1"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"16"
+				"tall"			"16"
 				"visible"		"1"
 				"enabled"		"1"
 				"image"			"glyph_view"
@@ -3603,7 +3680,7 @@
 		"fieldName"		"ReportBugButton"
 		"xpos"			"c120"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3714,7 +3791,7 @@
 		"fieldName"		"TF2SettingsButton"
 		"xpos"			"c150"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3755,7 +3832,7 @@
 		"fieldName"		"SettingsButton"
 		"xpos"			"c176"
 		"ypos"			"437"
-		"zpos"			"1"
+		"zpos"			"5"
 		"wide"			"134"
 		"tall"			"25"
 		"autoResize"	"0"
@@ -3953,6 +4030,144 @@
 			"image"			"glyph_quit"
 		}				
 	}			
+	
+	"CompetitiveAccessInfoPanel"
+	{
+		"ControlName"	"CCompetitiveAccessInfoPanel"
+		"fieldName"		"CompetitiveAccessInfoPanel"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"zpos"			"1000"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+	}
+
+	"FriendsContainer"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"FriendsContainer"
+		"xpos"			"40"
+		"ypos"			"151"
+		"zpos"			"5"
+		"wide"			"260"
+		"tall"			"150"
+		"visible"		"1"
+
+		"border"		"MainMenuBGBorder"
+
+		"TitleLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"TitleLabel"
+			"font"			"HudFontSmallBold"
+			"labelText"		"#TF_Competitive_Friends"
+			"textAlignment"	"west"
+			"xpos"			"12"
+			"ypos"			"0"
+			"wide"			"f0"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"textinsetx"	"0"
+			"fgcolor_override"	"235 227 203 255"
+		}
+
+		"InnerShadow"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"InnerShadow"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"501"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"paintborder"	"1"
+			"border"		"InnerShadowBorder"
+		}
+
+		"SteamFriendsList"
+		{
+			"ControlName"	"CSteamFriendsListPanel"
+			"fieldname"		"SteamFriendsList"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"500"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"
+			"proportionaltoparent"	"1"
+
+			"columns_count"	"2"
+			"inset_x"		"10"
+			"inset_y"		"5"
+			"row_gap"		"5"
+			"column_gap"	"20"
+			"restrict_width"	"0"
+
+			"friendpanel_kv"
+			{
+				"wide"		"100"
+				"tall"		"20"
+			}
+
+			"ScrollBar"
+			{
+				"ControlName"	"ScrollBar"
+				"FieldName"		"ScrollBar"
+				"xpos"			"rs1-1"
+				"ypos"			"0"
+				"tall"			"f0"
+				"wide"			"5" // This gets slammed from client schme.  GG.
+				"zpos"			"1000"
+				"nobuttons"		"1"
+				"proportionaltoparent"	"1"
+
+				"Slider"
+				{
+					"fgcolor_override"	"TanDark"
+				}
+		
+				"UpButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"UpButton"
+					"visible"		"0"
+				}
+		
+				"DownButton"
+				{
+					"ControlName"	"Button"
+					"FieldName"		"DownButton"
+					"visible"		"0"
+				}
+			}
+		}
+
+		"BelowDarken"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldname"		"BelowDarken"
+			"xpos"			"cs-0.5"
+			"ypos"			"rs1-10"
+			"zpos"			"499"
+			"wide"			"f20"
+			"tall"			"110"
+			"visible"		"1"	
+			"PaintBackgroundType"	"0"
+			"proportionaltoparent"	"1"
+			"mouseinputenabled"	"0"
+
+			"bgcolor_override"	"0 0 0 100"
+		}
+	}
 	
 	"BackToReplaysButton"
 	{
@@ -4787,10 +5002,10 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
 		"xpos"			"c0"
-		"ypos"			"295"
+		"ypos"			"330"
 		"zpos"			"-50"
 		"wide"			"270"
-		"tall"			"140"
+		"tall"			"96"
 		"visible"		"1"
 
 		"Background"
@@ -4798,10 +5013,11 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"Background"
 			"xpos"			"0"
-			"ypos"			"20"
+			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"260"
-			"tall"			"120"
+//			"tall"			"120"
+			"tall"			"96"
 			"visible"		"1"
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4813,7 +5029,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"MavenProBlack20"
+				"font"			"HudFontSmallBold"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"12"
@@ -4873,7 +5089,7 @@
 //					"enabled"		"1"
 //					"tabPosition"	"0"
 //					"use_proportional_insets" "1"
-//					"font"			"MavenProBlack18"
+//					"font"			"HudFontSmallBold"
 //					"textAlignment"	"center"
 //					"dulltext"		"0"
 //					"brighttext"	"0"
@@ -4943,7 +5159,7 @@
 //					"enabled"		"1"
 //					"tabPosition"	"0"
 //					"use_proportional_insets" "1"
-//					"font"			"MavenProBlack18"
+//					"font"			"HudFontSmallBold"
 //					"textAlignment"	"center"
 //					"dulltext"		"0"
 //					"brighttext"	"0"
@@ -4973,10 +5189,12 @@
 				"ControlName"			"CCyclingAdContainerPanel"
 				"fieldName"				"CyclingAd"
 				"xpos"					"5"
-				"ypos"					"p0.47"
+//				"ypos"					"p0.47"
+				"ypos"					"27"
 				"zpos"					"100"
 				"wide"					"f10"
-				"tall"					"p0.5"
+//				"tall"					"p0.5"
+				"tall"					"60"
 				"visible"				"1"
 				"enabled"				"1"
 				"scaleImage"			"1"
@@ -4988,22 +5206,72 @@
 				{
 					"0"
 					{
-						"item"		"Keyless Winter 2016 Case"
+						"item"		"Unused Campaign 3 Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Taunt: The Table Tantrum"
+						"item"		"Abominable Cosmetic Key"
 						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Taunt: Didgeridrongo"
-						"show_market"	"0"
+						"item"		"Abominable Cosmetic Case"
+						"show_market"	"1"
 					}
 					"3"
 					{
-						"item"		"Taunt: Scotsmann's Stagger"
+						"item"		"Unleash the Beast Cosmetic Key"
+						"show_market"	"0"
+					}
+					"4"
+					{
+						"item"		"Unleash the Beast Cosmetic Case"
+						"show_market"	"1"
+					}
+					"5"
+					{
+						"item"		"Jungle Jackpot War Paint Key"
+						"show_market"	"0"
+					}
+					"6"
+					{
+						"item"		"Jungle Jackpot War Paint Case"
+						"show_market"	"1"
+					}
+					"7"
+					{
+						"item"		"Infernal Reward War Paint Key"
+						"show_market"	"0"
+					}
+					"8"
+					{
+						"item"		"Infernal Reward War Paint Case"
+						"show_market"	"1"
+					}
+					"9"
+					{
+						"item"		"Taunt: The Dueling Banjo"
+						"show_market"	"0"
+					}
+					"10"
+					{
+						"item"		"Taunt: The Russian Arms Race"
+						"show_market"	"0"
+					}
+					"11"
+					{
+						"item"		"Taunt: The Soviet Strongarm"
+						"show_market"	"0"
+					}
+					"12"
+					{
+						"item"		"Taunt: The Jumping Jack"
+						"show_market"	"0"
+					}
+					"13"
+					{
+						"item"		"Taunt: The Headcase"
 						"show_market"	"0"
 					}
 				}

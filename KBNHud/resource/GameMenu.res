@@ -1,47 +1,5 @@
 "GameMenu"
 {
-	"QuickplayButton"
-	{
-		"label" "Casual"	//"#MMenu_StartPlaying" 
-		"command" "play_casual"
-		"subimage" "glyph_multiplayer"	//"glyph_server"
-		"OnlyAtMenu" "1"
-	}
-	"EnterCasualInGame"
-	{
-		"label" "Casual" 
-		"command" "play_casual"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "#MMenu_PlayCoop" 
-		"command" "play_mvm"
-		"subimage" "glyph_coop"
-		//"OnlyAtMenu" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "play_competitive"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "#MMenu_Servers"	//"#MMenu_BrowseServers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" "Replays"
@@ -78,7 +36,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play engine play ui/orders.mp3
+			play engine play ui/oh.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;
@@ -86,14 +44,6 @@
 			echo -------------------------------------------------------------------------------"
 		"label" ""
     }
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"tooltip" "Training"
-		//"OnlyAtMenu" "1"
-	}
 	
 	"AdvSettingsButton"
 	{
@@ -104,13 +54,6 @@
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "Create Server"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"tooltip" "Create Server"
-		//"OnlyAtMenu" "1"
-	}
 	"GeneralStoreButton"
 	{
 		"label" "#MMenu_Shop"
@@ -132,20 +75,6 @@
 		"label"			"#TF_Quit_Title"
 		"command"		"quit"
 		"subimage"		"glyph_close_X"
-		"OnlyInGame"	"1"
-	}
-	"ResumeGameButton"
-	{
-		"label"			"Resume Game"
-		"command"		"ResumeGame"
-		"subimage"		"icon_resume"
-		"OnlyInGame"	"1"
-	}
-	"ResumeGameButtonBG"
-	{
-		"label"			""
-		"command"		"ResumeGame"
-		"subimage"		""
 		"OnlyInGame"	"1"
 	}
 	"CallVoteButton"

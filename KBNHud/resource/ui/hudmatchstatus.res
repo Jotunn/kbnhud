@@ -203,7 +203,7 @@
 		"zpos"			"1"		
 		"wide"			"10000"
 		"tall"			"10000"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		
 	}
@@ -212,10 +212,10 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"341"
+		"xpos"				"c-43"
 		"ypos"				"0"
 		"zpos"				"0"
-		"wide"				"42"
+		"wide"				"44"
 		"tall"				"10"
 		"visible"			"0"
 		"enabled"			"1"
@@ -237,7 +237,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"385"
+		"xpos"				"c1"
 		"ypos"				"0"
 		"zpos"				"0"
 		"wide"				"44"
@@ -262,7 +262,7 @@
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"TimePanelBG"
-		"xpos"					"341"
+		"xpos"					"c-43"
 		"ypos"					"10"
 		"zpos"					"0"
 		"wide"					"88"

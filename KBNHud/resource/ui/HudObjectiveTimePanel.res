@@ -115,7 +115,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"21"
+			"ypos"					"30"
 			"font"					"MavenProBold14"
 		}
 	}	

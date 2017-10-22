@@ -36,7 +36,7 @@
 		"tall"			"18"
 		"zpos"			"5"
 		"textinsetx"	"0"
-		"font"			"CTSmall_Blur"
+		"font"			"QuestMap_Small_Blur"
 		"alpha"			"0"
 
 		"TextAlignment"		"north-west"
@@ -55,7 +55,7 @@
 		"tall"			"18"
 		"zpos"			"4"
 		"textinsetx"	"0"
-		"font"			"CTSmall"
+		"font"			"QuestMap_Small"
 
 		"TextAlignment"		"north-west"
 		"proportionaltoparent" "1"
@@ -74,7 +74,7 @@
 		"zpos"			"3"
 		"visible"		"1"
 		"alpha"			"0"
-		"font"			"CTSmall_Blur"
+		"font"			"QuestMap_Small_Blur"
 		"textinsetx"	"0"
 		"textAlignment"		"north-west"
 		"proportionaltoparent" "1"

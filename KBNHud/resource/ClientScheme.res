@@ -85,8 +85,6 @@ Scheme
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
 		"HalloweenThemeColor2015"		"135 54 16 255"
 		"HalloweenThemeColor2015_Dark"	"108 49 21 255"
-		"QuestStandardHighlight"	"0 255 0 255"
-		"QuestBonusHighlight"		"150 160 255 255"
 		"QuestUncommitted"			"183 147 100 255"
 
 		"QuestMap_Bonus"			"222 217 166 255"
@@ -139,6 +137,9 @@ Scheme
 		"HudWhite"					"255 255 255 255"
 		"HudOffWhite"				"200 187 161 255"
 		"HudBlack"					"65 65 65 255"
+		"ProgressBarBlue"			"91 122 142 255"
+		
+		"CreditsGreen"				"94 150 49 255"
 		
 		"Gray"						"178 178 178 255"
 
@@ -167,6 +168,9 @@ Scheme
 		"TanLight"					"235 226 202 255"
 		"TanDarker"					"46 43 42 255"
 		
+		"StoreDarkTan"				"131 121 104 255"
+		"StoreGreen"				"76 107 34 255"
+		
 		// Building HUD Specific
 		"LowHealthRed"				"255 0 0 255"
 		"ProgressOffWhite"			"251 235 202 255"
@@ -191,36 +195,36 @@ Scheme
 		
 		"HTMLBackground"				"95 92 101 255"
 		
-		"ItemAttribLevel"				"117 107 94 255"
-		"ItemAttribNeutral"				"235 226 202 255"
-		"ItemAttribPositive"			"153 204 255 255"
-		"ItemAttribNegative"			"255 64 64 255"
+		"ItemAttribLevel"						"117 107 94 255"
+		"ItemAttribNeutral"						"235 226 202 255"
+		"ItemAttribPositive"					"153 204 255 255"
+		"ItemAttribNegative"					"255 64 64 255"
 
-		"ItemSetName"					"225 255 15 255"
-		"ItemSetItemEquipped"			"149 175 12 255"
-		"ItemSetItemMissing"			"139 137 137 255"
-		"ItemIsotope"					"225 255 15 255"
-		"ItemBundleItem"				"149 175 12 255"
-		"ItemLimitedUse"				"0 160 0 255"
-		"ItemFlags"						"117 107 94 255"
-		"ItemLimitedQuantity"			"225 209 0 255"
+		"ItemSetName"							"225 255 15 255"
+		"ItemSetItemEquipped"					"149 175 12 255"
+		"ItemSetItemMissing"					"139 137 137 255"
+		"ItemIsotope"							"225 255 15 255"
+		"ItemBundleItem"						"149 175 12 255"
+		"ItemLimitedUse"						"0 160 0 255"
+		"ItemFlags"								"117 107 94 255"
+		"ItemLimitedQuantity"					"225 209 0 255"
 		
-		"QualityColorNormal"			"178 178 178 255"
-		"QualityColorrarity1"			"77 116 85 255"
-		"QualityColorrarity2"			"141 131 75 255"
-		"QualityColorrarity3"			"204 204 250 255"
-		"QualityColorrarity4"			"134 80 172 255"
-		"QualityColorVintage"			"71 98 145 255"
-		"QualityColorUnique"			"255 215 0 255"
-		"QualityColorCommunity"			"112 176 74 255"
-		"QualityColorDeveloper"			"165 15 121 255"
-		"QualityColorSelfMade"			"112 176 74 255"
-		"QualityColorCustomized"		"71 98 145 255"
-		"QualityColorStrange"			"207 106 50 255"
-		"QualityColorCompleted"			"134 80 172 255"
-		"QualityColorHaunted"			"56 243 171 255"
-		"QualityColorCollectors"		"131 0 0 255"
-		"QualityColorPaintkitWeapon"	"250 250 250 255"
+		"QualityColorNormal"					"178 178 178 255"
+		"QualityColorrarity1"					"77 116 85 255"
+		"QualityColorrarity2"					"141 131 75 255"
+		"QualityColorrarity3"					"204 204 250 255"
+		"QualityColorrarity4"					"134 80 172 255"
+		"QualityColorVintage"					"71 98 145 255"
+		"QualityColorUnique"					"255 215 0 255"
+		"QualityColorCommunity"					"112 176 74 255"
+		"QualityColorDeveloper"					"165 15 121 255"
+		"QualityColorSelfMade"					"112 176 74 255"
+		"QualityColorCustomized"				"71 98 145 255"
+		"QualityColorStrange"					"207 106 50 255"
+		"QualityColorCompleted"					"134 80 172 255"
+		"QualityColorHaunted"					"56 243 171 255"
+		"QualityColorCollectors"				"170 0 0 255"
+		"QualityColorPaintkitWeapon"			"250 250 250 255"
 
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
@@ -256,27 +260,22 @@ Scheme
 		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
-		
+
 		"LightRed"								"200 80 60 255"
 		"LighterRed"							"220 100 80 255"
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 		
-		"UpgradeDefaultFg"		"87 82 74 255"
-		"UpgradeDefaultBg"		"111 104 94 255"
-		"UpgradeArmedFg"		"194 96 47 255"
-		"UpgradeArmedBg"		"239 128 73 255"
-		"UpgradeDepressedFg"	"204 106 57 255"
-		"UpgradeDepressedBg"	"249 138 83 255"
-		"UpgradeSelectedFg"		"204 106 57 255"
-		"UpgradeSelectedBg"		"249 138 83 255"
-		"UpgradeDisabledFg"		"64 59 52 255"
-		"UpgradeDisabledBg"		"79 77 68 255"
-
-		"LightRed"						"200 80 60 255"
-		"LighterRed"					"220 100 80 255"
-		"LighterDarkBrown"				"59 54 48 255"
-		"DarkBrown"						"41 37 38 255"
+		"UpgradeDefaultFg"			"87 82 74 255"
+		"UpgradeDefaultBg"			"111 104 94 255"
+		"UpgradeArmedFg"			"194 96 47 255"
+		"UpgradeArmedBg"			"239 128 73 255"
+		"UpgradeDepressedFg"		"204 106 57 255"
+		"UpgradeDepressedBg"		"249 138 83 255"
+		"UpgradeSelectedFg"			"204 106 57 255"
+		"UpgradeSelectedBg"			"249 138 83 255"
+		"UpgradeDisabledFg"			"64 59 52 255"
+		"UpgradeDisabledBg"			"79 77 68 255"
 	}
 
 	///////////////////// BASE SETTINGS ////////////////////////
@@ -3727,7 +3726,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -3738,7 +3737,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3748,7 +3747,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"ocra"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -3826,6 +3825,66 @@ Scheme
 				"additive"	"0"
 				"yres"		"1024 6000"
 				"antialias"	"1"
+			}
+		}
+		"QuestMap_Small_Blur"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"0"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"QuestMap_Small"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"7"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Medium"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"10"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Large"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"14"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+
+		"QuestMap_Huge"
+		{
+			"1"
+			{
+				"name"		"ocra"
+				"tall"		"30"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
 			}
 		}
 		
@@ -4292,67 +4351,6 @@ Scheme
 		}
 	}
 	
-	"CTSmall_Blur"
-	{
-		"1"
-		{
-			"name"		"ocra"
-			"tall"		"7"
-			"weight"	"0"
-			"blur"		"3"
-			"additive"	"1"
-			"antialias" 	"1"
-		}
-	}
-
-	"CTSmall"
-	{
-		"1"
-		{
-			"name"		"ocra"
-			"tall"		"7"
-			"weight"	"400"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-
-	"CTMedium"
-	{
-		"1"
-		{
-			"name"		"ocra"
-			"tall"		"10"
-			"weight"	"400"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-
-	"CTLarge"
-	{
-		"1"
-		{
-			"name"		"ocra"
-			"tall"		"14"
-			"weight"	"400"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	}
-
-	"CTXLarge"
-	{
-		"1"
-		{
-			"name"		"ocra"
-			"tall"		"30"
-			"weight"	"400"
-			"additive"	"0"
-			"antialias" "1"
-		}
-	
-	}
 	
 	"QuestMap_Small_Blur"
 	{

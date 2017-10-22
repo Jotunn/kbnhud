@@ -437,7 +437,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v430"
+		"labelText"		"KBNHud v431"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -3193,7 +3193,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CallVoteButton"
-		"xpos"			"192"
+		"xpos"			"322"
 		"ypos"			"100"
 		"zpos"			"12"
 		"wide"			"20"
@@ -3260,7 +3260,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"MutePlayersButton"
-		"xpos"			"168"
+		"xpos"			"300"
 		"ypos"			"100"
 		"zpos"			"12"
 		"wide"			"20"
@@ -3327,8 +3327,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"RequestCoachButton"
-		"xpos"			"216"
-		"ypos"			"100"
+		"xpos"			"300"
+		"ypos"			"122"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -3394,8 +3394,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"Scoreboard"
-		"xpos"			"240"
-		"ypos"			"100"
+		"xpos"			"322"
+		"ypos"			"122"
 		"zpos"			"12"
 		"wide"			"20"
 		"tall"			"20"
@@ -4060,7 +4060,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold18"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"

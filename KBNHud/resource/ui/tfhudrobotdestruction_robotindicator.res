@@ -5,10 +5,10 @@
 		"fieldName"				"RobotStateContainer"
 		"ControlName"			"EditablePanel"
 		"proportionalToParent"	"1"
-		"xpos"					"1"
-		"ypos"					"0"
-		"wide"					"40"
-		"tall"					"40"
+		"xpos"					"0"
+		"ypos"					"r30"
+		"wide"					"16"
+		"tall"					"16"
 		"visible"				"0"
 
 		"DeadState"
@@ -17,12 +17,11 @@
 			"ControlName"			"CTFHudRobotDestruction_StateImage"
 			"xpos"					"0"
 			"ypos"					"0"
-			"zpos"					"5"
-			"wide"					"f0"
-			"tall"					"f0"
+			"zpos"					"3"
+			"wide"					"16"
+			"tall"					"16"
 			"scaleimage"			"1"
 			"visible"				"1"
-			"proportionalToParent"	"1"
 		}
 
 		"ActiveState"
@@ -31,12 +30,11 @@
 			"ControlName"			"CTFHudRobotDestruction_StateImage"
 			"xpos"					"0"
 			"ypos"					"0"
-			"zpos"					"6"
-			"wide"					"f0"
-			"tall"					"f0"
+			"zpos"					"16"
+			"wide"					"16"
+			"tall"					"16"
 			"scaleimage"			"1"
 			"visible"				"1"
-			"proportionalToParent"	"1"
 		}
 
 		"ShieldedState"
@@ -46,11 +44,10 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"f0"
-			"tall"					"f0"
+			"wide"					"16"
+			"tall"					"16"
 			"scaleimage"			"1"
 			"visible"				"1"
-			"proportionalToParent"	"1"
 		}
 	}
 }

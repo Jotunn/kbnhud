@@ -3,7 +3,6 @@
 	"mouseoveritempanel"
 	{
 		"fieldName"				"mouseoveritempanel"
-		"collection_wide"		"500"
 		"collection_list_xpos"	"250"
 		"is_mouseover"			"1"
 		"text_xpos_collection"	"0"
@@ -75,6 +74,7 @@
 				"angles_x"		"10"
 				"angles_y"		"130"
 				"angles_z"		"0"
+				"spotlight" "1"
 			}
 		}
 	
@@ -116,7 +116,7 @@
 			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
-	
+		
 		"equippedlabel"
 		{
 			"ControlName"	"CExLabel"
@@ -160,8 +160,8 @@
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
-			"wide"			"12"
-			"tall"			"12"
+			"wide"			"10"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -182,7 +182,7 @@
 			"ypos"			"4"
 			"zpos"			"2"
 			"wide"			"14"
-			"tall"			"13"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
@@ -314,4 +314,6 @@
 			"use_item_sounds"	"1"
 		}
 	}
+
+
 }

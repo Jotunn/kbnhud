@@ -7,12 +7,12 @@
 		"xpos"					"0"
 		"ypos"					"0"
 		"zpos"					"5"
-		"wide"					"20"
-		"tall"					"20"
+		"wide"					"16"
+		"tall"					"16"
 		"scaleimage"			"1"
 		"visible"				"1"
-		"redimage"				"../HUD/obj_circle_grey"
-		"blueimage"				"../HUD/obj_circle_grey"
+		"redimage"				""
+		"blueimage"				""
 
 		"Image"
 		{
@@ -21,11 +21,10 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"5"
-			"wide"					"0"
-			"tall"					"0"
+			"wide"					"16"
+			"tall"					"16"
 			"scaleimage"			"1"
 			"visible"				"1"
-			"proportionalToParent"	"1"
 		}
 
 		"LockedImage"
@@ -35,12 +34,11 @@
 			"xpos"					"0"
 			"ypos"					"0"
 			"zpos"					"6"
-			"wide"					"f0"
-			"tall"					"f0"
+			"wide"					"16"
+			"tall"					"16"
 			"scaleimage"			"1"
 			"visible"				"1"
 			"Image"					"../HUD/obj_lock"
-			"proportionalToParent"	"1"
 		}
 	}
 }

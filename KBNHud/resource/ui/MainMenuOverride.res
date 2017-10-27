@@ -221,6 +221,10 @@
 		{	
 			"image"		"../console/title_team_halloween2015_widescreen"
 		}
+		if_halloween_5
+		{	
+			"image"		"../console/title_scream_fortress_2017_widescreen"
+		}
 		if_fullmoon
 		{
 			"image"		"../console/title_fullmoon_widescreen"
@@ -243,21 +247,36 @@
 		"ypos"			"24"
 		"zpos"			"-2"
 		"wide"			"256"
-		"tall"			"64"
+		"tall"			"105"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
-		if_operation
+		if_halloween_0
 		{
-			"xpos"			"c-100"
-			"ypos"			"10"
-			"zpos"			"-53"
-			"wide"			"o2"
-			"tall"			"105"
-			"image"		"../logo/jungle_inferno_logo"
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		if_halloween_1
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		if_halloween_2
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		if_halloween_3
+		{
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		if_halloween_4
+		{	
+			"image"		"../logo/scream_fortress2017_logo"
+		}
+		if_halloween_5
+		{	
+			"image"		"../logo/scream_fortress2017_logo"
 		}
 	}	
 
@@ -265,20 +284,40 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-100+35"
-		"ypos"			"64"
+		"xpos"			"c-100+155"
+		"ypos"			"75"
 		"zpos"			"-1"
 		"wide"			"o4"
 		"tall"			"32"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"		"../logo/inferno_logo_anim"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
 
-		if_operation
+		if_halloween_0
 		{
-			"visible"		"1"
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		if_halloween_1
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		if_halloween_2
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		if_halloween_3
+		{
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		if_halloween_4
+		{	
+			"image"		"../logo/inferno_logo_green_anim"
+		}
+		if_halloween_5
+		{	
+			"image"		"../logo/inferno_logo_green_anim"
 		}
 	}	
 	
@@ -381,10 +420,44 @@
 		"fillcolor"				"30 30 30 200"
 		"PaintBackgroundType"	"0"
 	}	
+	"MainMenuBGtopRank"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"MainMenuBGtopRank"
+		"xpos"					"42"
+		"ypos"					"90"
+		"zpos"					"-53"
+		"wide"					"256"
+		"tall"					"60"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"30 30 30 200"
+		"PaintBackgroundType"	"0"
+	}
+	"MainMenuBGmiddleFriends"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"MainMenuBGmiddleFriends"
+		"xpos"					"42"
+		"ypos"					"150"
+		"zpos"					"-5"
+		"wide"					"256"
+		"tall"					"152"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"30 30 30 200"
+		"PaintBackgroundType"	"0"
+	}	
 	"MainMenuBGmiddle"
 	{
 		"ControlName"			"ImagePanel"
-		"fieldName"				"ainMenuBGmiddle"
+		"fieldName"				"MainMenuBGmiddle"
 		"xpos"					"42"
 		"ypos"					"302"
 		"zpos"					"0"
@@ -437,7 +510,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v431"
+		"labelText"		"KBNHud v432"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -4054,7 +4127,6 @@
 		"tall"			"150"
 		"visible"		"1"
 
-		"border"		"MainMenuBGBorder"
 
 		"TitleLabel"
 		{
@@ -4160,7 +4232,7 @@
 			"zpos"			"499"
 			"wide"			"f20"
 			"tall"			"110"
-			"visible"		"1"	
+			"visible"		"0"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -4997,6 +5069,24 @@
 			}				
 		}		
 	}
+	"EventPromoBG"
+	{
+		"ControlName"			"ImagePanel"
+		"fieldName"				"EventPromoBG"
+		"xpos"					"c0"
+		"ypos"					"330"
+		"zpos"					"-53"
+		"wide"					"260"
+		"tall"					"96"
+		"autoResize"			"0"
+		"pinCorner"				"0"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"	
+		"fillcolor"				"30 30 30 230"
+		"PaintBackgroundType"	"0"
+	}
+	
 	"EventPromo"
 	{
 		"ControlName"	"EditablePanel"
@@ -5022,14 +5112,12 @@
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
 
-			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
 
 			"TitleLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"TitleLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold18"
 				"labelText"		"#MMenu_Update"
 				"textAlignment"	"west"
 				"xpos"			"12"
@@ -5200,7 +5288,7 @@
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
 
-				"bgcolor_override"		"0 0 0 255"
+				"bgcolor_override"		"30 30 30 240"
 
 				"items"
 				{

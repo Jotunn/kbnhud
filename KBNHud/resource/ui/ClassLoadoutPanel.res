@@ -19,7 +19,7 @@
 		"outoffocus_bgcolor_override" "46 43 42 255"
 		
 		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"170"
+		"item_xpos_offcenter_b"	"165"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -47,12 +47,12 @@
 			"paintborder"	"1"
 			
 			"model_center_x"	"1"
-			"model_ypos"	"5"
-			"model_tall"	"55"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
 			"model_wide"		"82"
-			"text_ypos"		"54"
-			"text_center"	"1"
-			"name_only"		"1"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{
@@ -184,87 +184,35 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-135"
-		"ypos"			"55"
+		"ypos"			"20"
 		"zpos"			"-1"		
 		"wide"			"270"
-		"tall"			"305"
+		"tall"			"340"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-
+		
 		"render_texture"	"0"
-		"fov"			"32"
-		"allow_manip"		"1"
+		"fov"			"30"
+		"allow_rot"		"1"
 				
 		"model"
 		{
 			"force_pos"	"1"
 
 			"angles_x" "0"
-			"angles_y" "170"	//rotate
+			"angles_y" "170"
 			"angles_z" "0"
-			"origin_x" "190"	//camera distance
+			"origin_x" "190"
 			"origin_y" "0"
-			"origin_z" "-44"	// z position
+			"origin_z" "-48"
 			"frame_origin_x"	"0"
 			"frame_origin_y"	"0"
 			"frame_origin_z"	"0"
 			"spotlight" "1"
 		
 			"modelname"		""
-			
-			"animation"
-			{
-				"name"		"PRIMARY"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-				"default"	"1"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY"
-				"activity"	"ACT_MP_STAND_SECONDARY"
-			}
-			"animation"
-			{
-				"name"		"MELEE"
-				"activity"	"ACT_MP_STAND_MELEE"
-			}
-			"animation"
-			{
-				"name"		"BUILDING"
-				"activity"	"ACT_MP_STAND_BUILDING"
-			}
-			"animation"
-			{
-				"name"		"PDA"
-				"activity"	"ACT_MP_STAND_PDA"
-			}
-			"animation"
-			{
-				"name"		"ITEM1"
-				"activity"	"ACT_MP_STAND_ITEM1"
-			}						
-			"animation"
-			{
-				"name"		"ITEM2"
-				"activity"	"ACT_MP_STAND_ITEM2"
-			}									
-			"animation"
-			{
-				"name"		"MELEE_ALLCLASS"
-				"activity"	"ACT_MP_STAND_MELEE_ALLCLASS"
-			}
-			"animation"
-			{
-				"name"		"PRIMARY2"
-				"activity"	"ACT_MP_STAND_PRIMARY"
-			}
-			"animation"
-			{
-				"name"		"SECONDARY2"
-				"activity"	"ACT_MP_STAND_SECONDARY2"
-			}
 		}
 	}
 	
@@ -280,7 +228,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"15"
@@ -289,25 +237,11 @@
 		"resize_to_text"	"1"
 		"padding_height"	"15"
 		
-		"BG"
-    	{
-    		"ControlName"			"ImagePanel"
-    		"fieldName"			"BG"
-    		"xpos"				"0"
-    		"ypos"				"0"
-    		"zpos"				"-10"
-    		"wide"				"f0"
-    		"tall"	 			"f0"
-    		"visible"			"0"
-    		"enabled"			"0"
-    		"fillcolor"			"55 55 55 250"
-    	}
-		
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
 			"xpos"			"0"
-			"ypos"			"30"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"140"
 			"tall"			"60"
@@ -317,7 +251,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"180 170 140 255"
+			"fgcolor"		"117 107 94 255"
 			"centerwrap"	"1"
 		}
 	}
@@ -327,17 +261,17 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c-140"
-		"ypos"			"125"
+		"xpos"			"c-135"
+		"ypos"			"120"
 		"zpos"			"0"	
-		"wide"			"280"
+		"wide"			"270"
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		""
-		"textAlignment"	"south-west"
+		"textAlignment"	"south"
 		"fgcolor"		"255 215 0 255"
 		"centerwrap"	"1"
 	}
@@ -471,7 +405,7 @@
 	{
 		"ControlName"	"CLoadoutParticleSlider"
 		"fieldname"		"ItemOptionsPanel"
-		"xpos"			"5"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"140"
@@ -487,15 +421,15 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntHintLabel"
 		"font"			"ItemFontAttribLarge"
-		"xpos"			"c2290"
+		"xpos"			"c90"
 		"ypos"			"20"
 		"zpos"			"1"	
 		"wide"			"250"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"#TF_ClassLoadoutTauntInputHint"
 		"textAlignment"	"east"
 		"centerwrap"	"1"
@@ -506,8 +440,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
-		"xpos"			"c213"
-		"ypos"			"c-230"
+		"xpos"			"c-25"
+		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -544,8 +478,8 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
-		"xpos"			"c238"
-		"ypos"			"c-230"
+		"xpos"			"c2"
+		"ypos"			"c90"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"

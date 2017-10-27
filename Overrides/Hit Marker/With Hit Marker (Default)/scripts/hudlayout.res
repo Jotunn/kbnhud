@@ -27,10 +27,10 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-17"
-		"ypos"			"c-14"
-		"wide"			"35"
-		"tall"			"35"
+		"xpos"			"c-101"
+		"ypos"			"c-96"
+		"wide"			"202"
+		"tall"			"198"
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
@@ -45,10 +45,10 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
-		"wide"			"27"
-		"tall"			"27"
+		"xpos"			"c-101"
+		"ypos"			"c-96"
+		"wide"			"202"
+		"tall"			"198"
 
 		"font"			"HudCrossHair"
 		"labelText"		"`"
@@ -63,13 +63,13 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-13"
-		"ypos"			"c-13"
-		"wide"			"27"
-		"tall"			"27"
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
 
 		"font"			"KnucklesCrosses"
-		"labelText"		"x"
+		"labelText"		"v"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -81,10 +81,10 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-14"
-		"ypos"			"c-11"
-		"wide"			"27"
-		"tall"			"27"
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
 
 		"font"			"KnucklesCrosses"
 		"labelText"		"9"
@@ -867,7 +867,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"7"	// distance between the icons (including their backgrounds)
+		"separator_width"		"0"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
 		"height_offset"			"26"	[$X360]

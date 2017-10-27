@@ -182,7 +182,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini

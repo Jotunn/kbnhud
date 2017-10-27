@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"	"ControlPointProgressBar"
-		"xpos"		"0"
+		"xpos"		"2"
 		"ypos"		"0"
 		"zpos"		"20"
 		"wide"		"100"

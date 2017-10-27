@@ -7,7 +7,7 @@
 		"xpos"			"c-300"
 		"ypos"			"0"
 		"wide"			"600"
-		"tall"			"516"
+		"tall"			"520"
 		"tall_minmode"		"438"
 		"autoResize"	"0"
 		"pinCorner"		"0"

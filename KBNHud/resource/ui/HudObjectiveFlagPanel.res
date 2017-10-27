@@ -238,7 +238,7 @@
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"0"
-		"enabled"		"01"
+		"enabled"		"1"
 		"image"			"../hud/objectives_flagpanel_carried_blue"
 		"scaleImage"	"1"
 		

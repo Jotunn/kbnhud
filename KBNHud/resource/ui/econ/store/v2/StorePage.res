@@ -279,7 +279,7 @@
 		"model_hide"		"1"
 		"resize_to_text"	"1"
 		"padding_height"	"15"
-		
+				
 		"attriblabel"
 		{
 			"font"			"ItemFontAttribLarge"
@@ -294,7 +294,7 @@
 			"enabled"		"1"
 			"labelText"		"%attriblist%"
 			"textAlignment"	"center"
-			"fgcolor"		"117 107 94 255"
+			"fgcolor"		"180 170 140 255"
 			"centerwrap"	"1"
 		}
 	}

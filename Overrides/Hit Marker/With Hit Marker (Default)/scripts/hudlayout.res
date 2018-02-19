@@ -59,6 +59,96 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair3"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
+
+		"font"			"KnucklesCrosses"
+		"labelText"		"v"
+		"fgcolor"		"255 0 255 255"
+		"textAlignment"	"center"
+	}
+	HudxHair4
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HudCrossHair4"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-25"
+		"ypos"			"c-25"
+		"wide"			"50"
+		"tall"			"50"
+
+		"font"			"KnucklesCrosses"
+		"labelText"		"9"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}DefaultHitmarker
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"DefaultHitmarker"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-103"
+		"ypos"			"c-103"
+		"wide"			"207"
+		"tall"			"207"
+
+		"font"			"DefaultHitmarker"
+		"labelText"		"i"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"Default Hitmarker base color"
+	}
+	HudxHair
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HudCrossHair1"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-101"
+		"ypos"			"c-96"
+		"wide"			"202"
+		"tall"			"198"
+
+		"font"			"HudCrossHair"
+		"labelText"		"`"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+	HudxHair2
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HudCrossHair2"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-101"
+		"ypos"			"c-96"
+		"wide"			"202"
+		"tall"			"198"
+
+		"font"			"HudCrossHair"
+		"labelText"		"`"
+		"fgcolor"		"255 255 255 255"
+		"textAlignment"	"center"
+	}
+	HudxHair3
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"HudCrossHair3"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"

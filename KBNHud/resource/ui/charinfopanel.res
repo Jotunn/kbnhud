@@ -1,9 +1,9 @@
-"Resource/UI/StorePanel.res"
+"Resource/UI/CharInfoPanel.res"
 {
-	"store_panel"
+	"character_info"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldName"		"store_panel"
+		"fieldName"		"character_info"
 		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
@@ -19,7 +19,7 @@
 		"infocus_bgcolor_override"		"46 43 42 0"
 		"outoffocus_bgcolor_override"	"46 43 42 0"
 		
-		"title"			"#StoreTitle"
+		"title"			"#CharInfoAndSetup"
 		"title_font"	"HudFontMediumBold"
 		"titletextinsetX"	"40"
 		"titletextinsetY"	"0"
@@ -53,7 +53,7 @@
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
@@ -78,11 +78,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"10"
-		"tabxdelta"		"3"
-		"tabxfittotext"	"1"
-		"tabheight"		"34"
+		"tabxindent"	"80"
+		"tabxdelta"		"10"
+		"tabwidth"		"240"
+		"tabheight"		"20"
 		"transition_time" "0"
+		"yoffset"	"14"
 		
 		"HeaderLine"
 		{
@@ -101,9 +102,8 @@
 		
 		"tabskv"
 		{
-			"textinsetx"		"6"
-			"textAlignment"		"center"
-			"font"				"HudFontSmallBold"
+			"textinsetx"		"40"
+			"font"				"HudFontMediumSmallBold"
 			"selectedcolor"		"200 187 161 255"
 			"unselectedcolor"	"130 120 104 255"	
 			"defaultBgColor_override"	"46 43 42 255"
@@ -113,11 +113,35 @@
 		}
 	}
 	
+	"BackButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"BackButton"
+		"xpos"			"c-310"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"3"
+		"visible"		"1"
+		"enabled"		"1"
+		"tabPosition"	"0"
+		"labelText"		"#TF_BackCarat"
+		"font"			"HudFontSmallBold"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"default"		"0"
+		"Command"		"back"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 	"CloseButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c200"
+		"xpos"			"c210"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -132,24 +156,25 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"default"		"1"
+		"default"		"0"
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}		
-	
-	"armory_panel"
+	"CloseButtonShortcut"
 	{
-		"ControlName"		"CArmoryPanel"
-		"fieldName"			"armory_panel"
-		"xpos"				"0"
-		"ypos"				"30"
-		"wide"				"f0"
-		"tall"				"390"
-		"zpos"				"500"
-		"visible"			"0"
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButtonShortcut"
+		"xpos"			"r-210"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"Command"		"close"
 	}
-
 	"NotificationsPresentPanel"
 	{
 		"ControlName"	"CNotificationsPresentPanel"

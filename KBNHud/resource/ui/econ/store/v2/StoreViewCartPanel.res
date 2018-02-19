@@ -159,7 +159,7 @@
 		"ypos"			"0"
 		"zpos"			"-2"
 		"wide"			"f0"
-		"tall"			"55"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_header"
@@ -199,7 +199,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ClientArea"
 		"xpos"			"0"
-		"ypos"			"55"
+		"ypos"			"50"
 		"wide"			"f0"
 		"tall"			"368"
 		"bgcolor_override"				"46 43 42 255"
@@ -275,10 +275,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ItemListContainerScroller"
 			"xpos"			"c-300"
-			"ypos"			"62"
+			"ypos"			"65"
 			"zpos"			"5"
 			"wide"			"600"
-			"tall"			"240"
+			"tall"			"302"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
 			"bgcolor_override"	"51 47 46 255"
@@ -288,7 +288,7 @@
 			{
 				"xpos"			"586"
 				"wide"			"11"
-				"tall"			"240"
+				"tall"			"302"
 				"zpos"			"1000"
 				
 				"Slider"
@@ -433,7 +433,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-300"
+		"xpos"			"c-310"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"200"
@@ -458,7 +458,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c170"
+		"xpos"			"c180"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"130"

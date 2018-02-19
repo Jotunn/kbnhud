@@ -233,10 +233,6 @@
 		{
 			"image"		"../console/background_xmas2011_widescreen"
 		}
-		if_operation
-		{
-			"image"		"../console/title_team_jungle_inferno_2017_widescreen"
-		}
 	}
 					
 	"TFLogoImage"
@@ -247,79 +243,13 @@
 		"ypos"			"24"
 		"zpos"			"-2"
 		"wide"			"256"
-		"tall"			"105"
+		"tall"			"64"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../logo/new_tf2_logo"
 		"scaleImage"	"1"
 		"mouseinputenabled"	"0"
-
-		if_halloween_0
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/scream_fortress2017_logo"
-		}
-	}	
-
-	"JungleInfernoImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"JungleInfernoImage"
-		"xpos"			"c-100+155"
-		"ypos"			"75"
-		"zpos"			"-1"
-		"wide"			"o4"
-		"tall"			"32"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"		"../logo/inferno_logo_anim"
-		"scaleImage"	"1"
-		"mouseinputenabled"	"0"
-
-		if_halloween_0
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_1
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_2
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_3
-		{
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_4
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-		if_halloween_5
-		{	
-			"image"		"../logo/inferno_logo_green_anim"
-		}
-	}	
+	}		
 	
 	"TFCharacterImage"
 	{
@@ -369,9 +299,9 @@
 		"fieldName"		"CRankPanel"
 		"xpos"			"-20"
 		"ypos"			"71"
-		"zpos"			"-52"
+		"zpos"			"0"
 		"wide"			"320"
-		"tall"			"100"
+		"tall"			"200"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
@@ -428,7 +358,7 @@
 		"ypos"					"90"
 		"zpos"					"-53"
 		"wide"					"256"
-		"tall"					"60"
+		"tall"					"92"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -442,10 +372,10 @@
 		"ControlName"			"ImagePanel"
 		"fieldName"				"MainMenuBGmiddleFriends"
 		"xpos"					"42"
-		"ypos"					"150"
+		"ypos"					"182"
 		"zpos"					"-5"
 		"wide"					"256"
-		"tall"					"152"
+		"tall"					"120"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -510,7 +440,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v432"
+		"labelText"		"KBNHud v433"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -4121,7 +4051,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"40"
-		"ypos"			"151"
+		"ypos"			"183"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
@@ -4152,10 +4082,10 @@
 			"ControlName"	"EditablePanel"
 			"fieldname"		"InnerShadow"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-40"
 			"zpos"			"501"
 			"wide"			"f20"
-			"tall"			"110"
+			"tall"			"80"
 			"visible"		"1"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -4170,10 +4100,10 @@
 			"ControlName"	"CSteamFriendsListPanel"
 			"fieldname"		"SteamFriendsList"
 			"xpos"			"cs-0.5"
-			"ypos"			"rs1-10"
+			"ypos"			"rs1-40"
 			"zpos"			"500"
 			"wide"			"f20"
-			"tall"			"110"
+			"tall"			"80"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 
@@ -4231,7 +4161,7 @@
 			"ypos"			"rs1-10"
 			"zpos"			"499"
 			"wide"			"f20"
-			"tall"			"110"
+			"tall"			"80"
 			"visible"		"0"	
 			"PaintBackgroundType"	"0"
 			"proportionaltoparent"	"1"
@@ -5294,72 +5224,37 @@
 				{
 					"0"
 					{
-						"item"		"Unused Campaign 3 Pass"
+						"item"		"Jungle Inferno Contracts Pass"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Abominable Cosmetic Key"
+						"item"		"Winter 2017 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"2"
 					{
-						"item"		"Abominable Cosmetic Case"
-						"show_market"	"1"
-					}
+						"item"		"Winter 2017 War Paint Key"
+						"show_market"	"0"
+					}					
 					"3"
 					{
-						"item"		"Unleash the Beast Cosmetic Key"
+						"item"		"Abominable Cosmetic Key"
 						"show_market"	"0"
 					}
 					"4"
 					{
-						"item"		"Unleash the Beast Cosmetic Case"
-						"show_market"	"1"
+						"item"		"Unleash the Beast Cosmetic Key"
+						"show_market"	"0"
 					}
 					"5"
 					{
 						"item"		"Jungle Jackpot War Paint Key"
 						"show_market"	"0"
-					}
+					}					
 					"6"
 					{
-						"item"		"Jungle Jackpot War Paint Case"
-						"show_market"	"1"
-					}
-					"7"
-					{
 						"item"		"Infernal Reward War Paint Key"
-						"show_market"	"0"
-					}
-					"8"
-					{
-						"item"		"Infernal Reward War Paint Case"
-						"show_market"	"1"
-					}
-					"9"
-					{
-						"item"		"Taunt: The Dueling Banjo"
-						"show_market"	"0"
-					}
-					"10"
-					{
-						"item"		"Taunt: The Russian Arms Race"
-						"show_market"	"0"
-					}
-					"11"
-					{
-						"item"		"Taunt: The Soviet Strongarm"
-						"show_market"	"0"
-					}
-					"12"
-					{
-						"item"		"Taunt: The Jumping Jack"
-						"show_market"	"0"
-					}
-					"13"
-					{
-						"item"		"Taunt: The Headcase"
 						"show_market"	"0"
 					}
 				}

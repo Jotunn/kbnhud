@@ -53,7 +53,7 @@
 		"ypos"			"420"
 		"zpos"			"1"
 		"wide"			"f0"
-		"tall"			"60"
+		"tall"			"62"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"loadout_bottom_gradient"
@@ -81,8 +81,9 @@
 		"tabxindent"	"10"
 		"tabxdelta"		"3"
 		"tabxfittotext"	"1"
-		"tabheight"		"34"
+		"tabheight"		"20"
 		"transition_time" "0"
+        "yoffset"    "14"
 		
 		"HeaderLine"
 		{
@@ -117,7 +118,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c-300"
+		"xpos"			"c-310"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -136,7 +137,21 @@
 		"Command"		"close"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-	}		
+	}
+	"CloseButtonShortcut"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"CloseButtonShortcut"
+		"xpos"			"r-210"
+		"ypos"			"437"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"25"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"Command"		"close"
+	}	
 	
 	"armory_panel"
 	{
@@ -167,8 +182,8 @@
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"		"SupportCommunityMapMakersCheckButton"
-		"xpos"			"c275"
-		"ypos"			"437"
+		"xpos"			"c20"
+		"ypos"			"435"
 		"zpos"			"5"
 		"wide"			"25"
 		"tall"			"25"
@@ -182,10 +197,10 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SupportCommunityMapMakersLabel"
 		"textAlignment"		"north-west"
-		"xpos"				"c304"
-		"ypos"				"440"
+		"xpos"				"c55"
+		"ypos"				"437"
 		"zpos"				"5"
-		"wide"				"70"
+		"wide"				"100"
 		"tall"				"100"
 		"font"				"HudFontSmallest"
 		"wrap"				"1"
@@ -197,7 +212,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CheckoutButton"
-		"xpos"			"c170"
+		"xpos"			"c180"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"130"

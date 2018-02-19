@@ -30,6 +30,7 @@
 			"model_xpos"	"2"
 			"model_wide"	"90"
 			"model_tall"	"50"
+			"model_center_x"	"1"
 			"text_ypos"		"0"
 			"text_forcesize" "2"
 			"text_center"	"0"
@@ -437,7 +438,7 @@
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -454,8 +455,8 @@
     		"zpos"				"-10"
     		"wide"				"f0"
     		"tall"	 			"f0"
-    		"visible"			"1"
-    		"enabled"			"1"
+    		"visible"			"0"
+    		"enabled"			"0"
     		"fillcolor"			"55 55 55 250"
     	}
 		

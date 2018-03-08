@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 100"
+		"fillcolor"		"0 0 0 250"
 
 
 		"src_corner_height"	"20"				// pixels inside the image

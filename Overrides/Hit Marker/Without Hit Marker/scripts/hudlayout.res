@@ -64,102 +64,12 @@
 		"zpos"			"1"
 
 		"xpos"			"c-25"
-		"ypos"			"c-25"
+		"ypos"			"c-24"
 		"wide"			"50"
 		"tall"			"50"
 
 		"font"			"KnucklesCrosses"
-		"labelText"		"v"
-		"fgcolor"		"255 0 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHair4
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair4"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"50"
-		"tall"			"50"
-
-		"font"			"KnucklesCrosses"
-		"labelText"		"9"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}DefaultHitmarker
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"DefaultHitmarker"
-		"visible"		"1"
-		"enabled"		"1"
-		"zpos"			"2"
-
-		"xpos"			"c-103"
-		"ypos"			"c-103"
-		"wide"			"207"
-		"tall"			"207"
-
-		"font"			"DefaultHitmarker"
-		"labelText"		"i"
-		"textAlignment"	"center"	
-		
-		"fgcolor"		"Default Hitmarker base color"
-	}
-	HudxHair
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair1"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-101"
-		"ypos"			"c-96"
-		"wide"			"202"
-		"tall"			"198"
-
-		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHair2
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair2"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-101"
-		"ypos"			"c-96"
-		"wide"			"202"
-		"tall"			"198"
-
-		"font"			"HudCrossHair"
-		"labelText"		"`"
-		"fgcolor"		"255 255 255 255"
-		"textAlignment"	"center"
-	}
-	HudxHair3
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair3"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
-
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"50"
-		"tall"			"50"
-
-		"font"			"KnucklesCrosses"
-		"labelText"		"v"
+		"labelText"		"d"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -409,11 +319,13 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126" //c-126
-		"ypos"		"275"
-		"wide"	 	"300"
-		"tall"	 	"28"
-		"priority"	"40"
+		"xpos"		"c-100"
+		"ypos"		"c10"
+
+		"zpos"		"1"
+		"wide"	 	"600"
+		"tall"	 	"45"
+		"priority"	"100"
 	}
 	
 	CSpectatorTargetID
@@ -421,23 +333,28 @@
 		"fieldName" 	"CSpectatorTargetID"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"360"
-		"wide"	 	"252"
-		"tall"	 	"28"
+		"xpos"		"c-100"
+		"ypos"		"c25"
+		"zpos"		"1"
+		"wide"	 	"600"
+		"tall"	 	"45"
 		"priority"	"40"
+		
+		"x_offset" "20"
+		"y_offset" "20"
 	}
 	
 	CSecondaryTargetID
 	{
-		"fieldName" 	"CSecondaryTargetID"
+		"fieldName" "CSecondaryTargetID"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"342"
-		"wide"	 	"252"
-		"tall"	 	"28"
-		"priority"	"35"
+		"xpos" 		"c-100"
+		"ypos" 		"c85"
+		"zpos"		"1"
+		"wide" 		"600"
+		"tall" 		"45"
+		"priority" 	"40"
 	}
 	
 	BuildingStatus_Spy
@@ -458,7 +375,7 @@
 		"fieldName" "BuildingStatus_Engineer"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"0"
+		"xpos"		"-18"
 		"ypos"		"20"
 		"wide"		"640"
 		"tall"		"480"
@@ -991,7 +908,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"c-100"
-		"ypos"					"50"
+		"ypos"					"275"
 		"wide"					"200"
 		"tall"					"300"
 	}
@@ -1238,8 +1155,8 @@
 		"visible"				"0"
 		"enabled"				"1"
 		"xpos"					"c-125"
-		"ypos"					"-15"
-		"ypos_lodef"				"75"
+		"ypos"					"5"
+		"zpos"					"2"
 		"wide"					"250"
 		"tall"					"80"
 	}
@@ -1248,9 +1165,10 @@
 	{
 		"fieldName"				"HudTournamentSetup"
 		"visible"				"0"
-		"enabled"				"0"
-		"xpos"					"c-65"
-		"ypos"					"13"
+		"enabled"				"1"
+		"xpos"					"c-100"
+		"ypos"					"-70"
+		"ypos_lodef"				"75"
 		"wide"					"180"
 		"tall"					"65"
 	}
@@ -1260,8 +1178,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-142"
-		"ypos"					"-12"
+		"xpos"					"c-63"
+		"ypos"					"18"
 		"ypos_lodef"				"75"
 		"wide"					"125"
 		"tall"					"70"

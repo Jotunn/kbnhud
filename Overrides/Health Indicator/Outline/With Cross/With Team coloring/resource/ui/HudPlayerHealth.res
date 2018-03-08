@@ -97,10 +97,10 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"			"PlayerStatusClassImageBG"
-		"xpos"				"127"
+		"xpos"				"123"
 		"ypos"				"80"
 		"zpos"				"0"
-		"wide"				"34"
+		"wide"				"37"
 		"tall"	 			"2"
 		"autoResize"		"0"
 		"pinCorner"			"0"
@@ -121,15 +121,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"125"
+		"xpos"			"111"
 		"ypos"			"45"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"West"	
+		"textAlignment"	"East"	
 		"font"			"MavenProBlack24"
 		"fgcolor"		"White"
 	}	
@@ -137,47 +137,15 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueOutline"
-		"xpos"			"126"
+		"xpos"			"112"
 		"ypos"			"46"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"West"	
-		"font"			"MavenProBlack24"
-		"fgcolor"		"Black"
-	}
-	"PlayerStatusHealthValueOutline3"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueOutline3"
-		"xpos"			"124"
-		"ypos"			"46"	[$WIN32]
-		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"West"	
-		"font"			"MavenProBlack24"
-		"fgcolor"		"Black"
-	}
-	"PlayerStatusHealthValueOutline4"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PlayerStatusHealthValueOutline4"
-		"xpos"			"126"
-		"ypos"			"44"	[$WIN32]
-		"zpos"			"5"
-		"wide"			"100"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
-		"labelText"		"%Health%"
-		"textAlignment"	"West"	
+		"textAlignment"	"East"	
 		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 	}
@@ -185,15 +153,47 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueOutline2"
-		"xpos"			"124"
+		"xpos"			"110"
 		"ypos"			"44"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"100"
+		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"West"	
+		"textAlignment"	"East"	
+		"font"			"MavenProBlack24"
+		"fgcolor"		"Black"
+	}
+	"PlayerStatusHealthValueOutline3"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueOutline3"
+		"xpos"			"110"
+		"ypos"			"46"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"East"	
+		"font"			"MavenProBlack24"
+		"fgcolor"		"Black"
+	}
+	"PlayerStatusHealthValueOutline4"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueOutline4"
+		"xpos"			"112"
+		"ypos"			"44"	[$WIN32]
+		"zpos"			"5"
+		"wide"			"50"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"East"	
 		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 	}

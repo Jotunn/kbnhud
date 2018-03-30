@@ -23,14 +23,6 @@ exec captions
 Previously, you had to place four lines of code in autoexec.cfg to activate the captions, I moved these to captions.cfg in the HUD install in v434 to simplify things for the end user. The above command has the game run those commands as they are at startup, and echoes that they have been run in the console.
 
 
-__To install the HUD as a .vpk file (somewhat advanced):__
-
-Cut the "fonts" folder from inside "resource". Create a new folder inside "custom" called KBNHud fonts, and create a new "resource" folder inside that. Place the "fonts" folder in there. Then run the main KBNHud folder through vpk.exe and install that. Your "custom" folder should look like [this](http://i.imgur.com/WewuqEH.png).
-
-Thanks to [Calcium](http://steamcommunity.com/id/TheCalcium) for this info.
-
-***MAJOR NOTE: DO NOT DELETE THE "info.vdf" FILE FROM THE HUD FOLDER. THE GAME WILL NOT LOAD THE HUD IF THE FILE IS MISSING!***
-
 ***Windows***
 
 Place the KBNHud folder that contains "cfg", "materials", "resource", "scripts", and "sound" folders and "info.vdf" in: 

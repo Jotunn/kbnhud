@@ -36,7 +36,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play engine play ui/lel.mp3
+			play engine play ui/vodka.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;

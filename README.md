@@ -103,11 +103,11 @@ see should say "xHairCirclePulse".
 
 **Changing HUD colors**
 
--Go to "tf/custom/resource/" and open ClientScheme.res with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying "COLOR CUSTOMIZATION SECTION," having a online RGB sampler site is recommended.
+-Go to "tf/custom/KBNHud/resource/scheme" and open "clientscheme_colors.res" with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying "COLOR CUSTOMIZATION SECTION," having a online RGB sampler site is recommended.
 
 -Under that are a bunch of groups of color options. Each name will have an RGBA value on the same line. 
 
--Pick the color you want from the sampler site. if you want to change the "Damage Numbers" value, which changes the color of the damage indicators from white "255 255 255 255" to red, change the value to "255 0 0 255"
+-Pick the color you want from the sampler site. If you want to change the "Ammo in Clip" value, which changes the color of the ammo counter from white "235 235 235 255" to red, change the value to "255 0 0 255"
 
 -DO NOT CHANGE THE FOURTH NUMBER IN THE RGBA VALUES UNLESS YOU KNOW WHAT YOU ARE DOING! That will change the transparency of the object being colored.
 

@@ -237,11 +237,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"fgcolor"		"White"
+		"fgcolor"		"TanLight"
 		"xpos"			"-5"
 		"ypos"			"-6"
 		"zpos"			"5"
-		"wide"			"120"
+		"wide"			"400"
 		"tall"			"19"
 		"visible"		"1"
 		"enabled"		"1"
@@ -254,12 +254,11 @@
 		
 		if_match
 		{
-			"visible"				"0
-			"
+			"visible"				"1"
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"ypos"					"21"
-			"font"					"MavenProBold14"
+			"ypos"					"17"
+			"font"					"MavenProRegular10"
 		}
 	
 	}	

@@ -1,11 +1,14 @@
 "Resource/HudLayout.res"
 {
+	
+/////Hitmarkers and HUD crosshairs. Feel free to add more crosshair slots by simply copy+pasting new ones and changing the number at the end./////
+	
 	DefaultHitmarker
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"DefaultHitmarker"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-103"
@@ -19,10 +22,10 @@
 		
 		"fgcolor"		"Default Hitmarker base color"
 	}
-	HudxHair
+	Hudxhair
 	{
 		"controlName"	"CExLabel"
-		"fieldName"	 	"HudCrossHair1"
+		"fieldName"	 	"Hudxhair1"
 		"visible"		"0"
 		"enabled"		"1"
 		"zpos"			"1"
@@ -32,12 +35,12 @@
 		"wide"			"202"
 		"tall"			"198"
 
-		"font"			"HudCrossHair"
+		"font"			"Fogsxhair"
 		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHair2
+	Hudxhair2
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair2"
@@ -50,12 +53,12 @@
 		"wide"			"202"
 		"tall"			"198"
 
-		"font"			"HudCrossHair"
+		"font"			"Fogsxhair"
 		"labelText"		"`"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHair3
+	Hudxhair3
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair3"
@@ -73,7 +76,7 @@
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
-	HudxHair4
+	Hudxhair4
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"HudCrossHair4"
@@ -81,16 +84,505 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-25"
-		"ypos"			"c-25"
-		"wide"			"50"
-		"tall"			"50"
+		"xpos"			"c-108"
+		"ypos"			"c-99"
+		"wide"			"200"
+		"tall"			"200"
 
-		"font"			"KnucklesCrosses"
-		"labelText"		"9"
+		"font"			"KonrWings24"
+		"labelText"		"i"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
+	
+//////Fighter pilot crosshair, enable all of then together for best results (16x9 resolution)//////
+	
+	"16x9Crosshair_vertical1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"ypos"			"75"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"16x9Crosshair_horizontal1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"40"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+	
+	"16x9Crosshair_horizontal2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"439"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"16x9dark_top"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"426"
+		"ypos"			"190"
+		"zpos"			"-5"
+		"wide"			""
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	"16x9dark_bottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"427"
+		"ypos"			"252"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"150"
+	}
+	"16x9dark_left"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"365"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+
+	"16x9dark_right"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"439"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+//////End fighter pilot crosshair (16x9)/////
+	
+//////Fighter pilot crosshair, enable all of then together for best results (16x10 resolution)//////
+	
+	"16x10Crosshair_vertical1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"ypos"			"55"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"170"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha"			"50"
+	}
+
+	"16x10Crosshair_horizontal1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"35"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"330"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"16x10Crosshair_horizontal2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"403"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"330"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"16x10dark_top"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"ypos"			"187"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+
+	"16x10dark_bottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"384"
+		"ypos"			"254"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"150"
+	}
+
+	"16x10dark_left"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"315"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+
+	"16x10dark_right"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"403"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+//////End fighter pilot crosshair (16x10)/////
+
+//////Fighter pilot crosshair, enable all of then together for best results (21x9 resolution)//////
+	
+	"21x9Crosshair_vertical1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"573"
+		"ypos"			"75"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"21x9Crosshair_horizontal1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"186"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+	
+	"21x9Crosshair_horizontal2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"585"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"374"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+
+	"21x9dark_top"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"573"
+		"ypos"			"191"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	"21x9dark_bottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"573"
+		"ypos"			"252"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"150"
+	}
+	"21x9dark_left"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"511"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+
+	"21x9dark_right"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"585"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+//////End fighter pilot crosshair (21x9)/////
+	
+//////Fighter pilot crosshair, enable all of then together for best results (4x3 resolution)//////
+	
+	"4x3Crosshair_vertical1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"ypos"			"70"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"154"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha"			"50"
+	}
+	
+	"4x3Crosshair_horizontal1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"10"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"290"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+	
+	"4x3Crosshair_horizontal2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"340"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"290"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"50"
+	}
+	
+	"4x3dark_top"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"ypos"			"186"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+	"4x3dark_bottom"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"319"
+		"ypos"			"255"
+		"zpos"			"-5"
+		"wide"			"1"
+		"tall"			"38"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"150"
+	}
+
+	"4x3dark_left"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"250"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	
+	"4x3dark_right"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"VerticalLine"
+		"xpos"			"340"
+		"ypos"			"240"
+		"zpos"			"-5"
+		"wide"			"50"
+		"tall"			"1"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"255 255 255 255"
+		"alpha" 		"100"
+	}
+	//////End fighter pilot crosshair (4x3)/////
 	
 //=========================DO NOT TOUCH STUFF BELOW HERE UNLESS YOU KNOW WHAT YOU ARE DOING============================
 	
@@ -417,7 +909,7 @@
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-25"
 		"ypos"	"440"
-		"wide"	"120"
+		"wide"	"400"
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"

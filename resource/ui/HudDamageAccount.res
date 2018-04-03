@@ -16,7 +16,7 @@
 	{
 		"fgcolor"		"144 223 23 255"
 		
-		"ControlName"	"ceXLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValue"
 		"xpos"			"c-130"
 		"ypos"			"c52"
@@ -34,7 +34,7 @@
 	{
 		"fgcolor"		"0 0 0 255"
 		
-		"ControlName"	"ceXLabel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DamageAccountValueShadow"
 		"xpos"			"c-129"
 		"ypos"			"c53"

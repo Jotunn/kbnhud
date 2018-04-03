@@ -20,62 +20,6 @@ Scheme
 		// fonts are used in order that they are listed
 		// fonts listed later in the order will only be used if they fulfill a range not already filled
 		// if a font fails to load then the subsequent fonts will replace
-		"DefaultHitmarker"
-		{
-			"1"
-			{
-				"name"		"Formas germetricas 1"
-				"tall"		"30"
-				"weight"	"0"
-				"antialias"	"1"
-			}
-		}
-		"HudCrossHair"
-		{
-			"1"
-			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline"   "0"
-				"antialias"	"1"
-			}
-		}
-		"KnucklesCrosses"
-		{
-			"1"
-			{
-				"name"		"KnucklesCrosses"
-				"tall"		"11"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-				"antialias"	"1"
-			}
-		}
-		"CODHitmarker"
-		{
-			"1"
-			{
-				"name"		"xhairs"
-				"tall"		"4"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias"	"1"
-				"outline"	"0"
-			}
-		}
-		"KonrWings24"
-		{
-			"1"
-			{
-				"name"			"Garm3nFont"
-				"tall"			"24"
-				"weight"		"0"
-				"antialias"		"1"
-			}
-		}
 		"MavenProRegular6"
 		{
 			"1"

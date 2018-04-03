@@ -109,12 +109,12 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"15"
-				"ypos"			"21"
+				"xpos"			"12"
+				"ypos"			"20"
 				"tall"			"10"
 				"wide"			"35"
-				"font"			"MavenProBold14"
-				"font_lodef"	"MavenProBold14"
+				"font"			"MavenProBold16"
+				"font_lodef"	"MavenProBold16"
 			
 			}
 		
@@ -173,12 +173,12 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"rs1-15"
-				"ypos"			"21"
+				"xpos"			"56"
+				"ypos"			"20"
 				"wide"			"35"
 				"tall"			"10"
-				"font"			"MavenProBold14"
-				"font_lodef"	"MavenProBold14"
+				"font"			"MavenProBold16"
+				"font_lodef"	"MavenProBold16"
 			
 			}
 		

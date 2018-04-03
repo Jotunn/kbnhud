@@ -1890,7 +1890,7 @@
 	"CTFStreakNotice"
 	{
 		"fieldName"		"CTFStreakNotice"
-		"xpos"			"0"
+		"xpos"			"r640"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1903,7 +1903,7 @@
 	"CTFKillStreakNotice"
     {
         "fieldName"                "CTFKillStreakNotice"
-        "xpos"                        "0"                        
+        "xpos"                        "r640"                        
         "ypos"                        "0"
         "wide"                        "640"
         "tall"                        "480"

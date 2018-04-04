@@ -1,7 +1,7 @@
 ![alt text](https://i.imgur.com/a55hGWX.png)
 
 v437: White Pine Edition
--------
+======
 
 Info and links
 -------
@@ -9,9 +9,11 @@ Info and links
 
 I made this HUD from the bones of KNHUD during my time as a Sniper in UGC, and decided to share it. The main theme is transparency and lack of backgrounds, with secondary focus on being in the focus area for snipers, at the center of the screen, as well as lots of included customization and easily edited colors.
 
-Steam community group link is in the blurb at the top of the screen
+[Steam Group, join for updates](http://steamcommunity.com/groups/KBNHud "KBNHud Steam Group")
 
-Screenshots, info, other stuff is in the GitHub wiki, link to that is at the top of the page.
+[KBNHud GitHub Wiki, this has screenshots, info, the complete changelog back to v1, and more.](https://github.com/Jotunn/KBNHud/wiki "Also linked at the top of the page")
+
+[Discord Server, the best place to get help quickly](https://discord.gg/NhnSysw "Discord server join link")
 
 Installing the HUD
 -------
@@ -40,10 +42,10 @@ Navigate to:
 Navigate to:
 `(your home folder)/Library/Application Support/Steam/SteamApps/common/Team Fortress 2/tf/custom`
 
-***Linux***
+***Linux (Ubuntu)***
 
 Navigate to
-`~/Steam/SteamApps/common/Team Fortress 2/tf/custom`
+`Home/steam/steam/SteamApps/common/Team Fortress 2/tf/custom`
 
 The final file setup should look like this:
 ```
@@ -67,14 +69,16 @@ To make [Clovervidia's](https://steamcommunity.com/sharedfiles/filedetails/?id=1
 exec captions
 ```
 
-## Customization
+Customization
+-------
 
+### While these files can be modified using any text editor, like Notepad, it is highly recommended that you use Notepad++ since it understands code batching and indentation.
 
 **Hud_damagedplayer hitmarker centering fix instructions**
 
-***YOU DON'T NEED TO DO THIS IF YOU REMOVED THE CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050 or any 16:9 aspect ratio.***
+***YOU DON'T NEED TO DO THIS IF YOU REMOVED THE CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050 OR ANY 16:9 OR 21:9 RESOLUTION.***
 
-1. Go to `tf/custom/KBNHud-master/scripts` and open `hudlayout.res` with a text editor program (eg. Notepad). The first thing you 
+1. Go to `tf/custom/KBNHud-master/scripts` and open `hudlayout.res` with a text editor program (eg. Notepad, thought Notepad++ is highly recommended). The first thing you 
 see should say `DefaultHitmarker`.
 
 2. Under that, find `xpos` and `ypos`. `xpos` moves it left or right. `ypos` moves it up and down. DON'T TOUCH `zpos`! 
@@ -107,11 +111,11 @@ to the desired color by using an RGB color picker.
 
 5. Alignment and centering is not guaranteed to be perfect, and is likely to be quite flawed. Adjust the xpos and ypos values as needed to achieve the best centering for the chosen crosshair. The method is nearly identical to fixing the circle.
 
-__[Click here to see which character enables which crosshair](https://i.imgur.com/Gk9wKD6.png)__
+* __[Click here to see which character enables which crosshair](https://i.imgur.com/Gk9wKD6.png)__
 
 6. You can also change the font line to read KnucklesCrosses for a different set of crosshairs that you can use. 
 
-__[Click here to see which character enables which crosshair (Knuckle's Crosses)](http://i.imgur.com/w0AcH2l.png)__
+* __[Click here to see which character enables which crosshair (Knuckle's Crosses)](http://i.imgur.com/w0AcH2l.png)__
 
 
 **Server Shortcut Buttons**
@@ -139,15 +143,6 @@ replacing "SERVERIP" with (obviously) the IP of the server you want to assign.
 4. DO NOT CHANGE THE FOURTH NUMBER IN THE RGBA VALUES UNLESS YOU KNOW WHAT YOU ARE DOING! That will change the transparency of the object being colored.
 
 5. HEADS UP: The First 3 numbers for "Low Health flash 2" and "Low Health flash 3" MUST ALWAYS BE THE SAME! If you change the value for "Low Health flash 2" to "204 204 0 255," then you must change the value for "Low health flash 3" to "204 204 0 75," leaving the last "255" and the last "75" as they are!
-
-
-
-Links & more info
--------
-
-Steam community group link is in the blurb at the top of the repo screen
-
-Screenshots, info, other stuff is in the GitHub wiki.
 
 Help and support:
 -------

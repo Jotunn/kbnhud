@@ -16,6 +16,7 @@
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
+
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
@@ -37,8 +38,8 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"-70"
-			"ypos"			"-35"
+			"xpos"			"35"
+			"ypos"			"-15"
 			"zpos"			"100"
 			"wide"			"330"
 			"tall"			"92"
@@ -77,8 +78,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"169 123 53 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -120,8 +121,8 @@
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"235 226 202 255"
-			"image_armedcolor"	"235 226 202 255"
+			"image_drawcolor"	"242 242 242 255"
+			"image_armedcolor"	"169 123 53 255"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
@@ -170,14 +171,14 @@
 			"ControlName"		"Label"
 			"fieldName"		"Title"
 			"xpos"		"10"
-			"ypos"		"47"
+			"ypos"		"46"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"north-west"
-			"font"			"HudFontMediumSmallBold"
+			"textAlignment"	"west"
+			"font"			"CerbeticaBold15"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -254,7 +255,7 @@
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs1-1"
+				"xpos"			"rs0.7-1"
 				"ypos"			"0"
 				"tall"			"f0"
 				"wide"			"5" // This gets slammed from client schme.  GG.

@@ -4,16 +4,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Shade"
-		"xpos"			"3"
-		"ypos"			"0"
+		"xpos"			"99999"
+		"ypos"			"99999"
 		"zpos"			"1000"
-		"wide"			"f0"
-		"tall"			"f0"
-		"visible"		"1"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 
-		"bgcolor_override"	"0 0 0 255"
+		"bgcolor_override"	"0 0 0 0"
 	}
 
 	"TitleGradient"
@@ -25,8 +25,8 @@
 		"wide"		"f0"
 		"tall"		"60"
 		"zpos"	"98"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"rotation"		"3"
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -53,8 +53,8 @@
 		"wide"		"30"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 		"proportionaltoparent"	"1"
 		"scaleimage"	"1"
@@ -80,8 +80,8 @@
 		"wide"		"20"
 		"tall"		"f0"
 		"zpos"	"1000"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 
 
 		"proportionaltoparent"	"1"
@@ -114,12 +114,13 @@
 		"command"		"nav_close"
 
 		"textAlignment"	"east"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProRegular14"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"defaultFgColor_override"	"242 242 242 255"
+		"armedFgColor_override"	"169 123 53 255"
 	}
 
 	"ReturnButton"
@@ -145,12 +146,13 @@
 		"labelText"		"<"
 
 		"textAlignment"	"west"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProRegular14"
 
 		"armedBgColor_override"	"0 0 0 0"
 		"defaultBgColor_override"	"0 0 0 0"
 
-		"armedFgColor_override"	"Orange"
+		"defaultFgColor_override"	"242 242 242 255"
+		"armedFgColor_override"	"169 123 53 255"
 	}
 	
 	"BGPanel"
@@ -165,6 +167,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"MainMenuBGBorder"
+		"border"		"TeamMenuBorder"
+		"bgcolor_override"	"TanDarker"
 	}
 }

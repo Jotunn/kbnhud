@@ -2022,6 +2022,13 @@
 		"zpos"					"2"
 		"wide"					"f0"
 		"tall"					"f0"
+	
+		if_mvm
+		{
+			"visible"	"0"
+			"enabled"	"0"
+		}
+	
 	}
 	"QueueHUDStatus"
 	{

@@ -226,6 +226,11 @@
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
 	
+		if_mvm
+		{
+			"visible"	"0"
+		}
+		
 		if_match
 		{
 			"visible"	"1"
@@ -250,7 +255,12 @@
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
-	
+		
+		if_mvm
+		{
+			"visible"	"0"
+		}
+		
 		if_match
 		{
 			"visible"	"1"
@@ -274,7 +284,7 @@
 		"tabPosition"			"0"	
 		"fillcolor"				"41 37 38 230"
 		"PaintBackgroundType"	"0"
-	
+		
 		if_match
 		{
 			"visible"	"1"
@@ -549,7 +559,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"MavenProRegular8"
+				"font"			"MavenProRegular7"
 				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"

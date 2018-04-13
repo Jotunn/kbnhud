@@ -190,7 +190,7 @@
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 
-			"fgcolor_override"		"Black"
+			"fgcolor_override"		"7 7 7 255"
 		}
 
 		"DescLabel"
@@ -234,7 +234,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "Black"
+			"fgcolor_override" "7 7 7 255"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}

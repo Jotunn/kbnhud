@@ -49,7 +49,7 @@
 		"fieldName"			"CurrencyStatusPanel"
 		"xpos"				"c-190"
 		"ypos"				"r173"
-		"wide"				"180"
+		"wide"				"190"
 		"tall"				"100"
 		"visible" 			"1"
 		"enabled" 			"1"

@@ -541,6 +541,17 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"MavenProBold72"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Bold"
+			"tall"		"72"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProBlack8"
 		{
 			"1"
@@ -1334,7 +1345,6 @@ Scheme
 			{
 				"name"		"Maven Pro Regular"
 				"tall"		"14"
-				"tall_lodef"	"16"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"

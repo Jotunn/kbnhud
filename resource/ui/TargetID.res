@@ -13,7 +13,7 @@
 		"pinCorner" "0"
 		"visible" 	"1"
 		"enabled" 	"1"
-		"fillcolor" "0 0 0 128"
+		"fillcolor" "0 0 0 200"
 	}
 	
 	"TargetBackground2"
@@ -165,7 +165,7 @@
 		"xpos"				"-2"
 		"ypos"				"9"
 		"zpos"				"10"
-		"wide"				"45"
+		"wide"				"53"
 		"tall"				"42"
 		"visible"			"1"
 		"enabled"			"1"	

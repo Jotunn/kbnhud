@@ -36,7 +36,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play ui/welp.mp3
+			play ui/beep.mp3
 			echo -------------------------------------------------------------------------------;
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;

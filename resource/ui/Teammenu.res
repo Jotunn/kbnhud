@@ -242,10 +242,10 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-55"
+		"xpos"			"c-70"
 		"ypos"			"306"
 		"zpos"			"6"
-		"wide"			"110"
+		"wide"			"136"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
@@ -257,7 +257,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"HudFontSmallbold"
+		"font"			"MavenProBold12"
 		
 		//"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"70 70 70 220"

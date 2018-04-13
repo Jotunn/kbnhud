@@ -19,15 +19,15 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"20"
+		"ypos"		"23"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
-		"font"			"HudFontMediumBigBold"
-		"fgcolor_override"	"TanDark"
+		"font"			"MavenProBold22"
+		"fgcolor_override"	"242 242 242 255"
 		
 		"mouseinputenabled"	"0"
 	}

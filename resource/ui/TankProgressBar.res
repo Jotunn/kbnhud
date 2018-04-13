@@ -17,11 +17,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TankImage"
-		"xpos"			"2"
-		"ypos"			"-2"
+		"xpos"			"5"
+		"ypos"			"0"
 		"zpos"			"3"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"18"
+		"tall"			"18"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/leaderboard_class_tank"
@@ -33,38 +33,54 @@
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBar"
 		"xpos"			"30"
-		"ypos"			"4"
-		"zpos"			"1"
-		"wide"			"152"
-		"tall"			"10"
+		"ypos"			"7"
+		"zpos"			"2"
+		"wide"			"153"
+		"tall"			"5"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../HUD/tournament_panel_blu"
+		"image"			""
 		
- 		"src_corner_height"	"22"				// pixels inside the image
+ 		"src_corner_height"	"22"			// pixels inside the image
  		"src_corner_width"	"22"
  	
- 		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
- 		"draw_corner_height" 	"0"	
+ 		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+ 		"draw_corner_height" 	"5"	
 	}
 	
 	"ProgressBarBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ProgressBarBG"
-		"xpos"			"30"
-		"ypos"			"4"
+		"xpos"			"29"
+		"ypos"			"3"
 		"zpos"			"1"
-		"wide"			"152"
-		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
+		"wide"			"155"
+		"tall"			"12"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../HUD/tournament_panel_tan"
 		
-		"src_corner_height"	"22"				// pixels inside the image
+		"src_corner_height"	"22"			// pixels inside the image
 		"src_corner_width"	"22"
 	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"5"	
+	}
+	
+	"ProgressBarBG2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"ProgressBarBG2"
+		"xpos"			"30"
+		"ypos"			"7"
+		"zpos"			"2"
+		"wide"			"153"
+		"tall"			"5"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"Base Color"
 	}
 }

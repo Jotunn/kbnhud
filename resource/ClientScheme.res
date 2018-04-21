@@ -88,5 +88,7 @@ Scheme
 			"font" "resource/fonts/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
+		"18" "resource/fonts/ToonHUD Icons.ttf"
+	
 	}
 }

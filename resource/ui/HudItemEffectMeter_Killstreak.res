@@ -5,8 +5,8 @@
         "fieldName"         "HudItemEffectMeter"
         "visible"           "1"
         "enabled"           "1"
-        "xpos"              "c84"        [$WIN32]
-        "ypos"              "r184"        [$WIN32]
+        "xpos"              "c35"        [$WIN32]
+        "ypos"              "r168"        [$WIN32]
         "wide"              "100"
         "tall"              "50"
         "MeterFG"           "White"
@@ -43,8 +43,8 @@
         "tall"              "15"
         "autoResize"        "1"
         "pinCorner"         "2"
-        "visible"           "1"
-        "enabled"           "1"
+        "visible"           "0"
+        "enabled"           "0"
         "tabPosition"       "0"
         "labelText"         "#TF_KillStreak"
         "textAlignment"     "center"
@@ -64,8 +64,8 @@
         "tall"              "15"
         "autoResize"        "1"
         "pinCorner"         "2"
-        "visible"           "1"
-        "enabled"           "1"
+        "visible"           "0"
+        "enabled"           "0"
         "tabPosition"       "0"
         "labelText"         "#TF_KillStreak"
         "textAlignment"     "center"
@@ -98,8 +98,8 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"         "ItemEffectMeterCount"
-        "xpos"              "25"
-        "ypos"              "10"
+        "xpos"              "42"
+        "ypos"              "6"
         "zpos"              "2"
         "wide"              "40"
         "tall"              "20"        
@@ -108,17 +108,18 @@
         "enabled"           "1"
         "tabPosition"       "0"
         "labelText"         "%progresscount%"
-        "textAlignment"     "north"
+        "textAlignment"     "west"
         "dulltext"          "0"
         "brighttext"        "0"
         "font"              "MavenProMedium12"
-    }
+		"fgcolor" 			"White"
+	}
 	"ItemEffectMeterCountShadow"
     {
         "ControlName"       "CExLabel"
         "fieldName"         "ItemEffectMeterCountShadow"
-        "xpos"              "26"
-        "ypos"              "11"
+        "xpos"              "43"
+        "ypos"              "6"
         "zpos"              "2"
         "wide"              "40"
         "tall"              "20"        
@@ -127,11 +128,43 @@
         "enabled"           "1"
         "tabPosition"       "0"
         "labelText"         "%progresscount%"
-        "textAlignment"     "north"
+        "textAlignment"     "west"
         "dulltext"          "0"
         "brighttext"        "0"
         "font"              "MavenProMedium12"
 		"fgcolor" 			"Black"
 	}
-	
+	"StreakIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIcon"
+		"xpos"					"30"
+		"ypos"					"4"
+		"zpos"					"2"
+		"wide"					"16"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"ToonHUDIcons"
+		"fgcolor_override"		"White"
+	}
+
+	"StreakIconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"StreakIconShadow"
+		"xpos"					"31"
+		"ypos"					"4"
+		"zpos"					"2"
+		"wide"					"16"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"K"
+		"textAlignment"			"west"
+		"font"					"ToonHUDIcons"
+		"fgcolor_override"		"Black"
+	}
 }

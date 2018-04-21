@@ -8,7 +8,7 @@
 		"xpos"			"19"
 		"ypos"			"6"
 		"zpos"			"2"
-		"wide"			"120"
+		"wide"			"100"
 		"tall"			"3"				
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -17,7 +17,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-	}	
+	}
 	"BG"
 	{
 		"ControlName"			"ImagePanel"
@@ -25,7 +25,7 @@
 		"xpos"					"19"
 		"ypos"					"9"
 		"zpos"					"0"
-		"wide"					"120"
+		"wide"					"100"
 		"tall"					"1"
 		"autoResize"			"0"
 		"pinCorner"				"0"

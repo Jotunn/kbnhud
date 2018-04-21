@@ -6,7 +6,7 @@
 		"delta_item_start_y"	"167"
 		"delta_item_end_y"		"177"
 		"PositiveColor"			"0 255 0 255"
-		"NegativeColor"			"255 0 0 150"
+		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProMedium14"
 	}

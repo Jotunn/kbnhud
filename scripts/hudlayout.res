@@ -693,12 +693,9 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"r80"
-		"xpos_minmode"			"r52"
 		"ypos"					"r21"
-		"ypos_minmode"			"r40"
 		"zpos"					"1"			// draw in front of ammo
 		"wide"					"60"
-		"wide_minmode"			"50"
 		"tall"					"8"
 		"MeterFG"				"White"
 		"MeterBG"				"Gray"
@@ -761,7 +758,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"c-47"	[$WIN32]
-		"ypos"					"r320"	[$WIN32]
+		"ypos"					"c-140"	[$WIN32]
 
 		"wide"					"116"
 		"tall"  				"210"
@@ -812,7 +809,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos"		"c-100"
-		"ypos"		"c10"
+		"ypos"		"c20"
 
 		"zpos"		"1"
 		"wide"	 	"600"
@@ -1032,7 +1029,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "2"
 		
-		"TextFont"		"MavenProBold8"
+		"TextFont"		"MavenProMedium8"
 		
 		"TeamBlue"		"75 175 255 255"
 		"TeamRed"		"255 0 75 255"
@@ -1560,7 +1557,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r180"	[$WIN32]
+		"ypos"			"c0"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"200"
 		"tall"			"50"

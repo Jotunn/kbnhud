@@ -775,6 +775,18 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"ToonHUDIcons"
+		{
+			"1"
+			{
+				"name"			"ToonHUD Icons"
+				"tall"			"12" [$WINDOWS]
+				"tall"			"18" [!$WINDOWS]
+				"weight"		"400"
+				"additive"		"0"
+				"antialias" 	"1"
+			}
+		}
 		"Default"
 		{
 			"1"

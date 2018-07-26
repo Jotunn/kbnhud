@@ -3,12 +3,12 @@
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"xpos"			"c-62"	
 		"ypos"			"r163"	
-		"wide"			"200"
-		"tall"			"50"
+		"wide"			"500"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

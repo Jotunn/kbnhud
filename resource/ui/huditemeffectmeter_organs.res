@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_Organs.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c25"	[$WIN32]
-		"ypos"			"r150"	[$WIN32]
+		"xpos"			"c30"
+		"ypos"			"r190"
 		"wide"			"100"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -44,8 +44,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"textAlignment"			"center"
 		"dulltext"				"0"
@@ -76,8 +76,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"40"
-		"ypos"					"10"
+		"xpos"					"47"
+		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -86,19 +86,18 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MavenProMedium12"
-		"fgcolor_override"	"255 255 255 255"
-	
+		"fgcolor_override"		"255 255 255 255"
 	}
 	"ItemEffectMeterCountShadow"
 	{
 		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterCountShadow"
-		"xpos"					"41"
-		"ypos"					"10"
+		"fieldName"				"ItemEffectMeterCount"
+		"xpos"					"48"
+		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -107,10 +106,43 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"north"
+		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MavenProMedium12"
-		"fgcolor_override"	"0 0 0 255"
-	}	
+		"fgcolor_override"		"0 0 0 255"
+	}
+	"ItemEffectMeterIcon"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterIconIcon"
+		"xpos"					"34"
+		"ypos"					"1"
+		"zpos"					"2"
+		"wide"					"16"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"E"
+		"textAlignment"			"west"
+		"font"					"ToonHUDIcons"
+		"fgcolor_override"		"White"
+	}
+
+	"ItemEffectMeterIconShadow"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterIconShadow"
+		"xpos"					"35"
+		"ypos"					"1"
+		"zpos"					"2"
+		"wide"					"16"
+		"tall"					"25"
+		"visible"				"1"
+		"enabled"				"1"
+		"labelText"				"E"
+		"textAlignment"			"west"
+		"font"					"ToonHUDIcons"
+		"fgcolor_override"		"Black"
+	}
 }

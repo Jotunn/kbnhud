@@ -603,7 +603,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"c63" //c90	[$WIN32]
-		"ypos"	"r195"	[$WIN32]
+		"ypos"	"r194"	[$WIN32]
 		"wide"	"300"
 		"tall"	"120"
 	}
@@ -638,12 +638,12 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c200"	[$WIN32]
-		"ypos"			"r64"	[$WIN32]
-		"wide"			"220"
-		"tall"			"100"
+		"xpos"			"c-75"	[$WIN32]
+		"ypos"			"c25"	[$WIN32]
+		"wide"			"500"
+		"tall"			"500"
 		"MeterFG"		"White"
-		"MeterBG"		"Black"
+		"MeterBG"		"Gray"
 	}
 	
 	HudMedicCharge
@@ -651,7 +651,7 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-108"	[$WIN32]
+		"xpos"			"c-116"	[$WIN32]
 		"ypos"			"r235"	[$WIN32]
 		"xpos"			"r174"	[$X360]
 		"ypos"			"r90"	[$X360]
@@ -676,15 +676,16 @@
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
-		"visible"		"0"
-		"enabled"		"0"
-		"xpos"			"99999"	[$WIN32]
-		"ypos"			"99999"	[$WIN32]
+		"visible"		"1"
+		"enabled"		"1"
+		"xpos"			"c-100"	
+		"ypos"			"c111"
 		"zpos"			"1"			// draw in front of ammo
-		"wide"			"120"
-		"tall"			"10"
+		"wide"			"500"
+		"tall"			"500"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
+		"alpha"			"0"
 	}
 	
 	HudFlameRocketCharge
@@ -770,7 +771,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"		"CHealthAccountPanel"
-		"xpos"			"90"
+		"xpos"			"c-300"
 		"ypos"			"r200"
 		"wide"			"230"
 		"tall"  		"180"
@@ -1029,7 +1030,7 @@
 		"CornerRadius"	  "2"
 		"RightJustify"	  "2"
 		
-		"TextFont"		"MavenProMedium8"
+		"TextFont"		"MavenProMedium10"
 		
 		"TeamBlue"		"75 175 255 255"
 		"TeamRed"		"255 0 75 255"
@@ -1560,7 +1561,7 @@
 		"ypos"			"c0"	[$WIN32]
 		"zpos"			"1"
 		"wide"			"200"
-		"tall"			"50"
+		"tall"			"90"
 	}
 	
 

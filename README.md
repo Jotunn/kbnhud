@@ -1,13 +1,14 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v440: Kosciuszko Edition
+v441: 4x6DJ8 Edition
 ======
 
 Info and links
 -------
 **Made by a sniper main, for sniper mains.**
+(But it's good at other things too.)
 
-I made this HUD from the bones of KNHUD during my time as a Sniper in UGC, and decided to share it. The main theme is transparency and lack of backgrounds, with secondary focus on being in the focus area for snipers, at the center of the screen, as well as lots of included customization and easily edited colors.
+I made this HUD from the bones of KNHUD during my time as a Sniper in UGC, and decided to share it. Now has derivative elements from eveHUD, rayshud, OMPhud, and Gam3nHUD. The main theme is transparency and lack of backgrounds, with secondary focus on being in the focus area for snipers, at the center of the screen, as well as lots of included customization and easily edited colors.
 
 [Steam Group, join for updates](http://steamcommunity.com/groups/KBNHud "KBNHud Steam Group")
 
@@ -28,7 +29,7 @@ __BEFORE INSTALLING ON MAC AND LINUX, YOU MUST DO THE FOLLOWING:__
 
 For the HUD to use proper fonts, you have to install the custom fonts to your computer. Do not worry, the font files are safe and virus free.
 
-To do so, go to `KBNHud-master/resource/fonts`, and select all the files in there, right click, and click the install option. This is all you need to do, and the HUD should work as intended. This also solves long-existing issues with mac and linux not using proper fonts, and is permanent unless you reinstall your OS.
+To do so, go to `kbnhud-master/resource/fonts`, and select all the files in there, right click, and click the install option. This is all you need to do, and the HUD should work as intended. This also solves long-existing issues with mac and linux not using proper fonts, and is permanent unless you reinstall your OS.
 
 **Where to install:**
 
@@ -51,13 +52,13 @@ The final file setup should look like this:
 ```
 tf
 └── custom
-    └── KBNHud-master
+    └── kbnhud-master
+        ├── ^customizations
         ├── cfg
         ├── materials
         ├── resource
         ├── scripts
         ├── sound
-        ├── user customizations
 	├── info.vdf
         ├── README.md
 	└──v[version #] CHANGELOG.txt
@@ -72,13 +73,13 @@ exec captions
 Customization
 -------
 
-### While these files can be modified using any text editor, like Notepad, it is highly recommended that you use Notepad++ since it understands code batching and indentation.
+### While these files can be modified using any text editor, like Notepad, it is highly recommended that you use [Notepad++](https://notepad-plus-plus.org/) since it understands code batching and indentation.
 
 **Hud_damagedplayer hitmarker centering fix instructions**
 
-***YOU DON'T NEED TO DO THIS IF YOU REMOVED THE CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON SOME RESOLUTIONS: 1920x1080 / 1680x1050 OR ANY 16:9 OR 21:9 RESOLUTION.***
+***YOU DON'T NEED TO DO THIS IF YOU REMOVED THE CIRCLE WITH THE OVERRIDE, NOR DO YOU NEED TO DO THIS ON ANY 16:9 or 21:9 ASPECT RATIO RESOLUTIONS***
 
-1. Go to `tf/custom/KBNHud-master/scripts` and open `hudlayout.res` with a text editor program (eg. Notepad, thought Notepad++ is highly recommended). The first thing you 
+1. Go to `tf/custom/kbnhud-master/^customizations/_basefiles` and open `hudlayout.res` with a text editor program (eg. Notepad, thought Notepad++ is highly recommended). The first thing you 
 see should say `DefaultHitmarker`.
 
 2. Under that, find `xpos` and `ypos`. `xpos` moves it left or right. `ypos` moves it up and down. DON'T TOUCH `zpos`! 
@@ -97,7 +98,7 @@ see should say `DefaultHitmarker`.
 
 **HUD Crosshairs instructions**
 
-1. Go to `tf/custom/KBNHud/scripts` and open `hudlayout.res` with a text editor program (eg. Notepad). 
+1. Go to `tf/custom/kbnhud-master/scripts` and open `crosshairs_hudlayout.res` with a text editor program (eg. Notepad). 
 
 2. There are 4 individual crosshair code batches. Each one can use one crosshair image.
 
@@ -134,7 +135,7 @@ replacing "SERVERIP" with (obviously) the IP of the server you want to assign.
 
 **Changing HUD colors**
 
-1. Go to `tf/custom/KBNHud-master/resource/scheme` and open `clientscheme_colors.res` with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying `COLOR CUSTOMIZATION SECTION`, having a online RGB sampler site is recommended.
+1. Go to `tf/custom/kbnhud-master/resource/scheme` and open `colors_clientscheme.res` with a text editor program (eg. Notepad, Notepad++ works best though) and there should be a large heading saying `COLOR CUSTOMIZATION SECTION`, having a online RGB sampler site is recommended.
 
 2. Under that are a bunch of groups of color options. Each name will have an RGBA value on the same line. 
 
@@ -163,7 +164,7 @@ This or simply sending me a ping over on steam or discord are the best ways to l
 Special Thanks
 -------
 
-Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP 
+Thanks to: Chippy, Quartz, Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP for many many HUD elements and developement help.
 
 Thanks to [Clovervidia](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) for the new captions.
 

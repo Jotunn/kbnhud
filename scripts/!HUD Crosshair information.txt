@@ -1,0 +1,6 @@
+###############################
+#--HUD Crosshair information--#
+###############################
+
+HUD crosshairs are now split in two parts. The fighter pilot crosshairs are part of the new drag and drop installation of overrides, but
+KONR wings and the other crosshairs are now in the "crosshairs_hudlayout.res" file in this folder.

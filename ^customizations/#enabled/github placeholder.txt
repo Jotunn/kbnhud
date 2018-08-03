@@ -1,0 +1,2 @@
+this is here because if this folder is empty, github desktop will do a stoopid and not keep it in the download
+you can remove this file after installing

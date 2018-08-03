@@ -494,7 +494,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v440"
+		"labelText"		"KBNHud v441"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -5272,45 +5272,30 @@
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
 
-				"bgcolor_override"		"30 30 30 240"
+				"bgcolor_override"		"0 0 0 255"
 
 				"items"
 				{
 					"0"
 					{
-						"item"		"Jungle Inferno Contracts Pass"
+						"item"		"Blue Moon Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Winter 2017 Cosmetic Key"
+						"item"		"Jungle Inferno Contracts Pass"
 						"show_market"	"0"
 					}
 					"2"
 					{
+						"item"		"Winter 2017 Cosmetic Key"
+						"show_market"	"0"
+					}
+					"3"
+					{
 						"item"		"Winter 2017 War Paint Key"
 						"show_market"	"0"
 					}					
-					"3"
-					{
-						"item"		"Abominable Cosmetic Key"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Unleash the Beast Cosmetic Key"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Jungle Jackpot War Paint Key"
-						"show_market"	"0"
-					}					
-					"6"
-					{
-						"item"		"Infernal Reward War Paint Key"
-						"show_market"	"0"
-					}
 				}
 			}
 

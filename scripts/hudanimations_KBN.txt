@@ -1,0 +1,436 @@
+//===========================================
+
+// HP Bonus
+event HudHealthBonusPulse
+{
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"				Linear 0.0 0.2
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"				Linear 0.2 0.4	
+	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"Overheal flash 2"		Linear 0.0 0.2		//Overheal flash #2
+	Animate	PlayerStatusHealthStatusImageBonus 	BgColor		"Overheal flash 1"		Linear 0.2 0.4		//Overheal flash #1
+	Animate PlayerStatusHealthValue			FgColor		"Overheal flash 1"		Linear 0.0 0.2		//Overheal flash #1
+	Animate PlayerStatusHealthIndicator		BgColor		"Overheal flash 1"		Linear 0.0 0.075	//Overheal flash #1
+    	Animate PlayerStatusHealthIndicator		BgColor		"255 255 255 100"		Linear 0.125 0.075
+	Animate	PlayerStatusHealthValueSpec		FgColor		"TargetID Overheal" 		Linear 0.0 0.0		//TargetID Overheal 
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"TargetID Overheal" 		Linear 0.1 0.2		//TargetID Overheal 
+	Animate	xHairCirclePulse 			FgColor		"Garm3nHUDBonusPulse"		Linear 0.0 0.0
+
+	RunEvent HudHealthBonusPulseLoop	0.6
+}
+
+//===========================================
+
+// HP Bonus
+event HudHealthBonusPulseLoop
+{
+	RunEvent HudHealthBonusPulse 		0.0
+	StopPanelAnimations PlayerStatusHealthValueSpec 	0.0
+	StopPanelAnimations PlayerStatusHealthValueSpecT	0.0
+}
+
+event HudHealthBonusPulseStop
+{
+	StopEvent HudHealthBonusPulse 		0.0
+	StopEvent HudHealthBonusPulseLoop 	0.0
+	Animate	PlayerStatusHealthStatusImageBonus	BgColor		"150 200 255 0"	Accel 	0.0 0.3
+	Animate PlayerStatusHealthValue 		Alpha 		255 		Linear 	0.0 0.0
+	Animate PlayerStatusHealthValue 		FgColor 	"White" 	Accel 	0.0 0.0
+	Animate PlayerStatusHealthIndicator		Alpha		255		Linear	0.0 0.0
+	Animate PlayerStatusHealthIndicator		BgColor		"0 0 0 0"	Linear	0.0 0.0
+	Animate	PlayerStatusHealthValueSpec		FgColor		"white" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"white" 	Linear 0.0 0.2
+	Animate xHairCirclePulse 			FgColor		"Garm3nHUDxHair"	Linear 0.0 0.0
+}
+
+//===========================================
+
+
+// Low HP
+event HudHealthDyingPulse
+{
+	Animate	PlayerStatusHealthStatusImageDanger 	BgColor		"Low Health flash 3"	Linear 0.0 0.075	//Low Health flash #3
+	Animate	PlayerStatusHealthStatusImageDanger	BgColor		"Low Health flash 1"	Linear 0.125 0.075	//Low Health flash #1
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"255"			Linear 0.0 0.075
+	//Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
+	Animate PlayerStatusHealthValue         	FgColor		"Low Health flash 2"	Linear 0.0 0.075	//Low Health flash #2
+    	Animate PlayerStatusHealthValue         	FgColor		"Low Health flash 1"	Linear 0.125 0.075	//Low Health flash #1
+	Animate PlayerStatusHealthIndicator		BgColor		"Low Health flash 1"	Linear 0.0 0.075	//Low Health flash #1
+    	Animate PlayerStatusHealthIndicator		BgColor		"Low Health flash 2"	Linear 0.125 0.075	//Low Health flash #2
+	Animate	PlayerStatusHealthValueSpec		FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
+	Animate	PlayerStatusHealthValueSpecT		FgColor		"TargetID Low Health"	Linear 0.1 0.1		//TargetID Low Health
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"TargetID Low Health"	Linear 0.0 0.075	//TargetID Low Health
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"black"			Linear 0.125 0.075	
+	Animate xHairCirclePulse 			FgColor		"Garm3nHUDDyingPulse"	Linear 0.0 0.0
+	
+	RunEvent HudHealthDyingPulseLoop	0.25
+}
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+	RunEvent HudHealthDyingPulse 		0.0
+	
+	StopPanelAnimations PlayerStatusHealthValueShadow 			0.0
+	StopPanelAnimations PlayerStatusHealthValueShadowBorder		0.0
+	StopPanelAnimations PlayerStatusHealthValueSpec				0.0
+	StopPanelAnimations PlayerStatusHealthValueSpecT			0.0
+	
+	Animate	PlayerStatusHealthValueShadow		FgColor		"Black" 		Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadowBorder	FgColor		"Black" 		Linear 0.0 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+	StopEvent HudHealthDyingPulse 		0.0
+	StopEvent HudHealthDyingPulseLoop 	0.0
+	
+	StopPanelAnimations PlayerStatusHealthValueShadow 			0.0
+	StopPanelAnimations PlayerStatusHealthValueShadowBorder			0.0
+	StopPanelAnimations PlayerStatusHealthValueSpec				0.0
+	StopPanelAnimations PlayerStatusHealthValueSpecT			0.0
+	Animate	PlayerStatusHealthStatusImageDanger		BgColor 	"255 75 75 0"	Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			Alpha 		255 		Accel 	0.0 0.0
+	Animate PlayerStatusHealthValue 			FgColor 	"White" 	Accel 	0.0 0.0
+	Animate PlayerStatusHealthIndicator			Alpha 		255 		Linear 	0.0 0.0
+	Animate PlayerStatusHealthIndicator			BgColor 	"255 255 255 0" Accel 	0.0 0.0
+	Animate	PlayerStatusHealthValueShadow			FgColor		"Black" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueShadowBorder		FgColor		"Black" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpec			FgColor		"white" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValueSpecT			FgColor		"white" 	Linear 0.0 0.2
+	Animate xHairCirclePulse 				FgColor		"Garm3nHUDxHair"	Linear 0.0 0.0
+}
+
+//===========================================
+
+event HudLowAmmoPulse
+{
+	Animate AmmoInClip		FgColor		"Low Ammo flash 1"		Linear 0.0 0.075
+        Animate AmmoInClip		FgColor		"Low Ammo flash 2"		Linear 0.125 0.075
+	
+        Animate AmmoInReserve		FgColor		"Low Ammo flash 2"		Linear 0.0 0.075
+        Animate AmmoInReserve		FgColor		"Low Ammo flash 1"		Linear 0.125 0.075
+	
+        Animate AmmoNoClip		FgColor		"Low Ammo flash 1"		Linear 0.0 0.075
+        Animate AmmoNoClip		FgColor		"Low Ammo flash 2"		Linear 0.125 0.075
+
+        RunEvent HudLowAmmoPulseLoop	0.25
+}
+
+// call to loop HudLowAmmoPulse
+event HudLowAmmoPulseLoop
+{
+	RunEvent HudLowAmmoPulse 0.0
+}
+
+event HudLowAmmoPulseStop
+{
+	StopEvent HudLowAmmoPulse 0.0
+	StopEvent HudLowAmmoPulseLoop 0.0
+
+	Animate AmmoInClip alpha 255 linear 0.0 0.0
+	Animate AmmoInClip fgcolor "Ammo in clip" accel 0.0 0.0
+
+	Animate AmmoInReserve alpha 255 linear 0.0 0.0
+	Animate AmmoInReserve fgcolor "Ammo in reserve" accel 0.0 0.0
+
+	Animate AmmoNoClip alpha 255 linear 0.0 0.0
+	Animate AmmoNoClip fgcolor "Ammo in clip" accel 0.0 0.0
+}
+
+//===========================================
+
+event FlagOutlineHide
+{
+	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-100 260"		Linear 0.1 0.2		// "c-200 140"
+	Animate OutlineImage	Size		"200 100"		Linear 0.1 0.2		// "400 200"
+
+	//Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2
+	//Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
+	
+	Animate OutlineImage	Position	"c-22 r60"		Linear 0.7 0.2
+	Animate OutlineImage	Size		"44 22"			Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"255"			Linear 0.0 0.2
+	
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-50"	Linear 0.0 0.2		// 200 200
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2		// 400 400
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"c-290 r90"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"40 40"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"40 40"			Linear 0.0 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"0 0"			Linear 0.0 0.0
+}
+
+
+//===========================================
+
+// Show the Overtime panel
+event OvertimeShow
+{
+	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
+}
+
+
+event HudSnapShotReminderIn
+{
+	//Animate ScreenshotPanel		Position	"-200 0"	Linear 0.0 0.001
+	//Animate ScreenshotPanel		Position	"-5 0"	Spline 0.001 0.2
+	
+	//Animate ScreenshotPanel		Position	"-200 0"	Spline 2.5 0.1
+	
+	Animate ScreenshotPanel		Alpha		"0"			Linear 0.0 0.1
+	Animate ScreenshotPanel		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ScreenshotPanel		Alpha		"0"			Linear 2.5 0.1	
+}
+
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder  // not anymore
+{
+	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
+	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
+	
+	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
+	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
+}
+
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
+	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
+	
+	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
+	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
+}
+
+event HudReplayTipIn
+{
+	Animate ReplayTip			Position	"10 -100"	Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 6"		Spline 0.001 0.1
+}
+
+event HudReplayTipOut
+{
+	Animate ReplayTip			Position	"10 6"		Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 -100"	Spline 0.001 0.1
+}
+
+//===========================================
+
+// Tournament Setup
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-65 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-65 13"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-65 13"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-65 -70"	Spline 0.001 0.2
+}
+
+
+
+//===========================================
+
+
+// Medic Uber
+
+event HudMedicCharged
+{
+	Animate	ChargeLabel 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+	Animate	ChargeLabel2 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.0001
+	Animate	ChargeLabel2 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+	
+	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 1"	Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"Full Ubercharge flash 2"	Linear 0.3 0.4
+
+	
+	RunEvent HudMedicChargedLoop	0.6
+}
+
+
+event HudMedicChargedLoop
+{
+	RunEvent HudMedicCharged 	0.0
+}
+
+event HudMedicChargedStop
+{
+	StopEvent HudMedicCharged 	0.0
+	StopEvent HudMedicChargedLoop 	0.0
+	
+	Animate	ChargeLabel 	FgColor		"Ubercharge percentage"		Linear 0.0 0.0001
+	Animate	ChargeLabel2 	FgColor		"Ubercharge percentage"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"Ubercharge bar"		Linear 0.0 0.0001
+}
+
+//===========================================
+
+// Stop any 'hitmarker animation events' before starting another
+event DamagedPlayer 
+{
+	StopEvent 	HitMarker 0.0
+	RunEvent 	HitMarker 0.01
+
+}
+
+event HitMarker 
+{ // Blink Crosshair for 1/10th of a second
+
+	Animate DefaultHitmarker 	FgColor 	"Default Hitmarker flash color" 	Linear 0.0 0.1
+	Animate DefaultHitmarker 	FgColor 	"Default Hitmarker base color"		Linear 0.15 0.00001
+
+}
+
+//===========================================
+
+event TeamsFullArrowAnimate
+{
+	Animate TeamsFullArrow	Position	"c-80	256"		Linear	0	0
+	Animate TeamsFullArrow	Position	"c-100	256"		Linear	0	0.4
+	Animate TeamsFullArrow	Position	"c-80	256"		Linear	0.4	0.4
+	
+	RunEvent TeamsFullArrowAnimateLoop	0.8
+}
+
+event TeamsFullArrowAnimateLoop
+{
+	RunEvent TeamsFullArrowAnimate 0.0
+}
+
+event TeamsFullArrowAnimateEnd
+{
+	StopEvent TeamsFullArrowAnimate 0.0
+	StopEvent TeamsFullArrowAnimateLoop 0.0
+}
+
+//===========================================
+// Respec in Win
+event RespecEarnedPulse
+{
+        Animate        RespecTextLabelWin        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelWin        FgColor        "RedSolid"                Linear 0.3 0.4
+
+        
+        RunEvent RespecEarnedPulseLoop                0.5
+}
+
+event RespecEarnedPulseLoop
+{
+        RunEvent RespecEarnedPulse                        0.0
+}
+
+event RespecEarnedPulseEnd
+{
+        Animate        RespecTextLabelWin         FgColor                "TanLight"                Linear 0.0 0.1
+
+        
+        StopEvent RespecEarnedPulse                        0.0
+        StopEvent RespecEarnedPulseLoop                0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+        Animate        RespecTextLabelLoss        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss        FgColor        "RedSolid"                Linear 0.3 0.4
+
+        
+        RunEvent RespecEarnedPulseLoopLoss                0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+        RunEvent RespecEarnedPulseLoss                        0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+
+        
+        StopEvent RespecEarnedPulseLoss                0.0
+        StopEvent RespecEarnedPulseLoopLoss        0.0
+}
+//===========================================
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"70 175 255 255"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"255 0 0 255"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+
+	Animate Score Position	"3 5"		Deaccel 0.0 0.05
+	Animate Score Position	"3 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+//============================================
+
+
+
+//==================================================================================
+// Do not move chat window
+event CompetitiveGame_LowerChatWindow	{ }
+event CompetitiveGame_RestoreChatWindow	{ }
+event HudTournament_MoveChatWindow 	{ }

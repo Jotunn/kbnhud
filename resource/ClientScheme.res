@@ -1,8 +1,8 @@
-#base "scheme/clientscheme_borders.res"
-#base "scheme/clientscheme_colors.res"
-#base "scheme/clientscheme_fonts.res"
-#base "scheme/clientscheme_settings.res"
-#base "scheme/clientscheme_xhairs.res"
+#base "scheme/borders_clientscheme.res"
+#base "scheme/colors_clientscheme.res"
+#base "scheme/fonts_clientscheme.res"
+#base "scheme/settings_clientscheme.res"
+#base "scheme/xhairfonts_clientscheme.res"
 
 Scheme
 {
@@ -153,7 +153,7 @@ Scheme
 		"12" 	//Hitmarker Font
 		{
 			"font" "resource/fonts/formasge.ttf"
-			"name" "FORMASGE"
+			"name" "Formas germetricas 1"
 		}
 		"13"	//BroeselHud Crosshairs
 		{

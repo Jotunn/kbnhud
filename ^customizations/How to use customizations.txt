@@ -1,0 +1,20 @@
+###################################
+#--How to Install Customizations--#
+###################################
+
+1. Folder names indicate what the contained files will affect
+2. Drag and drop those desired files into the "#enabled" folder
+3. ???
+4. p r o f i t
+
+Note:
+	Multiple options of the same item can be changed, such as none or all three of the options for the health indicator can be used at your choice.
+	
+
+#####################################
+#--How to Uninstall Customizations--#
+#####################################
+
+1. Delete the corresponding file from #enabled
+2. ???
+3. p r o f i t

@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v441: 4x6DJ8 Edition
+v442: LX5 Edition
 ======
 
 Info and links

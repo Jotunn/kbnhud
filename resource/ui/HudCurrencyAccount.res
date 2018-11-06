@@ -9,11 +9,11 @@
 		"xpos"			"2"
 		"ypos"			"1"
 		"zpos"			"3"
-		"wide"			"56"
+		"wide"			"70"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
 	}	
 	
@@ -26,11 +26,11 @@
 		"xpos"			"3"
 		"ypos"			"2"
 		"zpos"			"3"
-		"wide"			"56"
+		"wide"			"70"
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"center"	
+		"textAlignment"	"east"	
 		"labelText"		"%currency%"
 	}	
 	

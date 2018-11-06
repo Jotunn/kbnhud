@@ -230,6 +230,17 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"MavenProMedium13"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"13"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			}
+		}
 		"MavenProMedium14"
 		{
 			"1"

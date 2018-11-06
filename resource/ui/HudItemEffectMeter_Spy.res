@@ -77,7 +77,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"47"
+		"xpos"					"24"
 		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"40"
@@ -87,7 +87,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MavenProMedium12"
@@ -97,7 +97,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"48"
+		"xpos"					"25"
 		"ypos"					"4"
 		"zpos"					"2"
 		"wide"					"40"
@@ -107,7 +107,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"%progresscount%"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"MavenProMedium12"
@@ -117,7 +117,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterIconIcon"
-		"xpos"					"34"
+		"xpos"					"57"
 		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"16"
@@ -125,7 +125,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"C"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"font"					"ToonHUDIcons"
 		"fgcolor_override"		"White"
 	}
@@ -134,7 +134,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterIconShadow"
-		"xpos"					"35"
+		"xpos"					"58"
 		"ypos"					"1"
 		"zpos"					"2"
 		"wide"					"16"
@@ -142,7 +142,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"C"
-		"textAlignment"			"west"
+		"textAlignment"			"east"
 		"font"					"ToonHUDIcons"
 		"fgcolor_override"		"Black"
 	}

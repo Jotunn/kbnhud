@@ -553,8 +553,8 @@
 		"wide"	 "640"
 		"tall"	 "480"
 		"zpos" 	"2"
-		"xpos"			"250"
-		"ypos"			"r61"
+		"xpos"			"c100"
+		"ypos"			"c50"
 		
 		"TextFont"				"Default"
 		"ItemFont"				"Default"

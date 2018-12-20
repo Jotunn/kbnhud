@@ -36,7 +36,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play ui/developers.mp3
+			play ui/jokes.mp3
 			echo -------------------------------------------------------------------------------;
 			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;
 			echo -------------------------------------------------------------------------------"

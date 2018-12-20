@@ -494,7 +494,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v444"
+		"labelText"		"KBNHud v445"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -5278,34 +5278,14 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2018 Key" 
+						"item"		"Winter 2018 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2018 Case"
+						"item"		"Winter 2018 Cosmetic Case"
 						"show_market"	"1"
 					}
-					"2"
-					{
-						"item"		"Scream Fortress 2018 War Paint Key"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Scream Fortress 2018 War Paint Case"
-						"show_market"	"1"
-					}
-					"4"
-					{
-						"item"		"Taunt: Panzer Pants"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Taunt: The Scooty Scoot"
-						"show_market"	"0"
-					}					
 				}
 			}
 

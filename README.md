@@ -4,8 +4,6 @@ v445: Nànnuflày Edition
 ======
 Seven years.
 ======
-Seven years.
-======
 
 Info and links
 -------

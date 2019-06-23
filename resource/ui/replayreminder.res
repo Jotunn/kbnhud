@@ -1,0 +1,71 @@
+"Resource/UI/ReplayReminder.res"
+{
+	"ReplayReminder"
+	{
+		"ControlName"	"CReplayReminderPanel"
+		"fieldName"		"ReplayReminder"
+		"xpos"			"5"
+		"ypos"			"15"
+		"zpos"			"1"
+		"wide"			"166"
+		"tall"			"40"
+		"tall_minmode"	"0"
+		"visible"		"0"
+		"alpha"			"0"	
+		
+		"BG"
+		{
+			"ControlName"			"ScalableImagePanel"
+			"fieldName"			"ScreenshotPanelBG"
+			"xpos"				"0"
+			"ypos"				"18"
+			"zpos"				"0"
+			"wide"				"160"
+			"tall"				"21"
+			"visible"			"1"
+			"enabled"			"1"
+			"image"				"../hud/color_panel_brown"
+			"scaleImage"			"1"	
+			
+			"src_corner_height"		"23"
+			"src_corner_width"		"23"
+			
+			"draw_corner_width"		"0"
+			"draw_corner_height"		"0"	
+		}
+		"Icon"
+		{
+			"ControlName"		"ImagePanel"
+			"fieldName"		"Icon"
+			"xpos"			"5"
+			"ypos"			"21"
+			"zpos"			"1"
+			"wide"			"16"
+			"tall"			"16"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"../hud/ico_replay"
+			"scaleImage"		"1"	
+		}		
+		"Label"
+		{	
+			"ControlName"		"CExLabel"
+			"fieldName"		"Label"
+			"font"			"HudFontMediumSmallestbold"
+			"xpos"			"25"
+			"ypos"			"22"
+			"zpos"			"2"
+			"wide"			"133"
+			"tall"			"12"
+			"autoResize"		"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"%text%"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"		"0"
+			"fgcolor"		"white"
+		}
+	}	
+}

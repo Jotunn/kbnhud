@@ -46,9 +46,9 @@ Navigate to:
 ***Linux (Ubuntu)***
 
 Navigate to
-`~/.steam/steam/SteamApps/common/Team Fortress 2/tf/custom`
+`~/.steam/debian-installation/steamapps/common/Team Fortress 2/tf/custom`
 
-If the above isn't exact to your distro, simply use the manage files menu option from within steam.
+**If the above file path isn't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for Pop!OS, a popular, gaming friendly, Ubuntu fork.**
 
 The final file setup should look like this:
 ```

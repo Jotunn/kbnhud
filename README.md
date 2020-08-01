@@ -47,6 +47,7 @@ Navigate to:
 
 Navigate to
 `~/.steam/steam/SteamApps/common/Team Fortress 2/tf/custom`
+
 If the above isn't exact to your distro, simply use the manage files menu option from within steam.
 
 The final file setup should look like this:

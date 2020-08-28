@@ -494,7 +494,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v447"
+		"labelText"		"KBNHud v448"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -5278,33 +5278,13 @@
 				{
 					"0"
 					{
-						"item"		"Halloween 2019 Key"
+						"item"		"Summer 2020 Cosmetic Key"
 						"show_market"	"0"
 					}
 					"1"
 					{
-						"item"		"Halloween 2019 Case"
+						"item"		"Summer 2020 Cosmetic Case"
 						"show_market"	"1"
-					}
-					"2"
-					{
-						"item"		"Map Token Laughter"
-						"show_market"	"0"
-					}
-					"3"
-					{
-						"item"		"Map Token Precipice"
-						"show_market"	"0"
-					}
-					"4"
-					{
-						"item"		"Strange Filter: Laughter (Community)"
-						"show_market"	"0"
-					}
-					"5"
-					{
-						"item"		"Strange Filter: Precipice (Community)"
-						"show_market"	"0"
 					}
 				}
 			}

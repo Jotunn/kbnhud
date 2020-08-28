@@ -93,16 +93,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
-		"xpos"			"c-42"
-		"ypos"			"r50"
+		"xpos"			"c-85"
+		"ypos"			"r47"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"MavenProBold30"
+		"font"			"MavenProBold18"
 		"fgcolor"		"White"
 		
 		"if_hybrid"
@@ -129,7 +129,7 @@
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"	
 		"labelText"		"%bluescore%"
@@ -155,16 +155,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c-7"
-		"ypos"			"r50"
+		"xpos"			"c35"
+		"ypos"			"r47"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"MavenProBold30"
+		"font"			"MavenProBold18"
 		"fgcolor"		"White"		
 		
 		"if_hybrid"
@@ -191,7 +191,7 @@
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
 		"labelText"		"%redscore%"
@@ -253,7 +253,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r26"	[$WIN32]
+		"ypos"			"r38"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -286,7 +286,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayingToBG"
 		"xpos"			"c-42"	[$WIN32]
-		"ypos"			"r19"	[$WIN32]
+		"ypos"			"r31"	[$WIN32]
 		"zpos"			"3"
 		"wide"			"84"	[$WIN32]
 		"tall"			"17"	[$WIN32]
@@ -320,11 +320,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"BlueFlag"
-		"xpos"			"c-150"
-		"ypos"			"r62"	[$WIN32]
+		"xpos"			"c-130"
+		"ypos"			"r53"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 		
@@ -355,11 +355,11 @@
 	{
 		"ControlName"	"CTFFlagStatus"
 		"fieldName"		"RedFlag"
-		"xpos"			"c0"
-		"ypos"			"r62"	[$WIN32]
+		"xpos"			"c-10"
+		"ypos"			"r53"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"160"
-		"tall"			"90"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
 				

@@ -29,19 +29,17 @@
 		"ypos"			"123"
 		"zpos"			"0"
 		"wide"			"140"
-		"tall"			"4"
+		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		""
-		"image"			"../hud/cart_track"
+		"image"			"../hud/cart_track_neutral_opaque"
 		"scaleImage"	"1"
 		
 		"if_multiple_trains"
 		{
 			"ypos"			"114"
 			"zpos"			"3"
-			"tall"			"12"
-			"image"			"../hud/cart_track_neutral_opaque"
 		}
 	}	
 	
@@ -71,23 +69,23 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"64"		
-		"ypos"			"116"
+		"xpos"			"72"		
+		"ypos"			"123"
 		"zpos"			"1"
-		"wide"			"18"
-		"tall"			"18"
+		"wide"			"2"
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_home_blue"
+		"image"			"../hud/panel_scalable_blue"
 		"scaleImage"	"1"	
 		
 		"if_team_red"
 		{
-			"image"			"../hud/cart_home_red"
+			"image"			"../hud/panel_scalable_red"
 		}
 		
 		"if_multiple_trains"
@@ -96,7 +94,7 @@
 			"zpos"			"5"
 			"wide"			"14"
 			"tall"			"14"
-			"image"			"../hud/cart_track_neutral_opaque"
+			"image"			"../hud/cart_point_neutral_opaque"
 		}
 		
 		"if_multiple_trains_top"
@@ -124,27 +122,28 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SimpleControlPointTemplate"	
-		"xpos"			"65"		
-		"ypos"			"116"	
+		"xpos"			"72"		
+		"ypos"			"123"	
 		"zpos"			"1"
-		"wide"			"18"		
-		"tall"			"18"
+		"wide"			"2"		
+		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		""
-		"image"			"../hud/cart_point_neutral"
+		"image"			"../hud/panel_scalable_red"
 		"scaleImage"	"1"	
 												
 		"if_multiple_trains"
 		{
-			"xpos"			"61"
+			"xpos"			"50"
 			"ypos"			"114"
 			"zpos"			"5"	
-			"wide"			"12"
+			"wide"			"2"
 			"tall"			"12"
+			"image"			"../hud/cart_point_neutral_opaque"
 		}
 	}
 
@@ -153,7 +152,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"EscortItemPanel"
 		"xpos"			"0"
-		"ypos"			"48"
+		"ypos"			"54"
 		"zpos"			"2"
 		"wide"			"52"		
 		"tall"			"75"		
@@ -173,10 +172,10 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
 			"font"			"ItemFontAttribSmallest"				
-			"xpos"			"23"		
-			"ypos"			"53"			
+			"xpos"			"22"		
+			"ypos"			"55"			
 			"zpos"			"2"
-			"wide"			"7"
+			"wide"			"8"
 			"tall"			"7"
 			"autoResize"	"0"
 			"pinCorner"		"0"
@@ -202,7 +201,7 @@
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"85"
 			}
 		}
 		
@@ -310,7 +309,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Speed_Backwards"	
 			"xpos"			"23"
-			"ypos"			"53"
+			"ypos"			"55"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -332,12 +331,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"49"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"86"
 			}	
 		}
 		
@@ -346,7 +345,7 @@
 			"ControlName"	"ImagePanel"		
 			"fieldName"		"CapPlayerImage"
 			"xpos"			"20"
-			"ypos"			"52"
+			"ypos"			"55"
 			"zpos"			"3"
 			"wide"			"4"
 			"tall"			"8"
@@ -364,12 +363,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"45"
+				"ypos"			"48"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"81"
+				"ypos"			"85"
 			}	
 		}
 
@@ -377,9 +376,9 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
-			"font"			"ItemFontAttribSmall"
-			"xpos"			"25"
-			"ypos"			"53"
+			"font"			"MavenProRegular7"
+			"xpos"			"24"
+			"ypos"			"55"
 			"zpos"			"4"
 			"wide"			"20"
 			"tall"			"7"
@@ -394,7 +393,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"MavenProRegular8"
+				"font"			"MavenProRegular7"
 				"xpos"			"25"
 				"wide"			"30"
 				"tall"			"10"
@@ -402,12 +401,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"49"
 			}										
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"82"
+				"ypos"			"85"
 			}	
 		}
 		
@@ -416,7 +415,7 @@
 			"ControlName"	"ImagePanel"
 			"fieldName"		"Blocked"	
 			"xpos"			"23"
-			"ypos"			"53"
+			"ypos"			"56"
 			"zpos"			"2"
 			"wide"			"7"
 			"tall"			"7"
@@ -438,12 +437,12 @@
 			
 			"if_multiple_trains_top"
 			{
-				"ypos"			"46"
+				"ypos"			"49"
 			}	
 			
 			"if_multiple_trains_bottom"
 			{
-				"ypos"			"83"
+				"ypos"			"86"
 			}
 		}
 	
@@ -451,8 +450,8 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"			"EscortTeardrop"
-			"xpos"				"9"
-			"ypos"				"8"			
+			"xpos"				"9999"
+			"ypos"				"9999"			
 			"zpos"				"20"
 			"wide"				"65"			
 			"tall"				"42"			

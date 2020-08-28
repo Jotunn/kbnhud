@@ -8,7 +8,7 @@ Info and links
 **Made by a sniper main, for sniper mains.**
 (But it's good at other things too.)
 
-I made this HUD from the bones of KNHUD during my time as a Sniper in UGC, and decided to share it. Now has derivative elements from eveHUD, rayshud, OMPhud, and Gam3nHUD. The main theme is transparency and lack of backgrounds, with secondary focus on being in the focus area for snipers, at the center of the screen, as well as lots of included customization and easily edited colors.
+I made this HUD from the bones of KNHUD when I was a Sniper in UGC, and decided to share it. Now has derivative elements from eveHUD, rayshud, OMPhud, and Gam3nHUD. The main theme is transparency and lack of backgrounds, with secondary focus on being in the focus area for snipers, at the center of the screen, as well as lots of included customization and easily edited colors.
 
 [Steam Group, join for updates](http://steamcommunity.com/groups/KBNHud "KBNHud Steam Group")
 

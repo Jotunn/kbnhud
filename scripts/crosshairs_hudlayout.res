@@ -4,12 +4,12 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"Hudxhair1"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-101"
-		"ypos"			"c-96"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.486"
 		"wide"			"202"
 		"tall"			"198"
 
@@ -26,13 +26,13 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-101"
-		"ypos"			"c-96"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.487"
 		"wide"			"202"
 		"tall"			"198"
 
 		"font"			"Fogsxhair"
-		"labelText"		"`"
+		"labelText"		"f"
 		"fgcolor"		"255 255 255 255"
 		"textAlignment"	"center"
 	}
@@ -44,8 +44,8 @@
 		"enabled"		"1"
 		"zpos"			"1"
 
-		"xpos"			"c-25"
-		"ypos"			"c-24"
+		"xpos"			"cs-0.5066"
+		"ypos"			"cs-0.494"
 		"wide"			"50"
 		"tall"			"50"
 

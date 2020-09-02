@@ -542,11 +542,11 @@ Scheme
 				"outline"	"1"
 			}
 		}
-		"Xhair"
+		"xhairs"
 		{
 			"1"
 			{
-			"name"		"Courier"
+			"name"		"xhairs"
 			"tall"		"20"
 			"weight"	"0"
 			"range"		"0x0000 0x017F"

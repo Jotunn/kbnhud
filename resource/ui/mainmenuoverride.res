@@ -494,7 +494,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KBNHudLabel"
 		"font"			"MavenProBold24"
-		"labelText"		"KBNHud v448"
+		"labelText"		"KBNHud v449"
 		"textAlignment"	"west"
 		"xpos"			"51"
 		"ypos"			"31"
@@ -5323,5 +5323,133 @@
 			"angles_y"		"130"
 			"angles_z"		"0"
 		}
+	}
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Preload icons so that they work in casual/comp
+	// Idea courtesy of Sevin and Wiethoofd, Thanks Whisker for the help!
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Payload - General
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"cart_blue"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_blue"
+	}
+	
+	"cart_blue_bottom"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_blue_bottom"
+	}
+	
+	"cart_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_red"
+	}
+	
+	"cart_red_bottom"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_red_bottom"
+	}
+	
+	"cart_neutral"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_neutral"
+	}
+	
+	"cart_neutral_bottom"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_neutral_bottom"
+	}
+	
+	"cart_point_neutral_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_point_neutral_opaque"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Payload - PLR
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"cart_point_blue"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_point_blue"
+	}
+	
+	"cart_point_red"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_point_red"
+	}
+	
+	"cart_track_blue_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_track_blue_opaque"
+	}
+	
+	"cart_track_neutral_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_track_neutral_opaque"
+	}
+	
+	"cart_track_red_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_track_red_opaque"
+	}
+	
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Payload - PL
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	
+	"cart_home_blue_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_home_blue_opaque"
+	}
+	
+	"cart_point_blue_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_point_blue_opaque"
+	}
+	
+	"cart_point_red_opaque"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_point_red_opaque"
+	}
+	
+	"cart_track"
+	{
+		"ControlName"												"ImagePanel"
+		"ypos"														"r-6969"
+		"image"														"..\hud\cart_track"
 	}
 }

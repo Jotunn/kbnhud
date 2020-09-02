@@ -13,7 +13,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}	
 	
@@ -30,7 +30,7 @@
 		"tall"			"14"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}	
 	

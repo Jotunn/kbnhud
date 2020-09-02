@@ -58,7 +58,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}
 	
@@ -75,7 +75,7 @@
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"west"	
 		"labelText"		"%currency%"
 	}
 }

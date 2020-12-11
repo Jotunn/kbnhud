@@ -22,7 +22,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"SwitchLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"xpos"				"80"
 		"ypos"				"24"
 		"zpos"				"1"
@@ -40,7 +40,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"GoalLabel"
-		"font"				"HudFontSmall"
+		"font"				"MavenProRegular14"
 		"xpos"				"80"
 		"ypos"				"38"
 		"zpos"				"1"

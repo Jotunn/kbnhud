@@ -4,11 +4,11 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"40"
-		"ypos"				"10"
-		"zpos"				"2"
-		"wide"				"58"
-		"tall"				"8"
+		"xpos"				"38"
+		"ypos"				"18"
+		"zpos"				"7"
+		"wide"				"47"
+		"tall"				"19"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_blue_bg"	
@@ -17,22 +17,18 @@
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
+
 	}
 	
 	"TimePanelBGRed"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"TimePanelBG"
-		"xpos"				"102"
-		"ypos"				"10"
-		"zpos"				"2"
-		"wide"				"58"
-		"tall"				"8"
+		"xpos"				"115"
+		"ypos"				"18"
+		"zpos"				"7"
+		"wide"				"47"
+		"tall"				"19"
 		"visible"			"1"
 		"enabled"			"1"
 		"image"				"../hud/objectives_timepanel_red_bg"	
@@ -41,11 +37,7 @@
 		"src_corner_width"	"3"
 		"draw_corner_width"	"0"
 		"draw_corner_height" 	"0"
-		
-		if_match
-		{
-			"visible"	"0"
-		}
+	
 	}
 	
 	"HudKothTimeStatus"
@@ -61,9 +53,9 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"BlueTimer"
-		"xpos"				"14"
+		"xpos"				"6"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"8"
 		"wide"				"100"
 		"tall"				"150"
 		"visible"			"1"
@@ -75,26 +67,12 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProBlack14"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
-			"delta_item_x"			"10"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
-		
+	
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MavenProBold20"
+			"font"			"MavenProBlack20"
 			"xpos"			"33"
 			"ypos"			"11"
 			"zpos"			"3"
@@ -104,20 +82,8 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
+			"fgcolor_override"	"White"
 			
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"12"
-				"ypos"			"20"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"MavenProBold16"
-				"font_lodef"	"MavenProBold16"
-			
-			}
-		
 		}	
 	}
 
@@ -125,9 +91,9 @@
 	{
 		"ControlName"		"CTFHudTimeStatus"
 		"fieldName"			"RedTimer"
-		"xpos"				"76"
+		"xpos"				"83"
 		"ypos"				"0"
-		"zpos"				"2"
+		"zpos"				"8"
 		"wide"				"100"
 		"tall"				"150"
 		"visible"			"1"
@@ -139,26 +105,12 @@
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProBlack20"
-		
-		if_match
-		{
-			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"0"
-			"delta_item_x"			"50"
-			"delta_item_start_y"	"12"
-			"delta_item_end_y"		"50"
-			"PositiveColor"			"0 255 0 255"
-			"NegativeColor"			"255 0 0 255"
-			"delta_lifetime"		"1.5"
-			"delta_item_font"		"HudFontMediumSmall"
-		}
-		
+
 		"TimePanelValue"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"MavenProBold20"
+			"font"			"MavenProBlack20"
 			"xpos"			"33"
 			"ypos"			"11"
 			"zpos"			"3"
@@ -168,20 +120,7 @@
 			"enabled"		"1"
 			"textAlignment"		"center"
 			"labelText"		"0:00"
-			
-			if_match
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"56"
-				"ypos"			"20"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"MavenProBold16"
-				"font_lodef"	"MavenProBold16"
-			
-			}
-		
+			"fgcolor_override"	"White"
 		}	
 	}
 	
@@ -189,20 +128,20 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"ActiveTimerBG"
-		"xpos"				"40"
+		"xpos"				"45"
 		"ypos"				"35"
 		"zpos"				"1"
-		"wide"				"57"
+		"wide"				"40"
 		"tall"				"8"
-		"visible"			"1"
+		"visible"			"0"
 		"enabled"			"1"	
-		"fillcolor"			"255 255 255 155"
+		"fillcolor"			"255 255 255 0"
 		"PaintBackgroundType"		"0"
 		
 		if_match
-			{
-				"visible"	"0"
-			}
+		{
+			"visible"		"0"
+		}
 	
 	}
 }

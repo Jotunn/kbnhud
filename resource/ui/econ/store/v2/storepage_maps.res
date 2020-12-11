@@ -14,6 +14,7 @@
 			"itemmodelpanel"
 			{
 				"force_square_image"	"1"
+				"inventory_image_type" "1"
 			}
 		}
 	}
@@ -25,7 +26,7 @@
 	
 	"ClassFilterNavPanel"
 	{
-		"visible"			"0"
+		"visible"		"0"
 	}
 	
 	"ClassFilterLabel"
@@ -43,14 +44,29 @@
 		"visible"		"0"
 	}
 	
+	"NameFilterBG"
+	{
+		"visible"		"0"
+	}
+	
 	"SortFilterLabel"
+	{
+		"visible"		"0"
+	}
+	
+	"SubcategoryFilterBG"
 	{
 		"visible"		"0"
 	}
 	
 	"SortFilterComboBox"
 	{
-		"visible"			"0"
+		"visible"		"0"
+	}
+	
+	"SortFilterBG"
+	{
+		"visible"		"0"
 	}
 	
 	"TitleLabel"
@@ -60,7 +76,7 @@
 		"font"			"HudFontSmallBold"
 		"labelText"		"#Store_Maps_Title"
 		"textAlignment"	"north-west"
-		"xpos"			"c-292"
+		"xpos"			"c-301"
 		"ypos"			"20"
 		"zpos"			"5"
 		"wide"			"500"
@@ -69,17 +85,18 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"AllCaps"		"1"
 	}
 	
 	"SubTitleLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"StorePromotionsTitle"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
-		"xpos"			"c-292"
-		"ypos"			"30"
+		"xpos"			"c-301"
+		"ypos"			"35"
 		"zpos"			"5"
 		"wide"			"500"
 		"tall"			"25"
@@ -87,30 +104,42 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"AllCaps"		"1"
+		"fgcolor"		"White"
 	}
 	
 	"LearnMoreButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"LearnMoreButton"
-		"xpos"			"c175"
-		"ypos"			"20"
-		"zpos"			"15"
-		"wide"			"120"
-		"tall"			"25"
+		"xpos"			"c217"
+		"ypos"			"42"
+		"zpos"			"5"
+		"wide"			"90"
+		"tall"			"22"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"#Store_LearnMore"
+		"labelText"		"learn more"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"maps_learnmore"
+		"AllCaps"		"1"
+		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"paintBackground"	"0"
+		
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override"	"White"
+		
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
 	}	
 }

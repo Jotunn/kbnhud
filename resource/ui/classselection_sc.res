@@ -821,7 +821,7 @@
 		"labelText"		"#TF_ClassMenu_Reset"
 		"textAlignment"	"center"
 		"Command"		"resetclass"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold14"
 	}
 
 	"ClassMenuSelect"
@@ -892,8 +892,8 @@
 		"labelText"		"%hint%"
 		"textAlignment"	"left"
 		"wrap"			"1"
-		"font"			"HudFontMediumSmallSecondary"
-		"font_lodef"	"HudFontMediumSmallSecondary"
+		"font"			"MavenProRegular24"
+		"font_lodef"	"MavenProRegular24"
 		"fgcolor"		"HudTrainingHint"
 		"fgcolor_lodef"	"HudTrainingHint"
 	}
@@ -1184,7 +1184,7 @@
 		"tabPosition"	"0"
 		"labelText"		"#TF_TeamCount"
 		"textAlignment"	"left"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"MavenProRegular24"
 		"fgcolor"		"TanLight"
 	}
 	
@@ -1530,7 +1530,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"labelText"		"#TF_MvM_UpgradeExplanation_Title"
 			"textAlignment"	"north"
 			"xpos"			"20"
@@ -1549,7 +1549,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TextLabel"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"#TF_MvM_UpgradeExplanation_Text"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1579,7 +1579,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
@@ -1744,7 +1744,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"labelText"		"#CMenu_ClassHighlightPanel_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"10"
@@ -1763,7 +1763,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"ClassHighlightText"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"%ClassHighlightText%"
 			"textAlignment"	"north-west"
 			"xpos"			"20"
@@ -1793,7 +1793,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"labeltext"		""
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"

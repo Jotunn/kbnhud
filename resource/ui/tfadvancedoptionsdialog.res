@@ -19,7 +19,7 @@
 		"paintbackground"		"1"
 		"border"				"NoBorder" //"GrayDialogBorder"
 		//"border"				"CyanBorderThick"
-		"bgcolor_override"		"50 50 50 255"
+		"bgcolor_override"		"Black"
 		
 		"control_w"			"500"
 		"control_h"			"18"
@@ -33,7 +33,7 @@
 		"font"			"MavenProBlack22"
 		"labelText"		"Advanced Options" //#TF_AdvancedOptions
 		//"textAlignment"	"center"
-		"xpos"			"c-170"
+		"xpos"			"c-220"
 		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"500"
@@ -43,7 +43,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		//"fgcolor_override" "200 80 60 255"
-		"fgcolor_override" "TanLight"
+		"fgcolor_override" "White"
 	}
 	"CancelButton"
 	{
@@ -72,8 +72,8 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
+			"defaultBgColor_override"	"KBNBlueDark"
+			"armedBgColor_override"		"KBNBlueLight"
 			//"depressedBgColor_override"	"25 25 25 255"
 			//"defaultFgColor_override"	"TanLight"
 			//"armedFgColor_override" 	"TanLight"
@@ -108,8 +108,8 @@
 		
 		
 			"paintbackground"	"1"
-			"defaultBgColor_override"	"15 15 15 255"
-			"armedBgColor_override"		"25 25 25 255"
+			"defaultBgColor_override"	"KBNBlueDark"
+			"armedBgColor_override"		"KBNBlueLight"
 			//"depressedBgColor_override"	"25 25 25 255"
 			//"defaultFgColor_override"	"TanLight"
 			//"armedFgColor_override" 	"TanLight"
@@ -149,7 +149,7 @@
 		//"paintborder"			"1"
 		//"paintbackground"		"1"
 		//"border"				"GrayDialogBorder" //"NoBorder"
-		"bgcolor_override"		"25 25 25 255"
+		"bgcolor_override"		"Black"
 		
 		"TipLabel"
 		{
@@ -167,7 +167,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"White"
 			"wrap"			"1"
 			//"centerwrap"	"1"
 		}

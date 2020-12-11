@@ -19,15 +19,17 @@
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"23"
+		"ypos"		"16"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCasual"
 		"textAlignment"	"west"
-		"font"			"MavenProBold22"
-		"fgcolor_override"	"242 242 242 255"
+		"font"			"HudFontMedium"
+		"fgcolor_override"	"White"
+		
+		"AllCaps"		"1"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -37,23 +39,23 @@
 		"ControlName"	"CCasualCriteriaPanel"
 		"fieldName"		"criteria"
 		"xpos"			"-3"
-		"ypos"			"40"
+		"ypos"			"18"
 		"zpos"			"100"
 		"wide"			"f0"
-		"tall"			"f73"
+		"tall"			"360"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"ToolTipButtonHack"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ToolTipButtonHack"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"101"
-		"wide"			"f20"
-		"tall"			"20"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled"	"1"
@@ -66,11 +68,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"5"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"f20"
-		"tall"			"20"
+		"wide"			"255"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -87,10 +89,18 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"AllCaps"			"1"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"NewMenuBGDark"
+		"border_armed"				"NewMenuBGArmed"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}
 }

@@ -1,0 +1,301 @@
+//===========================================
+
+event FlagOutlineHide
+{
+	Animate OutlineImage	Alpha		"0"				Linear 0.0 0.1
+}
+
+// Local player flag pickup/drop
+event FlagOutline
+{
+	RunEvent FlagOutlineHide 0.0
+	Animate OutlineImage	Alpha		"255"			Linear 0.1 0.2
+	
+	Animate OutlineImage	Position	"c-100 260"		Linear 0.1 0.2		// "c-200 140"
+	Animate OutlineImage	Size		"200 100"		Linear 0.1 0.2		// "400 200"
+
+	//Animate OutlineImage	Position	"c-50 r137"		Linear 0.7 0.2
+	//Animate OutlineImage	Size		"100 50"		Linear 0.7 0.2
+	
+	Animate OutlineImage	Position	"c-22 r60"		Linear 0.7 0.2
+	Animate OutlineImage	Size		"44 22"			Linear 0.7 0.2
+	
+	Animate OutlineImage	Alpha		"0"				Linear 0.9 0.1
+}
+
+//===========================================
+
+// Spy Disguise
+event HudSpyDisguiseChanged
+{
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"			Linear 0.0 0.2
+	
+	
+	Animate PlayerStatusSpyOutlineImage		Position	"c-200 c-50"	Linear 0.0 0.2		// 200 200
+	Animate PlayerStatusSpyOutlineImage		Size		"200 200"		Linear 0.0 0.2		// 400 400
+
+	RunEvent HudSpyDisguiseHide	0.7
+}
+
+event HudSpyDisguiseHide
+{
+	Animate PlayerStatusSpyOutlineImage		Position	"c-290 r90"		Linear 0.0 0.2
+	Animate PlayerStatusSpyOutlineImage		Size		"40 40"			Linear 0.0 0.2
+	
+	Animate PlayerStatusSpyOutlineImage		Alpha		"0"				Linear 0.2 0.1
+}
+
+event HudSpyDisguiseFadeIn
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"255"			Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"40 40"			Linear 0.0 0.0
+}
+
+event HudSpyDisguiseFadeOut
+{
+	RunEvent HudSpyDisguiseChanged	0
+	Animate PlayerStatusSpyImage			Alpha		"0"				Linear 0.9 0.1	
+	//Animate PlayerStatusClassImage			Size		"0 0"			Linear 0.0 0.0
+}
+
+//===========================================
+
+// Active Timer BG Pulse
+event ActiveTimerBGPulse
+{
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.1 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.3 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.5 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 0.7 0.1
+	
+	Animate	ActiveTimerBG 	Alpha		"0"			Linear 0.9 0.1
+	Animate	ActiveTimerBG 	Alpha		"255"		Linear 1.1 0.1
+}
+
+event ActiveTimerHighlight
+{
+	Animate TimePanelValue FgColor	White		Linear 0.1 0.1
+	Animate TimePanelValue FgColor	Gray		Linear 0.3 0.1
+
+	Animate TimePanelValue FgColor	White		Linear 0.5 0.1
+	Animate TimePanelValue FgColor	Gray		Linear 0.7 0.1
+
+	Animate TimePanelValue FgColor	White		Linear 0.9 0.1
+	Animate TimePanelValue FgColor	Gray		Linear 1.1 0.1
+
+	Animate TimePanelValue FgColor	White		Linear 1.3 0.3
+	
+}
+
+event ActiveTimerDim
+{
+	// Slow fade out
+	Animate TimePanelValue FgColor	Gray		Linear 0.0 0.4
+}
+
+//===========================================
+
+//===========================================
+
+// Show the Overtime panel
+event OvertimeShow
+{
+	Animate OvertimeLabel				Alpha		"255"			Linear 0.0 0.1	
+	Animate OvertimeBG					Alpha		"255"			Linear 0.0 0.1	
+}
+
+
+event HudSnapShotReminderIn
+{
+	//Animate ScreenshotPanel		Position	"-200 0"	Linear 0.0 0.001
+	//Animate ScreenshotPanel		Position	"-5 0"	Spline 0.001 0.2
+	
+	//Animate ScreenshotPanel		Position	"-200 0"	Spline 2.5 0.1
+	
+	Animate ScreenshotPanel		Alpha		"0"			Linear 0.0 0.1
+	Animate ScreenshotPanel		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ScreenshotPanel		Alpha		"0"			Linear 2.5 0.1	
+}
+
+event HudReplayReminderIn	// Places the replay reminder in the same place as the snapshot reminder  // not anymore
+{
+	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
+	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
+	
+	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
+	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
+}
+
+event HudReplayReminderIn2	// Puts the panel below the snapshot panel
+{
+	//Animate ReplayReminder		Position	"-200 37"	Linear 0.0 0.001
+	//Animate ReplayReminder		Position	"-5 37"	Spline 0.001 0.2
+	
+	//Animate ReplayReminder		Position	"-200 37"	Spline 2.5 0.1
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 0.0 0.1
+	Animate ReplayReminder		Alpha		"255"		Linear 0.0 0.1	
+	
+	Animate ReplayReminder		Alpha		"0"			Linear 2.5 0.1
+}
+
+event HudReplayTipIn
+{
+	Animate ReplayTip			Position	"10 -100"	Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 6"		Spline 0.001 0.1
+}
+
+event HudReplayTipOut
+{
+	Animate ReplayTip			Position	"10 6"		Linear 0.0 0.001
+	Animate ReplayTip			Position	"10 -100"	Spline 0.001 0.1
+}
+
+//===========================================
+
+// Tournament Setup
+event HudTournamentSetupPanelOpen
+{
+	Animate HudTournamentSetup	Position	"c-65 -70"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-65 13"	Spline 0.001 0.2
+}
+
+event HudTournamentSetupPanelClose
+{
+	Animate HudTournamentSetup	Position	"c-65 13"	Linear 0.0 0.001
+	Animate HudTournamentSetup	Position	"c-65 -70"	Spline 0.001 0.2
+}
+
+//===========================================
+
+event TeamsFullArrowAnimate
+{
+	Animate TeamsFullArrow	Position	"c-80	256"		Linear	0	0
+	Animate TeamsFullArrow	Position	"c-100	256"		Linear	0	0.4
+	Animate TeamsFullArrow	Position	"c-80	256"		Linear	0.4	0.4
+	
+	RunEvent TeamsFullArrowAnimateLoop	0.8
+}
+
+event TeamsFullArrowAnimateLoop
+{
+	RunEvent TeamsFullArrowAnimate 0.0
+}
+
+event TeamsFullArrowAnimateEnd
+{
+	StopEvent TeamsFullArrowAnimate 0.0
+	StopEvent TeamsFullArrowAnimateLoop 0.0
+}
+
+//===========================================
+// Respec in Win
+event RespecEarnedPulse
+{
+        Animate        RespecTextLabelWin        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelWin        FgColor        "RedSolid"                Linear 0.3 0.4
+
+        
+        RunEvent RespecEarnedPulseLoop                0.5
+}
+
+event RespecEarnedPulseLoop
+{
+        RunEvent RespecEarnedPulse                        0.0
+}
+
+event RespecEarnedPulseEnd
+{
+        Animate        RespecTextLabelWin         FgColor                "TanLight"                Linear 0.0 0.1
+
+        
+        StopEvent RespecEarnedPulse                        0.0
+        StopEvent RespecEarnedPulseLoop                0.0
+}
+
+// Respec on Loss
+event RespecEarnedPulseLoss
+{
+        Animate        RespecTextLabelLoss        FgColor        "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss        FgColor        "RedSolid"                Linear 0.3 0.4
+
+        
+        RunEvent RespecEarnedPulseLoopLoss                0.5
+}
+
+event RespecEarnedPulseLoopLoss
+{
+        RunEvent RespecEarnedPulseLoss                        0.0
+}
+
+event RespecEarnedPulseEndLoss
+{
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+        Animate        RespecTextLabelLoss FgColor                "TanLight"                Linear 0.0 0.1
+
+        
+        StopEvent RespecEarnedPulseLoss                0.0
+        StopEvent RespecEarnedPulseLoopLoss        0.0
+}
+//===========================================
+
+event RDPositiveScorePulse
+{
+	Animate Score FgColor	"70 175 255 255"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+
+	Animate Score Position	"0 5"		Deaccel 0.0 0.05
+	Animate Score Position	"0 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+
+event RDNegativeScorePulse
+{
+	Animate Score FgColor	"RedSolid"		Linear 0.0 0.0
+	Animate Score FgColor	"White"			Linear 0.1 0.2
+
+	Animate Score Position	"0 5"		Deaccel 0.0 0.05
+	Animate Score Position	"0 10"		Accel 0.05 0.2
+
+	Animate ScoreShadow FgColor	"0 0 0 200"		Deaccel 0.0 0.05
+	Animate ScoreShadow FgColor	"0 0 0 255"		Accel 0.1 0.2
+}
+//============================================
+event TeamStatus_PlayerDead
+{
+	SetVisible DeathPanel  0 0
+	SetVisible SkullPanel  0 0
+	SetVisible respawntime  1 0
+
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 7 Accel 0 0.2
+}
+
+event TeamStatus_PlayerAlive
+{
+	Animate DeathPanel ypos 0 Accel 0 0.2
+	Animate SkullPanel ypos 0 Accel 0 0.2
+	Animate respawntime ypos 7 Accel 0 0.2
+
+	SetVisible DeathPanel  0 0.2
+	SetVisible SkullPanel  0 0.2
+	SetVisible respawntime 0 0.2
+}
+//============================================
+
+
+//==================================================================================
+// Do not move chat window
+event CompetitiveGame_LowerChatWindow	{ }
+event CompetitiveGame_RestoreChatWindow	{ }
+event HudTournament_MoveChatWindow 	{ }

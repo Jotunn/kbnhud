@@ -162,8 +162,8 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			""
 		"scaleImage"	"1"	
 	}

@@ -1,3 +1,5 @@
+//Changes damage numbers to a boldface font
+
 "Resource/UI/HudDamageAccount.res"
 {
 	"CDamageAccountPanel"

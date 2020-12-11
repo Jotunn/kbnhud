@@ -47,7 +47,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontsmallBold"
+		"font"			"MavenProBold14"
 		"fgcolor"		"Gray"
 	}
 	
@@ -68,7 +68,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"white"
 	}
 	
@@ -93,7 +93,7 @@
 		"wrap"			"0"
 		"command"		"continue"
 		"default"		"1"
-		"font"			"HudFontSmallBold"		//"MenuSmallFont"
+		"font"			"MavenProBold14"		//"MenuSmallFont"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
 		"sound_armed_minmode"		""

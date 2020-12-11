@@ -10,56 +10,6 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"MavenProMedium14"
 	}
-	
-	"AccountBG"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"AccountBG"
-		"xpos"			"5"
-		"ypos"			"103"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/misc_ammo_area_blue"
-		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_red"
-		"teambg_2_lodef"	"../hud/misc_ammo_area_red_lodef"
-		"teambg_3"		"../hud/misc_ammo_area_blue"
-		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"
-	}
-	
-	"MetalIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"19"
-		"ypos"			"145"
-		"zpos"			"1"
-		"wide"			"12"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"ProgressOffWhite"
-	}
-	"MetalIconBG"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"MetalIcon"
-		"xpos"			"20"
-		"ypos"			"146"
-		"zpos"			"1"
-		"wide"			"12"
-		"tall"			"12"
-		"visible"		"0"
-		"enabled"		"0"
-		"scaleImage"	"1"	
-		"icon"			"ico_metal"
-		"iconColor"		"Black"
-	}
 	"AccountValue"
 	{
 		"ControlName"	"CExLabel"
@@ -79,7 +29,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"MavenProMedium16"
-		"fgcolor_override"	"255 255 255 255"
+		"fgcolor_override"	"Metal Base"
 	}
 	"AccountValueShadow"
 	{
@@ -100,28 +50,29 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"MavenProMedium16"
-		"fgcolor_override"	"0 0 0 255"
+		"fgcolor_override"	"Metal Shadow"
+	}
+	"AccountBG"
+	{
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	
+	"MetalIcon"	
+	{
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"MetalIconBG"	
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"AccountValueBG"
 	{
-		"ControlName"	"CTFLabel"
-		"fieldName"		"AccountValue"
-		"xpos"			"21"
-		"ypos"			"151"
-		"zpos"			"2"
-		"wide"			"55"
-		"tall"			"26"
-		"autoResize"	"1"
-		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"%metal%"
-		"textAlignment"	"center"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"font"			"HudFontMediumSmall"
-		"font_lodef"	"HudFontMedium"
-		"fgcolor"		"Black"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 }

@@ -24,7 +24,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 		"RoundedCorners"	"0"
-		"font"			"HudFontSmallest"
+		"font"			"MavenProRegular11"
 		"keyboardinputenabled"	"0"
 		"mouseinputenabled"		"0"
 		"skip_autoresize"	"1"

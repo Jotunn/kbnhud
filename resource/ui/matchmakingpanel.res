@@ -66,7 +66,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"QuestLogTitle"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"labelText"		"#TF_Matchmaking_Title"
 			"textAlignment"	"north-west"
 			"xpos"			"105"
@@ -107,7 +107,7 @@
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"HudFontSmallestBold"
+				"font"			"MavenProBold11"
 				//"fgcolor_override"	"89 81 71 255"
 				"textAlignment"	"west"
 				"labelText"		"MODE:"
@@ -118,7 +118,7 @@
 			{
 				"ControlName"		"ComboBox"
 				"fieldName"			"ModeComboBox"
-				"Font"				"HudFontSmallestBold"
+				"Font"				"MavenProBold11"
 				"xpos"				"62"
 				"ypos"				"36"
 				"zpos"				"2"
@@ -158,7 +158,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold14"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_StartSearch"
 				"dulltext"		"0"
@@ -182,7 +182,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold14"
 				"textAlignment"	"center"
 				"labelText"		"#TF_Matchmaking_CancelSearch"
 				"dulltext"		"0"
@@ -213,7 +213,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"SearchActiveTitle"
-				"font"			"HudFontMediumBold"
+				"font"			"MavenProBlack24"
 				"labelText"		"#TF_Matchmaking_Searching"
 				"xpos"		"30"
 				"ypos"		"20"
@@ -230,7 +230,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"NearbyColumnHead"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Nearby"
 				"xpos"		"190"
 				"ypos"		"50"
@@ -246,7 +246,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"WorldwideColumnHead"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Worldwide"
 				"xpos"		"280"
 				"ypos"		"50"
@@ -262,7 +262,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold14"
 				"labelText"		"#TF_Matchmaking_ActivePlayers"
 				"xpos"		"30"
 				"ypos"		"70"
@@ -278,7 +278,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameTotalLabel"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Total"
 				"xpos"		"60"
 				"ypos"		"90"
@@ -294,7 +294,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameTotalNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"190"
 					"ypos"		"90"
 					"zpos"			"2"
@@ -310,7 +310,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameTotalWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"180"
 					"ypos"		"90"
 					"zpos"			"2"
@@ -326,7 +326,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersInGameMatchingLabel"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Compatible"
 				"xpos"		"60"
 				"ypos"		"110"
@@ -342,7 +342,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"190"
 					"ypos"		"110"
 					"zpos"			"2"
@@ -358,7 +358,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersInGameMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"180"
 					"ypos"		"110"
 					"zpos"			"2"
@@ -374,7 +374,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold14"
 				"labelText"		"#TF_Matchmaking_SearchingPlayers"
 				"xpos"		"30"
 				"ypos"		"140"
@@ -390,7 +390,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingTotalLabel"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Total"
 				"xpos"		"60"
 				"ypos"		"160"
@@ -406,7 +406,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingTotalNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"190"
 					"ypos"		"160"
 					"zpos"			"2"
@@ -422,7 +422,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingTotalWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"180"
 					"ypos"		"160"
 					"zpos"			"2"
@@ -438,7 +438,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"PlayersSearchingMatchingLabel"
-				"font"			"HudFontSmall"
+				"font"			"MavenProRegular14"
 				"labelText"		"#TF_Matchmaking_Compatible"
 				"xpos"		"60"
 				"ypos"		"180"
@@ -454,7 +454,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"190"
 					"ypos"		"180"
 					"zpos"			"2"
@@ -470,7 +470,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PlayersSearchingMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"180"
 					"ypos"		"180"
 					"zpos"			"2"
@@ -486,7 +486,7 @@
 			{
 				"ControlName"		"CExLabel"
 				"fieldName"		"EmptyGameserversLabel"
-				"font"			"HudFontSmallBold"
+				"font"			"MavenProBold14"
 				"labelText"		"#TF_Matchmaking_EmptyGameservers"
 				"xpos"		"30"
 				"ypos"		"210"
@@ -502,7 +502,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"EmptyGameserversMatchingNearbyValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"190"
 					"ypos"		"210"
 					"zpos"			"2"
@@ -518,7 +518,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"EmptyGameserversMatchingWorldwideValue"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"xpos"		"180"
 					"ypos"		"210"
 					"zpos"			"2"
@@ -562,7 +562,7 @@
 				{
 					"ControlName"		"CExLabel"
 					"fieldName"		"PartyHasLeaverLabel"
-					"font"			"HudFontSmall"
+					"font"			"MavenProRegular14"
 					"labelText"		"#TF_Matchmaking_PartyPenalty"
 					"xpos"		"60"
 					"ypos"		"0"

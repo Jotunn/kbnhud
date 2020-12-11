@@ -5,7 +5,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusFlagPanel"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-30"
 		"zpos"				"1"
 		"wide"				"f0"
 		"tall"				"480"
@@ -40,6 +40,10 @@
 		{
 			"visible"	"0"
 		}
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 		
 	"RightSideBG"
@@ -60,6 +64,10 @@
 			"visible"	"0"
 		}
 		"if_mvm"
+		{
+			"visible"	"0"
+		}
+		"if_specialdelivery"
 		{
 			"visible"	"0"
 		}
@@ -87,6 +95,10 @@
 		{
 			"visible"	"0"
 		}
+		"if_specialdelivery"
+		{
+			"visible"	"0"
+		}
 	}
 	
 	"BlueScore"
@@ -94,7 +106,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScore"
 		"xpos"			"c-85"
-		"ypos"			"r47"
+		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -124,16 +136,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueScoreShadow"
-		"xpos"			"c-41"
-		"ypos"			"r49"
+		"xpos"			"c-84"
+		"ypos"			"r44"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"west"	
+		"textAlignment"	"center"	
 		"labelText"		"%bluescore%"
-		"font"			"MavenProBold30"
+		"font"			"MavenProBold18"
 		"fgcolor"		"Black"
 		
 		"if_hybrid"
@@ -155,8 +167,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScore"
-		"xpos"			"c35"
-		"ypos"			"r47"
+		"xpos"			"c34"
+		"ypos"			"r45"
 		"zpos"			"8"
 		"wide"			"50"
 		"tall"			"35"
@@ -186,16 +198,16 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedScoreShadow"
-		"xpos"			"c-6"
-		"ypos"			"r49"
+		"xpos"			"c35"
+		"ypos"			"r44"
 		"zpos"			"7"
 		"wide"			"50"
 		"tall"			"35"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"east"	
+		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"MavenProBold30"
+		"font"			"MavenProBold18"
 		"fgcolor"		"Black"		
 		
 		"if_hybrid"
@@ -233,7 +245,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"CarriedImage"
 		"xpos"			"c-20"
-		"ypos"			"r62"	[$WIN32]
+		"ypos"			"r85"	[$WIN32]
 		"zpos"			"10"
 		"wide"			"40"
 		"tall"			"40"
@@ -246,6 +258,11 @@
 		{
 			"ypos"		"r62"
 		}
+		"if_specialdelivery"		
+		{
+			"ypos"		"r85"
+			"visible"	"1"
+		}
 	}		
 	
 	"PlayingTo"
@@ -253,7 +270,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayingTo"
 		"xpos"			"c-70"	[$WIN32]
-		"ypos"			"r38"	[$WIN32]
+		"ypos"			"r35"	[$WIN32]
 		"zpos"			"4"
 		"wide"			"140"	[$WIN32]
 		"tall"			"30"
@@ -283,23 +300,16 @@
 			
 	"PlayingToBG"
 	{
-		"ControlName"	"CTFImagePanel"
+		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayingToBG"
-		"xpos"			"c-42"	[$WIN32]
-		"ypos"			"r31"	[$WIN32]
+		"xpos"			"c-51"	[$WIN32]
+		"ypos"			"r28"	[$WIN32]
 		"zpos"			"3"
-		"wide"			"84"	[$WIN32]
+		"wide"			"102"	[$WIN32]
 		"tall"			"17"	[$WIN32]
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"scaleImage"	"1"	
-		
-		"src_corner_height"	"40"		// pixels inside the image
-		"src_corner_width"	"40"
-		
-		"draw_corner_width"	"0"			// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"
+		"fillcolor"		"TransparentBlack"
 		
 		"if_hybrid"
 		{
@@ -349,8 +359,12 @@
 		{
 			"visible"	"0"
 		}
+		"if_specialdelivery"
+		{
+			"xpos"	"c-70"
+			"ypos"	"r53"
+		}
 	}
-			
 	"RedFlag"
 	{
 		"ControlName"	"CTFFlagStatus"
@@ -384,6 +398,11 @@
 		{
 			"visible"	"0"
 		}
+		"if_specialdelivery"
+		{
+			"xpos"	"c-70"
+			"ypos"	"r53"
+		}
 	}	
 			
 	"CaptureFlag"
@@ -391,7 +410,7 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"CaptureFlag"
 		"xpos"			"c-30"
-		"ypos"			"r80"	[$WIN32]
+		"ypos"			"r105"	[$WIN32]
 		"zpos"			"5"
 		"wide"			"60"
 		"tall"			"60"
@@ -401,6 +420,10 @@
 		"if_hybrid"
 		{
 			"ypos"		"r80"
+		}
+		"if_specialdelivery"
+		{
+			"ypos"		"r105"
 		}
 	}
 	"PoisonIcon"
@@ -431,7 +454,7 @@
 		"enabled"		"1"
 		"textAlignment"	"center"	
 		"labelText"		"%redscore%"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"TanLight"
 	}
 	"SpecCarriedImage"

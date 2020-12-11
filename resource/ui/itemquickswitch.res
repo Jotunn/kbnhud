@@ -88,7 +88,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CaratLabel"
-		"font"				"HudFontSmallestBold"
+		"font"				"MavenProBold11"
 		"labelText"			">>"
 		"textAlignment"		"west"
 		"xpos"				"27"
@@ -106,7 +106,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
 		"xpos"			"42"
@@ -124,7 +124,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemSlotLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"85"

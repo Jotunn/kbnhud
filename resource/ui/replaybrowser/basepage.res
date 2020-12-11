@@ -38,7 +38,7 @@
 		"tabPosition"	"0"
 		"fgcolor_override"		"255 255 255 255"
 		"bgcolor_override"		"117 107 94 255"
-		"Font"			"HudFontSmallest"
+		"Font"			"MavenProRegular11"
 	}
 
 	"ReplayList"

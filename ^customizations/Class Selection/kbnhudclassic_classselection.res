@@ -1,3 +1,5 @@
+//Switches class selection panel to the previous one KBN used
+
 "Resource/UI/ClassSelection.res"
 {
 	"class"

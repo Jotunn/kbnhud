@@ -5,12 +5,12 @@
 		"fieldName"				"MatchmakingCategoryPanel"
 		"xpos"					"0"
 		"ypos"					"0"
-		"wide"					"f0"
-		"tall"					"50"
+		"wide"					"250"
+		"tall"					"27"
 		"proportionaltoparent"	"1"
 
-		"collapsed_height"	"57"
-		"resize_time"	"0.2"
+		"collapsed_height"		"27"
+		"resize_time"			"0.1"
 	
 	}
 
@@ -33,7 +33,7 @@
 			"fieldName"		"BGColor"
 			"xpos"			"0"
 			"ypos"			"0"
-			"zpos"			"-1"
+			"zpos"			"0"
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
@@ -41,14 +41,14 @@
 			"mouseinputenabled"	"0"
 		
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 255"
+			"bgcolor_override"	"Black"
 		}
 
 		"BGImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"BGImage"
-			"xpos"			"0"
+			"xpos"			"9999"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"o4"
@@ -58,34 +58,32 @@
 			"scaleImage"	"1"	
 			"proportionaltoparent"	"1"
 		}
-
+		
 		"EntryToggleButton"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"EntryToggleButton"
-			"xpos"			"0"
-			"ypos"			"rs1"
+			"xpos"			"1"
+			"ypos"			"0"
 			"zpos"			"100"
-			"wide"			"f0"
-			"tall"			"9"
+			"wide"			"26"
+			"tall"			"26"
 			"proportionaltoparent"	"1"
 
 			"actionsignallevel"	"2"
 			"command"		"toggle_collapse"
-			"labeltext"		"#TF_Casual_ViewMaps"
-			"textAlignment"	"west"
-			"font"	"MMenuPlayListDesc"
-			"textinsetx"	"40"
+			"labeltext"		""
+			"textAlignment"	"center"
+			"font"	""
+			"textinsetx"	"9999"
 
 			"stay_armed_on_click"	"1"
+			
+			"paintbackground"	"0"
 
-			"border_default"	"NoBorder"
-			"defaultBgColor_override"	"235 226 202 20"
-
-			"border_armed"		"NoBorder"
-			"armedBgColor_override"	"LightOrange"
-			"selectedBGColor_override" "Orange"
-
+			"border_default"	"NewMenuBGDark"
+			"border_armed"		"NewMenuBGArmed"
+			
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -101,8 +99,8 @@
 				"xpos"			"6"
 				"ypos"			"cs-0.5"
 				"zpos"			"1"
-				"wide"			"o1"
-				"tall"			"p.9"
+				"wide"			"15"
+				"tall"			"15"
 				"visible"		"1"
 				"enabled"		"1"
 				"scaleImage"	"1"
@@ -123,7 +121,7 @@
 			"mouseinputenabled"	"0"
 
 			"proportionaltoparent"	"1"
-			"bgcolor_override"	"0 0 0 0"
+			"bgcolor_override"	"Black"
 		}
 
 		"Checkbutton"
@@ -131,13 +129,13 @@
 			"ControlName"		"CExCheckButton"
 			"fieldName"		"Checkbutton"
 			"xpos"		"r27"
-			"ypos"		"-1"
+			"ypos"		"3"
 			"zpos"		"3"
 			"wide"		"25"
 			"tall"		"20"
 			"proportionaltoparent"	"1"
 			"labeltext"		""
-			"smallcheckimage"	"1"
+			"smallcheckimage"	"0"
 
 			"sound_depressed"	"UI/buttonclickrelease.wav"	
 			"button_activation_type"	"1"
@@ -147,32 +145,33 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Title"
-			"xpos"			"rs1-24"
-			"ypos"			"2"
+			"xpos"			"35"
+			"ypos"			"0"
 			"zpos"			"3"
-			"wide"			"200"
-			"tall"			"15"
+			"wide"			"180"
+			"tall"			"27"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"%title_token%"
-			"textinsetx"	"5"
 			"use_proportional_insets" "1"
-			"font"			"HudFontSmallestBold"
-			"textAlignment"	"east"
+			"font"			"HudFontMediumSmallBold"
+			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
-
-			"fgcolor"		"TanLight"
+			
+			"AllCaps"		"1"
+			
+			"fgcolor"		"White"
 		}	
 
 		"TitleShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleShadow"
-			"xpos"			"rs1-23"
+			"xpos"			"9999"
 			"ypos"			"3"
 			"zpos"			"2"
 			"wide"			"200"
@@ -189,8 +188,10 @@
 			"default"		"1"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
+			
+			"AllCaps"		"1"
 
-			"fgcolor_override"		"7 7 7 255"
+			"fgcolor_override"		"Black"
 		}
 
 		"DescLabel"
@@ -200,7 +201,7 @@
 			"font"			"MMenuPlayListDesc"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-5"
+			"xpos"			"9999"
 			"ypos"			"18"
 			"zpos"			"2"
 			"wide"			"120"
@@ -211,7 +212,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "TanLight"
+			"fgcolor_override" "TanDark"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -223,7 +224,7 @@
 			"font"			"MMenuPlayListDesc"
 			"labelText"		"%desc_token%"
 			"textAlignment"	"north-west"
-			"xpos"			"rs1-4"
+			"xpos"			"9999"
 			"ypos"			"19"
 			"zpos"			"1"
 			"wide"			"120"
@@ -234,7 +235,7 @@
 			"enabled"		"1"
 
 			"wrap"			"1"
-			"fgcolor_override" "7 7 7 255"
+			"fgcolor_override" "Black"
 			"proportionaltoparent" "1"
 			"mouseinputenabled"	"0"
 		}
@@ -244,11 +245,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlaylistBGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"p1.17-2"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
-		"wide"			"p1.5"
-		"tall"			"1000"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		"InnerShadowBorder"
@@ -269,13 +270,13 @@
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
 
-		"border"		"InnerShadowBorder"
+		"border"		"NoBorder"
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
 
 		"skip_autoresize"	"1"
 
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"DarkBG"
 	}
 }

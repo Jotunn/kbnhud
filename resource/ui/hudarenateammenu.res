@@ -53,18 +53,18 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"MapName"
-		"xpos"			"c-250"
-		"ypos"			"158"
+		"xpos"			"9999" //c-250
+		"ypos"			"9999"  //158
 		"wide"			"500"
 		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"labelText"		""
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"brighttext"	"1"
 	}
 	
@@ -85,7 +85,7 @@
 		"labelText"		"1. FIGHT!"
 		"textAlignment"	"center"
 		"command"		"jointeam spectate"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"184 56 59 0"
@@ -117,7 +117,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam spectatearena"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"50 50 50 0"
@@ -136,22 +136,22 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-55"
-		"ypos"			"290"
+		"xpos"			"9999" //c-55
+		"ypos"			"9999"  //290
 		"zpos"			"6"
 		"wide"			"110"
 		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"2"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"labelText"		"#TF_Cancel"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"cancelmenu"
-		"font"			"HudFontSmallbold"
+		"font"			"MavenProBold14"
 		
 		//"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"70 70 70 220"
@@ -315,7 +315,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"HudFontSmall"
+		"font"			"MavenProRegular14"
 		"fgcolor"		"white"
 	}			
 }

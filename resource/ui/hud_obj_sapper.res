@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_red"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"BuildBGSentry"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sapper"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"NotBuiltPanel"
@@ -87,6 +87,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"	"Not Built Label"
 		}
 	}
 	
@@ -153,9 +154,9 @@
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"2"
-				"ypos"			"3"
+				"ypos"			"6"
 				"wide"			"75"
-				"tall"			"23"				
+				"tall"			"19"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -164,7 +165,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"fgcolor_override"	"ProgressOffWhite"
-				"bgcolor_override"	"50 50 50 255"
+				"bgcolor_override"	"ProgressBackground"
 			}
 		}
 	
@@ -190,7 +191,7 @@
 				"enabled"		"1"
 				"scaleImage"	"1"	
 				"icon"			"obj_status_sentrygun_1"
-				"iconColor"		"255 255 255 255"
+				"iconColor"		"ProgressOffWhite"
 			}
 			
 			"TargetHealth"
@@ -209,7 +210,8 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"50 50 50 255"
+				"fgcolor_override"	"ProgressOffWhite"
+				"bgcolor_override"	"ProgressBackground"
 			}
 		}
 	}

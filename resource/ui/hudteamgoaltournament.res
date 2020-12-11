@@ -89,7 +89,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"MavenProRegular11"
 			"maxchars"		"-1"
 		}
 
@@ -126,7 +126,7 @@
 			"enabled"		"1"
 			"labelText"		""
 			"textAlignment"		"west"
-			"font"			"HudFontSmallestShadow"
+			"font"			"MavenProRegular11"
 			"maxchars"		"-1"
 		}
 	}	

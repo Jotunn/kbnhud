@@ -20,7 +20,9 @@
 		"tall"				"f0"
 
 		"proportionaltoparent"	"1"
-		"border"		"MainMenuBGBorder"
+		"paintbackground"		"1"
+		"border"		"NoBorder"
+		"BgColor_override"	"Black"
 	}
 
 	"Checkbutton"
@@ -35,6 +37,7 @@
 		"proportionaltoparent"	"1"
 		"labeltext"		""
 		"smallcheckimage"	"1"
+		"AllCaps"	"1"
 		"fgcolor"	"TanLight"	
 		"font"		"HudFontSmallBold"
 

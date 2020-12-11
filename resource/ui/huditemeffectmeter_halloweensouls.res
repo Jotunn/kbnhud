@@ -96,7 +96,7 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
+		"font"					"MavenProMedium24"
 		"proportionalToParent"	"1"	
 	}					
 }

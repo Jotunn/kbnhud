@@ -1,181 +1,253 @@
 "GameMenu"
 {
-	"ReplayBrowserButton"
-	{
-		"label" "Replays"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "replay/replayicon"
-	}
-	"DemoUIButton"
-	{
-		"label" "DemoUI"
-		"command" "engine demoui"
-		"subimage" "glyph_tv"
-	}
-	//"AchievementBrowserButton"
-	//{
-	//	"label" "#Achievements"
-	//	"command" "OpenAchievementsDialog"
-	//	"subimage" "glyph_achievements"
-	//	//"tooltip" "#GameUI_GameMenu_CreateServer"
-	//}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
-		"tooltip" "#MMenu_SteamWorkshop"
-	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
 			play ui/lul.mp3
+			echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@||||@@@@@@@@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@|||||||@@@@@@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@||||||||||@@@@@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@|||||||||@@@|||@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@||||||||||@@|||||||@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@|||||||||@@@|||||||||@@@@@@@@@@@@@@;
+			echo @@@@@@@@@|||||||||@@@@@||||||||||@@@@@@@@@@@@;
+			echo @@@@@@@||||||||||@@@@@@@@|||||||||@@@@@@@@@@@;
+			echo @@@@@@@@|||||||||@@@@@@@@@|||||||||@@@@@@@@@@;
+			echo @@@@@@@@@||||||||||@@@@@@@@@|||||||||@@@@@@@@;
+			echo @@@@@@@@@@@|||||||||@@@@@@@@@|||||||||@@@@@@@;
+			echo @@@@@@@@@@@@|||||||||@@@@@@@@|||||||||@@@@@@@;
+			echo @@@@@@@@@@@@@@|||||||||@@@@||||||||||@@@@@@@@;
+			echo @@@@@@@@@@@@@@@||||||||@@@|||||||||@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@||||||@@||||||||||@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@@||@@@|||||||||@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@@@@@@|||||||||@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@@@@@@@@|||||@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@@@@@@@@@|||@@@@@@@@@@@@@@@@@;
+			echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;
 			echo -------------------------------------------------------------------------------;
-			echo --------- To check for updates go to steamcommunity.com/groups/KBNHud ---------;
+			echo ------------------------------------KBNHud v5----------------------------------;
+			echo --------- To check for updates go to steamcommunity.com|groups|KBNHud ---------;
 			echo -------------------------------------------------------------------------------"
-		"label" ""
+		"label" 			""
+		"tooltip"			"Drums of Heaven Edition; December 11, 2020"
     }
-	
-	"AdvSettingsButton"
+	////////////////////////Left Column//////////////////////////
+	"Inventory"
 	{
-		"label"		"#MMenu_AdvOptions"
-		"command"	"opentf2options"
-		"subimage"	"glyph_adv_options"
-		"tooltip"	"#MMenu_OptionsHighlightPanel_Title"
+		"label" 			"G"
+		"command" 			"engine open_charinfo"
+		"tooltip"			"Inventory, Loadout, Stats"
 	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"GeneralStoreButton"
+	"MannCoStore"
 	{
-		"label" "#MMenu_Shop"
-		"command" "engine open_store"
-		"subimage" "glyph_store"
-		"tooltip" "#MMenu_StoreHighlightPanel_Title"
+		"label" 			"Ù"
+		"command" 			"engine open_store"
+		"tooltip" 			"Item Store"
+	}
+	"Settings"
+	{
+		"label"				"("
+		"tooltip"			"Options"
+		"command"			"OpenOptionsDialog"
+	}
+	"Quit"
+	{
+		"label"				"I"
+		"command"			"quit"
+		"tooltip"			"Quit"
+	}
+	/////////////////////Left Inside Column//////////////////////
+	"MutePlayers"
+	{
+		"label"				"k"
+		"command"			"OpenPlayerListDialog"
+		"tooltip" 			"#MMenu_MutePlayers"
+		"OnlyInGame"		"1"
+	}
+	"ReportPlayer"
+	{
+		"label"				","
+		"command"			"OpenReportPlayerDialog"
+		"tooltip" 			"Report Player"
+		"OnlyInGame"		"1"
+	}
+	"DamageColorsBG"
+	{
+		"command"			"engine"
+		"OnlyInGame"		"1"
+	}
+	"DamageWhite"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 227; hud_combattext_green 228; hud_combattext_blue 230"
+		"OnlyInGame"		"1"
+	}
+	"DamageYellow"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 230; hud_combattext_blue 60"
+		"OnlyInGame"		"1"
+	}
+	"DamageRed"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 190; hud_combattext_green 85; hud_combattext_blue 85"
+		"OnlyInGame"		"1"
+	}
+	"DamageRedd"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 61; hud_combattext_blue 61"
+		"OnlyInGame"		"1"
+	}
+	"DamageGreen"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 139; hud_combattext_green 229; hud_combattext_blue 36"
+		"OnlyInGame"		"1"
+	}
+	"DamageBlu"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 119; hud_combattext_green 157; hud_combattext_blue 177"
+		"OnlyInGame"		"1"
+	}
+	"DamageBlue"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 80; hud_combattext_green 150; hud_combattext_blue 255"
+		"OnlyInGame"		"1"
+	}
+	"DamageMagenta"
+	{
+		"label" 			"ð"
+		"command" 			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 110; hud_combattext_blue 255"
+		"OnlyInGame"		"1"
+	}
+	"ScoreboardToggle"
+	{
+		"label" 			"Ñ"
+		"command" 			"engine toggle cl_hud_minmode"
+		"tooltip" 			"Change scoreboard"
+		"OnlyInGame" 		"1"
+	}
+	"AdvancedSettings"
+	{
+		"label"				")"
+		"command"			"opentf2options"
+		"tooltip"			"Advanced Options"
 	}	
-	"CharacterSetupButton"
+	"Disconnect"
 	{
-		"label" "Items"
-		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"label"				"H"
+		"command"			"engine disconnect"
+		"tooltip"			"Disconnect"
+		"OnlyInGame"		"1"
 	}
-
-	// These buttons are only shown while in-game
-	// and also are positioned by the .res file
-	"QuitButtonHidden"
+	///////////////////////Center Column////////////////////////
+	"ReloadScheme"
 	{
-		"label"			"#TF_Quit_Title"
-		"command"		"quit"
-		"subimage"		"glyph_close_X"
-		"OnlyInGame"	"1"
+		"label" 			"8"
+		"command" 			"engine vgui_cache_res_files 0;hud_reloadscheme"
+		"tooltip" 			"Reload HUD"
+		"OnlyInGame"		"1"
 	}
-	"CallVoteButton"
+	"FixSound"
 	{
-		"label"			""
-		"command"		"callvote"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
-		"OnlyInGame"	"1"
+		"label" 			"k"
+		"command" 			"engine snd_restart"
+		"tooltip" 			"Reload Sound"
+		"OnlyInGame"		"1"
 	}
-	"MutePlayersButton"
+	"FixInvisiblePlayers"
 	{
-		"label"			""
-		"command"		"OpenPlayerListDialog"
-		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
-		"OnlyInGame"	"1"
+		"label" 			"B"
+		"command" 			"engine stop; record fix; stop"
+		"tooltip" 			"Fix Invisible Players"
+		"OnlyInGame"		"1"
 	}
-	"RequestCoachButton"
+	"ToggleNetgraph"
 	{
-		"label"			""
-		"command"		"engine cl_coach_find_coach"
-		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
-		"OnlyInGame"	"1"
-	}	
-	"Scoreboard"
-	{
-		"label" ""
-		"command" "engine toggle cl_hud_minmode"
-		"subimage"		"glyph_view"
-		"tooltip" "Change scoreboard"
-		"OnlyInGame" "1"
+		"label" 			"À"
+		"command" 			"engine toggle net_graph 1 0"
+		"tooltip" 			"Netgraph ON/OFF"
+		"OnlyInGame"		"1"
 	}
-	"ServerShortcutInfo"
+	"ToggleMatchHUD"
 	{
-		"command" "engine showconsole;echo;echo;echo;echo;echo;echo;echo;echo View the ReadMe.txt if you need help setting up your quick join shortcuts."
-		"tooltip" "Quick join shortcuts >>"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"C"
+		"command" 			"engine toggle tf_use_match_hud"
+		"tooltip" 			"Match HUD ON/OFF"
+		"OnlyInGame"		"1"
 	}
-	"ServerShortcut1"
+	"ToggleChat"
 	{
-		"label" "1"
-		"command" "engine ServerShortcut1"
-		"tooltip" "Join Server #1"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"û"
+		"command" 			"engine toggle hud_saytext_time 6 0"
+		"tooltip" 			"Chat ON/OFF"
+		"OnlyInGame"		"1"
 	}
-	"ServerShortcut2"
+	////////////////////Right Inside Column/////////////////////
+	"Twitch"
 	{
-		"label" "2"
-		"command" "engine ServerShortcut2"
-		"tooltip" "Join Server #2"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"a"
+		"command"			"watch_stream"
+		"tooltip"			"TF2 on Twitch"
 	}
-	"ServerShortcut3"
+	"Contracker"
 	{
-		"label" "3"
-		"command" "engine ServerShortcut3"
-		"tooltip" "Join Server #3"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"V"
+		"command"			"questlog"
+		"tooltip"			"Contracker"
 	}
-	"ServerShortcut4"
+	"DemoUI"
 	{
-		"label" "4"
-		"command" "engine ServerShortcut4"
-		"tooltip" "Join Server #4"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"Ï"
+		"command" 			"engine demoui"
+		"tooltip"			"Demo UI"
 	}
-	"ServerShortcut5"
+	"SteamWorkshop"
 	{
-		"label" "5"
-		"command" "engine ServerShortcut5"
-		"tooltip" "Join Server #5"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"b"
+		"command" 			"engine OpenSteamWorkshopDialog"
+		"tooltip" 			"Contribute to Steam Workshop"
 	}
-	"ServerShortcut6"
+	"Console"
 	{
-		"label" "6"
-		"command" "engine ServerShortcut6"
-		"tooltip" "Join Server #6"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"5"
+		"command"			"engine con_enable 1; toggleconsole"
+		"tooltip"			"Open Console"
 	}
-	"ServerShortcut7"
+	"Achievements"
 	{
-		"label" "7"
-		"command" "engine ServerShortcut7"
-		"tooltip" "Join Server #7"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"K"
+		"command"			"OpenAchievementsDialog"
+		"tooltip"			"View your Achievements"
 	}
-	"ServerShortcut8"
+	"CCOn"
 	{
-		"label" "8"
-		"command" "engine ServerShortcut8"
-		"tooltip" "Join Server #8"
-		//"OnlyAtMenu"	"1"
-		//"OnlyInGame"	"1"
+		"label" 			"N"
+		"command"			"engine closecaption 1;cc_subtitles 0;cc_lang clovervidiac;cc_predisplay_time 0"
+		"tooltip"			"Closed Captions ON"
+	}
+	"CCOff"
+	{
+		"label" 			"N"
+		"command"			"engine closecaption 0; cc_predisplay_time 0"
+		"tooltip"			"Closed Captions OFF"
+	}
+	///////////////////////Right Column/////////////////////////
+	"ServerBrowserButton"
+	{
+		"label" 			"M"
+		"command" 			"OpenServerBrowser"
+		"tooltip"			"Browse Servers"
+	}
+	"CreateServerButton"
+	{
+		"label"				"2"
+		"command"			"OpenCreateMultiplayerGameDialog"
+		"tooltip"			"Create Server"
 	}
 }

@@ -6,7 +6,7 @@
 		"fieldName"		"ModelContainer"
 		"xpos"			"cs-0.5"
 		"ypos"			"cs-0.5"
-		"zpos"			"3"		
+		"zpos"			"8"		
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
@@ -17,7 +17,7 @@
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"BelowModelParticlePanel"
 			"xpos"			"0"
-			"ypos"			"0"
+			"ypos"			"22"
 			"zpos"			"-1"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -29,7 +29,7 @@
 				"0"
 				{
 					"particle_xpos" "c0"
-					"particle_ypos" "c0"
+					"particle_ypos" "c-10"
 					"particle_scale" "3"
 					"particleName"	"rankup_base"
 					"start_activated" "0"
@@ -45,10 +45,10 @@
 			"ControlName"	"CBaseModelPanel"
 			"fieldName"		"RankModel"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5"
+			"ypos"			"cs-0.5-90"
 			"zpos"			"0"		
 			"wide"			"o1"
-			"tall"			"p0.12"
+			"tall"			"p0.20"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -108,8 +108,8 @@
 		{
 			"ControlName"	"CTFParticlePanel"
 			"fieldName"		"AboveModelParticlePanel"
-			"xpos"			"0"
-			"ypos"			"0"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5-90"
 			"zpos"			"1"
 			"wide"			"f0"
 			"tall"			"f0"
@@ -140,7 +140,7 @@
 				}
 				"2"
 				{
-					"particle_xpos" "c-8"
+					"particle_xpos" "c0"
 					"particle_ypos" "c0"
 					"particle_scale" "4"
 					"particleName"	"rankdown_base"
@@ -157,7 +157,7 @@
 			"ControlName"	"Button"
 			"fieldName"		"MedalButton"
 			"xpos"			"cs-0.5"
-			"ypos"			"cs-0.5+2"
+			"ypos"			"cs-0.5-90"
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"42"
@@ -175,11 +175,11 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"rs1"
-		"ypos"			"20"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"260"
-		"tall"			"f40"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"proportionaltoparent"	"1"
@@ -188,25 +188,25 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.5"
-			"tall"			"100"
+			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
+			"border"		"NewMenuSolidBG"
 		}
 
 		"NameLabel"
 		{
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
-			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
-			"zpos"			"100"
-			"tall"			"20"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5-120"
+			"wide"			"190"
+			"zpos"			"5"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"MavenProBold16"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"MavenProBold20"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -220,30 +220,26 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine1"
-			"xpos"			"65"
-			"ypos"			"19"
-			"wide"			"195"
-			"zpos"			"100"
-			"tall"			"20"
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.5-61"
+			"wide"			"200"
+			"zpos"			"5"
+			"tall"			"f0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"MavenProMedium10"
+			"fgcolor_override"	"White"
+			"textAlignment"	"center"
 			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"xpos"	"cs-0.5"
+				"ypos"	"cs-0.5"
+				"font"	"MavenProBlack20"
+				"wide"	"195"
+				"tall"	"20"
 			}
 		}
 
@@ -251,36 +247,34 @@
 		{
 			"ControlName"	"CAutoFittingLabel"
 			"fieldName"		"DescLine2"
-			"xpos"			"65"
-			"ypos"			"29"
+			"xpos"			"0"
+			"ypos"			"0"
 			"wide"			"195"
-			"zpos"			"100"
+			"zpos"			"5"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"font"			"MavenProBlack14"
+			"fgcolor_override"	"White"
+			"textAlignment"	"west"
 			"labelText"		"%desc2%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
-				"ypos"	"4"
-			}
-
-			"fonts"
-			{
-				"0"		"HudFontSmallestBold"
-				"1"		"StorePromotionsTitle"
-				"2"		"FontStorePrice"
+				"ypos"	"0"
+				"font"	"MavenProBlack20"
+				"wide"	"195"
+				"tall"	"20"
+				"textAlignment"	"north-west"
+				"textinsetx"	"0"
 			}
 
 			"colors"
 			{
 				"1"		"CreditsGreen"
-				"2"		"TanLight"
+				"2"		"White"
 			}
 		}
 
@@ -288,45 +282,49 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"rs1-10"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"240"
-			"tall"			"100"
+			"wide"			"f0"
+			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"			"rs1-10"
-				"ypos"			"-25"
+				"ypos"			"0"
 				"wide"			"p0.85"
+				"tall"			"f0"
 			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"58"
-				"ypos"			"rs1-40"
-				"wide"			"180"
-				"tall"			"30"
+				"xpos"			"0"
+				"ypos"			"0"
+				"wide"			"f0"
+				"tall"			"f0"
 				"proportionaltoparent"	"1"
-
-	
+				
+				if_mini
+				{
+					
+				}
 
 				"CurrentXPLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"CurrentXPLabel"
 					"xpos"			"0"
-					"ypos"			"rs1"
-					"zpos"			"0"
+					"ypos"			"13"
+					"zpos"			"8"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"MavenProMedium10"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 				}
@@ -335,16 +333,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"NextLevelXPLabel"
-					"xpos"			"rs1"
-					"ypos"			"rs1"
-					"zpos"			"0"
+					"xpos"			"r100"
+					"ypos"			"13"
+					"zpos"			"8"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"MavenProMedium10"
+					"font"			"MavenProMedium8"
 					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-east"
+					"textAlignment"	"east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 				}
@@ -354,39 +352,64 @@
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
 					"xpos"			"0"
-					"ypos"			"rs1-10"
-					"wide"			"p1"
-					"tall"			"7"
+					"ypos"			"0"
+					"wide"			"f0"
+					"tall"			"f0"
 					"proportionaltoparent"	"1"
+					
+					if_mini
+					{
+						"tall"			"7"
+					}
 
 					"ProgressBar"
 					{
 						"ControlName"	"ProgressBar"
 						"fieldName"		"ProgressBar"
 						"xpos"			"0"
-						"ypos"			"cs-0.5"
+						"ypos"			"21"
 						"wide"			"f0"
-						"tall"			"f-2"
+						"tall"			"5"
 						"zpos"			"1"
 						"proportionaltoparent"	"1"
 						"progress"		"1"
 
-						"fgcolor_override"	"20 20 20 180"
-						"bgcolor_override"	"0 0 0 0"
+						"fgcolor_override"	"KBNBlueDark"
+						"bgcolor_override"	"KBNBlueDark"
+						
+						if_mini
+						{
+							"xpos"			"0"
+							"ypos"			"0"
+							"wide"			"f0"
+							"tall"			"f0"
+							"zpos"			"5"
+						}
 					}
 
 					"ContinuousProgressBar"
 					{
 						"ControlName"	"ContinuousProgressBar"
 						"fieldName"		"ContinuousProgressBar"
-						"xpos"			"cs-0.5"
-						"ypos"			"cs-0.5"
-						"wide"			"f2"
-						"tall"			"f2"
+						"xpos"			"0"
+						"ypos"			"21"
+						"zpos"			"6"
+						"wide"			"f0"
+						"tall"			"5"
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"		"KBNBlueLight"
+						
+						if_mini
+						{
+							"xpos"			"0"
+							"ypos"			"0"
+							"wide"			"f0"
+							"tall"			"f0"
+							"zpos"				"6"
+							"fgcolor_override"	"KBNBlueLight"
+						}
 					}
 
 					"Frame"
@@ -394,12 +417,28 @@
 						"Controlname"	"EditablePanel"
 						"fieldName"		"Frame"
 						"xpos"			"0"
-						"ypos"			"0"
+						"ypos"			"21"
 						"wide"			"f0"
-						"tall"			"f0"
+						"tall"			"5"
 						"zpos"			"5"
 						"proportionaltoparent"	"1"
-						"border"		"InnerShadowBorderThin"
+						"PaintBackgroundType"	"2"
+						"bgcolor_override"		"Grey"
+						"border"				"MainMenuSubButtonBorder"
+						"visible"				"0"
+						
+						if_mini
+						{
+							"Controlname"	"EditablePanel"
+							"fieldName"		"Frame"
+							"xpos"			"0"
+							"ypos"			"0"
+							"wide"			"f0"
+							"tall"			"f0"
+							"zpos"			"4"
+							"proportionaltoparent"	"1"
+							"border"		"InnerShadowBorderThin"
+						}
 					}
 				}
 			}
@@ -409,12 +448,16 @@
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
 				"xpos"			"0"
-				"ypos"			"63"
+				"ypos"			"0"
 				"wide"			"f0"
-				"tall"			"p0.35"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
+				"if_mini"
+				{
+					"visible"		"0"
+				}
 
 				"Frame"
 				{
@@ -425,7 +468,7 @@
 					"zpos"			"10"
 					"wide"			"f0"
 					"tall"			"f0"
-					"visible"		"1"
+					"visible"		"0"
 					"proportionaltoparent"	"1"
 					"border"		"InnerShadowBorder"
 				}
@@ -437,16 +480,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"8"
-					"ypos"			"2"
+					"xpos"			"cs-3"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
 				}
@@ -455,16 +498,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"8"
-					"ypos"			"12"
+					"xpos"			"cs-2.2"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
 				}
@@ -473,16 +516,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"8"
-					"ypos"			"22"
+					"xpos"			"cs-1.4"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
 				}
@@ -492,16 +535,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-28"
-					"ypos"			"2"
+					"xpos"			"cs-0.5"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
 				}
@@ -510,16 +553,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-28"
-					"ypos"			"12"
+					"xpos"			"cs0.4"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
 				}
@@ -528,16 +571,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-28"
-					"ypos"			"22"
+					"xpos"			"cs1.2"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
 				}
@@ -547,16 +590,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1+40"
-					"ypos"			"2"
+					"xpos"			"cs2"
+					"ypos"			"13"
 					"zpos"			"0"
 					"wide"			"100"
 					"tall"			"20"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"MavenProMedium8"
+					"fgcolor_override"	"White"
+					"textAlignment"	"center"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}

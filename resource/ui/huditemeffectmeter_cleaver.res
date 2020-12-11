@@ -71,7 +71,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 	}	
-		"BG"
+	"BG"
 	{
 		"ControlName"			"ImagePanel"
 		"fieldName"				"BG"

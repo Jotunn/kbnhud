@@ -2,7 +2,7 @@ Scheme
 {
 	Fonts
 	{
-		"DefaultHitmarker"
+		"AimGuide"
 		{
 			"1"
 			{
@@ -12,545 +12,446 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"CODHitmarker"
+		"Size:10 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"		"xhairs"
-				"tall"		"4"
-				"weight"	"500"
-				"additive"	"0"
-				"antialias"	"1"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"Fogsxhair"
+		"Size:11 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"		"Crosshairs"
-				"tall"		"28"
-				"weight"	"0"
-				"additive"	"0"
-				"outline"   "0"
-				"antialias"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"11"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"KnucklesCrosses"
+		"Size:12 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"		"KnucklesCrosses"
-				"tall"		"11"
-				"weight"	"0"
-				"additive"	"0"
-				"outline" "1"
-				"antialias"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"KonrWings24"
+		"Size:13 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"			"Garm3nFont"
+				"name"			"TF2Crosshairs"
+				"tall"			"13"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:14 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"14"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:15 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"15"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:16 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:17 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"17"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:18 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:19 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"19"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:20 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"20"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:21 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"21"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:22 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"22"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:23 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
+				"tall"			"23"
+				"weight"		"0"
+				"antialias"		"1"
+			}
+		}
+		"Size:24 | Outline:OFF"
+		{
+			"1"
+			{
+				"name"			"TF2Crosshairs"
 				"tall"			"24"
 				"weight"		"0"
 				"antialias"		"1"
 			}
 		}
-		"size: 10, outline: off"
+		"Size:25 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"10"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"25"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 11, outline: off"
+		"Size:26 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"11"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"26"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 12, outline: off"
+		"Size:27 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"12"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"27"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 13, outline: off"
+		"Size:28 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"13"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"28"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 14, outline: off"
+		"Size:29 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"14"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"29"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 15, outline: off"
+		"Size:30 | Outline:OFF"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"15"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"30"
+				"weight"		"0"
+				"antialias"		"1"
 			}
 		}
-		"size: 16, outline: off"
+		
+		"Size:10 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"16"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"10"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 17, outline: off"
+		"Size:11 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"17"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"11"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 18, outline: off"
+		"Size:12 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"18"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"12"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 19, outline: off"
+		"Size:13 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"19"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"13"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 20, outline: off"
+		"Size:14 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"20"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"14"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 21, outline: off"
+		"Size:15 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"21"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"15"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 22, outline: off"
+		"Size:16 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"22"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"16"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 23, outline: off"
+		"Size:17 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"23"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"17"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 24, outline: off"
+		"Size:18 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"24"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"18"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 25, outline: off"
+		"Size:19 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"25"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"19"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 26, outline: off"
+		"Size:20 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"20"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 27, outline: off"
+		"Size:21 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"21"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 28, outline: off"
+		"Size:22 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"28"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"22"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 29, outline: off"
+		"Size:23 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"29"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"23"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 30, outline: off"
+		"Size:24 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"30"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"24"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 31, outline: off"
+		"Size:25 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"31"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"25"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 32, outline: off"
+		"Size:26 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"32"
-				"antialias" "1"
-				"additive"	"0"
-				"outline"	"0"
+				"name"			"TF2Crosshairs"
+				"tall"			"26"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 12, outline: on"
+		"Size:27 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"12"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"27"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 13, outline: on"
+		"Size:28 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"13"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"28"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 14, outline: on"
+		"Size:29 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"14"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"29"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
-		"size: 15, outline: on"
+		"Size:30 | Outline:ON"
 		{
 			"1"
 			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"15"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 16, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"16"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 17, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"17"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 18, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"18"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 19, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"19"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 20, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"20"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 21, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"21"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 22, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"22"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 23, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"23"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 24, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"24"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 25, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"25"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 26, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 27, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"26"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 28, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"28"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 29, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"29"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 30, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"30"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 31, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"31"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"size: 32, outline: on"
-		{
-			"1"
-			{
-				"name"	"broeselhud Crosshairs"
-				"tall"	"32"
-				"antialias" "0"
-				"additive"	"0"
-				"outline"	"1"
-			}
-		}
-		"xhairs"
-		{
-			"1"
-			{
-			"name"		"xhairs"
-			"tall"		"20"
-			"weight"	"0"
-			"range"		"0x0000 0x017F"
-			"outline"	"1"
+				"name"			"TF2Crosshairs"
+				"tall"			"30"
+				"weight"		"0"
+				"antialias"		"1"
+				"outline"		"1"
 			}
 		}
 	}

@@ -62,7 +62,7 @@
 		"labelText"		""
 		"textAlignment"	"center"
 		"dulltext"		"0"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"brighttext"	"1"
 	}
 
@@ -83,7 +83,7 @@
 		"labelText"		"3. BLU"		//"#TF_BlueTeam"
 		"textAlignment"	"center"
 		"command"		"jointeam blue"
-		"font"			"HudFontSmallBold" //"HudFontSmallBold"
+		"font"			"MavenProBold14" //"MavenProBold14"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"88 133 162 0"
@@ -110,7 +110,7 @@
 		"labelText"		"%bluecount%"
 		"textAlignment"	"center"
 		"command"		"jointeam blue"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold14"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"88 133 162 0"
@@ -139,7 +139,7 @@
 		"labelText"		"4. RED"		//"#TF_RedTeam"
 		"textAlignment"	"center"
 		"command"		"jointeam red"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold14"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"184 56 59 0"
@@ -165,7 +165,7 @@
 		"labelText"		"%redcount%"
 		"textAlignment"	"center"
 		"command"		"jointeam red"
-		"font"			"HudFontSmallBold"
+		"font"			"MavenProBold14"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"184 56 59 0"
@@ -193,7 +193,7 @@
 		"labelText"		"#TF_Random"		//"#TF_Random"
 		"textAlignment"	"center"
 		"command"		"jointeam auto"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"50 50 50 0"		//220
@@ -225,7 +225,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"command"		"jointeam spectate"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		
 		"defaultFgColor_override" 		"255 255 255 255"
 		"defaultbgcolor_override"		"50 50 50 0"
@@ -287,7 +287,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontsmallestBold"
+		"font"			"MavenProBold11"
 		"fgcolor"		"255 255 255 255"
 	}
 	"RandomShortcutLabel"
@@ -307,7 +307,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontsmallestBold"
+		"font"			"MavenProBold11"
 		"fgcolor"		"255 255 255 255"
 	}	
 	"BlueShortcutLabel"
@@ -327,7 +327,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontsmallestBold"
+		"font"			"MavenProBold11"
 		"fgcolor"		"255 255 255 255"
 	}
 	"RedShortcutLabel"
@@ -347,7 +347,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontsmallestBold"
+		"font"			"MavenProBold11"
 		"fgcolor"		"255 255 255 255"
 	}
 	
@@ -703,7 +703,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"White"
 		"centerwrap"	"1"
 	}
@@ -725,7 +725,7 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"black"
 		"centerwrap"	"1"
 	}

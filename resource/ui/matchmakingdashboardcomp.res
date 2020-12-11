@@ -13,21 +13,37 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
+	
+	"BackgroundCustom"
+	{
+		"ControlName"			"EditablePanel"
+		"fieldName"				"BackgroundCustom"
+		"xpos"					"9"
+		"ypos"					"54"
+		"zpos"					"1"
+		"wide"					"253"
+		"tall"					"315"
+		"visible"				"1"
+		"enabled"				"1"
+		"paintbackground"		"0"
+		"border"				"NewMenuSolidBG"
+	}
 
 	"Title"
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
 		"xpos"		"8"
-		"ypos"		"23"
+		"ypos"		"20"
 		"zpos"		"99"
 		"wide"		"f0"
 		"tall"		"20"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderCompetitive"
 		"textAlignment"	"west"
-		"font"			"MavenProBold22"
-		"fgcolor_override"	"242 242 242 255"
+		"font"			"HudFontMediumBigBold"
+		"fgcolor_override"	"White"
+		"AllCaps"	"1"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -39,8 +55,8 @@
 		"xpos"			"rs1-21"
 		"ypos"			"20"
 		"zpos"			"100"
-		"wide"			"15"
-		"tall"			"o1"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -58,13 +74,13 @@
 		"actionsignallevel"	"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"RankTooltipPanel"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RankTooltipPanel"
-		"xpos"			"5"
-		"ypos"			"44"
+		"xpos"			"256"
+		"ypos"			"15"
 		"zpos"			"1000"
 		"wide"			"8"
 		"tall"			"8"
@@ -79,7 +95,7 @@
 	"stats"
 	{
 		"fieldName"		"stats"
-		"xpos"			"-1"
+		"xpos"			"5"
 		"ypos"			"40"
 		"zpos"			"100"
 		"wide"			"305"
@@ -87,7 +103,7 @@
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 	}
-
+	
 	"ToolTipButtonHack"
 	{
 		"ControlName"	"EditablePanel"
@@ -109,11 +125,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"QueueButton"
-		"xpos"			"cs-0.5"
+		"xpos"			"7"
 		"ypos"			"rs1-8"
 		"zpos"			"100"
-		"wide"			"f20"
-		"tall"			"20"
+		"wide"			"255"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -130,10 +146,18 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"AllCaps"			"1"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"NewMenuBGDark"
+		"border_armed"				"NewMenuBGArmed"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}
 }

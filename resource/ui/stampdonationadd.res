@@ -21,7 +21,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"TitleLabel"
-		"font"				"HudFontMediumBold"
+		"font"				"MavenProBlack24"
 		"labelText"			"#ConfirmTitle"
 		"textAlignment"		"north"
 		"xpos"				"0"
@@ -39,7 +39,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ExplanationLabel"
-		"font"				"HudFontSmallestBold"
+		"font"				"MavenProBold11"
 		"labelText"			"%text%"
 		"textAlignment"		"north-west"
 		"xpos"				"35"
@@ -59,7 +59,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"ExplanationLabel2"
-		"font"				"HudFontSmallest"
+		"font"				"MavenProRegular11"
 		"labelText"			"#Store_ConfirmStampDonationAddText2"
 		"textAlignment"		"north-west"
 		"xpos"				"35"
@@ -121,7 +121,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_Nope"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -146,7 +146,7 @@
 		"enabled"			"1"
 		"tabPosition"		"0"
 		"labelText"			"#Store_AddToCart"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"textAlignment"		"center"
 		"textinsetx"		"50"
 		"dulltext"			"0"
@@ -160,7 +160,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"PriceLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"labelText"			"%price%"
 		"textAlignment"		"north-east"
 		"xpos"				"345"

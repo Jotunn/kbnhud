@@ -1,3 +1,5 @@
+//All customization files have a short description at the top, similar to this.
+
 ###################################
 #--How to Install Customizations--#
 ###################################
@@ -8,7 +10,7 @@
 4. p r o f i t
 
 Note:
-	Multiple options of the same item can be changed, such as none or all three of the options for the health indicator can be used at your choice.
+	Multiple options of the same item can be changed, such as none, two of, or all four of the options for the health indicator can be used at your choice.
 	
 
 #####################################

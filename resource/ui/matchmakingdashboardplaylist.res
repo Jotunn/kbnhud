@@ -18,16 +18,54 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"Title"
-		"xpos"		"8"
-		"ypos"		"23"
+		"xpos"		"0"
+		"ypos"		"0"
 		"zpos"		"99"
-		"wide"		"f0"
-		"tall"		"20"
+		"wide"		"0"
+		"tall"		"0"
 		"proportionaltoparent"	"1"
 		"labeltext"		"#TF_Matchmaking_HeaderModeSelect"
 		"textAlignment"	"west"
-		"font"			"MavenProBold22"
-		"fgcolor_override"	"242 242 242 255"
+		"font"			"HudFontMediumBigBold"
+		"fgcolor_override"	"TanDark"
+		
+		"mouseinputenabled"	"0"
+	}
+	
+	"SELECT"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"SELECT"
+		"xpos"		"8"
+		"ypos"		"30"
+		"zpos"		"99"
+		"wide"		"255"
+		"tall"		"50"
+		"AllCaps"	"1"
+		"proportionaltoparent"	"1"
+		"labeltext"		"select"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor_override"	"White"
+		
+		"mouseinputenabled"	"0"
+	}
+	
+	"GAMEMODE"
+	{
+		"ControlName"		"Label"
+		"fieldName"		"GAMEMODE"
+		"xpos"		"8"
+		"ypos"		"80"
+		"zpos"		"99"
+		"wide"		"255"
+		"tall"		"50"
+		"AllCaps"	"1"
+		"proportionaltoparent"	"1"
+		"labeltext"		"Gamemode"
+		"textAlignment"	"center"
+		"font"			"HudFontGiantBold"
+		"fgcolor_override"	"White"
 		
 		"mouseinputenabled"	"0"
 	}
@@ -49,15 +87,16 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListDropShadow"
-		"xpos"			"99999"
-		"ypos"			"99999"
+		"xpos"			"9999"
+		"ypos"			"50"
 		"zpos"			"1000"
 		"wide"			"255"
 		"tall"			"298"
-		"visible"		"0"
+		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"InnerShadowBorder"
+		"border"		"NewMenuBG"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
+	
 }

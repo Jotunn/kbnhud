@@ -5,13 +5,22 @@
 		"ControlName"	"CTFArrowPanel"
 		"fieldName"		"Arrow"
 		"xpos"			"45"
-		"ypos"			"5"
+		"ypos"			"7"
 		"zpos"			"1"
 		"wide"			"50"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
+		
+		"if_mvm"
+		{
+			"xpos"			"58"
+			"ypos"			"20"
+			"wide"			"60"
+			"tall"			"60"
+		}		
+	
 	}
 	"Briefcase"
 	{
@@ -33,6 +42,7 @@
 			"ypos"			"19"
 			"wide"			"32"
 			"tall"			"32"
+			"visible"		"0"
 		}		
 	}				
 	"StatusIcon"
@@ -40,7 +50,7 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"StatusIcon"
 		"xpos"			"60"
-		"ypos"			"28"
+		"ypos"			"30"
 		"zpos"			"3"
 		"wide"			"20"
 		"tall"			"20"
@@ -51,7 +61,11 @@
 		
 		"if_mvm"
 		{
-			"visible"	"0"
+			"xpos"			"62"
+			"ypos"			"23"
+			"wide"			"53"
+			"tall"			"53"
+			"visible"	"1"
 		}
 	}	
 }

@@ -40,7 +40,7 @@
 	{	
 		"ControlName"		"Label"
 		"fieldName"			"BalanceLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"xpos"				"80"
 		"ypos"				"30"
 		"zpos"				"1"

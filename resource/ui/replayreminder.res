@@ -51,7 +51,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"Label"
-			"font"			"HudFontMediumSmallestbold"
+			"font"			"MavenProRegular24estbold"
 			"xpos"			"25"
 			"ypos"			"22"
 			"zpos"			"2"

@@ -33,8 +33,6 @@
 		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"15"
-		"xpos_minmode"	"150"
-		"wide_minmode"	"180"
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
@@ -57,7 +55,8 @@
 		"PaintBackgroundType" "2"
 		"bgcolor_override"	"TanLight"
 		
-		if_verbose {
+		if_verbose 
+		{
 			"visible"	"1"
 		}
 	}
@@ -73,12 +72,13 @@
 		"zpos"			"3"
 		"wide"			"60"
 		"tall"			"10"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"
 		"labelText"		"#TF_MVM_Support"
 		
-		if_verbose {
+		if_verbose 
+		{
 			"visible"	"1"
 		}		
 	}
@@ -92,12 +92,9 @@
 		"zpos"			"3"
 		"wide"			"178"
 		"tall"			"7"
-		"xpos_minmode"	"211"
-		"ypos_minmode"	"10"
-		"wide_minmode"	"178"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			""
+		"image"			"../hud/color_panel_blu"
 		
 		"src_corner_height"		"22"			// pixels inside the image
 		"src_corner_width"		"22"
@@ -115,9 +112,6 @@
 		"zpos"			"3"
 		"wide"			"180"
 		"tall"			"12"
-		"xpos_minmode"	"210"
-		"ypos_minmode"	"7"
-		"wide_minmode"	"180"
 		"visible"		"0"
 		"enabled"		"0"
 		"image"			"../HUD/tournament_panel_tan"
@@ -138,14 +132,11 @@
 		"zpos"			"2"
 		"wide"			"178"
 		"tall"			"7"
-		"xpos_minmode"	"211"
-		"ypos_minmode"	"10"
-		"wide_minmode"	"178"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"TanDark"
+		"fillcolor"		"Black"
 		
 	}
 }

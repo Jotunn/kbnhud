@@ -15,21 +15,20 @@
 
 		"pinCorner"		"2"
 		"autoResize"	"1"
-
-
+		
 		"RankImage"
 		{
 			"ControlName"	"CTFLocalPlayerBadgePanel"
 			"fieldName"		"RankImage"
-			"xpos"			"4"
+			"xpos"			"9999"	//0
 			"ypos"			"-8"
 			"zpos"			"110"
-			"wide"			"o1"
-			"tall"			"60"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"mouseinputenabled"		"0"
 
 			"matchgroup"	"MatchGroup_Casual_12v12"
 		}
@@ -38,11 +37,11 @@
 		{
 			"ControlName"	"CPvPRankPanel"
 			"fieldName"		"RankPanel"
-			"xpos"			"35"
-			"ypos"			"-15"
+			"xpos"			"9999"	//55
+			"ypos"			"7"
 			"zpos"			"100"
-			"wide"			"330"
-			"tall"			"92"
+			"wide"			"200"
+			"tall"			"30"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"mouseinputenabled"	"0"
@@ -50,18 +49,18 @@
 			"matchgroup"	"MatchGroup_Casual_12v12"
 
 			"show_model"	"0"
-			"show_name"		"0"
+			"show_type"		"1"
 		}
 
 		"RestoreCasualSearchCriteria"
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"RestoreCasualSearchCriteria"
-			"xpos"			"rs1-49"
-			"ypos"			"49"
+			"xpos"			"rs1-25"
+			"ypos"			"12"
 			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
+			"wide"			"22"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -74,18 +73,30 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"Command"		"restore_search_criteria"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"242 242 242 255"
-			"image_armedcolor"	"169 123 53 255"
+			
+			"image_drawcolor"			"255 255 255 255"
+			"image_armedcolor"			"255 255 255 255"
+			
+			"paintbackground"			"0"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"border_default"			"NewMenuBG"
+			"border_armed"				"NewMenuBGArmed"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override" "White"
+			
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -100,11 +111,11 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SaveCasualSearchCriteria"
-			"xpos"			"rs1-29"
-			"ypos"			"49"
+			"xpos"			"rs1-5"
+			"ypos"			"12"
 			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
+			"wide"			"22"
+			"tall"			"22"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -117,18 +128,29 @@
 			"brighttext"	"0"
 			"default"		"0"
 			"Command"		"save_search_criteria"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
 			"actionsignallevel"	"2"
 			"proportionaltoparent"	"1"
-			"image_drawcolor"	"242 242 242 255"
-			"image_armedcolor"	"169 123 53 255"
+			
+			"image_drawcolor"			"255 255 255 255"
+			"image_armedcolor"			"255 255 255 255"
+			
+			"paintbackground"			"0"
+			
+			"sound_depressed"			"UI/buttonclick.wav"
+			"sound_released"			"UI/buttonclickrelease.wav"
+			
+			"border_default"			"NewMenuBG"
+			"border_armed"				"NewMenuBGArmed"
+
+			"defaultFgColor_override"	"White"
+			"armedFgColor_override"		"White"
+			"depressedFgColor_override" "White"
 			"SubImage"
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"SubImage"
-				"xpos"			"2"
-				"ypos"			"2"
+				"xpos"			"6"
+				"ypos"			"6"
 				"zpos"			"1"
 				"wide"			"11"
 				"tall"			"11"
@@ -143,52 +165,25 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"ShowExplanationsButton"
-			"xpos"			"rs1-9"
-			"ypos"			"49"
-			"zpos"			"100"
-			"wide"			"15"
-			"tall"			"o1"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"labelText"		"?"
-			"font"			"HudFontSmallBold"
-			"textAlignment"	"center"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"0"
-			"Command"		"show_explanations"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			"actionsignallevel"	"2"
-			"proportionaltoparent"	"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 		}
 
 		"Title"
 		{
-			"ControlName"		"Label"
+			"ControlName"	"Label"
 			"fieldName"		"Title"
-			"xpos"		"10"
-			"ypos"		"46"
-			"zpos"		"0"
-			"wide"		"f0"
-			"tall"		"20"
-			"proportionaltoparent"	"1"
-			"labeltext"		"#TF_Casual_MapSelection"
-			"textAlignment"	"west"
-			"font"			"CerbeticaBold15"
-		
-			"mouseinputenabled"	"0"
+			"xpos"			"9999"
 		}
 
 		"SelectedCount"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"SelectedCount"
-			"xpos"		"10"
-			"ypos"		"33"
+			"xpos"		"8"
+			"ypos"		"18"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
@@ -196,8 +191,10 @@
 			"labeltext"		"%selected_maps_count%"
 			"textAlignment"	"west"
 			"font"			"HudFontSmallest"
-			"fgcolor_override"	"TanDark"
-		
+			"fgcolor_override"	"Main Theme"
+			
+			"AllCaps"		"1"
+			
 			"mouseinputenabled"	"1"
 		}
 
@@ -205,8 +202,8 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"QueueEstimation"
-			"xpos"		"rs1-5"
-			"ypos"		"18"
+			"xpos"		"9999"
+			"ypos"		"38"
 			"zpos"		"0"
 			"wide"		"f0"
 			"tall"		"20"
@@ -217,6 +214,8 @@
 			"fgcolor_override"	"TanLight"
 			"textinsetx"	"5"
 			"visible"	"0"
+			
+			"AllCaps"		"1"
 		
 			"mouseinputenabled"	"0"
 		}
@@ -225,16 +224,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlayListDropShadow"
-			"xpos"			"cs-0.5"
-			"ypos"			"65"
-			"zpos"			"101"
-			"wide"			"f15"
-			"tall"			"f65"
-			"visible"		"1"
-			"PaintBackgroundType"	"2"
-			"border"		"InnerShadowBorder"
-			"proportionaltoparent"	"1"
-			"mouseinputenabled"	"0"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 		}
 
 		"GameModesList"
@@ -242,30 +234,31 @@
 			"ControlName"	"CScrollableList"
 			"fieldName"		"GameModesList"
 			"xpos"			"cs-0.5"
-			"ypos"			"65"
+			"ypos"			"40"
 			"wide"			"f15"
-			"tall"			"f65"
+			"tall"			"f40"
 			"visible"		"1"
 			"proportionaltoparent"	"1"
 			"restrict_width" "0"
 
-			"border"		"MainMenuBGBorder"
+			"border"			"NoBorder"
+			"paintborder"		"0"
 
 			"ScrollBar"
 			{
 				"ControlName"	"ScrollBar"
 				"FieldName"		"ScrollBar"
-				"xpos"			"rs0.7-1"
+				"xpos"			"rs1"
 				"ypos"			"0"
 				"tall"			"f0"
-				"wide"			"5" // This gets slammed from client schme.  GG.
+				"wide"			"3" // This gets slammed from client schme.  GG.
 				"zpos"			"1000"
 				"nobuttons"		"1"
 				"proportionaltoparent"	"1"
 
 				"Slider"
 				{
-					"fgcolor_override"	"TanDark"
+					"fgcolor_override"	"Black"
 				}
 		
 				"UpButton"

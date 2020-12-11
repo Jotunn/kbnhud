@@ -28,7 +28,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_background_disabled"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"BuildBGSentry"
@@ -57,7 +57,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"obj_status_sentrygun_1"
-		"iconColor"		"255 255 255 255"
+		"iconColor"		"ProgressOffWhite"
 	}
 	
 	"NotBuiltPanel"
@@ -74,19 +74,20 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"MavenProBold12"
+			"font"			"MavenProBold16"
 			"xpos"			"14"
 			"ypos"			"0"
 			"wide"			"117"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
+			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"Not Built"
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"fgcolor"	"Not Built Label"
 		}
 	}
 	
@@ -113,7 +114,7 @@
 			"enabled"		"0"
 			"scaleImage"	"1"	
 			"icon"			""
-			"iconColor"		"255 255 255 255"
+			"iconColor"		"ProgressOffWhite"
 		}
 	
 		"AlertTray"
@@ -143,7 +144,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_wrench"
 			"iconColor"		"255 255 255 255"
-			"bgcolor_override"	"205 50 50 160"
+			"bgcolor_override"	"AlertBG"
 		}
 		
 		"SapperIcon"
@@ -160,7 +161,7 @@
 			"scaleImage"	"1"	
 			"icon"			"obj_status_icon_sapper"
 			"iconColor"		"255 255 255 255"
-			"bgcolor_override"	"205 50 50 160"
+			"bgcolor_override"	"AlertBG"
 		}
 		
 		"Health"
@@ -216,9 +217,9 @@
 				"fieldName"		"BuildingProgress"
 				"font"			"Default"
 				"xpos"			"2"
-				"ypos"			"3"
+				"ypos"			"6"
 				"wide"			"75"
-				"tall"			"23"				
+				"tall"			"19"				
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -226,8 +227,8 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor_override"	"ProgressOffWhite"
-				"bgcolor_override"	"50 50 50 255"
+				"fgcolor_override"	"ProgressOffProgressOffWhite"
+				"bgcolor_override"	"ProgressBackground"
 			}
 		}
 		
@@ -274,8 +275,9 @@
 				"textAlignment"	"south-west"
 				"dulltext"		"0"
 				"brighttext"	"0"
+				"fgcolor"	"ProgressOffWhite"
 			}
-					
+
 			"ShellIcon"	
 			{
 				"ControlName"	"ImagePanel"
@@ -308,7 +310,7 @@
 				"textAlignment"	"Left"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"50 50 50 255"
+				"bgcolor_override"	"ProgressBackground"
 			}
 		}
 	}

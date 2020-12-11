@@ -94,8 +94,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"HudFontSmall"
-		"font_hidef"		"HudFontMedium"
+		"font"			"MavenProRegular14"
+		"font_hidef"		"MavenProMedium24"
 		"xpos"			"r260"	[$WIN32]
 		"ypos"			"16"	[$WIN32]
 		"xpos"			"r285"	[$X360]
@@ -136,8 +136,8 @@
 		"textAlignment"		"center"
 		"textAlignment_lodef"		"north-west"
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmallest"
-		"font_lodef"	"HudFontSmall"
+		"font_hidef"	"MavenProRegular11"
+		"font_lodef"	"MavenProRegular14"
 		"wrap_lodef"			"1"
 	}
 	"SwitchCamModeKeyLabel"
@@ -285,7 +285,7 @@
 		"textAlignment"		"center"	[$WIN32]
 		"textAlignment"		"north-west"	[$X360]
 		"font"			"SpectatorKeyHints"
-		"font_hidef"	"HudFontSmall"
+		"font_hidef"	"MavenProRegular14"
 		"font_lodef"	"DefaultVerySmall"
 		"wrap"			"1"
 	}
@@ -298,8 +298,8 @@
 		"zpos"			"10"
 		"wide"			"240"
 		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"visible"		"1"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -330,7 +330,7 @@
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"fillcolor" "TransparentBlack"
 		}
 		"TitleBackground"
 		{
@@ -343,13 +343,14 @@
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
-			"visible" "1"
+			"visible" "0"
 			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"fillcolor" "TransparentBlack"
 		}
 		
 		"itemmodelpanel"
 		{
+			"ypos"			"10"
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"

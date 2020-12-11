@@ -1,0 +1,17 @@
+##################################
+#--What does Streamer Mode do?--#
+##################################
+
+Streamer mode hides the names of other players across a myriad of HUD elements to hopefully prevent streamsniping.
+
+##################################
+#--How to Enable Streamer Mode--#
+##################################
+
+Rename the "_streaming" folder to "streaming" and then restart the game
+
+###################################
+#--How to Disable Streamer Mode--#
+###################################
+
+Rename the "streaming" folder to "_streaming" and then restart the game

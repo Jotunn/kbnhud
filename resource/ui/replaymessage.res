@@ -17,7 +17,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ReplayLabel"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"xpos"			"35"
 		"ypos"			"2"
 		"zpos"			"0"

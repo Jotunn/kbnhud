@@ -37,7 +37,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"NoScreenshotLabel"
-			"Font"			"HudFontMediumSmall"
+			"Font"			"MavenProRegular24"
 			"visible"		"0"
 			"xpos"			"0"
 			"ypos"			"0"
@@ -50,7 +50,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"MapLabel"
-			"Font"			"HudFontSmallestBold"
+			"Font"			"MavenProBold11"
 			"TextAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"10"
@@ -62,7 +62,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"FieldName"		"DateTimeLabel"
-			"Font"			"HudFontSmallest"
+			"Font"			"MavenProRegular11"
 			"TextAlignment"	"west"
 			"fgcolor_override"	"115 106 91 255"
 			"xpos"			"0"

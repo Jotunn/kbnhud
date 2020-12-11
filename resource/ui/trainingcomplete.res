@@ -36,7 +36,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"next"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}
@@ -65,7 +65,7 @@
 			"brighttext"		"0"
 			"wrap"		"0"
 			"command"		"quit"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 		}	
@@ -91,7 +91,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"command"		"replay"
-			"font"			"HudFontSmallBold"
+			"font"			"MavenProBold14"
 			"fgcolor"		"Black"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -173,7 +173,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ResultsLabel"
-		  	"font"			"HudFontMediumSmallBold"
+		  	"font"			"MavenProRegular24Bold"
 			"labelText"		"%wintext%"
 			"textAlignment"		"center"
 			"xpos"			"0"
@@ -216,7 +216,7 @@
 			"text"			""
 			"wrap"			"1"
 			"textAlignment"		"north-west"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 		}
 	}			
 }

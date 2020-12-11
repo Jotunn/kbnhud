@@ -1,0 +1,45 @@
+"Resource/UI/HudDamageAccount.res"
+{
+	"CDamageAccountPanel"
+	{
+		"fieldName"				"CDamageAccountPanel"
+		"text_x"				"0"
+		"text_y"				"0"
+		"delta_item_end_y"		"0"
+		"PositiveColor"			"Overheal flash 1"	
+		"delta_lifetime"		"1.0"
+		"delta_item_font"		"MavenProMedium14OL"
+		"delta_item_font_big"		"MavenProMedium14OL"
+	}
+	"DamageAccountValue"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValue"
+		"xpos"			"c-126"
+		"ypos"			"c40"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"font"			"MavenProMedium14"	
+	}
+	"DamageAccountValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"DamageAccountValueShadow"
+		"xpos"			"c-125"
+		"ypos"			"c41"
+		"zpos"			"2"
+		"wide"			"150"
+		"tall"			"26"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%metal%"
+		"textAlignment"	"center"
+		"font"			"MavenProMedium14"
+		"fgcolor"		"Black"
+	}
+}

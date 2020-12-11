@@ -1,3 +1,4 @@
+#base "../^customizations/#colors/ccolors_clientscheme.res"
 #base "scheme/borders_clientscheme.res"
 #base "scheme/colors_clientscheme.res"
 #base "scheme/fonts_clientscheme.res"
@@ -68,11 +69,11 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
-		}
+		}			
 		"7"
 		{
-		"font" "resource/ocra.ttf"
-		"name" "ocra"
+			"font"	"resource/ocra.ttf"
+			"name" "ocra"
 			"turkish"
 			{
 				"range" "0x0000 0x007E"
@@ -150,38 +151,33 @@ Scheme
 			"font" "resource/fonts/mavenpro-black.ttf"
 			"name" "Maven Pro Black"
 		}
-		"12" 	//Hitmarker Font
+		"12" 	//Aim Guide Font
 		{
 			"font" "resource/fonts/formasge.ttf"
 			"name" "Formas germetricas 1"
 		}
-		"13"	//BroeselHud Crosshairs
+		"13"	//Hypno's crosshairs
 		{
-		"font" "resource/fonts/crosshairs.ttf"
-		"name" "broeselhud Crosshairs"
+			"font" "resource/fonts/tf2crosshairs.ttf" 
+			//"font" "resource/fonts/knucklescrosses_linux.ttf" [$LINUX]
+			"name" "TF2Crosshairs"
 		}
-		"14"	//Fog's Crosshairs
+		"14"	//Menu Symbols
 		{
-		"font" "resource/fonts/crosshairs.ttf"
-		"name" "Crosshairs"
+			"font" "resource/fonts/hypnotizehudicons.otf" 
+			"font" "resource/fonts/hypnotizehudicons_linux.otf" [$LINUX]
+			"name" "HypnotizeHud Icons"
 		}
-		"15"
+		"15"	//Loadout Screen Symbols
 		{
-		"font" "resource/fonts/xhairs.otf"
-		"name" "xhairs"
+			"font" "resource/fonts/tf2classicons.otf"
+			"name" "TF2 Class Icons"
 		}
-
-		"16"
+		"16"	//F4 Ready mode symbols
 		{
-		"font" "resource/fonts/knucklescrosses.ttf"
-		"name" "KnucklesCrosses"
+			"font" "resource/fonts/readyupsymbols.otf"
+			"name" "ReadyUp Symbols"
 		}
-		"17" 	//Konr Wings
-		{
-			"font" "resource/fonts/garm3nfont.ttf"
-			"name" "Garm3nFont"
-		}
-		"18" "resource/fonts/toonhud icons.ttf"
-	
+		"17" "resource/fonts/toonhudicons.ttf"
 	}
 }

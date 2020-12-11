@@ -38,7 +38,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabelDropshadow"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"MavenProRegular24Bold"
 			"fgcolor"		"black"
 			"xpos"			"3"
 			"ypos"			"3"
@@ -63,7 +63,7 @@
 		{	
 			"ControlName"		"CExLabel"
 			"fieldName"		"WinningTeamLabel"
-			"font"			"HudFontMediumSmallBold"
+			"font"			"MavenProRegular24Bold"
 			"xpos"			"2"
 			"ypos"			"2"
 			"wide"			"295"
@@ -81,7 +81,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"WinReasonLabel"
-		"font"			"HudFontSmall"
+		"font"			"MavenProRegular14"
 		"xpos"			"0"
 		"ypos"			"80"
 		"zpos"			"1"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"DetailsLabel"
-		"font"			"HudFontSmallest"
+		"font"			"MavenProRegular11"
 		"xpos"			"15"
 		"ypos"			"100"
 		"zpos"			"1"
@@ -155,7 +155,7 @@
         {
             "ControlName"        "CExLabel"
             "fieldName"                "RespecTextLabelLoss"
-            "font"                        "HudFontSmall"
+            "font"                        "MavenProRegular14"
             "labelText"                "#TF_PVE_Respecs"
             "textAlignment" "center"
             "xpos"                        "0"
@@ -169,7 +169,7 @@
         {
             "ControlName"        "CExLabel"
             "fieldName"                "RespecCountLabel"
-            "font"                        "HudFontSmall"
+            "font"                        "MavenProRegular14"
             "labelText"                "%respeccount%"
             "textAlignment" "center"
             "xpos"                        "145"

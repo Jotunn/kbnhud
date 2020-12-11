@@ -17,6 +17,6 @@
 		"wrap"			"0"
 		"labelText"		"%capturetime%"
 		"textAlignment"		"center"
-		"fgcolor"		"50 50 50 225"
+		"fgcolor"		"White"
 	}
 }

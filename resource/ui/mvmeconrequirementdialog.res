@@ -7,7 +7,7 @@
 		"xpos"			"c-150"
 		"ypos"			"140"
 		"wide"			"300"
-		"tall"			"310"
+		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -15,6 +15,8 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
+		"paintbackground"		"1"
+		"bgcolor_override"	"DarkBG"
 	}
 	
 	"TitleLabel"
@@ -33,6 +35,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"AllCaps"		"1"
+		"fgcolor_override" "Red"
 	}
 	
 	"ExplanationLabel"
@@ -52,55 +56,33 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"centerwrap"	"1"
-		"fgcolor_override" "200 80 60 255"
+		"AllCaps"		"1"
+		"fgcolor_override" "White"
 	}
 
-	"ItemImagePanel"
+	"CyclingAd"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ItemImagePanel"
-		"xpos"			"100"
-		"ypos"			"120"
-		"wide"			"100"
-		"tall"			"100"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"tabPosition"		"0"
-		"scaleImage"		"1"
-	}
+		//"ControlName"			"CCyclingAdContainerPanel"
+		"fieldName"				"CyclingAd"
+		"xpos"					"cs-0.5"
+		"ypos"					"120"
+		"zpos"					"9"
+		"wide"					"260"
+		"tall"					"60"
+		"visible"				"1"
+		"enabled"				"1"
+		"scaleImage"			"1"
+		"proportionaltoparent"	"1"
 
-	"ShowInStoreButton"
-	{
-		"ControlName"	"CExButton"
-		"fieldName"		"ShowInStoreButton"
-		"xpos"			"62"
-		"ypos"			"235"
-		"zpos"			"20"
-		"wide"			"175"
-		"tall"			"25"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"enabled"		"1"
-		"tabPosition"	"0"
-		"labelText"		"#TF_ShowInStore"
-		"font"			"HudFontSmallBold"
-		"textAlignment"	"center"
-		"textinsetx"	"50"
-		"dulltext"		"0"
-		"brighttext"	"0"
-		"Command"		"show_in_store"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}			
+		"bgcolor_override"		"0 0 0 255"
+	}
 
 	"ConfirmButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
 		"xpos"			"62"
-		"ypos"			"270"
+		"ypos"			"rs1-15"
 		"zpos"			"20"
 		"wide"			"175"
 		"tall"			"25"
@@ -116,7 +98,20 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"Command"		"confirm"
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"proportionaltoparent"	"1"
+		
+		"AllCaps"		"1"
+		
+		"paintbackground"			"0"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
+		
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
 	}			
 }

@@ -1,0 +1,40 @@
+// Stop any 'hitmarker animation events' before starting another
+//event DamagedPlayer 
+//{
+//	StopEvent 	HitMarker 0.0
+//	RunEvent 	HitMarker 0.01
+//
+//}
+//
+event DamagedPlayer 
+{ 
+
+	//Animate DefaultHitmarker 	FgColor 	"Default Hitmarker flash color" 	Linear 0.0 0.1
+	//Animate DefaultHitmarker 	FgColor 	"Default Hitmarker base color"		Linear 0.15 0.00001
+	Animate "^Hitmarker"    	 				Alpha     "255"							Linear 	0.0 	0.0
+    Animate "^Hitmarker"    					Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "BracketsHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
+    Animate "BracketsHitmarker"    				Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "CircleHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
+    Animate "CircleHitmarker"    				Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "DotHitmarker"    	 				Alpha     "255"							Linear 	0.0 	0.0
+    Animate "DotHitmarker"    					Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "DotsCircleHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
+    Animate "DotsCircleHitmarker"    			Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "HollowCrossHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
+    Animate "HollowCrossHitmarker"    			Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "OverwatchHitmarker"    	 		Alpha     "255"							Linear 	0.0 	0.0
+    Animate "OverwatchHitmarker"    			Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "WingsHitmarker"    	 			Alpha     "255"							Linear 	0.0 	0.0
+    Animate "WingsHitmarker"    				Alpha     "0"   						Linear 	0.15 	0.35
+	
+	Animate "XHitmarker"   		 	 			Alpha     "255"							Linear 	0.0 	0.0
+    Animate "XHitmarker"    					Alpha     "0"   						Linear 	0.15 	0.35
+}

@@ -1,9 +1,11 @@
+//Changes the minmode scoreboard from a sixes size to a highlander size
+
 "Resource/UI/Scoreboard.res"
 {
 	"scores"
 	{
 		"ypos_minmode"	"0"
-		"wide"			"640"
+		"wide_minmode"			"550"
 		"tall"			"516"
 		"tall_minmode"		"520"
 		"spacer"			"5"
@@ -27,11 +29,15 @@
 	"RedTeamLabel1"
 	{
 		
-		"xpos_minmode"			"0"
-		
 		"ypos_minmode"			"366"
 		
-	}							
+	}
+	"RedTeamLabel1Dropshadow"
+	{
+		
+		"ypos_minmode"			"367"
+		
+	}
 	"RedTeamScore"
 	{
 		
@@ -57,7 +63,7 @@
 	"BluePlayerList"
 	{
 		
-		"tall_minmode"		"135"
+		"tall_minmode"		"136"
 
 	}
 	"RedPlayerList"
@@ -65,7 +71,7 @@
 		
 		"ypos_minmode"		"234"
 		
-		"tall_minmode"		"135"
+		"tall_minmode"		"136"
 
 	}
 	"Spectators"

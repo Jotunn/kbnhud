@@ -1,2 +1,2 @@
-#base "../../^customizations/#enabled/noimages_hudplayerclass.res"
-#base "../../^customizations/_basefiles/hudplayerclass.res"
+#base "../../^customizations/#enabled/disable_hudplayerclass.res"
+#base "../../^customizations/^basefiles/hudplayerclass.res"

@@ -11,13 +11,13 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"316"
+		"team1_player_base_y"				"365"
 		"team1_player_delta_x"				"0"
-		"team1_player_delta_y"				"-16"
+		"team1_player_delta_y"				"-11"
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"336"
+		"team2_player_base_y"				"378"
 		"team2_player_delta_x"				"0"
-		"team2_player_delta_y"				"16"
+		"team2_player_delta_y"				"11"
 		
 		"playerpanels_kv"
 		{
@@ -40,123 +40,26 @@
 				"tall" 			"0"
 				"autoResize" 	"0"
 				"pinCorner"		"0"
-				"visible" 		"1"
+				"visible" 		"0"
 				"enabled" 		"1"
 				"fillcolor" 	"15 15 15 50"
 			}
-			
-			"PanelLeftFringe"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelLeftFringe"
-				"xpos" 			"0"
-				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"52"
-				"tall" 			"18"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"1"
-				"enabled" 		"1"
-				"fillcolor" 	"15 15 15 64"
-			}			
-			
-			"PanelLeftHalf"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelLeftHalf"
-				"xpos" 			"0"
-				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"49"
-				"tall" 			"18"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"1"
-				"enabled" 		"1"
-				"fillcolor" 	"15 15 15 128"
-			}
-			
-			"PanelLeftFull"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelLeftFull"
-				"xpos" 			"0"
-				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"26"
-				"tall" 			"18"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"1"
-				"enabled" 		"1"
-				"fillcolor" 	"15 15 15 110"
-			}
-			
-			"PanelFull"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelFull"
-				"xpos" 			"0"
-				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"160"
-				"tall" 			"18"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"1"
-				"enabled" 		"1"
-				"fillcolor" 	"15 15 15 100"
-			}
-			
-			"PanelBottom"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelBottom"
-				"xpos" 			"0"
-				"ypos"			"15"
-				"zpos" 			"-1"
-				"wide" 			"160"
-				"tall" 			"4"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"0"
-				"enabled" 		"0"
-				"fillcolor" 	"15 15 15 255"
-			}
-			
-			"PanelRight"
-			{
-				"ControlName" 	"ImagePanel"
-				"fieldName" 	"PanelRight"
-				"xpos" 			"157"
-				"ypos"			"0"
-				"zpos" 			"-1"
-				"wide" 			"4"
-				"tall" 			"16"
-				"autoResize" 	"0"
-				"pinCorner"		"0"
-				"visible" 		"0"
-				"enabled" 		"0"
-				"fillcolor" 	"15 15 15 255"
-			}
-		
 			"playername"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"MavenProRegular12"
-				"xpos"			"54"
+				"font"			"MavenProBold10"
+				"xpos"			"40"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"80"
+				"wide"			"90"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
-				"fgcolor"		"235 226 202 255"
+				"fgcolor"		"White"
 			
 			}
 			
@@ -165,10 +68,10 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"27"
-				"ypos"			"0"
+				"ypos"			"2"
 				"zpos"			"2"
-				"wide"			"18"
-				"tall"			"18"
+				"wide"			"11"
+				"tall"			"11"
 				"visible"		"1"
 				"enabled"		"1"
 				"team1_image"			"../hud/class_scoutred"
@@ -193,22 +96,22 @@
 			}
 			
 			"HealthIcon"
-				{
-					"ControlName" "EditablePanel"
-					"fieldName" "HealthIcon"
-					"xpos" "0"
-					"ypos" "0"
-					"zpos" "3"
-					"wide" "24"
-					"tall" "14"
-					"visible" "1"
-					"enabled" "1"
-					"HealthBonusPosAdj" "10"
-					"HealthDeathWarning" "0.49"
-					"TFFont" "HudFontSmallest"
-					"HealthDeathWarningColor" "HUDDeathWarning"
-					"TextColor" "HudOffWhite"
-				}
+			{
+				"ControlName" "EditablePanel"
+				"fieldName" "HealthIcon"
+				"xpos" "2"
+				"ypos" "0"
+				"zpos" "3"
+				"wide" "24"
+				"tall" "14"
+				"visible" "1"
+				"enabled" "1"
+				"HealthBonusPosAdj" "10"
+				"HealthDeathWarning" "0.49"
+				"TFFont" "MavenProRegular11"
+				"HealthDeathWarningColor" "HUDDeathWarning"
+				"TextColor" "HudOffWhite"
+			}
 			
 			"ReadyBG"
 			{
@@ -310,9 +213,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"MavenProMedium12"
-				"xpos"			"126"
-				"ypos"			"2"
+				"font"			"MavenProBold12"
+				"xpos"			"123"
+				"ypos"			"1"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
@@ -327,9 +230,9 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamountBG"
-				"font"			"MavenProMedium12"
-				"xpos"			"127"
-				"ypos"			"3"
+				"font"			"MavenProBold12"
+				"xpos"			"124"
+				"ypos"			"2"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
@@ -399,11 +302,11 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"MavenProMedium24"
+		"font"			"MavenProBold16"
 		
 		if_mvm
 		{
-		"ypos"			"68"	[$WIN32]
+			"ypos"			"0"	[$WIN32]
 		}
 		
 	}
@@ -421,7 +324,7 @@
 		"enabled"		"1"
 		"labelText"		"#TF_PVE_Buyback"
 		"textAlignment"	"center"
-		"font"			"MavenProMedium24"
+		"font"			"MavenProBold16"
 		"wrap"			"1"
 		"centerwrap"	"1"
 	
@@ -494,8 +397,8 @@
 		"zpos"			"10"
 		"wide"			"240"
 		"tall"			"100"
-		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"visible"		"1"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 		
 		"model_ypos"		"10"
@@ -526,7 +429,7 @@
 			"pinCorner" "0"
 			"visible" "1"
 			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"fillcolor" "TransparentBlack"
 		}
 		"TitleBackground"
 		{
@@ -539,13 +442,14 @@
 			"tall" "14"
 			"autoResize" "0"
 			"pinCorner" "0"
-			"visible" "1"
+			"visible" "0"
 			"enabled" "1"
-			"fillcolor" "0 0 0 100"
+			"fillcolor" "TransparentBlack"
 		}
 		
 		"itemmodelpanel"
 		{
+			"ypos"			"10
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"

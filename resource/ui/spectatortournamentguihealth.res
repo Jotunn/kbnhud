@@ -69,6 +69,6 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"MavenProBold14"
-		"fgcolor"		"235 226 202 255"
+		"fgcolor"		"TargetID Base Health"
 	}				
 }

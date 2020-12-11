@@ -110,7 +110,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"MavenProBlack30"		//"HudFontGiantBold"
+		"font"			"MavenProBlack30"		//"MavenProBlack44"
 		"xpos"			"20"			// align me to the left edge of the first selection
 		"ypos"			"12"
 		"zpos"			"3"
@@ -131,7 +131,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"HudFontMediumBold"
+		"font"			"MavenProBlack24"
 		"fgcolor"		"Black"
 		"xpos"			"22"			// align me to the left edge of the first selection
 		"ypos"			"0"

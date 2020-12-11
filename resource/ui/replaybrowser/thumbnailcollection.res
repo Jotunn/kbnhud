@@ -23,7 +23,7 @@
 		"zpos"			"5"
 		"visible"		"0"
 		"enabled"		"1"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"textAlignment"	"center"
 		"text"			"#Replay_RenderAll"
 		"Command"		"render_queued_replays"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"textAlignment"	"west"
 		"labelText"		">>"
 		"auto_wide_tocontents" "1"
@@ -53,7 +53,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"labelText"		"%titleandcount%"
 		"textAlignment"	"west"
 		"zpos"			"2"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DateLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"textAlignment"	"west"
 		"zpos"			"2"
 		"autoResize"	"0"
@@ -111,7 +111,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CaratLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"textAlignment"	"west"
 		"labelText"		">>"
 		"auto_wide_tocontents" "1"
@@ -141,7 +141,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NoReplayItemsLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"MavenProBold11"
 		"wide"			"400"
 		"tall"			"40"
 		"zpos"			"5"

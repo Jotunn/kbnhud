@@ -19,7 +19,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"			"HudPasstimeBallStatus"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"20"
 		"zpos"				"100"
 		"wide"				"f0"
 		"tall"				"f0"
@@ -49,7 +49,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventBonusLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"MavenProRegular24Bold"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -70,7 +70,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"EventDetailLabel"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"MavenProRegular24Bold"
 		"dropshadow"	"1"
 		"xpos"			0
 		"ypos"			0
@@ -107,10 +107,10 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BluePanelBG"
-		"xpos"			"c-120"
+		"xpos"			"c-83"
 		"ypos"			"r71"
 		"zpos"			"0"
-		"wide"			"120"
+		"wide"			"83"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -125,7 +125,7 @@
 		"xpos"			"c0"
 		"ypos"			"r71"
 		"zpos"			"0"
-		"wide"			"120"
+		"wide"			"83"
 		"tall"			"15"
 		"visible"		"1"
 		"enabled"		"1"
@@ -139,7 +139,7 @@
 		// might be padded for npot reasons.
 		"ControlName" 	"Panel"
 		"fieldName"		"BlueProgressEnd"
-		"xpos"			"c-118"
+		"xpos"			"c-83"
 		"ypos"			"r64"
 		"visible"		"0"
 	}
@@ -150,7 +150,7 @@
 		// might be padded for npot reasons.
 		"ControlName"	"Panel"
 		"fieldName"		"RedProgressEnd"
-		"xpos"			"c118"
+		"xpos"			"c83"
 		"ypos"			"r64"
 		"visible"		"0"
 	}	

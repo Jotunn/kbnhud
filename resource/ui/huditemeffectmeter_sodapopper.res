@@ -22,7 +22,7 @@
 		"zpos"			"0"
 		"wide"			"0"
 		"tall"			"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	

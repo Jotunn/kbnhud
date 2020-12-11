@@ -33,17 +33,17 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"6"
-		"ypos"			"rs1-8"
+		"xpos"			"3"
+		"ypos"			"rs1-7"
 		"zpos"			"100"
-		"wide"			"90"
-		"tall"			"20"
+		"wide"			"95"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -53,43 +53,34 @@
 		"mouseinputenabled"	"1"
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
+		
+		"paintbackground"			"0"
+		
+		"border_default"			"MaterialLightBG"
+		"border_armed"				"MaterialHypno"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
-	}
-
-	"MannUpToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"MannUpToolTipButtonHack"
-		"xpos"			"106"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"170"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+		
+		"AllCaps"		"1"
 	}
 
 	"MannUpQueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MannUpQueueButton"
-		"xpos"			"106"
-		"ypos"			"rs1-8"
+		"xpos"			"100"
+		"ypos"			"rs1-7"
 		"zpos"			"100"
-		"wide"			"170"
-		"tall"			"20"
+		"wide"			"175"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -100,45 +91,33 @@
 		"keyboardinputenabled"	"0"
 		"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"			"0"
+		
+		"border_default"			"NewMenuBGDark"
+		"border_armed"				"NewMenuBGArmed"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
-	}
-
-	"BootCampToolTipButtonHack"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"BootCampToolTipButtonHack"
-		"xpos"			"5"
-		"ypos"			"rs1-8"
-		"zpos"			"101"
-		"wide"			"270"
-		"tall"			"20"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled"	"1"
-		"eatmouseinput"	"0"	
-		"showtooltipswhenmousedisabled"	"1"
-		"proportionaltoparent" "1"
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+		
+		"AllCaps"		"1"
 	}
 
 	"BootCampQueueButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BootCampQueueButton"
-		"xpos"			"5"
-		"ypos"			"rs1-8"
+		"xpos"			"3"
+		"ypos"			"rs1-7"
 		"zpos"			"100"
 		"wide"			"270"
-		"tall"			"20"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -152,25 +131,33 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"armedBgColor_override"		"CreditsGreen"
-		"defaultBgColor_override"	"GreenSolid"
+		"paintbackground"			"0"
+		
+		"border_default"			"NewMenuBGDark"
+		"border_armed"				"NewMenuBGArmed"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+		
+		"AllCaps"		"1"
 	}
 
 	"NextButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"NextButton"
-		"xpos"			"cs-0.5"
-		"ypos"			"rs1-8"
+		"xpos"			"3"
+		"ypos"			"rs1-7"
 		"zpos"			"100"
-		"wide"			"f20"
-		"tall"			"20"
+		"wide"			"270"
+		"tall"			"24"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"font"			"HudFontMediumSmallBold"
+		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -181,8 +168,16 @@
 		"keyboardinputenabled"	"0"
 		//"actionsignallevel"	"1"
 
-		"sound_depressed"	"UI/buttonclick.wav"
-		"sound_released"	"UI/buttonclickrelease.wav"
+		"paintbackground"			"0"
+		
+		"border_default"			"NewMenuBGDark"
+		"border_armed"				"NewMenuBGArmed"
+
+		"defaultFgColor_override"	"White"
+		"armedFgColor_override"		"White"
+		"depressedFgColor_override" "White"
+		
+		"AllCaps"		"1"
 	}
 
 	"JoinLateCheckButton"
@@ -211,5 +206,6 @@
 		"font"			"HudFontSmallest"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
 		"proportionaltoparent"	"1"
+		"AllCaps"	"0"
 	}
 }

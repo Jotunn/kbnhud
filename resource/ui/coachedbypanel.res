@@ -78,7 +78,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"CoachNameLabel"
-		"font"			"HudFontMediumSmallSecondary"
+		"font"			"MavenProRegular24"
 		"font_minmode"	"TFFontLarge"
 		"xpos"			"42"
 		"ypos"			"0"

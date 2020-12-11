@@ -4,8 +4,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"blueteam"
-		"xpos"			"c-55"
-		"ypos"			"-7"
+		"xpos"			"c-58"
+		"ypos"			"21"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
@@ -13,32 +13,26 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
 			"xpos"			"5"
-			"ypos"			"7"
+			"ypos"			"4"
 			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"6"
+			"wide"			"40"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_blu"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"border"		"MaterialBlue"
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"9"
+			"xpos"			"10"
+			"ypos"			"3"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -49,7 +43,7 @@
 			"font"			"MavenProBold24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 		"countshadow"
 		{
@@ -64,7 +58,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"MavenProMedium24"
 			"labelText"		"%blue_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
@@ -79,7 +73,7 @@
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"
@@ -90,8 +84,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"redteam"
-		"xpos"			"c-5"
-		"ypos"			"-7"
+		"xpos"			"c8"
+		"ypos"			"21"
 		"zpos"			"0"
 		"wide"			"60"
 		"tall"			"30"
@@ -99,32 +93,26 @@
 	
 		"background"
 		{
-			"ControlName"	"CTFImagePanel"
+			"ControlName"	"EditablePanel"
 			"fieldName"		"background"
 			"xpos"			"5"
-			"ypos"			"7"
+			"ypos"			"4"
 			"zpos"			"0"
-			"wide"			"50"
-			"tall"			"6"
+			"wide"			"40"
+			"tall"			"23"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
-				
-			"src_corner_height"		"23"			// pixels inside the image
-			"src_corner_width"		"23"
-					
-			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"0"	
+			"border"		"MaterialRed"
 		}
 		
 		"count"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"count"
-			"xpos"			"23"
-			"ypos"			"9"
+			"xpos"			"10"
+			"ypos"			"3"
 			"zpos"			"2"
 			"wide"			"30"
 			"tall"			"25"
@@ -135,7 +123,7 @@
 			"font"			"MavenProBold24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
-			"fgcolor"		"TanLight"
+			"fgcolor"		"White"
 		}	
 		"countshadow"
 		{
@@ -150,7 +138,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontMedium"
+			"font"			"MavenProMedium24"
 			"labelText"		"%red_alive%"
 			"textAlignment"	"center"
 			"fgcolor"		"Black"
@@ -165,7 +153,7 @@
 			"zpos"			"3"
 			"wide"			"8"
 			"tall"			"16"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"capture_icon_white"
 			"scaleImage"	"1"

@@ -1,0 +1,12 @@
+###############################
+#---HITMARKER INSTRUCTIONS:---#
+###############################
+
+-Go to "^customizations/#hitmarkers" and open "hitmarkers_hudlayout.res" with a text editor program (eg. Notepad). The first thing you see should say "^Hitmarker".
+-Using the guide image in the "#hitmarkers" folder, decide on the hitmarker shape you prefer, and then find it in the file and set "visible" to "1"
+-Under that, find "xpos" and "ypos. "xpos" moves it left or right. "ypos" move it up and down. DON'T TOUCH "zpos"! 
+-Now, open your game and create a normal server. Have "hud_reloadscheme" ready in console. 
+-Now you'll see the values for "xpos" as "c-12" and "ypos" as "c-11". If you increase the value in "xpos" (eg. c-13) the hitmarker will move to the left. If you increase the value in "ypos" (eg. c-12) it will move up.
+-Adjust both positions untill it seems centered. 
+-Every time you change the number, save the file and then enter hud_reloadscheme into your console, until it is centered or as close to centered as you can get. (You need to do this to see any changes)
+-When you have properly centered it around the crosshair, then you have successfully made the HUD work. Congratulations!

@@ -86,7 +86,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"CoachingLabel"
-		"font"				"HudFontSmallBold"
+		"font"				"MavenProBold14"
 		"xpos"				"57"
 		"ypos"				"5"
 		"wide"				"240"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"MapLabel"
-		"font"				"HudFontSmall"
+		"font"				"MavenProRegular14"
 		"xpos"				"57"
 		"ypos"				"35"
 		"wide"				"240"
@@ -120,7 +120,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"			"DistanceLabel"
-		"font"				"HudFontSmall"
+		"font"				"MavenProRegular14"
 		"xpos"				"c-120"
 		"ypos"				"50"
 		"wide"				"240"
@@ -330,7 +330,7 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"TransparentBlack"
 		"PaintBackgroundType"	"0"
 		"paintborder"			"0"
 		
@@ -360,9 +360,9 @@
 			"tall" "900"
 			"autoResize" "0"
 			"pinCorner" "0"
-			"visible" "1"
+			"visible" "0"
 			"enabled" "1"
-			"fillcolor" "0 0 0 155"
+			"fillcolor" "TransparentBlack"
 		}
 		"TitleBackground"
 		{

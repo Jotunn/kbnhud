@@ -4,15 +4,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BorderImage"	
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"5"
 		"wide"			"0"
 		"tall"			"50"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		"image"			"../hud/halloween_bar_surround"
 		"scaleImage"	"1"					
@@ -20,24 +20,19 @@
 	
 	"Border"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"EditablePanel"
 		"fieldName"		"Border"
-		"xpos"			"14"
+		"xpos"			"11"
 		"xpos_hidef"	"14"
 		"ypos"			"1"
 		"zpos"			"0"
-		"wide"			"170"
+		"wide"			"175"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/color_panel_brown"
-		"src_corner_height"	"56"				// pixels inside the image
-		"src_corner_width"	"56"
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
-		"scaleImage"		"1"
+		"border"		"NewMenuSolidBG"
 	}
 
 	"HealthBarPanel"

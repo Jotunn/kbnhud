@@ -2,26 +2,10 @@
 {		
 	"Background"
 	{
-		"ControlName"		"ScalableImagePanel"
-		"fieldName"		"Background"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"280"
-		"tall"			"90"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
-		
-		"visible"		"1"
-		"enabled"		"1"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"0"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"0"	
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 	}
 	"ShadedBar"
 	{
@@ -31,13 +15,13 @@
 		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"280"
-		"tall"			"90"
+		"tall"			"45"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"	
-		"fillcolor"		"0 0 0 175"
+		"fillcolor"		"0 0 0 200"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -49,14 +33,14 @@
 		"ypos"			"0"
 		"wide"			"280"
 		"tall"			"30"
-		"visible"		"1"
+		"visible"		"0"
 		"PaintBackgroundType" "2"
 		
 		"WaveCompleteLabelShadow"
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabelShadow"
-			"font"			"HudFontmediumBold"
+			"font"			"MavenProBlack24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"2"
@@ -74,7 +58,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"WaveCompleteLabel"
-			"font"			"HudFontmediumBold"
+			"font"			"MavenProBlack24"
 			"textAlignment"	"center"
 			"labelText"		"%titletext%"
 			"xpos"			"0"
@@ -98,7 +82,7 @@
 			"tall"			"40"
 			"autoResize"	"1"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"image"			"../hud/winpanel_red_bg_team"
 			"scaleImage"			"1"
@@ -118,7 +102,7 @@
 			"tall"			"2"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"235 235 235 255"
@@ -131,8 +115,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditContainer"
-		"xpos"			"0"
-		"ypos"			"35"
+		"xpos"			"-5"
+		"ypos"			"0"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
@@ -142,7 +126,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"#TF_PVE_CurrencyCollected"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -156,7 +140,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditCollectedCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"MavenProBold14"
 			"labelText"		"%creditscollected%"
 			"textAlignment" "north-east"
 			"xpos"			"95"
@@ -170,7 +154,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"#TF_PVE_Missed"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -184,7 +168,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditMissedCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"MavenProBold14"
 			"labelText"		"%creditsmissed%"
 			"textAlignment" "north-east"
 			"xpos"			"95"
@@ -198,7 +182,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusTextLabel"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"#TF_PVE_Bonus"
 			"textAlignment" "north-east"
 			"xpos"			"0"
@@ -212,7 +196,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditBonusCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"MavenProBold14"
 			"labelText"		"%creditbonus%"
 			"textAlignment" "north-east"
 			"xpos"			"95"
@@ -227,8 +211,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"RatingContainer"
-		"xpos"			"140"
-		"ypos"			"30"
+		"xpos"			"160"
+		"ypos"			"-5"
 		"wide"			"400"
 		"tall"			"400"
 		"autoResize"	"1"
@@ -238,7 +222,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingLabel"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"%ratinglabel%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -252,7 +236,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingTextShadow"
-			"font"			"HudFontMediumBold"
+			"font"			"MavenProBlack24"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"1"
@@ -266,7 +250,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RatingText"
-			"font"			"HudFontMediumBold"
+			"font"			"MavenProBlack24"
 			"labelText"		"%ratingscore%"
 			"textAlignment" "center"
 			"xpos"			"0"
@@ -330,7 +314,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecTextLabelWin"
-			"font"			"HudFontSmall"
+			"font"			"MavenProRegular14"
 			"labelText"		"#TF_PVE_Respecs"
 			"textAlignment" "west"
 			"xpos"			"9"
@@ -344,7 +328,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"RespecCountLabel"
-			"font"			"HudFontSmallbold"
+			"font"			"MavenProBold14"
 			"labelText"		"%respeccount%"
 			"textAlignment" "west"
 			"xpos"			"170"

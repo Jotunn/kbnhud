@@ -26,11 +26,11 @@
 			echo @@@@@@@@@@@@@@@@@@@@@@@@@|||@@@@@@@@@@@@@@@@@;
 			echo @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@;
 			echo -------------------------------------------------------------------------------;
-			echo ------------------------------------KBNHud v5----------------------------------;
+			echo -----------------------------------KBNHud v501---------------------------------;
 			echo --------- To check for updates go to steamcommunity.com|groups|KBNHud ---------;
 			echo -------------------------------------------------------------------------------"
 		"label" 			""
-		"tooltip"			"Drums of Heaven Edition; December 11, 2020"
+		"tooltip"			"Arlington Edition; December 29, 2020"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"
@@ -166,6 +166,13 @@
 		"command" 			"engine stop; record fix; stop"
 		"tooltip" 			"Fix Invisible Players"
 		"OnlyInGame"		"1"
+	}
+	"CallVote"
+	{
+		"label"				"0"
+		"command"			"callvote"
+		"tooltip" 			"Call A Vote"
+		"OnlyInGame" 		"1"
 	}
 	"ToggleNetgraph"
 	{

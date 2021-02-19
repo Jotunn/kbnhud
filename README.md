@@ -1,8 +1,10 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v501: Arlington Edition
+v502: Harvest Home Edition
 ======
-Celebrating nine years of KBNHud, thanks everyone! I'll save the big retrospective spiel for next year :P
+Celebrating nine years of KBNHud, thanks everyone! I'll save the big retrospective spiel for next year
+======
+This is the first update to this HUD made after the catastrophic loss of the data on my storage drive, including the archives of this HUD. I have had to completely rebuild my workflow, but I am getting there.
 ======
 
 Info and links
@@ -26,7 +28,7 @@ Tools used to create this HUD
 -------
 **Code Writing**
 
-VIM Text Editor in Arch Linux w/XFCE DE (Early 2017-) - Free - [Information and Download Here](https://www.vim.org/)
+GVIM Text Editor in Arch Linux w/KDE Plasma DE (Early 2017-) - Free - [Information and Download Here](https://www.vim.org/)
 
 Notepad++ in Windows 7 and 10 (Mid 2012-Early 2017) - Free - [Information and Download Here](https://notepad-plus-plus.org/)
 
@@ -82,7 +84,7 @@ Copy+Paste the `kbnhud-master` folder into the above folder
 
 **If the above file path isn't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for most distros, as steam makes a folder link to the local data folder used by the distro within `/.steam/`**
 
-**Please also note the fonts get weird depending on the desktop environment that is first installed with your distro. As Microsoft iterates on WSL, more and more Windows functions are cropping up. KBNHud is configured to work best with Ubuntu running at 1080p and all of the flaws it has; the two DEs (desktop environments) that I have tested to work near flawlessly with minor changes are KDE Plasma and XFCE. Most others will never quite render fonts properly. I would recommend not using default Ubuntu anyway, as KDE Plasma far outclasses the Gnome based Unity DE that Ubuntu uses. Kubuntu (Ubuntu with KDE) or Xubuntu (Ubuntu with XFCE) are my recommendations. KDE is the better one for beginners, XFCE is faster and lighter, but for more advanced users.**
+**Please also note the fonts get weird depending on the desktop environment that is first installed with your distro. As Microsoft iterates on WSL, more and more Windows functions are cropping up. KBNHud is configured to work best with Ubuntu running at 1080p and all of the flaws it has; the two DEs (desktop environments) that I have tested to work near flawlessly with minor changes are KDE Plasma and XFCE (the HUD should work out of the box on XFCE4 and KDE Plasma wihtout any further modification, at least in my own testing). Most others will never quite render fonts properly. I would recommend not using default Ubuntu anyway, as KDE Plasma far outclasses the Gnome based Unity DE that Ubuntu uses. Kubuntu (Ubuntu with KDE) or Xubuntu (Ubuntu with XFCE) are my recommendations. KDE is the better one for beginners, XFCE is faster and lighter, but for more advanced users.**
 
 The final file setup should look like this:
 ```

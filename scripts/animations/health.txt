@@ -15,7 +15,9 @@ event HudHealthBonusPulse
 	
 	Animate PlayerStatusHealthValue								FgColor		"Overheal flash 1"		Linear 0.0 0.2		//Overheal flash #1
 	
-	Animate	PlayerStatusHealthValueSpec							FgColor		"TargetID Overheal" 	Linear 0.0 0.0		//TargetID Overheal 
+	Animate	PlayerStatusHealthValueID							FgColor		"TargetID Overheal" 	Linear 0.0 0.0		//TargetID Overheal 
+	Animate	PlayerStatusHealthValueID2							FgColor		"TargetID Overheal" 	Linear 0.0 0.0		//TargetID Overheal 
+	Animate	PlayerStatusHealthValueID3							FgColor		"TargetID Overheal" 	Linear 0.0 0.0		//TargetID Overheal 
 
 	RunEvent HudHealthBonusPulseLoop							0.6
 }
@@ -26,7 +28,9 @@ event HudHealthBonusPulse
 event HudHealthBonusPulseLoop
 {
 	RunEvent HudHealthBonusPulse 								0.0
-	StopPanelAnimations PlayerStatusHealthValueSpec 			0.0
+	StopPanelAnimations PlayerStatusHealthValueID 				0.0
+	StopPanelAnimations PlayerStatusHealthValueID2				0.0
+	StopPanelAnimations PlayerStatusHealthValueID3 				0.0
 	StopPanelAnimations PlayerStatusHealthValueSpecT			0.0
 }
 
@@ -43,7 +47,9 @@ event HudHealthBonusPulseStop
 	Animate PlayerStatusHealthValue 							Alpha 		255 					Linear 	0.0 0.0
 	Animate PlayerStatusHealthValue 							FgColor 	"Base Health" 			Accel 	0.0 0.0    //Base Health
 
-	Animate	PlayerStatusHealthValueSpec							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID2							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID3							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
 }
 
 //===========================================
@@ -64,7 +70,9 @@ event HudHealthDyingPulse
 	Animate PlayerStatusHealthValue         					FgColor		"Low Health flash 2"	Linear 0.0 0.075	//Low Health flash #2
     Animate PlayerStatusHealthValue         					FgColor		"Low Health flash 1"	Linear 0.125 0.075	//Low Health flash #1
 	
-	Animate	PlayerStatusHealthValueSpec							FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
+	Animate	PlayerStatusHealthValueID							FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
+	Animate	PlayerStatusHealthValueID2							FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
+	Animate	PlayerStatusHealthValueID3							FgColor		"TargetID Low Health"	Linear 0.0 0.0		//TargetID Low Health
 	
 	RunEvent HudHealthDyingPulseLoop							0.25
 }
@@ -74,7 +82,9 @@ event HudHealthDyingPulseLoop
 {
 	RunEvent HudHealthDyingPulse 								0.0
 	
-	StopPanelAnimations PlayerStatusHealthValueSpec				0.0
+	StopPanelAnimations PlayerStatusHealthValueID				0.0
+	StopPanelAnimations PlayerStatusHealthValueID2				0.0
+	StopPanelAnimations PlayerStatusHealthValueID3				0.0
 }
 
 event HudHealthDyingPulseStop
@@ -92,7 +102,9 @@ event HudHealthDyingPulseStop
 	Animate PlayerStatusHealthIndicator							Alpha 		255 					Linear 	0.0 0.0
 	Animate PlayerStatusHealthIndicator							BgColor 	"255 255 255 0" 		Accel 	0.0 0.0
 	
-	Animate	PlayerStatusHealthValueSpec							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID2							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
+	Animate	PlayerStatusHealthValueID3							FgColor		"TargetID Base Health" 	Linear 0.0 0.0     //TargetID Base Health
 }
 
 //===========================================

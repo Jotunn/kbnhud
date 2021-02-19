@@ -20,6 +20,9 @@ Scheme
 		//Hitmarker
 		"HitMarker"						"255 255 255 255"
 		
+		//Damage numbers that show next to your health
+		"Damage Numbers"				"255 0 255 255"
+		
 		//Aim Guide
 		"Aim Guide"						"0 0 0 255"
 		

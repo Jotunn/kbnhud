@@ -150,7 +150,7 @@
 	
 	"WingsHitmarker"
 	{
-		"visible"    								"0"
+		"visible"    								"1"
 		"drawcolor"									"HitMarker"
 		
 		"xpos"      								"c-12"

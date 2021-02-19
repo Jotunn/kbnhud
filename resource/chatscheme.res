@@ -853,7 +853,7 @@ Scheme
 		"3"		//KBNHud Default Font
 		{
 			"font" "resource/fonts/mavenpro-regular.ttf" 
-			"font" "resource/fonts/mavenpro-regular_linux.ttf" [$LINUX]
+			//"font" "resource/fonts/mavenpro-regular_linux.ttf" [$LINUX]
 			"name" "Maven Pro Regular"
 		}
 		"4"		//KBNHud Default Font

@@ -24,6 +24,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"center"
+		"fgcolor"		"Damage Numbers"
 		"font"			"MavenProMedium14"	
 	}
 	"DamageAccountValueShadow"

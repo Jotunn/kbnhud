@@ -209,13 +209,12 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"c-80"	
-		"ypos"		"r117"	//r165
+		"xpos"		"110"	
+		"ypos"		"r110"	//r165
 		"wide"					"500"
 		"tall"					"200"
 		"TextFont"	"Default"	[$X360]
 	}
-
 	CMainTargetID
 	{
 		"fieldName" 	"CMainTargetID"
@@ -226,7 +225,7 @@
 
 		"zpos"		"1"
 		"wide"	 	"600"
-		"tall"	 	"45"
+		"tall"	 	"70"
 		"priority"	"100"
 	}
 	
@@ -245,17 +244,16 @@
 		"x_offset" "20"
 		"y_offset" "20"
 	}
-	
 	CSecondaryTargetID
 	{
 		"fieldName" "CSecondaryTargetID"
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c90"
+		"ypos" 		"c80"
 		"zpos"		"1"
 		"wide" 		"600"
-		"tall" 		"45"
+		"tall" 		"70"
 		"priority" 	"40"
 	}
 	

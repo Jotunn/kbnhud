@@ -408,7 +408,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsDescriptionLabel"
-			"font"									"Size 11"
+			"font"									"MavenProBold11"
 			"labelText"								"%upgrade_description%"
 			"textAlignment"							"center"
 			"wrap"									"1"
@@ -439,7 +439,7 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Black"
+			"bgcolor_override"						"KBNBlueDark"
 		}
 		
 		"UpgradeItemsHeaderBG"
@@ -455,14 +455,14 @@
 			"pinCorner"								"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"bgcolor_override"						"Black"
+			"bgcolor_override"						"KBNBlueLight"
 		}
 		
 		"UpgradeItemsLabel"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemsLabel"
-			"font"									"Size 12"
+			"font"									"MavenProMedium10"
 			"labelText"								"%upgrade_label%"
 			"textAlignment"							"center"
 			"xpos"									"25"
@@ -482,7 +482,7 @@
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"UpgradeItemStatsLabel"
-			"font"									"Size 8"
+			"font"									"MavenProMedium8"
 			"labelText"								""
 			"textAlignment"							"north-west"
 			"xpos"									"30"

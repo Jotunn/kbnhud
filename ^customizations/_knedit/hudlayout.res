@@ -8,4 +8,8 @@
 	{
 		"xpos"			"c100"
 	}
+	CHealthAccountPanel
+	{
+		"xpos"			"c-350"
+	}
 }

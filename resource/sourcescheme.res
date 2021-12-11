@@ -220,7 +220,24 @@ Scheme
 				"weight"	"500"
 			}
 		}
-
+		"ConsoleText"
+		{
+			"1"
+			{
+				"name"		"Lucida Console"
+				"tall"		"10"
+				"weight"	"500"
+			}
+		}
+		"ConsoleText" [$LINUX]
+		{
+			"1"
+			{
+				"name"		"DejaVu Sans Mono"
+				"tall"		"10"
+				"weight"	"500"
+			}
+		}
 		"ServerBrowserSmall"
 		{
 			"1"

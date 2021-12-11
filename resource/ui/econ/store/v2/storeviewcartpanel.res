@@ -86,7 +86,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintBackground"		"0"
-				"border"				"NewMenuSolidBG"
+				"border"				"NewMenuBGDark"
 			}			
 			
 			"quantitylabel"

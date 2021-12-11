@@ -62,7 +62,8 @@
 		"font"			"MavenProBold10"
 		"fgcolor"		"White"
 		"xpos"			"60"
-		"ypos"			"31"
+		"ypos"			"31"		[$WINDOWS]
+		"ypos"			"33"		[$LINUX]
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -82,7 +83,8 @@
 		"font"			"MavenProBold10"
 		"fgcolor"		"White"
 		"xpos"			"60"
-		"ypos"			"106"
+		"ypos"			"106"	[$WINDOWS]
+		"ypos"			"108"	[$LINUX]
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -102,7 +104,8 @@
 		"font"			"MavenProBold10"
 		"fgcolor"		"White"
 		"xpos"			"60"
-		"ypos"			"181"
+		"ypos"			"181"	[$WINDOWS]
+		"ypos"			"185"	[$LINUX]
 		"zpos"			"5"
 		"wide"			"15"
 		"tall"			"15"
@@ -120,7 +123,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0"		[$WINDOWS]
+		"ypos"			"2"		[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -132,7 +136,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_1"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"0"		[$WINDOWS]
+		"ypos"			"2"		[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -144,7 +149,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_2"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"25"	[$WINDOWS]
+		"ypos"			"27"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -156,7 +162,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_2"
 		"xpos"			"0"
-		"ypos"			"25"
+		"ypos"			"25"	[$WINDOWS]
+		"ypos"			"27"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -168,7 +175,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_3"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"50"	[$WINDOWS]
+		"ypos"			"50"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -180,7 +188,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_3"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"50"	[$WINDOWS]
+		"ypos"			"50"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -208,6 +217,7 @@
 		"fieldName"		"class_item_red_4"
 		"xpos"			"0"
 		"ypos"			"75"
+		"ypos"			"77"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -219,7 +229,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_4"
 		"xpos"			"0"
-		"ypos"			"75"
+		"ypos"			"75"	[$WINDOWS]
+		"ypos"			"77"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -231,7 +242,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_5"
 		"xpos"			"0"
-		"ypos"			"100"
+		"ypos"			"100"	[$WINDOWS]
+		"ypos"			"100"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -243,7 +255,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_5"
 		"xpos"			"0"
-		"ypos"			"100"
+		"ypos"			"100"	[$WINDOWS]
+		"ypos"			"100"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -255,7 +268,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_6"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"125"	[$WINDOWS]
+		"ypos"			"125"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -267,7 +281,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_6"
 		"xpos"			"0"
-		"ypos"			"125"
+		"ypos"			"125"	[$WINDOWS]
+		"ypos"			"125"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -294,10 +309,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_7"
 		"xpos"			"0"
-		"ypos"			"150"
+		"ypos"			"150"	[$WINDOWS]
+		"ypos"			"152"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
-		"tall"			"45"
+		"tall"			"55"
 		"visible"		"1"
 	}	
 	
@@ -306,10 +322,11 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_7"
 		"xpos"			"0"
-		"ypos"			"150"
+		"ypos"			"150"	[$WINDOWS]
+		"ypos"			"152"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
-		"tall"			"45"
+		"tall"			"50"
 		"visible"		"0"
 	}
 	
@@ -318,7 +335,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_8"
 		"xpos"			"0"
-		"ypos"			"175"
+		"ypos"			"175"	[$WINDOWS]
+		"ypos"			"177"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -330,7 +348,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_8"
 		"xpos"			"0"
-		"ypos"			"175"
+		"ypos"			"175"	[$WINDOWS]
+		"ypos"			"177"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -342,7 +361,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_red_9"
 		"xpos"			"0"
-		"ypos"			"200"
+		"ypos"			"200"	[$WINDOWS]
+		"ypos"			"202"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"
@@ -354,7 +374,8 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"class_item_blue_9"
 		"xpos"			"0"
-		"ypos"			"200"
+		"ypos"			"200"	[$WINDOWS]
+		"ypos"			"202"	[$LINUX]
 		"zpos"			"2"
 		"wide"			"55"
 		"tall"			"45"

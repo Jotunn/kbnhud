@@ -71,6 +71,20 @@
 		"tall"			"1000"
 	}
 	
+	"TransparentViewmodelMask"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"TransparentViewmodelMask"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-100"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"replay/thumbnails/viewmodels/transparent_viewmodel_refract"
+		"scaleImage"		"1"
+	}	
 	HudDemomanCharge
 	{
 		"fieldName"		"HudDemomanCharge"
@@ -184,7 +198,7 @@
 	{
 		"fieldName"		"CHealthAccountPanel"
 		"xpos"			"c-300"
-		"ypos"			"r200"
+		"ypos"			"r210"
 		"wide"			"230"
 		"tall"  		"180"
 		"visible" 		"1"
@@ -209,7 +223,7 @@
 		"fieldName" "DisguiseStatus"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"110"	
+		"xpos"		"90"
 		"ypos"		"r110"	//r165
 		"wide"					"500"
 		"tall"					"200"
@@ -250,7 +264,7 @@
 		"visible" 	"1"
 		"enabled" 	"1"
 		"xpos" 		"c-100"
-		"ypos" 		"c80"
+		"ypos" 		"c95"
 		"zpos"		"1"
 		"wide" 		"600"
 		"tall" 		"70"
@@ -365,9 +379,15 @@
 	}
 
 	HudDamageIndicator
-	{
-
-	}
+    {
+        "MinimumWidth"                "12"
+        "MaximumWidth"                "12"
+        "StartRadius"                 "80"
+        "EndRadius"                   "80"
+        "MinimumHeight"               "30"
+        "MaximumHeight"               "60"
+        "MinimumTime"              	  "1"
+    }
 
 	HudCommentary
 	{
@@ -542,7 +562,7 @@
 		"enabled"				"1"
 		"xpos"					"c170"
 		"ypos"					"189"
-		"wide"					"170"
+		"wide"					"150"
 		"tall"					"136"
 		"BgAlpha"				"100"
 

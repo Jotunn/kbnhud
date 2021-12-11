@@ -103,9 +103,9 @@
 				"src_corner_height"					"32"
 				"src_corner_width"					"32"
 				"draw_corner_width"					"8"
-				"draw_corner_height" 				"8"	
+				"draw_corner_height" 				"8"
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"						"ImagePanel"

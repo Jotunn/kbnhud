@@ -36,36 +36,32 @@
 		"iconColor"		"ProgressOffWhite"
 	}
 	
-	"DestroyIcon"	
+	"DestroyIcon"
 	{
-		"ControlName"	"CIconPanel"
+		"ControlName"	"CExLabel"
 		"fieldName"		"DestroyIcon"
-		"xpos"			"27"
-		"ypos"			"44"
-		"zpos"			"1"
-		"wide"			"22"
-		"tall"			"22"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"ico_demolish"
-		"iconColor"		"255 255 255 255"
-	}
-		
-	"BuildingIcon"	
-	{
-		"ControlName"	"CIconPanel"
-		"fieldName"		"BuildingIcon"
-		"xpos"			"28"
-		"ypos"			"41"
+		"font"			"MavenProBold10"
+		"fgcolor"		"MainRedSolid"
+		"xpos"			"18"
+		"ypos"			"45"
 		"zpos"			"2"
-		"wide"			"22"
-		"tall"			"22"
+		"wide"			"45"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"	
-		"icon"			"obj_status_tele_entrance"
-		"iconColor"		"255 255 255 128"
+		"labelText"		"Destroy Entrance"
+		"textAlignment"	"west"
+		"wrap"          "1"
+		"dulltext"		"0"
+		"brighttext"	"0"
+	}
+
+	"BuildingIcon"
+	{
+		"visible"		"0"
+		"enabled"		"0"
 	}
 		
 	"NumberBg"	

@@ -2545,7 +2545,7 @@
 	{
 		"ControlName"		"Button"
 		"fieldName"		"NextTipButton"
-		"xpos"			"c-286"
+		"xpos"			"c-292"
 		"ypos"			"301"
 		"zpos"			"20"
 		"wide"			"90"

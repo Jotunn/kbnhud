@@ -74,7 +74,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
 		"font"			"MavenProMedium14"
-		"fgcolor"		"White" //"TanDarker"
+		"fgcolor"		"Metal Base" //"TanDarker"
 		"xpos"			"32"
 		"ypos"			"48"
 		"zpos"			"1"

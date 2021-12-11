@@ -797,4 +797,61 @@
 		"enabled"			"1"
 		"image"				"pve/upgrade_unowned"
 	}
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+	// Vaccinator Icons
+	////////////////////////////////////////////////////////////////////////////////////////////////////
+//	"BulletBlue"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"BulletBlue"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_bullet_blue"
+//	}
+//	"BulletRed"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"BulletRed"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_bullet_red"
+//	}
+//	"ExplosionBlue"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"ExplosionBlue"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_explosion_blue"
+//	}
+//	"ExplosionRed"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"ExplosionRed"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_explosion_red"
+//	}
+//	"FireBlue"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"FireBlue"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_fire_blue"
+//	}
+//	"FireRed"
+//	{
+//		"ControlName"		"ImagePanel"
+//		"fieldName"			"FireRed"
+//		"xpos"				"9999"
+//		"visible"			"1"
+//		"enabled"			"1"
+//		"image"				"../effects/defense_buff_fire_red"
+//	}
 }

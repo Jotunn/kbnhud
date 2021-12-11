@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CExpandablePanel"
 		"fieldName"		"NewMatchFound"
-		"xpos"			"cs-0.5"
+		"xpos"			"cs1+12"
 		"ypos"			"0"
 		"zpos"			"10000"
 		"wide"			"200"

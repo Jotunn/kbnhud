@@ -158,19 +158,20 @@ Scheme
 		}
 		"13"	//Hypno's crosshairs
 		{
-			"font" "resource/fonts/tf2crosshairs.ttf" 
-			//"font" "resource/fonts/knucklescrosses_linux.ttf" [$LINUX]
+			"font" "resource/fonts/tf2crosshairs.ttf"  [$WINDOWS]
+			"font" "resource/fonts/tf2crosshairs_linux.ttf" [$LINUX]
 			"name" "TF2Crosshairs"
 		}
 		"14"	//Menu Symbols
 		{
-			"font" "resource/fonts/hypnotizehudicons.otf" 
-			"font" "resource/fonts/hypnotizehudicons_linux.otf" [$LINUX]
-			"name" "HypnotizeHud Icons"
+			"font" "resource/fonts/kbnhudicons.otf"
+			"font" "resource/fonts/kbnhudicons_linux.otf" [$LINUX]
+			"name" "KBNHud Icons"
 		}
 		"15"	//Loadout Screen Symbols
 		{
-			"font" "resource/fonts/tf2classicons.otf"
+			"font" "resource/fonts/tf2classicons.otf"  [$WINDOWS]
+			"font" "resource/fonts/tf2classicons_linux.otf" [$LINUX]
 			"name" "TF2 Class Icons"
 		}
 		"16"	//F4 Ready mode symbols

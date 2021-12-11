@@ -91,7 +91,7 @@
 		"fieldName"		"CountdownLabelShadow"
 		"font"			"HudFontGiant"
 		"xpos"			"cs-0.48"
-		"ypos"			"cs-0.08"
+		"ypos"			"cs-0.04"
 		"wide"			"40"
 		"tall"			"40"
 		"zpos"			"4"
@@ -105,7 +105,6 @@
 		"fgcolor"		"Black"
 		"proportionaltoparent"	"1"
 
-	
 		if_readymode
 		{
 			"xpos"			"300"

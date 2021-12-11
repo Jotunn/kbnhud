@@ -19,7 +19,7 @@
 		//	  	"visible" "1" = Enabled  "visible" "0" = Disabled		//
 		//////////////////////////////////////////////////////////////////
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "2" "textAlignment" "center"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair1" "enabled" "0" "zpos" "3" "textAlignment" "center"
 		
 		//////////////////////////////////////////////////////////////////
 		//					  	   CROSSHAIR TYPE						//
@@ -30,17 +30,20 @@
 		// 		the different options and their attached letter			//
 		//////////////////////////////////////////////////////////////////
 		
-		"labelText"	"a"
+		"labelText"	"p"
 		
 		//////////////////////////////////////////////////////////////////
 		//				 	CROSSHAIR SIZE & PROPERTIES					//
 		//	----------------------------------------------------------	//
 		//    The crosshair size can be any number between 10 and 30	//
 		//																//
+		//				   Smaller is better for sniping, 				//
+		//				 bigger is better for most classes				//
+		//																//
 		//  	  The Outline can be toggled between ON and OFF			//
 		//////////////////////////////////////////////////////////////////
 		
-		"font"		"Size:10 | Outline:OFF"
+		"font"		"Size:15 | Outline:OFF"
 		
 		//////////////////////////////////////////////////////////////////
 		//					   CROSSHAIR POSITION						//
@@ -58,7 +61,7 @@
 		//////////////////////////////////////////////////////////////////
 		//					     CROSSHAIR COLOR						//
 		//	----------------------------------------------------------	//
-		// The color is a R. (red) G. (green) B. (blu) A. (alpha) code	//
+		// The color is a R. (red) G. (green) B. (blue) A. (alpha) code	//
 		//		  Adjust each value to get the desired color			//
 		//																//
 		//   If you change this value, make sure to also change the  	//
@@ -71,11 +74,11 @@
 	CustomCrosshair2 //Same as above, this second crosshair will allow you to have both a crosshair and KonrWings; see guide for the variations of KonrWings.
 	{
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair" "enabled" "1" "zpos" "2" "textAlignment" "center"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair2" "enabled" "0" "zpos" "2" "textAlignment" "center"
 		
-		"labelText"	"I"
+		"labelText"	"p"
 		
-		"font"		"Size:18 | Outline:OFF"
+		"font"		"Size:15 | Outline:OFF"
 
 		"xpos"		"c-50"
 		"ypos"		"c-50"

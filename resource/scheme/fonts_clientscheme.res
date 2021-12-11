@@ -26,7 +26,7 @@ Scheme
 			{
 			"name"		"Maven Pro Regular"
 			"tall"		"4" 
-			"tall"		"5" [$LINUX]
+			
 			"weight"	"500" 
 			"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
@@ -41,7 +41,7 @@ Scheme
 			"tall"		"5" 
 			"tall"		"6" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -54,7 +54,7 @@ Scheme
 			"tall"		"7" 
 			"tall"		"8" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -67,9 +67,23 @@ Scheme
 			"tall"		"8" 
 			"tall"		"9" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
+			}
+		}
+		"MavenProRegular8L"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Regular"
+			"tall"		"8"
+			"tall"		"9" [$LINUX]
+			"weight"	"500"
+			//"weight"	"250" [$LINUX]
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0 0 0 150"
 			}
 		}
 		"MavenProRegular9"
@@ -80,7 +94,7 @@ Scheme
 			"tall"		"9" 
 			"tall"		"10" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -93,7 +107,7 @@ Scheme
 			"tall"		"10" 
 			"tall"		"11" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -106,7 +120,7 @@ Scheme
 			"tall"		"11" 
 			"tall"		"12" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -119,7 +133,7 @@ Scheme
 			"tall"		"12" 
 			"tall"		"13" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -132,7 +146,7 @@ Scheme
 			"tall"		"14" 
 			"tall"		"15" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -145,7 +159,7 @@ Scheme
 			"tall"		"16" 
 			"tall"		"17" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -158,7 +172,7 @@ Scheme
 			"tall"		"18" 
 			"tall"		"19" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -171,7 +185,7 @@ Scheme
 			"tall"		"24" 
 			"tall"		"25" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -184,7 +198,7 @@ Scheme
 			"tall"		"48" 
 			"tall"		"49" [$LINUX]
 			"weight"	"500" 
-			"weight"	"250" [$LINUX]
+			//"weight"	"250" [$LINUX]
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
 			}
@@ -276,6 +290,18 @@ Scheme
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
+			}
+		}
+		"MavenProMedium12L"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"12"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0 0 0 150"
 			}
 		}
 		"MavenProMedium13"
@@ -3504,7 +3530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"8"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3514,7 +3540,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"10"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3524,7 +3550,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3534,7 +3560,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"25"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3544,7 +3570,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"26"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3554,7 +3580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"HypnotizeHud Icons"
+				"name"			"KBNHud Icons"
 				"tall"			"48"
 				"additive"  	"0"
 				"antialias"		"1"

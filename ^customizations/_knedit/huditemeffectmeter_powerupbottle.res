@@ -2,6 +2,6 @@
 {
 	HudItemEffectMeter
 	{
-		"xpos"			"c175"
+		"xpos"			"c170"
 	}
 }

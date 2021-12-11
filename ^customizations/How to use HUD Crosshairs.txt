@@ -1,9 +1,0 @@
-###################################
-#---HUD CROSSHAIR INSTRUCTIONS:---#
-###################################
-
--Go to "^customizations/#crosshairs" and open "crosshairs_hudlayout.res" with a text editor program (eg. Notepad). 
--There are 2 individual crosshair code batches. Each one can use one crosshair image.
--Using the guide image in the "#crosshairs" folder, replace the character next to the "labeltext" to the character that corresponds with the desired crosshair.
--To customize the color, change "fgcolor"	"255 255 255 255" to the desired color by using an RGB color picker. NOTE: The fourth number controls the transparency of the crosshair
--Alignment and centering is not guaranteed to be perfect, and is by default configured to work on 1920x1080. Adjust the xpos and ypos values as needed to achieve the best centering given your resolution.

@@ -70,5 +70,5 @@
 		"textAlignment"	"center"	
 		"font"			"MavenProBold14"
 		"fgcolor"		"TargetID Base Health"
-	}				
+	}
 }

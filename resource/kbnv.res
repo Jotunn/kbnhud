@@ -1,7 +1,7 @@
 "Resource/UI/MainMenuOverride.res"
 {
-	"KBNHudLabel"
+	"KBNHudButton"
 	{
-		"labelText"								"KBNHud v502"
+		"labelText"								"KBNHud v503: 10th Anniversary"
 	}
 }

@@ -8,6 +8,7 @@
 		"fgcolor"		"MainBlueSolid"
 		"xpos"			"0"
 		"ypos"			"0"
+		"ypos"			"2" [$LINUX]
 		"zpos"			"1"
 		"wide"			"45"
 		"tall"			"25"

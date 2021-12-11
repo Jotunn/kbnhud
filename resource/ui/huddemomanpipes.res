@@ -39,7 +39,6 @@
 		"brighttext"			"0"
 		"font"					"TFFontSmall"
 	}
-
 	"ChargeMeter"
 	{	
 		"ControlName"			"ContinuousProgressBar"
@@ -57,6 +56,40 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
+		
+		"charge_1"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"charge_1"
+			"xpos"					"41"
+			"ypos"					"70"
+			"zpos"					"4"
+			"wide"					"1"
+			"tall"					"3"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"		
+			"enabled"				"1"
+			"fillcolor"				"0 0 0 200"
+			"PaintBackgroundType"	"0"
+		}
+		
+		"charge_2"
+		{
+			"ControlName"			"ImagePanel"
+			"fieldName"				"charge_2"
+			"xpos"					"85"
+			"ypos"					"70"
+			"zpos"					"4"
+			"wide"					"1"
+			"tall"					"3"
+			"autoResize"			"0"
+			"pinCorner"				"0"
+			"visible"				"1"		
+			"enabled"				"1"
+			"fillcolor"				"0 0 0 200"
+			"PaintBackgroundType"	"0"
+		}
 	}				
 		
 	"PipesPresentPanel"

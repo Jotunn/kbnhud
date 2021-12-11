@@ -168,8 +168,8 @@
 		"tall"					"250"
 		"visible"				"1"
 		"enabled"				"1"
-		"paintbackground"		"0"
-		"border"				"NewMenuSolidBG"
+		"paintbackground"		"1"
+		"border"				"NewMenuBGDark"
 	}
 
 	"NameFilterTextEntry"
@@ -765,8 +765,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"MaterialLightBG"
-		"border_armed"								"MaterialHypno"
+		"border_default"							"NewMenuBGDark"
+		"border_armed"								"NewMenuBGArmed"
 	}
 	
 	"CartImage"

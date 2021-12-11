@@ -9,7 +9,7 @@
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"enabled"		"1"
-				
+
 		"team1_player_base_offset_x"		"0"
 		"team1_player_base_y"				"365"
 		"team1_player_delta_x"				"0"
@@ -18,7 +18,7 @@
 		"team2_player_base_y"				"378"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"11"
-		
+
 		"playerpanels_kv"
 		{
 			"visible"		"0"
@@ -28,12 +28,12 @@
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
 			"tabPosition"	"0"
-			
+
 			"PanelBackground"
 			{
 				"ControlName" 	"ImagePanel"
 				"fieldName" 	"PanelBackground"
-				"xpos" 			"0"
+				"xpos" 			"22"
 				"ypos"			"0"
 				"zpos" 			"-1"
 				"wide" 			"160"
@@ -60,9 +60,9 @@
 				"labelText"		"%playername%"
 				"textAlignment"	"west"
 				"fgcolor"		"White"
-			
+
 			}
-			
+
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -75,10 +75,10 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"team1_image"			"../hud/class_scoutred"
-				"scaleImage"	"1"	
-				
+				"scaleImage"	"1"
+
 			}
-			
+
 			"classimagebg"
 			{
 				"ControlName"		"Panel"
@@ -92,9 +92,9 @@
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
 				"PaintBackgroundType"	"0"
-				
+
 			}
-			
+
 			"HealthIcon"
 			{
 				"ControlName" "EditablePanel"
@@ -112,7 +112,7 @@
 				"HealthDeathWarningColor" "HUDDeathWarning"
 				"TextColor" "HudOffWhite"
 			}
-			
+
 			"ReadyBG"
 			{
 				"ControlName"		"ScalableImagePanel"
@@ -130,12 +130,12 @@
 
 				"src_corner_height"	"22"				// pixels inside the image
 				"src_corner_width"	"22"
-			
+
 				"draw_corner_width"	"3"				// screen size of the corners ( and sides ), proportional
 				"draw_corner_height" 	"3"
-				
+
 			}
-			
+
 			"ReadyImage"
 			{
 				"ControlName"		"ImagePanel"
@@ -170,7 +170,7 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"255 20 175 255"
-				
+
 			}
 			"respawntimeBG"
 			{
@@ -188,27 +188,25 @@
 				"labelText"		"%respawntime%"
 				"textAlignment"	"west"
 				"fgcolor"		"TransparentBlack"
-				
+
 			}
-			"healthcover"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"healthcover"
-				"font"			"Blocks48"
-				"xpos"			"0"
-				"ypos"			"1"
-				"zpos"			"5"
-				"wide"			"26"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%respawntime%"
-				"textAlignment"	"west"
-				"fgcolor"		"15 15 15 110"
-				
-			}
-			
+			"HealthBG"
+            {
+                "ControlName"	"ImagePanel"
+                "fieldName"		"HealthBG"
+                "xpos"			"4"
+                "ypos"			"3"
+                "zpos"			"2"
+                "wide"			"22"
+                "tall"			"11" //"68"
+                "autoResize"	"0"
+                "pinCorner"		"0"
+                "visible"		"1"
+                "enabled"		"1"
+                "fillcolor"		"0 0 0 200"
+                "PaintBackgroundType"	"0"
+            }
+
 			"chargeamount"
 			{
 				"ControlName"	"CExLabel"
@@ -243,7 +241,7 @@
 				"textAlignment"	"east"
 				"fgcolor"		"TransparentBlack"
 			}
-			
+
 			"specindex"
 			{
 				"ControlName"	"CExLabel"
@@ -261,9 +259,9 @@
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
 			}
-			
+
 		}
-		
+
 	}
 
 	"topbar"
@@ -303,12 +301,12 @@
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
 		"font"			"MavenProBold16"
-		
+
 		if_mvm
 		{
 			"ypos"			"0"	[$WIN32]
 		}
-		
+
 	}
 	"BuyBackLabel"
 	{
@@ -327,11 +325,11 @@
 		"font"			"MavenProBold16"
 		"wrap"			"1"
 		"centerwrap"	"1"
-	
+
 		if_mvm
 		{
 			"visible"		"1"
-		}	
+		}
 	}
 	"MapLabel"
 	{
@@ -350,7 +348,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"SwitchCamModeKeyLabel"
 		"visible"		"0"
-		
+
 	}
 	"SwitchCamModeLabel"
 	{
@@ -393,29 +391,29 @@
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
 		"xpos"			"r249"
-		"ypos"			"c50"
+		"ypos"			"c0"
 		"zpos"			"10"
 		"wide"			"240"
 		"tall"			"100"
 		"visible"		"1"
-		"bgcolor_override"		"TransparentBlack"
+		"bgcolor_override"		""
 		"PaintBackgroundType"	"0"
-		
+
 		"model_ypos"		"10"
 		"model_center_x"	"1"
 		"model_wide"		"90"
 		"model_tall"		"60"
-		
+
 		"text_xpos"		"10"
 		"text_ypos"		"10"
 		"text_wide"		"220"
 		"text_center"	"1"
-		
+
 		"max_text_height"	"100"
 		"padding_height"	"10"
 		"resize_to_text"	"1"
 		"text_forcesize"	"2"
-		
+
 		"ItemBackground"
 		{
 			"ControlName" "ImagePanel"
@@ -446,17 +444,17 @@
 			"enabled" "1"
 			"fillcolor" "TransparentBlack"
 		}
-		
+
 		"itemmodelpanel"
 		{
-			"ypos"			"10
+			"ypos"			"10"
 			"fieldName"		"itemmodelpanel"
 			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
-		
+
 		"ItemLabel"
-		{	
+		{
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"MavenProMedium12"
@@ -474,7 +472,7 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}
-	}	
+	}
 	"spectator_extras"
 	{
 		"ControlName"	"EditablePanel"
@@ -487,5 +485,5 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}	
+	}
 }

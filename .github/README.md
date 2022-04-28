@@ -15,7 +15,7 @@ I made this HUD from the bones of KNHUD when I was a Sniper in UGC, and decided 
 
 [Steam Group, join for updates](http://steamcommunity.com/groups/KBNHud "KBNHud Steam Group")
 
-[Screenshots album (imgur)](https://imgur.com/a/afZxXt2 "Screenshots")
+[Screenshots album (imgur)](https://imgur.com/a/2DSMJ6X "Screenshots")
 
 [KBNHud GitHub Wiki, this has detailed instructions](https://github.com/Jotunn/KBNHud/wiki "Also linked at the top of the page")
 

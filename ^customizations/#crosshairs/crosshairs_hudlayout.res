@@ -19,7 +19,7 @@
 		//	  	"visible" "1" = Enabled  "visible" "0" = Disabled		//
 		//////////////////////////////////////////////////////////////////
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair1" "enabled" "0" "zpos" "3" "textAlignment" "center"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair1" "enabled" "1" "zpos" "3" "textAlignment" "center"
 		
 		//////////////////////////////////////////////////////////////////
 		//					  	   CROSSHAIR TYPE						//
@@ -43,7 +43,7 @@
 		//  	  The Outline can be toggled between ON and OFF			//
 		//////////////////////////////////////////////////////////////////
 		
-		"font"		"Size:15 | Outline:OFF"
+		"font"		"Size:13 | Outline:OFF"
 		
 		//////////////////////////////////////////////////////////////////
 		//					   CROSSHAIR POSITION						//
@@ -74,11 +74,11 @@
 	CustomCrosshair2 //Same as above, this second crosshair will allow you to have both a crosshair and KonrWings; see guide for the variations of KonrWings.
 	{
 		
-		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair2" "enabled" "0" "zpos" "2" "textAlignment" "center"
+		"visible"	"0"																																																																			"controlName" "CExLabel" "fieldName" "CustomCrosshair2" "enabled" "1" "zpos" "2" "textAlignment" "center"
 		
 		"labelText"	"p"
 		
-		"font"		"Size:15 | Outline:OFF"
+		"font"		"Size:10 | Outline:OFF"
 
 		"xpos"		"c-50"
 		"ypos"		"c-50"

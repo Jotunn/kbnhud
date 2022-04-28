@@ -4,7 +4,7 @@
 	{
 		"ControlName"			"EditablePanel"
 		"fieldName"				"GitLink"
-		"xpos"					"-10"
+		"xpos"					"cs1.5"
 		"ypos"					"-5"
 		"zpos"					"10005"
 		"wide"					"18"

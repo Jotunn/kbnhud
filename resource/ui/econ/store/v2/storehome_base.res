@@ -296,15 +296,15 @@
 		
 		"paintBackground"							"0"
 		
-		"defaultBgColor_override"					"Background"
-		"armedBgColor_override"						"Background"
-		"depressedBgColor_override"					"Background"
-		
+		"defaultBgColor_override"					"Black"
+		"armedBgColor_override"						"Black"
+		"depressedBgColor_override"					"Black"
+
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
+		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NewMenuBGDark"
+
+		"border_default"							"NewMenuBGArmed"
 		"border_armed"								"NewMenuBGArmed"
 	}
 	
@@ -352,15 +352,15 @@
 		
 		"paintBackground"							"0"
 		
-		"defaultBgColor_override"					"Background"
-		"armedBgColor_override"						"Background"
-		"depressedBgColor_override"					"Background"
-		
+		"defaultBgColor_override"					"Black"
+		"armedBgColor_override"						"Black"
+		"depressedBgColor_override"					"Black"
+
 		"defaultFgColor_override"					"White"
-		"armedFgColor_override" 					"White"
+		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
-		
-		"border_default"							"NewMenuBGDark"
+
+		"border_default"							"NewMenuBGArmed"
 		"border_armed"								"NewMenuBGArmed"
 	}	
 	

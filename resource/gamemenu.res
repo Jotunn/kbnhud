@@ -3,7 +3,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play ui/thanks.mp3
+			play ui/balls.mp3
 			echo ````````````````````````````````````@``````````````````````````````````````````;
 			echo ```````````````````````````````````@@@`````````````````````````````````````````;
 			echo `````````````````````````````````@@@@@@@```````````````````````````````````````;
@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ---- KBNHud v503 - Langsam-Ruhevoll-Empfunden Edition - 10 years of KBNHud ----;
+			echo ------------------------- KBNHud v504 - Selig Edition -------------------------;
 			echo ------------------------- To check for updates go to: ------------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ----------------------------- huds.tf/site/s-KBNHud ---------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --------------- Thanks for 10 amazing years. Take care, everybody! ------------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v503: 10th Anniversary"
-		"tooltip"			"Langsam-Ruhevoll-Empfunden Edition; December 11, 2021, 10 years"
+		"label" 			"KBNHud v504"
+		"tooltip"			"Selig Edition; April 28, 2022"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

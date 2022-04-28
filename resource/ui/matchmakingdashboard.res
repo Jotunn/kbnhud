@@ -236,7 +236,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"QueueContainer"
-			"xpos"			"cs1+12"
+			"xpos"			"r190"
 			"ypos"			"-60"
 			"zpos"			"0"
 			"wide"			"220"
@@ -451,7 +451,7 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"JoinPartyLobbyContainer"
-			"xpos"			"cs-0.5"
+			"xpos"			"r190"
 			"ypos"			"-50"
 			"zpos"			"110"
 			"wide"			"220"
@@ -463,18 +463,26 @@
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"OuterShadow"
-				"xpos"			"9999"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-1"
+				"wide"			"f0"
+				"tall"			"f0"
+				"visible"		"0"
+				"proportionaltoparent"	"1"
+
+				"border"		"NoBorder"
 			}
 
 			"BGPanel"
 			{
 				"ControlName"	"Panel"
 				"fieldName"		"BGPanel"
-				"xpos"			"cs-0.5"
+				"xpos"			"5"
 				"ypos"			"cs-0.5"
 				"zpos"			"0"
-				"wide"			"f6"
-				"tall"			"29"
+				"wide"			"150"
+				"tall"			"f0"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
 
@@ -485,66 +493,63 @@
 			{
 				"ControlName"	"Label"
 				"fieldName"		"PromptText"
-				"xpos"			"cs-0.5"
-				"ypos"			"1"
-				"wide"			"f35"
+				"xpos"			"10"
+				"ypos"			"-4"
+				"wide"			"f55"
 				"zpos"			"100"
 				"tall"			"f0"
 				"visible"		"1"
 				"enabled"		"1"
-				"font"			"FontStorePrice"
-				"AllCaps"		"1"
-				"fgcolor_override"	"White"
+				"font"			"MavenProBlack14"
+				"fgcolor_override"	"TanLight"
 				"textAlignment"	"west"
 				"labelText"		"#TF_MM_JoinPartyLobby_Prompt"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}		
 
-			"JoinNowButton"
+			"CloseButton"
 			{
-				"ControlName"	"CExButton"
-				"fieldName"		"JoinNowButton"
-				"xpos"			"rs1-10"
-				"ypos"			"rs1-9"
-				"wide"			"40"
-				"zpos"			"100"
-				"tall"			"15"
-
-				if_queued
-				{
-					"xpos"		"cs-0.5"
-					"wide"		"150"
-				}
-				
+				"ControlName"	"CExImageButton"
+				"fieldName"		"CloseButton"
+				"xpos"			"5"
+				"ypos"			"24"
+				"zpos"			"10"
+				"wide"			"150"
+				"tall"			"10"
 				"autoResize"	"0"
-				"pinCorner"		"3"
+				"pinCorner"		"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"font"			"HudFontSmallestBold"
-				"AllCaps"		"1"
+				"labeltext"		"Join"
+				"font"			"MavenProBold10"
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"Command"		"join_party_match"
+				"default"		"1"
+				"Command"		"leave_queue"
 				"proportionaltoparent"	"1"
-				"labeltext"		"#TF_MM_JoinPartyLobby_Join"
-				"mouseinputenabled"	"1"
-				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
 
 				"paintbackground"			"0"
-			
+
 				"sound_depressed"			"UI/buttonclick.wav"
 				"sound_released"			"UI/buttonclickrelease.wav"
-				
-				"border_default"			"NewMenuBGDark"
+
+				"border_default"			"NewMenuBG"
 				"border_armed"				"NewMenuBGArmed"
 
 				"defaultFgColor_override"	"White"
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override" "White"
+
+				"SubImage"
+				{
+					"ControlName"	"ImagePanel"
+					"fieldName"		"SubImage"
+					"xpos"			"9999"
+				}
 			}
 		}
 

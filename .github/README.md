@@ -1,10 +1,7 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v503: Langsam—Ruhevoll—Empfunden Edition
+v504: Selig Edition
 ======
-
-Happy 10th birthday, KBNHud! How far things have come for both this HUD and for me. 27 updates since the 5th aniverssary update, v424. My first code project, started by a depressed 14 year old who still thought a decade was forever, and had low hopes for seeing that "distant" future. TF2 was 4, and it is now 14. I started this on a crappy iMac half a year before I scrounged the cash to build a custom PC. Now I have a life, day job, a car of my own, and a plan. Most of all, the success I saw with this HUD was the first step out of the pit I was in, and today I can say that I can genuinely smile at the end of the week, and when I help someone who has messaged me in my Discord server for help. I could do this, this maddening and tedious thing, and maybe I could get out of where I was. Thank you, all of you. Everyone who used and still uses this HUD, or picked it up from huds.tf. It's been one hell of a ride, and I'm not going anywhere. I owe this project too much to abandon it. When I think of an improvement, I will add it. If VALV<sup>E</sup> decides to really update the game again, I will be there with a patch. If a bug shows, I will do my best to help. While you're here, give a listen to the song this update is named for, or I should say, movement. Symphony No. 3, Movement 6. (Gustav Mahler) It gets loud.
--------
 
 Here's to decades gone past and decades to come. Take care, everyone!
 -------

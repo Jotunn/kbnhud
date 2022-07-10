@@ -17,7 +17,7 @@ I made this HUD from the bones of KNHUD when I was a Sniper in UGC, and decided 
 
 [Screenshots album (imgur)](https://imgur.com/a/2DSMJ6X "Screenshots")
 
-[KBNHud GitHub Wiki, this has detailed instructions](https://github.com/Jotunn/KBNHud/wiki "Also linked at the top of the page")
+[KBNHud GitHub Wiki, this has detailed instructions and help](https://github.com/Jotunn/KBNHud/wiki "Also linked at the top of the page")
 
 [My Discord Server, the best place to get help specific to KBNHUD](https://discord.gg/NhnSysw "Discord server link")
 
@@ -73,7 +73,7 @@ Copy+Paste the `kbnhud-master` folder into the above folder
 
 **If the above file paths aren't exact to your distro, simply use the manage files menu option from within steam. The above example is the file path for most distros, as steam makes a folder link to the local data folder used by the distro within `(home folder)/.steam/`**
 
-**Please also note the fonts get weird depending on the desktop environment that is first installed with your distro. As Microsoft iterates on WSL, more and more Windows functions are cropping up. KBNHud is configured to work best with Ubuntu running at 1080p and all of the flaws it has; the two DEs (desktop environments) that I have tested to work near flawlessly with minor changes are KDE Plasma and XFCE (the HUD should work out of the box on XFCE4 and KDE Plasma wihtout any further modification, at least in my own testing). Most others will never quite render fonts properly. I would recommend not using default Ubuntu anyway, as KDE Plasma far outclasses the Gnome based Unity DE that Ubuntu uses. Kubuntu (Ubuntu with KDE) or Xubuntu (Ubuntu with XFCE) are my recommendations. KDE is the better one for beginnhttps://github.com/Jotunn/kbnhud/wikiers, XFCE is faster and lighter, but for more advanced users.**
+**Please also note the fonts get weird depending on the desktop environment that is first installed with your distro. As Microsoft iterates on WSL, more and more Windows functions are cropping up. KBNHud is configured to work best with Ubuntu and Arch running at 1080p and all of the flaws it has; the two DEs (desktop environments) that I have tested to work near flawlessly with minor changes are KDE Plasma and XFCE (the HUD should work out of the box on XFCE4 and KDE Plasma wihtout any further modification, at least in my own testing). Most others will never quite render fonts properly. I would recommend not using default Ubuntu anyway, as KDE Plasma far outclasses the Gnome based Unity DE that Ubuntu uses. Kubuntu (Ubuntu with KDE) or Xubuntu (Ubuntu with XFCE) are my recommendations. KDE is the better one for beginners, XFCE is faster and lighter, but for more advanced users.**
 
 The final file structure should look like this:
 ```
@@ -87,7 +87,6 @@ tf
         ├── scripts
         ├── sound
         ├── info.vdf
-        ├── README.md
         ├── Screenshot Album.html
         └── v[version #] CHANGELOG.txt
 ```

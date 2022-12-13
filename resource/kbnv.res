@@ -2,6 +2,6 @@
 {
 	"KBNHudButton"
 	{
-		"labelText"								"KBNHud v506"
+		"labelText"								"KBNHud v507"
 	}
 }

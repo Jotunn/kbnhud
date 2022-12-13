@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v506: Hollis Brown Edition
+v507: Cross-Eyed Mary Edition
 ======
 
 Here's to decades gone past and decades to come. Take care, everyone!

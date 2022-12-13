@@ -3,7 +3,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play ui/1800.mp3
+			play ui/bonk.mp3
 			echo ````````````````````````````````````@``````````````````````````````````````````;
 			echo ```````````````````````````````````@@@`````````````````````````````````````````;
 			echo `````````````````````````````````@@@@@@@```````````````````````````````````````;
@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ---------------------- KBNHud v506 - Hollis Brown Edition ---------------------;
+			echo -------------------- KBNHud v507 - Cross-Eyed Mary Edition --------------------;
 			echo ------------------------- To check for updates go to: ------------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ----------------------------- huds.tf/site/s-KBNHud ---------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --------------- Thanks for 10 amazing years. Take care, everybody! ------------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v506"
-		"tooltip"			"Hollis Brown Edition; August 12, 2022"
+		"label" 			"KBNHud v507"
+		"tooltip"			"Cross-Eyed Mary Edition; December 13, 2022"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"
@@ -195,16 +195,14 @@
 	"ToggleChat"
 	{
 		"label" 			"Ð"
-		"command" 			"engine toggle cl_enable_text_chat 1 0;
-							 echo CHAT TOGGLED"
+		"command" 			"engine toggle cl_enable_text_chat 1 0;engine toggle hud_saytext_time 12 0;echo CHAT TOGGLED"
 		"tooltip" 			"Chat ON/OFF"
 		"OnlyInGame"		"1"
 	}
 	"ToggleVoice"
 	{
 		"label" 			"w"
-		"command" 			"engine toggle voice_enable 1 0;
-							 echo VOICE TOGGLED"
+		"command" 			"engine toggle voice_enable 1 0;echo VOICE TOGGLED"
 		"tooltip" 			"Voice Chat ON/OFF"
 		"OnlyInGame"		"1"
 	}

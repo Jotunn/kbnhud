@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo -------------------- KBNHud v507 - Cross-Eyed Mary Edition --------------------;
+			echo ------------------ KBNHud v508 - Riders on the Storm Edition ------------------;
 			echo ------------------------- To check for updates go to: ------------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ----------------------------- huds.tf/site/s-KBNHud ---------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --------------- Thanks for 10 amazing years. Take care, everybody! ------------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v507"
-		"tooltip"			"Cross-Eyed Mary Edition; December 13, 2022"
+		"label" 			"KBNHud v508"
+		"tooltip"			"Riders on the Storm Edition; January 22, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

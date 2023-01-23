@@ -1,6 +1,6 @@
 ![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v507: Cross-Eyed Mary Edition
+v508: Riders on the Storm Edition
 ======
 
 Here's to decades gone past and decades to come. Take care, everyone!

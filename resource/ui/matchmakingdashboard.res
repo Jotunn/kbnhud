@@ -324,7 +324,7 @@
 			{
 				"ControlName"	"CAutoFittingLabel"
 				"fieldName"		"QueueText"
-				"xpos"			"35"
+				"xpos"			"32"
 				"ypos"			"-4"
 				"wide"			"f55"
 				"zpos"			"100"
@@ -342,15 +342,15 @@
 				{
 					"0"
 					{
-						"font"	"HudFontSmallestBold" // TF2 Build 11
+						"font"	"MavenProBold10" // TF2 Build 11
 					}
 					"1"
 					{
-						"font"	"StorePromotionsTitle" // TF2 Build 10
+						"font"	"MavenProBold9" // TF2 Build 10
 					}
 					"2"
 					{
-						"font"	"FontStorePrice" // TF2 Build 9
+						"font"	"MavenProBold8" // TF2 Build 9
 					}
 				}
 			}
@@ -508,10 +508,10 @@
 				"mouseinputenabled"	"0"
 			}		
 
-			"CloseButton"
+			"JoinNowButton"
 			{
 				"ControlName"	"CExImageButton"
-				"fieldName"		"CloseButton"
+				"fieldName"		"JoinNowButton"
 				"xpos"			"5"
 				"ypos"			"24"
 				"zpos"			"10"
@@ -528,7 +528,7 @@
 				"dulltext"		"0"
 				"brighttext"	"0"
 				"default"		"1"
-				"Command"		"leave_queue"
+				"Command"		"join_party_match"
 				"proportionaltoparent"	"1"
 				"actionsignallevel"	"3"
 

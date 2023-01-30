@@ -111,8 +111,8 @@
 
 			"paintbackground"			"0"
 		
-			"border_default"			"NewMenuBGDark"
-			"border_armed"				"NewMenuBGArmed"
+			"border_default"			"NewMenuDarkBG"
+			"border_armed"				"NewMenuArmedBG"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"
@@ -208,8 +208,8 @@
 
 			"paintbackground"			"0"
 		
-			"border_default"			"NewMenuBGDark"
-			"border_armed"				"NewMenuBGArmed"
+			"border_default"			"NewMenuDarkBG"
+			"border_armed"				"NewMenuArmedBG"
 
 			"defaultFgColor_override"	"White"
 			"armedFgColor_override"		"White"

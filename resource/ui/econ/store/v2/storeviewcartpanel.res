@@ -86,7 +86,7 @@
 				"visible"				"1"
 				"enabled"				"1"
 				"paintBackground"		"0"
-				"border"				"NewMenuBGDark"
+				"border"				"NewMenuDarkBG"
 			}			
 			
 			"quantitylabel"
@@ -145,8 +145,8 @@
 				"armedFgColor_override"		"White"
 				"depressedFgColor_override"	"White"
 				
-				"border_default"			"NewMenuBGDark"
-				"border_armed"				"NewMenuBGArmed"
+				"border_default"			"NewMenuDarkBG"
+				"border_armed"				"NewMenuArmedBG"
 			}
 			
 			"PriceLabel"
@@ -460,8 +460,8 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"NewMenuBGDark"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuDarkBG"
+		"border_armed"				"NewMenuArmedBG"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"
@@ -495,8 +495,8 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"			"NewMenuBGGreen"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuGreenBG"
+		"border_armed"				"NewMenuArmedBG"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

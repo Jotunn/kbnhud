@@ -8,8 +8,9 @@ Scheme
 		///////////  MAY WISH TO MODIFY, BUT WOULD REQUIRE  ///////////
 		///////////      EDITING MANY FILES TO ACHIEVE.     ///////////
 		///////////                                         ///////////
-		///////////     NUMBERS: RED GREEN BLUE ALPHA       ///////////
-		///////////         LEAVE THE ALPHA AS IS!          ///////////
+		///////////      NUMBERS: RED GREEN BLUE ALPHA      ///////////
+		///////////          I RECOMMEND LEAVING THE        ///////////
+		///////////            ALPHAS AS THEY ARE!          ///////////
 		///////////  ONLINE COLOR PICKERS ARE YOUR FRIENDS! ///////////
 		///////////   READ THE README FOR SOME USEFUL INFO! ///////////
 		

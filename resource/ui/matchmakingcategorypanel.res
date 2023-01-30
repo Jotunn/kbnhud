@@ -81,8 +81,8 @@
 			
 			"paintbackground"	"0"
 
-			"border_default"	"NewMenuBGDark"
-			"border_armed"		"NewMenuBGArmed"
+			"border_default"	"NewMenuDarkBG"
+			"border_armed"		"NewMenuArmedBG"
 			
 			"sound_armed"		"ui/item_info_mouseover.wav"
 			"sound_depressed"	"UI/buttonclick.wav"

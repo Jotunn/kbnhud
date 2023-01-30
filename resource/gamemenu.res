@@ -26,15 +26,14 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ------------------ KBNHud v508 - Riders on the Storm Edition ------------------;
+			echo ----------------------- KBNHud v509 - The River Edition -----------------------;
 			echo ------------------------- To check for updates go to: ------------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
-			echo ----------------------------- huds.tf/site/s-KBNHud ---------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
-			echo --------------- Thanks for 10 amazing years. Take care, everybody! ------------;
+			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v508"
-		"tooltip"			"Riders on the Storm Edition; January 22, 2023"
+		"label" 			"KBNHud v509"
+		"tooltip"			"The River Edition; January 31, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

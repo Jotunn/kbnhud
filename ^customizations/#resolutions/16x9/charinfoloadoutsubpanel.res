@@ -68,8 +68,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"Black"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomSoldier"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -109,8 +109,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomPyro"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -150,8 +150,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomDemoman"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -191,8 +191,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"Black"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"pin_to_sibling" 		"CustomHeavy"
 		"pin_corner_to_sibling" "PIN_TOPRIGHT"
@@ -234,8 +234,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CustomEngineer"
@@ -271,8 +271,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomHeavy"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -312,8 +312,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomEngineer"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -353,8 +353,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomMedic"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -394,8 +394,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 		"CustomSniper"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
@@ -430,8 +430,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 				"Crafting"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
@@ -467,8 +467,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"Black"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 				"Armory"
 		"pin_corner_to_sibling" 		"PIN_TOPRIGHT"
@@ -504,8 +504,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"Trade"
@@ -537,8 +537,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"Black"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 				"Armory"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"
@@ -574,8 +574,8 @@
 		"armedFgColor_override"			"White"
 		"depressedFgColor_override"		"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 		
 		"pin_to_sibling" 				"Trade"
 		"pin_corner_to_sibling" 		"PIN_TOPLEFT"

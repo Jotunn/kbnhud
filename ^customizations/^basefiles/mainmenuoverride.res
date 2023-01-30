@@ -257,8 +257,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		}
 	}
@@ -301,8 +301,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"		
 		}
 	}
@@ -344,8 +344,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"		
 		}		
 	}
@@ -383,8 +383,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"		
 		}
 	}		
@@ -425,8 +425,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 		
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"	
 		}
 	}
@@ -470,8 +470,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -514,8 +514,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -531,7 +531,7 @@
 		"visible"								"1"
 		"enabled"								"1"
 		"proportionaltoparent"					"1"
-		"border"								"NewMenuBG"
+		"border"								"NewMenuLessSolidBG"
 			
 		"DamageColorsLabel"
 		{
@@ -928,8 +928,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -967,8 +967,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"		
 		}		
 	}
@@ -1011,8 +1011,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1078,8 +1078,8 @@
 
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"	
 			
 		}
@@ -1123,8 +1123,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1167,8 +1167,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1211,8 +1211,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1255,8 +1255,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1299,8 +1299,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1343,8 +1343,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1387,8 +1387,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1431,8 +1431,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1482,7 +1482,7 @@
 			"mouseinputenabled"					"0"
 
 			"paintborder"						"1"
-			"border"							"NewMenuBG"
+			"border"							"NewMenuLessSolidBG"
 		}
 
 		"SteamFriendsList"
@@ -1602,8 +1602,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		
 		}
@@ -1650,8 +1650,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		}
 	}
@@ -1694,8 +1694,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1738,8 +1738,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}		
 	}
@@ -1782,8 +1782,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}
 	}
@@ -1826,8 +1826,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}				
 	}
@@ -1873,8 +1873,8 @@
 			"armedFgColor_override" 				"KBNBlueDark"
 			"depressedFgColor_override" 			"KBNBlueDark"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}				
 	}
@@ -1920,8 +1920,8 @@
 			"armedFgColor_override" 				"MainRedSolid"
 			"depressedFgColor_override" 			"MainRedSolid"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"				
 		}				
 	}
@@ -1964,8 +1964,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		}
 	}
@@ -2006,8 +2006,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		}
 	}
@@ -2048,8 +2048,8 @@
 			"sound_depressed"					"UI/buttonclick.wav"
 			"sound_released"					"UI/buttonclickrelease.wav"
 			
-			"border_default"					"NewMenuBG"
-			"border_armed"						"NewMenuBGArmed"
+			"border_default"					"NewMenuLessSolidBG"
+			"border_armed"						"NewMenuArmedBG"
 			"paintbackground"					"0"
 		}		
 	}
@@ -2172,7 +2172,7 @@
 		"visible"									"0"
 		"PaintBackgroundType"						"2"
 		"paintbackground"							"0"
-		"border"									"NewMenuBG"
+		"border"									"NewMenuLessSolidBG"
 		
 		"Notifications_CloseButton"
 		{
@@ -2205,8 +2205,8 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"
 			
-			"border_default"						"NewMenuBG"
-			"border_armed"							"NewMenuBGArmed"
+			"border_default"						"NewMenuLessSolidBG"
+			"border_armed"							"NewMenuArmedBG"
 			
 			"defaultBgColor_override"				"Blank"
 			"armedBgColor_override"					"Blank"

@@ -113,8 +113,8 @@
 			"AllCaps"		"1"
 			"paintbackground"		"0"
 			
-			"border_default" 	"NewMenuBGDark"
-			"border_Armed"		"NewMenuBGArmed"
+			"border_default" 	"NewMenuDarkBG"
+			"border_Armed"		"NewMenuArmedBG"
 			
 			"defaultFgColor_override" 	"White"
 			"armedFgColor_override" 	"White"
@@ -265,8 +265,8 @@
 			
 			"paintbackground"		"0"
 			
-			"border_default"	"NewMenuBGDark"
-			"border_armed"		"NewMenuBGArmed"
+			"border_default"	"NewMenuDarkBG"
+			"border_armed"		"NewMenuArmedBG"
 		}			
 		
 		"FreeAccountLabel"

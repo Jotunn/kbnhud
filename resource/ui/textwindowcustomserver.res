@@ -152,8 +152,8 @@
 		"sound_depressed"							"UI/buttonclick.wav"
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -175,7 +175,7 @@
 		"tall"										"22"
 		"visible"									"1"
 		"enabled"									"1"
-		"border"									"NewMenuBGDark"
+		"border"									"NewMenuDarkBG"
 		
 		"pin_to_sibling" 							"Background"
 		"pin_corner_to_sibling" 					"PIN_TOPLEFT"

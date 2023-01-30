@@ -143,8 +143,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CurPageLabel"
@@ -199,8 +199,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"RightBackground"
@@ -364,8 +364,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 		
 	"WikiButton"
@@ -403,8 +403,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}		
 	
 	"ViewSetButton"
@@ -442,8 +442,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}		
 	
 	

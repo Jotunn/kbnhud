@@ -1,6 +1,7 @@
-![alt text](https://i.imgur.com/QI8x66Z.png)
 
-v508: Riders on the Storm Edition
+![alt text](https://i.imgur.com/ehYUnaI.png)
+
+v509: The River Edition
 ======
 
 Here's to decades gone past and decades to come. Take care, everyone!
@@ -26,13 +27,20 @@ I made this HUD from the bones of KNHUD when I was a sniper in (low tier) UGC, a
 Installing the HUD
 -------
 
-**Download**
+### OS Compatibility
+**KBNHud is compatible with every OS that TF2 runs on, these being:**
 
-**If you're on Windows, KBNHud is now included in [CriticalFlaw's and Revan's HUD Editor](https://www.editor.criticalflaw.ca/), an installer and customization tool that provides a visual system for enabling the customizations you use, as well as set up your crosshairs, colors, and more.**
+* Windows
+* Mac OS
+* Linux (KBNHud is developed in Linux)
+
+### Download
+
+**If you're on Windows, KBNHud is now included in [CriticalFlaw's and Revan's HUD Editor](http://www.criticalflaw.ca/TF2HUD.Editor/), an installer and customization tool that provides a visual system for enabling the customizations you use, as well as set up your crosshairs, colors, and more.**
 
 To download the HUD, click the green `Code` button above, then click `Download Zip` in the menu that pops up. Then, extract `kbnhud-master.zip`, which should create a folder of the same name.
 
-**Installation**
+### Installation
 
 **Where to install:**
 
@@ -109,6 +117,8 @@ Credits
 
 **MENU VTFS:** extracrispy & Rawsor
 
+**MAIN MENU BACKGROUND, BANNERS:** Alena Aenami, via her [ArtStation](https://aenamiart.artstation.com/). The piece used is called [Stardust](https://aenamiart.artstation.com/projects/4Xa124).
+
 **HITMARKERS:** Originally written by Quartz, updated versions by Hypnotize
 
 **CLOSED CAPTIONS:** Clovervidia
@@ -117,7 +127,7 @@ Credits
 Special Thanks
 -------
 
-Thanks to: Chippy (for creating KNHUD), Quartz (for spending months helping me get the hang of this), Garm3n, Sinders, rays [GO WATCH HIS TWITCH STREAM](http://www.twitch.tv/raysfire), OMP, Hypnotize, and the HUDS.TF Discord crew for many many HUD elements and developement help. Major shoutout to Sunflower for giving me some great ideas during development, along with many others who helped me in closed testing of v5.
+Thanks to: Chippy (for creating KNHUD), Quartz (for spending months helping me get the hang of this), Sinders (for putting up with my annoying self for years upon years), Garm3n, [raysfire](http://www.twitch.tv/raysfire "GO WATCH HIS TWITCH STREAM"), OMP, [Hypnotize](https://github.com/Hypnootize), and the [HUDS.TF Discord server](http://discord.huds.tf/ "HUDS.TF Discord link") crew for many many HUD elements and developement help. Major shoutout to Sunflower for giving me some great ideas during development, along with many others who helped me in closed testing of v5.
 
 Thanks to [Clovervidia](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) for the closed captions.
 

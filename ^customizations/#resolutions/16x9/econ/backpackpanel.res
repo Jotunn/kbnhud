@@ -235,7 +235,7 @@
 		"pin_to_sibling" 		"NameFilterTextEntry"
 	}
 	
-	"PrevPageButton"
+	"PrevsearchButton"
 	{
 		"ControlName"		"CExButton"
 		"fieldName"			"PrevPageButton"
@@ -264,8 +264,8 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"NewMenuBGDark"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuDarkBG"
+		"border_armed"				"NewMenuArmedBG"
 		
 		"pin_to_sibling"			"CurPageLabel"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -320,8 +320,8 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"NewMenuBGDark"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuDarkBG"
+		"border_armed"				"NewMenuArmedBG"
 		
 		"pin_to_sibling"			"CurPageLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -353,7 +353,7 @@
 		"paintBackground"	"1"
 		
 		"fgcolor_override"					"White"
-		"bgcolor_override"					"Black"
+		"bgcolor_override"					"KBNBlueDark"
 		"disabledFgColor_override" 			"White"
 		"disabledBgColor_override" 			"Black"
 		"selectionColor_override" 			"Black"
@@ -423,7 +423,7 @@
 			"defaultBgColor_override"		"Black"
 			"armedFgColor_override"			"White"
 			"armedBgColor_override"			"Black"
-			"paintBackgroundtype"			"2"
+			"paintBackgroundtype"			"1"
 		}
 	}
 	
@@ -546,8 +546,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}	
 	
 	"DragToPrevPageButton"
@@ -584,8 +584,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}		
 	
 	"CancelApplyToolButton"
@@ -623,8 +623,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}	
 
 	"StartExplanation"

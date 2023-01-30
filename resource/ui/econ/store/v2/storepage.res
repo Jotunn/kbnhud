@@ -169,7 +169,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintbackground"		"1"
-		"border"				"NewMenuBGDark"
+		"border"				"NewMenuDarkBG"
 	}
 
 	"NameFilterTextEntry"
@@ -431,8 +431,8 @@
 		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGArmed"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuArmedBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CurPageLabel"
@@ -487,8 +487,8 @@
 		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGArmed"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuArmedBG"
+		"border_armed"								"NewMenuArmedBG"
 	}	
 	
 	"PriceLabel"
@@ -765,8 +765,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CartImage"

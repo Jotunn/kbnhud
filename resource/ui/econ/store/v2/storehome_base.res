@@ -172,7 +172,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"paintBackground"		"0"
-		"border"				"NewMenuBGDark"
+		"border"				"NewMenuDarkBG"
 	}
 	
 	"mouseoveritempanel"
@@ -304,8 +304,8 @@
 		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
 
-		"border_default"							"NewMenuBGArmed"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuArmedBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CurPageLabel"
@@ -360,8 +360,8 @@
 		"armedFgColor_override" 					"KBNBlueDark"
 		"depressedFgColor_override" 				"White"
 
-		"border_default"							"NewMenuBGArmed"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuArmedBG"
+		"border_armed"								"NewMenuArmedBG"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -415,8 +415,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}
 	
 	"CartImage"
@@ -462,8 +462,8 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"	"White"
 		"armedFgColor_override"		"White"

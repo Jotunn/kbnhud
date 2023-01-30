@@ -37,45 +37,6 @@
 			"urlText"				"https://github.com/Jotunn/kbnhud"
 		}
 	}
-
-	"HudsLink"
-	{
-		"ControlName"			"EditablePanel"
-		"fieldName"				"HudsLink"
-		"xpos"					"-20"
-		"ypos"					"-18"
-		"zpos"					"10005"
-		"wide"					"18"
-		"tall"					"18"
-		"visible"				"1"
-		"bgcolor_override"		"83 152 243 100"
-		"PaintBackgroundType"	"0"
-
-		"pin_to_sibling"		"GitLink"
-		"pin_corner_to_sibling" "PIN_TOPLEFT"
-		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
-
-		"HudsUrl"
-		{
-			"ControlName"			"URLLabel"
-			"fieldName"				"HudsUrl"
-			"xpos"					"0"
-			"ypos"					"0"
-			"zpos"					"2"
-			"wide"					"f0"
-			"tall"					"f0"
-			"font"					"Symbols 16"
-			"labelText"				"ÿ"
-			"enabled"				"1"
-			"visible"				"1"
-			"paintBackground"		"0"
-			"textAlignment"			"center"
-			"fgcolor_override"		"HudWhite"
-			"proportionaltoparent"	"1"
-			"urlText"				"https://huds.tf/site/s-KBNHud"
-		}
-	}
-
 	"DiscordLink"
 	{
 		"ControlName"			"EditablePanel"
@@ -89,7 +50,7 @@
 		"bgcolor_override"		"88 101 242 100"
 		"PaintBackgroundType"	"0"
 
-		"pin_to_sibling"		"HudsLink"
+		"pin_to_sibling"		"GitLink"
 		"pin_corner_to_sibling" "PIN_TOPLEFT"
 		"pin_to_sibling_corner" "PIN_BOTTOMLEFT"
 

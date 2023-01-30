@@ -6,7 +6,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"color" 				"0 0 0 220"
+			"color" 				"0 0 0 255"
 			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_transparent"
@@ -14,6 +14,19 @@ Scheme
 			"src_corner_width"		"0"
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
+		}
+		NewMenuLessSolidBG
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			"color" 				"0 0 0 255"
+			"offset" 				"0 0"
+
+			"image"					"replay/thumbnails/panels/material_translucent"
+			"src_corner_height"		"0"
+			"src_corner_width"		"0"
+			"draw_corner_width"		"0"
+			"draw_corner_height" 	"0"
 		}
 		NewMenuSolidBG
 		{
@@ -28,7 +41,7 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
-		NewMenuBGArmed
+		NewMenuArmedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -41,7 +54,7 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
-		NewMenuBGDark
+		NewMenuDarkBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -54,7 +67,7 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
-		NewMenuBGRed
+		NewMenuRedBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
@@ -67,24 +80,11 @@ Scheme
 			"draw_corner_width"		"0"
 			"draw_corner_height" 	"0"	
 		}
-		NewMenuBGGreen
+		NewMenuGreenBG
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			"color" 				"CreditsGreen"
-			"offset" 				"0 0"
-			
-			"image"					"replay/thumbnails/panels/material_generic"
-			"src_corner_height"		"0"
-			"src_corner_width"		"0"
-			"draw_corner_width"		"0"
-			"draw_corner_height" 	"0"	
-		}
-		NewMenuBGDark
-		{
-			"bordertype"			"scalable_image"
-			"backgroundtype"		"2"
-			"color" 				"Black"
 			"offset" 				"0 0"
 			
 			"image"					"replay/thumbnails/panels/material_generic"

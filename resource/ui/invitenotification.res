@@ -133,8 +133,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"NewMenuBGGreen"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuGreenBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -177,8 +177,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 
 		"paintbackground"							"0"
-		"border_default"							"NewMenuBGRed"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuRedBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"

@@ -268,8 +268,8 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"NewMenuBGDark"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuDarkBG"
+		"border_armed"				"NewMenuArmedBG"
 		
 		"pin_to_sibling"			"CurPageLabel"
 		"pin_corner_to_sibling"		"PIN_TOPRIGHT"
@@ -328,8 +328,8 @@
 		"armedFgColor_override"		"White"
 		"depressedFgColor_override"	"White"
 		
-		"border_default"			"NewMenuBGDark"
-		"border_armed"				"NewMenuBGArmed"
+		"border_default"			"NewMenuDarkBG"
+		"border_armed"				"NewMenuArmedBG"
 		
 		"pin_to_sibling"			"CurPageLabel"
 		"pin_corner_to_sibling"		"PIN_TOPLEFT"
@@ -554,8 +554,8 @@
 		"armedFgColor_override" 					"White"
 		"depressedFgColor_override" 				"White"
 		
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 	}	
 	
 	"DragToPrevPageButton"

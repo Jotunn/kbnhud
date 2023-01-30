@@ -3,7 +3,7 @@
 //																							//
 //						SET VISIBLE TO '1' FOR THE HITMARKER YOU WANT TO USE				//
 //																							//
-//					CHECKOUT THE HITMARKER.PNG IMAGE TO SEE WHAT THEY LOOK LIKE!			//
+//					  CHECK OUT TF2Crosshairs.png TO SEE WHAT THEY LOOK LIKE!				//
 //																							//
 //					      COLORS CAN BE CUSTOMIZED IN THE #COLORS FOLDER					//
 //																							//

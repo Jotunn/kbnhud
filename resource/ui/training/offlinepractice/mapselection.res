@@ -74,8 +74,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -107,8 +107,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"
@@ -184,8 +184,8 @@
 		"sound_released"							"UI/buttonclickrelease.wav"
 		
 		"paintbackground"							"0"
-		"border_default"							"NewMenuBGDark"
-		"border_armed"								"NewMenuBGArmed"
+		"border_default"							"NewMenuDarkBG"
+		"border_armed"								"NewMenuArmedBG"
 
 		"defaultFgColor_override"					"White"
 		"armedFgColor_override"						"White"

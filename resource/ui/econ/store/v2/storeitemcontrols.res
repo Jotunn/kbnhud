@@ -48,7 +48,7 @@
 		"image_depressedcolor"	"255 80 60 255"
 		
 		"paintborder"		"1"
-		"border_default"	"NewMenuBGGreen"
-		"border_armed"		"NewMenuBGArmed"				
+		"border_default"	"NewMenuGreenBG"
+		"border_armed"		"NewMenuArmedBG"
 	}		
 }

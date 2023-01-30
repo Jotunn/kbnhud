@@ -140,11 +140,8 @@
 		"keyboardinputenabled"	"0"
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		//"sound_depressed"			"UI/buttonclickrelease.wav"
-		//"sound_depressed_minmode"	"misc/null.wav"
 		"sound_released"			"UI/duel_challenge_accepted.wav"
-		"sound_released_minmode"	"misc/null.wav"
 		
 		"SubImage"
 		{
@@ -218,9 +215,7 @@
 		"armedbgcolor_override"			"90 90 90 255"		
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 	}
 	
 	"loadout_shortcut"
@@ -468,9 +463,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -577,9 +570,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -686,9 +677,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -795,9 +784,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -904,9 +891,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1013,9 +998,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1122,9 +1105,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1231,9 +1212,7 @@
 		"depressedbgcolor_override"		"0 0 0 150"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		
 		"paintbackground"	"0"
 		
@@ -1334,11 +1313,8 @@
 		"depressedfgColor_override" 	"255 255 255 255"	
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		"sound_released"			"UI/duel_score_behind.wav"
-		"sound_released_minmode"	"misc/null.wav"
 	}
 
 	"ClassMenuSelect"

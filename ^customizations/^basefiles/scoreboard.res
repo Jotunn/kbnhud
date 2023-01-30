@@ -751,7 +751,7 @@
 		"fillcolor"		"TransparentBlack"
 	if_mvm
         {
-            "visible"   "0"
+            "visible"   "1"
         }	"scaleImage"		"0"
 	}
 	

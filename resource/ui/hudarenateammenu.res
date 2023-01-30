@@ -92,11 +92,8 @@
 		"armedbgcolor_override"			"184 56 59 255"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 		"sound_released"			"UI/duel_event.wav"
-		"sound_released_minmode"	""
 	}
 	"SpectateButton"
 	{
@@ -126,11 +123,8 @@
 		"depressedfgColor_override" 	"255 255 255 255"
 
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 		"sound_released"			"UI/tv_tune3.wav"
-		"sound_released_minmode"	"misc/null.wav"
 	}
 	"CancelButton"
 	{
@@ -161,9 +155,7 @@
 		"depressedfgColor_override" 	"255 255 255 255"		
 		
 		"sound_armed"				"UI/buttonclickrelease.wav"
-		"sound_armed_minmode"		"misc/null.wav"
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	"misc/null.wav"
 	}
 
 	"teambutton2"

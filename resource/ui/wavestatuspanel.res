@@ -36,7 +36,6 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"textAlignment"				"center"
-		"textAlignment_minmode"		"west"
 		"labelText"					"%wave_count%"
 	}
 	
@@ -137,6 +136,23 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"Black"
-		
+	}
+
+	"MinmodeDisablePlsLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"MinmodeDisablePlsLabel"
+		"font"			"MavenProBold14"
+		"fgcolor"		"RedSolid"
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"5"
+		"wide"			"620"
+		"tall"			"20"
+		"visible"		"0"
+		"visible_minmode"	"1"
+		"enabled"		"1"
+		"textAlignment"				"center"
+		"labelText"					"PLEASE CLICK THE CHANGE SCOREBOARD BUTTON ON THE MAIN MENU TO FIX ME!!!"
 	}
 }

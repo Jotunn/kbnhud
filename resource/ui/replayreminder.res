@@ -9,7 +9,6 @@
 		"zpos"			"1"
 		"wide"			"166"
 		"tall"			"40"
-		"tall_minmode"	"0"
 		"visible"		"0"
 		"alpha"			"0"	
 		

@@ -53,7 +53,7 @@
 		"font"					"TFFontSmall"
 	}
 	"ItemEffectMeter"
-	{	
+	{
 		"ControlName"			"ContinuousProgressBar"
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
@@ -61,7 +61,7 @@
 		"ypos"					"2"
 		"zpos"					"2"
 		"wide"					"100"
-		"tall"					"3"				
+		"tall"					"3"
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -69,7 +69,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-	}	
+	}
 	"BG"
 	{
 		"ControlName"			"ImagePanel"

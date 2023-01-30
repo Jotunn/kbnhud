@@ -101,8 +101,6 @@
 		"fieldName"		"FreezePanelBase"
 		"xpos"			"c-330"
 		"ypos"			"r161"		//"r130"
-		//"xpos_minmode"	"r458"
-		//"ypos_minmode"	"r97"
 		"zpos"			"1"
 		"wide"			"458"		//"268"		
 		"tall"			"97"	
@@ -376,7 +374,6 @@
 		"zpos"			"2"
 		"wide"			"166"
 		"tall"			"40"
-		//"tall_minmode"	"0"
 		"visible"		"0"
 		"alpha"			"0"
 		

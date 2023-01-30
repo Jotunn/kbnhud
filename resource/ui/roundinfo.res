@@ -96,9 +96,7 @@
 		"font"			"MavenProBold14"		//"MenuSmallFont"
 		
 		"sound_armed"				"ui/item_info_mouseover.wav"
-		"sound_armed_minmode"		""
 		"sound_depressed"			"UI/buttonclickrelease.wav"
-		"sound_depressed_minmode"	""
 	}
 	
 	"MapImage"

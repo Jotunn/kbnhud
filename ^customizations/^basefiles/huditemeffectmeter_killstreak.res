@@ -49,6 +49,7 @@
 	
     "ItemEffectMeter"
     {        
+        "ControlName"		"ContinuousProgressBar"
         "visible"           "0"
         "enabled"           "0"
     }                                        

@@ -6,7 +6,6 @@
 		"fieldName"		"ReplayMessagePanel"
 		"zpos"			"-1"
 		"tall"			"84"	[$WIN32]
-		"tall_minmode"			"0"	[$WIN32]
 		"wide"			"0"
 		"autoResize"		"0"
 		"visible"		"1"

@@ -26,14 +26,14 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ----------------------- KBNHud v509 - The River Edition -----------------------;
+			echo ------------------------ KBNHud v510 - Oulhin Edition -------------------------;
 			echo ------------------------- To check for updates go to: ------------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v509"
-		"tooltip"			"The River Edition; January 31, 2023"
+		"label" 			"KBNHud v510"
+		"tooltip"			"Oulhin Edition; January 30, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

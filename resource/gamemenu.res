@@ -26,14 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ------------------------ KBNHud v510 - Oulhin Edition -------------------------;
-			echo ------------------------- To check for updates go to: ------------------------;
+			echo ----------------------- KBNHud v511 - Empire Ants Edition ---------------------;
+			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
+			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v510"
-		"tooltip"			"Oulhin Edition; January 30, 2023"
+		"label" 			"KBNHud v511"
+		"tooltip"			"Empire Ants Edition; February 6, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"
@@ -245,7 +246,7 @@
 	"CCOn"
 	{
 		"label" 			"æ"
-		"command"			"engine closecaption 1;cc_subtitles 0;cc_lang clovervidiac;cc_predisplay_time 0"
+		"command"			"engine closecaption 1;cc_subtitles 0;cc_lang english;cc_predisplay_time 0"
 		"tooltip"			"Closed Captions ON"
 	}
 	"CCOff"
@@ -263,9 +264,15 @@
 	}
 	"WalkwayButton"
 	{
-		"label"				"È"
+		"label"				"ñ"
 		"command"			"engine map tr_walkway_rc2"
 		"tooltip"			"Start local server running tr_walkway_rc2 (if installed)"
+	}
+	"NewbotsButton"
+	{
+		"label"				"Þ"
+		"command"			"engine map tr_newbots"
+		"tooltip"			"Start local server running tr_newbots (if installed)"
 	}
 	"CreateServerButton"
 	{

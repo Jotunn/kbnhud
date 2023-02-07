@@ -353,7 +353,7 @@
 		"paintBackground"	"1"
 		
 		"fgcolor_override"					"White"
-		"bgcolor_override"					"KBNBlueDark"
+		"bgcolor_override"					"Black"
 		"disabledFgColor_override" 			"White"
 		"disabledBgColor_override" 			"Black"
 		"selectionColor_override" 			"Black"
@@ -379,8 +379,8 @@
 		"zpos"					"0"
 		"wide"					"213"
 		"tall"					"24"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"border"				"NewMenuSolidBG"
 		
 		"pin_to_sibling" 		"ShowRarityComboBox"
@@ -436,8 +436,8 @@
 		"zpos"					"0"
 		"wide"					"216"
 		"tall"					"24"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"border"				"NewMenuSolidBG"
 		
 		"pin_to_sibling" 		"SortByComboBox"

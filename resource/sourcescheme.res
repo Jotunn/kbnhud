@@ -10,9 +10,34 @@ Scheme
 		"DarkBG"					"15 15 15 255"
 		"LightBG"					"50 50 50 255"
 		"Dark"						"0 0 0 50"
+		"Transparent"				"0 0 0 0"
 		
 		// ------------------------------------------
 		
+		"MainRed"					"190 85 85 153"
+		"MainRedSolid"				"190 85 85 255"
+		"Red"						"190 85 85 140"
+		"RedSolid"					"190 85 85 255"
+		"MainBlue"					"119 157 177 125"
+		"MainBlueSolid"				"119 157 177 255"
+		"Blue"						"119 157 177 140"
+		"BlueSolid"					"119 157 177 255"
+		"Yellow"					"251 235 202 255"
+		"TransparentYellow"			"251 235 202 140"
+		"Bright Yellow"				"251 235 0 255"
+		"Grey"						"150 150 150 255"
+		"MenuBlue"					"0 138 201 255"
+		"Highlight"					"0 138 201 255"
+		"Highlight2"				"0 138 201 255"
+		"MainMenuBG"				"11 7 6 240"
+		"AlienGreen"				"9 150 82 255"
+		"AlienGreenTransparent"		"9 150 82 150"
+		//"Black"					"0 0 0 255"
+		//Changed black to a NTSC safe color
+		"GreenSolid"		 "76 107 34 255"
+		"NoItemText"										"120 120 120 255"
+		"PipGreen"					"0 255 0 255"
+
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
 	    "TFTanBright"               "236 227 203 150"
@@ -66,8 +91,8 @@ Scheme
 		RichText.BgColor				"LightBG"
 		
 		// Progress bar
-		ProgressBar.FgColor				"White"
-		ProgressBar.BgColor				"LightBG"
+		ProgressBar.FgColor				"KBNBlueLight"
+		ProgressBar.BgColor				"KBNBlueLight"
 		
 		// Checkboxes
 		CheckButton.TextColor			"White"
@@ -238,6 +263,42 @@ Scheme
 				"weight"	"500"
 			}
 		}
+		"MavenProMedium52"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"52"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0"
+			}
+		}
+		"MavenProMedium56"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Medium"
+			"tall"		"56"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0"
+			}
+		}
+		"MavenProBlack56"
+		{
+			"1"
+			{
+			"name"		"Maven Pro Black"
+			"tall"		"56"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"0"
+			}
+		}
 		"ServerBrowserSmall"
 		{
 			"1"
@@ -389,6 +450,26 @@ Scheme
 			{
 				"range" "0x0000 0x0451"
 			}	
+		}
+		"8"		//KBNHud Default Font
+		{
+			"font" "resource/fonts/mavenpro-regular.ttf"
+			"name" "Maven Pro Regular"
+		}
+		"9"		//KBNHud Default Font
+		{
+			"font" "resource/fonts/mavenpro-medium.ttf"
+			"name" "Maven Pro Medium"
+		}
+		"10"	//KBNHud Default Font
+		{
+			"font" "resource/fonts/mavenpro-bold.ttf"
+			"name" "Maven Pro Bold"
+		}
+		"11"	//KBNHud Default Font
+		{
+			"font" "resource/fonts/mavenpro-black.ttf"
+			"name" "Maven Pro Black"
 		}
 	}
 }

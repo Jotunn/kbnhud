@@ -29,19 +29,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"MapLabel"
-		"font"			"MavenProMedium24BigBold" [$WIN32]
-		"font"			"MavenProBlack24" [$X360]
+		"font"			"MavenProMedium24BigBold"
 		"labelText"		"%maplabel%"
-		"textAlignment"		"center" [$WIN32]
-		"textAlignment"		"west" [$X360]
-		"xpos"			"5" [$WIN32]
-		"xpos"			"60" [$X360]
+		"textAlignment"		"center"
+		"xpos"			"5"
 		"ypos"			"92"
 		"ypos_hidef"		"425"
 		"ypos_lodef"		"425"
 		"zpos"			"50"
-		"wide"			"350" [$WIN32]
-		"wide"			"600" [$X360]
+		"wide"			"f0"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -58,7 +54,7 @@
 		"xpos"			"5"
 		"ypos"			"117"
 		"zpos"			"50"
-		"wide"			"350"
+		"wide"			"f0"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"

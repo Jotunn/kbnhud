@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ----------------------- KBNHud v511 - Empire Ants Edition ---------------------;
+			echo --------------------- KBNHud v512 - Common Disaster Edition -------------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v511"
-		"tooltip"			"Empire Ants Edition; February 6, 2023"
+		"label" 			"KBNHud v512"
+		"tooltip"			"Common Disaster Edition; April 10, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

@@ -1,7 +1,7 @@
 
 ![alt text](https://i.imgur.com/ehYUnaI.png)
 
-v511: Empire Ants Edition
+v512: Common Disaster Edition
 ======
 
 Here's to decades gone past and decades to come. Take care, everyone!
@@ -22,7 +22,7 @@ I made this HUD from the bones of KNHUD when I was a sniper in (low tier) UGC, a
 
 [My Discord Server, the best place to get help specific to KBNHUD](https://discord.gg/NhnSysw "Discord server link")
 
-[HUDS.TF Discord server, the best place to get general help fast](http://discord.huds.tf/ "HUDS.TF Discord link")
+[HUDS.TF Discord server, the best place to get general help fast](https://discord.gg/Y5vUPyyGVP "HUDS.TF Discord link")
 
 Installing the HUD
 -------
@@ -127,7 +127,7 @@ Credits
 Special Thanks
 -------
 
-Thanks to: Chippy (for creating KNHUD), Quartz (for spending months helping me get the hang of this), Sinders (for putting up with my annoying self for years upon years), Garm3n, [raysfire](http://www.twitch.tv/raysfire "GO WATCH HIS TWITCH STREAM"), OMP, [Hypnotize](https://github.com/Hypnootize), and the [HUDS.TF Discord server](http://discord.huds.tf/ "HUDS.TF Discord link") crew for many many HUD elements and developement help. Major shoutout to Sunflower for giving me some great ideas during development, along with many others who helped me in closed testing of v5.
+Thanks to: Chippy (for creating KNHUD), Quartz (for spending months helping me get the hang of this), Sinders (for putting up with my annoying self for years upon years), Garm3n, [raysfire](http://www.twitch.tv/raysfire "GO WATCH HIS TWITCH STREAM"), OMP, [Hypnotize](https://github.com/Hypnootize), and the [HUDS.TF Discord server](https://discord.gg/Y5vUPyyGVP "HUDS.TF Discord link") crew for many many HUD elements and developement help. Major shoutout to Sunflower for giving me some great ideas during development, along with many others who helped me in closed testing of v5.
 
 Thanks to [Clovervidia](https://steamcommunity.com/sharedfiles/filedetails/?id=167785751) for the closed captions.
 

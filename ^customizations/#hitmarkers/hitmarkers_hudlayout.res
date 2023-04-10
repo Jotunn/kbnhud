@@ -13,7 +13,7 @@
 {
 	"HitMarker"
 	{
-		"visible" "0"
+		"visible" ""
 		
 		"labelText"	"."																																																																			"ControlName" "CExLabel" "fieldName" "HitMarker" "enabled" "1" "zpos" "0" "wide" "f0" "tall" "f0" "textAlignment" "center" "alpha" "0"
 		

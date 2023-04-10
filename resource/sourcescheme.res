@@ -92,7 +92,7 @@ Scheme
 		
 		// Progress bar
 		ProgressBar.FgColor				"KBNBlueLight"
-		ProgressBar.BgColor				"KBNBlueLight"
+		ProgressBar.BgColor				"KBNBlueDark"
 		
 		// Checkboxes
 		CheckButton.TextColor			"White"

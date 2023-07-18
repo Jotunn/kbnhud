@@ -39,7 +39,7 @@
 		"enabled"				"1"
 		"xpos"					"c-100"
 		"zpos"					"50"
-		"ypos"					"r43"
+		"ypos"					"r67"
 		"ypos"					"r50"
 		"wide"					"200"
 		"tall"					"60"

@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo --------------------- KBNHud v512 - Common Disaster Edition -------------------;
+			echo --------------------- KBNHud v513 - Shaktar Donetsk Edition -------------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v512"
-		"tooltip"			"Common Disaster Edition; April 10, 2023"
+		"label" 			"KBNHud v513"
+		"tooltip"			"Shaktar Donetsk Edition; July 18, 2023"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

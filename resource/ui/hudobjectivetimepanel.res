@@ -141,7 +141,7 @@
 		"ControlName"		"CExLabel"
 		"fieldName"			"SuddenDeathLabel"
 		"xpos"				"5"
-		"ypos"				"20"
+		"ypos"				"-3"
 		"zpos"				"5"
 		"wide"				"100"
 		"tall"				"19"

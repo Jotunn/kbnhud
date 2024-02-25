@@ -5,7 +5,7 @@
 		"fieldName"		"RoundCounter"
 		"xpos"			"cs-0.5"
 		"ypos"			"-2"
-		"zpos"			"10"		
+		"zpos"			"10"
 		"wide"			"300"
 		"tall"			"25"
 		"visible"		"1"
@@ -13,15 +13,15 @@
 		"proportionaltoparent"	"1"
 
 		"starting_width"	"15"
-		"width_per_round"	"15"
-		"indicator_start_offset"	"16"
-		"indicator_max_wide"	"46"
+		"width_per_round"	"10"
+		"indicator_start_offset"	"18"
+		"indicator_max_wide"	"36"
 
 		"RoundIndicatorPanel_kv"
 		{
-			"ypos"				"5"
-			"wide"				"4"
-			"tall"				"4"
+			"ypos"				"9"
+			"wide"				"3"
+			"tall"				"3"
 			"zpos"				"7"
 			"image"				"../hud/comp_round_counter_dot_bg"
 			"scaleimage"		"1"
@@ -29,9 +29,9 @@
 
 		"RoundWinPanelRed_kv"
 		{
-			"ypos"				"0"
-			"wide"				"14"
-			"tall"				"14"
+			"ypos"				"5"
+			"wide"				"11"
+			"tall"				"11"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_red"
 			"scaleimage"		"1"
@@ -39,9 +39,9 @@
 
 		"RoundWinPanelBlue_kv"
 		{
-			"ypos"				"0"
-			"wide"				"14"
-			"tall"				"14"
+			"ypos"				"5"
+			"wide"				"11"
+			"tall"				"11"
 			"zpos"				"8"
 			"image"				"../hud/comp_round_counter_light_blue"
 			"scaleimage"		"1"

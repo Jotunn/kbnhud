@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ------------------------ KBNHud v514 - Supercell Edition ----------------------;
+			echo ------------------------ KBNHud v515 - Optimist Edition -----------------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
-			echo --- Here's to decades gone past and decades to come. Take care, everyone! ---;
+			echo ------- To decades gone past and decades to come! Take care, everyone! --------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v514"
-		"tooltip"			"Supercell Edition; November 12, 2023"
+		"label" 			"KBNHud v515"
+		"tooltip"			"Optimist Edition; February 25, 2024"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"
@@ -127,7 +127,12 @@
 	{
 		"label" 			"ð"
 		"command" 			"engine hud_combattext 1; hud_combattext_red 255; hud_combattext_green 110; hud_combattext_blue 255"
-		"OnlyInGame"		"1"
+		"OnlyInGame"		"1""DemoUI"
+	{
+		"label" 			"Ï"
+		"command" 			"engine demoui"
+		"tooltip"			"Demo UI"
+	}
 	}
 	"ScoreboardToggle"
 	{
@@ -224,6 +229,12 @@
 		"label" 			"Ï"
 		"command" 			"engine demoui"
 		"tooltip"			"Demo UI"
+	}
+	"DemoUI2"
+	{
+		"label" 			"Ï"
+		"command" 			"engine demoui2"
+		"tooltip"			"Demo UI 2"
 	}
 	"SteamWorkshop"
 	{

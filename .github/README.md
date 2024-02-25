@@ -1,10 +1,10 @@
 
 ![alt text](https://i.imgur.com/ehYUnaI.png)
 
-v514: Supercell Edition
+v515: Optimist Edition
 ======
 
-Here's to decades gone past and decades to come. Take care, everyone!
+To decades gone past and decades to come. Take care, everyone!
 -------
 
 Info and links

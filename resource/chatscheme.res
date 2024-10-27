@@ -193,7 +193,7 @@ Scheme
 
 	Fonts
 	{
-
+		"isproportional" "only"
 		"Default"
 		{
 			"1"
@@ -202,7 +202,6 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"480 599"
 			}
 
 			"2"
@@ -211,7 +210,6 @@ Scheme
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
 			}
 
 			"3"
@@ -220,7 +218,6 @@ Scheme
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"768 1023"
 				"antialias"		"1"
 			}
 
@@ -230,17 +227,15 @@ Scheme
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1024 1199"
 				"antialias"		"1"
 			}
 
 			"5"
 			{
 				"name"			"Maven Pro Medium"
-				"tall"			"20"
+				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}
@@ -253,7 +248,6 @@ Scheme
 				"name"			"Marlett"
 				"tall"			"10"
 				"weight"		"0"
-				"yres"			"480 599"
 				"symbol"		"1"
 			}
 
@@ -262,7 +256,6 @@ Scheme
 				"name"			"Marlett"
 				"tall"			"14"
 				"weight"		"0"
-				"yres"			"600 767"
 				"symbol"		"1"
 			}
 
@@ -271,7 +264,6 @@ Scheme
 				"name"			"Marlett"
 				"tall"			"13"
 				"weight"		"0"
-				"yres"			"768 1023"
 				"symbol"		"1"
 			}
 
@@ -280,7 +272,6 @@ Scheme
 				"name"			"Marlett"
 				"tall"			"17"
 				"weight"		"0"
-				"yres"			"1024 1199"
 				"symbol"		"1"
 			}
 
@@ -289,7 +280,6 @@ Scheme
 				"name"			"Marlett"
 				"tall"			"22"
 				"weight"		"0"
-				"yres"			"1200 10000"
 				"symbol"		"1"
 			}
 		}
@@ -301,7 +291,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"7"
 				"weight"	"0"
-				"yres"		"480 599"
 				"symbol"	"1"
 			}
 			"2"
@@ -309,7 +298,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"9"
 				"weight"	"0"
-				"yres"		"600 767"
 				"symbol"	"1"
 			}
 			"3"
@@ -317,7 +305,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"11"
 				"weight"	"0"
-				"yres"		"768 1023"
 				"symbol"	"1"
 			}
 			"4"
@@ -325,7 +312,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"13"
 				"weight"	"0"
-				"yres"		"1024 1199"
 				"symbol"	"1"
 			}
 			"5"
@@ -333,7 +319,6 @@ Scheme
 				"name"		"Marlett"
 				"tall"		"17"
 				"weight"	"0"
-				"yres"		"1200 10000"
 				"symbol"	"1"
 			}
 		}
@@ -343,46 +328,10 @@ Scheme
 			"1"
 			{
 				"name"			"Maven Pro Medium"
-				"tall"			"12"
-				"weight"		"500"
-				"yres"			"480 599"
+				"tall"			"8"
+				"weight"		"300"
 				"dropshadow"	"1"
-			}
-
-			"2"
-			{
-				"name"			"Maven Pro Medium"
-				"tall"			"14"
-				"weight"		"500"
-				"yres"			"600 767"
-				"dropshadow"	"1"
-			}
-
-			"3"
-			{
-				"name"			"Maven Pro Medium"
-				"tall"			"15"
-				"weight"		"500"
-				"yres"			"768 1023"
-				"dropshadow"	"1"
-			}
-
-			"4"
-			{
-				"name"			"Maven Pro Medium"
-				"tall"			"17"
-				"weight"		"500"
-				"yres"			"1024 1199"
-				"dropshadow"	"1"
-			}
-
-			"5"
-			{
-				"name"			"Maven Pro Medium"
-				"tall"			"22"
-				"weight"		"500"
-				"yres"			"1200 10000"
-				"dropshadow"	"1"
+				"antialias"		"1"
 			}
 		}
 
@@ -394,7 +343,6 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"480 599"
 			}
 
 			"2"
@@ -403,7 +351,6 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"600 767"
 			}
 
 			"3"
@@ -412,7 +359,6 @@ Scheme
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"768 1023"
 				"antialias"		"1"
 			}
 
@@ -422,17 +368,15 @@ Scheme
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1024 1199"
 				"antialias"		"1"
 			}
 
 			"5"
 			{
 				"name"			"Maven Pro Medium"
-				"tall"			"16"
+				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
-				"yres"			"1200 6000"
 				"antialias"		"1"
 			}
 		}

@@ -918,6 +918,7 @@ Scheme
 		}
 		"Default"
 		{
+			"isproportional" "only"
 			"1"
 			{
 				"name"		"Maven Pro Regular"
@@ -926,7 +927,6 @@ Scheme
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
 			}
 			"2"
 			{
@@ -936,7 +936,6 @@ Scheme
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
 			}
 			"3"
 			{
@@ -946,7 +945,6 @@ Scheme
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -957,18 +955,16 @@ Scheme
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"23"	
-				"tall"		"24"	[$LINUX]
+				"tall"		"8"
+				"tall"		"9"	[$LINUX]
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1019,55 +1015,50 @@ Scheme
 			"1"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"12"	
-				"tall"		"13"	[$LINUX]
+				"tall"		"8"
+				"tall"		"9"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"13"	
-				"tall"		"14"	[$LINUX]
+				"tall"		"9"
+				"tall"		"10"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"14"	
-				"tall"		"15"	[$LINUX]
+				"tall"		"10"
+				"tall"		"11"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"20"	
-				"tall"		"21"	[$LINUX]
+				"tall"		"16"
+				"tall"		"17"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"22"	
-				"tall"		"23"	[$LINUX]
+				"tall"		"8"
+				"tall"		"9"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"12"	
+				"tall"		"12"
 				"tall"		"13"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -1080,49 +1071,44 @@ Scheme
 			"1"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"12"	
-				"tall"		"13"	[$LINUX]
+				"tall"		"9"
+				"tall"		"10"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
 			}
 			"2"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"12"	
-				"tall"		"13"	[$LINUX]
+				"tall"		"11"
+				"tall"		"12"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"12"	
-				"tall"		"13"	[$LINUX]
+				"tall"		"13"
+				"tall"		"4"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"14"	
-				"tall"		"15"	[$LINUX]
+				"tall"		"15"
+				"tall"		"16"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"16"	
-				"tall"		"17"	[$LINUX]
+				"tall"		"9"
+				"tall"		"10"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -1134,7 +1120,6 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -1142,7 +1127,6 @@ Scheme
 				"tall"		"21"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -1150,7 +1134,6 @@ Scheme
 				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -1159,16 +1142,14 @@ Scheme
 				"tall"		"28"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Medium"
-				"tall"		"30"
+				"tall"		"18"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
@@ -1220,7 +1201,6 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"12"
 				"weight"	"700"
-				"yres"	"480 599"
 			}
 			"2"
 			{
@@ -1228,28 +1208,24 @@ Scheme
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
-				"yres"	"600 767"
 			}
 			"3"
 			{
 				"name"		"Maven Pro Medium"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"	"768 1023"
 			}
 			"4"
 			{
 				"name"		"Maven Pro Medium"
 				"tall"		"20"
 				"weight"	"700"
-				"yres"	"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Medium"
-				"tall"		"24"
+				"tall"		"12"
 				"weight"	"700"
-				"yres"	"1200 10000"
 			}
 		}
 		"HudFontGiant"
@@ -1262,7 +1238,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"480 599"
 			}
 			"2"
 			{
@@ -1272,7 +1247,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"600 767"
 			}
 			"3"
 			{
@@ -1281,7 +1255,6 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"768 1023"
 			}
 			"4"
 			{
@@ -1290,16 +1263,14 @@ Scheme
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1024 1199"
 			}
 			"5"
 			{
 				"name"		"Maven Pro Medium"
-				"tall"		"52"
+				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
-				"yres"		"1200 10000"
 			}
 		}
 		"HudFontGiantBold"
@@ -1378,10 +1349,19 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
-				"tall"		"24"
-				"weight"	"500"
-				"additive"	"0"
+				"name"        "TF2 Secondary"
+				"tall"        "24"
+				"weight"    "500"
+				// "yres"        "1 1199"
+				"additive"    "0"
+				"antialias" "1"
+			}
+			"2"
+			{
+				"name"        "TF2 Secondary"
+				"tall"        "10"
+				"weight"    "500"
+				"additive"    "0"
 				"antialias" "1"
 			}
 		}
@@ -1748,7 +1728,7 @@ Scheme
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
-				"yres"		"1 599"
+				// "yres"		"1 599"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
@@ -1759,7 +1739,7 @@ Scheme
 				"tall"		"21"	[$X360]
 				"weight"	"700"
 				"antialias" 	"1"
-				"yres"		"600 767"
+				// "yres"		"600 767"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"additive"	"1"
 			}
@@ -1769,7 +1749,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"500"
 				"antialias" 	"1"
-				"yres"		"768 1023"
+				// "yres"		"768 1023"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"4"
@@ -1778,7 +1758,7 @@ Scheme
 				"tall"		"21"
 				"weight"	"500"
 				"antialias" 	"1"
-				"yres"		"1024 1199"
+				// "yres"		"1024 1199"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"5"
@@ -1787,7 +1767,7 @@ Scheme
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
-				"yres"		"1200 10000"
+				// "yres"		"1200 10000"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 		}
@@ -2079,8 +2059,8 @@ Scheme
 			"1"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"10"	
-				"tall"		"11"	[$LINUX]
+				"tall"		"8"
+				"tall"		"9"	[$LINUX]
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
 				"additive"	"0"
@@ -2092,8 +2072,8 @@ Scheme
 			"1"
 			{
 				"name"		"Maven Pro Regular"
-				"tall"		"14"	
-				"tall"		"15"	[$LINUX]
+				"tall"		"7"
+				"tall"		"8"	[$LINUX]
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2195,7 +2175,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
-				"yres"		"1 599"
 				"antialias" "1"
 			}
 			"2"
@@ -2206,7 +2185,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
-				"yres"		"600 767"
 				"antialias" "1"
 			}
 			"3"
@@ -2217,7 +2195,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
-				"yres"		"768 1023"
 				"antialias" "1"
 			}
 			"4"
@@ -2228,7 +2205,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
-				"yres"		"1024 1199"
 				"antialias" "1"
 			}
 			"5"
@@ -2239,7 +2215,6 @@ Scheme
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400" 	
 				"weight"	"200" 	[$LINUX]
-				"yres"		"1200 10000"
 				"antialias" "1"
 			}
 		}
@@ -2332,7 +2307,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"12"
 				"weight"	"700"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"dropshadow"	"0"
 			}
 			"2"
@@ -2340,7 +2315,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"13"
 				"weight"	"700"
-				"yres"		"600 767"
+				// "yres"		"600 767"
 				"dropshadow"	"0"
 			}
 			"3"
@@ -2348,7 +2323,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"		"768 1023"
+				// "yres"		"768 1023"
 				"dropshadow"	"0"
 			}
 			"4"
@@ -2356,7 +2331,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"20"
 				"weight"	"700"
-				"yres"		"1024 1199"
+				// "yres"		"1024 1199"
 				"dropshadow"	"0"
 			}
 			"5"
@@ -2364,7 +2339,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"24"
 				"weight"	"700"
-				"yres"		"1200 10000"
+				// "yres"		"1200 10000"
 				"dropshadow"	"0"
 			}
 		}
@@ -2375,7 +2350,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"12"
 				"weight"	"700"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
@@ -2383,7 +2358,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"13"
 				"weight"	"700"
-				"yres"		"600 767"
+				// "yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
@@ -2391,7 +2366,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"		"768 1023"
+				// "yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
@@ -2399,7 +2374,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"20"
 				"weight"	"700"
-				"yres"		"1024 1199"
+				// "yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
@@ -2407,7 +2382,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"24"
 				"weight"	"700"
-				"yres"		"1200 10000"
+				// "yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -2418,7 +2393,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"weight"	"700"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"dropshadow"	"1"
 			}
 			"2"
@@ -2426,7 +2401,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"weight"	"700"
-				"yres"		"600 767"
+				// "yres"		"600 767"
 				"dropshadow"	"1"
 			}
 			"3"
@@ -2434,7 +2409,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"13"
 				"weight"	"700"
-				"yres"		"768 1023"
+				// "yres"		"768 1023"
 				"dropshadow"	"1"
 			}
 			"4"
@@ -2442,7 +2417,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"14"
 				"weight"	"700"
-				"yres"		"1024 1199"
+				// "yres"		"1024 1199"
 				"dropshadow"	"1"
 			}
 			"5"
@@ -2450,7 +2425,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"15"
 				"weight"	"700"
-				"yres"		"1200 10000"
+				// "yres"		"1200 10000"
 				"dropshadow"	"1"
 			}
 		}
@@ -2728,7 +2703,7 @@ Scheme
 				"tall"		"11"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"antialias"	"1"
 			}
 			"2"
@@ -2738,7 +2713,7 @@ Scheme
 				"tall"		"13"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"600 1199"
+				// "yres"		"600 1199"
 				"antialias"	"1"
 			}
 			"3"
@@ -2748,7 +2723,7 @@ Scheme
 				"tall"		"16"	[$LINUX]
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"		"1200 6000"
+				// "yres"		"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2943,7 +2918,7 @@ Scheme
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"400"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
@@ -2954,7 +2929,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"600 1023"
+				// "yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
@@ -2964,7 +2939,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"1024 6000"
+				// "yres"		"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -2977,7 +2952,7 @@ Scheme
 				"name"		"ocra"
 				"tall"		"10"
 				"weight"	"800"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
@@ -2988,7 +2963,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
-				"yres"		"600 1023"
+				// "yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
@@ -2998,7 +2973,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
-				"yres"		"1024 6000"
+				// "yres"		"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -3035,7 +3010,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"weight"	"400"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
@@ -3045,7 +3020,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"600 1023"
+				// "yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
@@ -3054,7 +3029,7 @@ Scheme
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"1024 6000"
+				// "yres"		"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -3066,7 +3041,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"weight"	"400"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 				"italic"	"1"
@@ -3077,7 +3052,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"600 1023"
+				// "yres"		"600 1023"
 				"antialias"	"1"
 				"italic"	"1"
 			}
@@ -3087,7 +3062,7 @@ Scheme
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
-				"yres"		"1024 6000"
+				// "yres"		"1024 6000"
 				"antialias"	"1"
 				"italic"	"1"
 			}
@@ -3100,7 +3075,7 @@ Scheme
 				"name"		"Maven Pro Medium"
 				"tall"		"10"
 				"weight"	"800"
-				"yres"		"480 599"
+				// "yres"		"480 599"
 				"additive"	"0"
 				"antialias"	"1"
 			}
@@ -3110,7 +3085,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
-				"yres"		"600 1023"
+				// "yres"		"600 1023"
 				"antialias"	"1"
 			}
 			"3"
@@ -3119,7 +3094,7 @@ Scheme
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
-				"yres"		"1024 6000"
+				// "yres"		"1024 6000"
 				"antialias"	"1"
 			}
 		}
@@ -3218,7 +3193,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				// "yres"	"480 599"
 			}
 			"2"
 			{
@@ -3226,7 +3201,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				// "yres"	"600 767"
 			}
 			"3"
 			{
@@ -3234,7 +3209,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
+				// "yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -3243,7 +3218,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
+				// "yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -3252,7 +3227,7 @@ Scheme
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
+				// "yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -3275,7 +3250,7 @@ Scheme
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"480 599"
+				// "yres"	"480 599"
 			}
 			"2"
 			{
@@ -3283,7 +3258,7 @@ Scheme
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"600 767"
+				// "yres"	"600 767"
 			}
 			"3"
 			{
@@ -3291,7 +3266,7 @@ Scheme
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"768 1023"
+				// "yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
@@ -3300,7 +3275,7 @@ Scheme
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1024 1199"
+				// "yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
@@ -3309,7 +3284,7 @@ Scheme
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
-				"yres"	"1200 6000"
+				// "yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"

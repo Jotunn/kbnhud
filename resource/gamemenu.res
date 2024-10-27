@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ------------------------ KBNHud v515 - Optimist Edition -----------------------;
+			echo ---------------------- KBNHud v516 - Miami Disco Edition ----------------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo ------- To decades gone past and decades to come! Take care, everyone! --------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v515"
-		"tooltip"			"Optimist Edition; February 25, 2024"
+		"label" 			"KBNHud v516"
+		"tooltip"			"Miami Disco Edition; October 27, 2024"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

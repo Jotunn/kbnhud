@@ -127,8 +127,8 @@
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelShadow"
 		"font"			"MavenProBold12"
-		"xpos"			"56"
-		"ypos"			"15"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"7"
 		"wide"			"300"
 		"tall"			"15"
@@ -141,6 +141,7 @@
 		"fgcolor_override"    "Black"
 		"dulltext"		"0"
 		"brighttext"		"0"
+		"pin_to_sibling"	"TargetNameLabel"
 	}
 	"TargetDataLabel"
 	{	

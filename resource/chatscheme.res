@@ -198,7 +198,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -206,7 +206,7 @@ Scheme
 
 			"2"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"13"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -214,7 +214,7 @@ Scheme
 
 			"3"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -223,7 +223,7 @@ Scheme
 
 			"4"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"16"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -232,7 +232,7 @@ Scheme
 
 			"5"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"8"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -327,7 +327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"8"
 				"weight"		"300"
 				"dropshadow"	"1"
@@ -339,7 +339,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -347,7 +347,7 @@ Scheme
 
 			"2"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -355,7 +355,7 @@ Scheme
 
 			"3"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"12"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -364,7 +364,7 @@ Scheme
 
 			"4"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"14"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -373,7 +373,7 @@ Scheme
 
 			"5"
 			{
-				"name"			"Maven Pro Medium"
+				"name"			"maven_pro_medium"
 				"tall"			"9"
 				"weight"		"0"
 				"range"			"0x0000 0x017F"
@@ -796,24 +796,24 @@ Scheme
 		"2"	"resource/HL2EP2.ttf"
 		"3"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-regular.ttf" 
-			//"font" "resource/fonts/mavenpro-regular_linux.ttf" [$LINUX]
-			"name" "Maven Pro Regular"
+			"font" "resource/fonts/mavenpro_regular.ttf"
+			//"font" "resource/fonts/mavenpro_regular_linux.ttf" [$LINUX]
+			"name" "maven_pro_regular"
 		}
 		"4"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-medium.ttf"
-			"name" "Maven Pro Medium"
+			"font" "resource/fonts/mavenpro_medium.ttf"
+			"name" "maven_pro_medium"
 		}
 		"5"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-bold.ttf"
-			"name" "Maven Pro Bold"
+			"font" "resource/fonts/mavenpro_bold.ttf"
+			"name" "maven_pro_bold"
 		}
 		"6"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-black.ttf"
-			"name" "Maven Pro Black"
+			"font" "resource/fonts/mavenpro_black.ttf"
+			"name" "maven_pro_black"
 		}
 	}
 }

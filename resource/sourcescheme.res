@@ -258,7 +258,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"DejaVu Sans Mono"
+				"name"		"dejavu_sans_mono"
 				"tall"		"10"
 				"weight"	"500"
 			}
@@ -267,7 +267,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"52"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -279,7 +279,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"56"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -291,7 +291,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"56"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -446,25 +446,26 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}
-		"8"		//KBNHud Default Font
+		"A"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-regular.ttf"
-			"name" "Maven Pro Regular"
+			"font" "resource/fonts/mavenpro_regular.ttf"
+			"name" "maven_pro_regular"
 		}
-		"9"		//KBNHud Default Font
+		"B"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-medium.ttf"
-			"name" "Maven Pro Medium"
+			"font" "resource/fonts/mavenpro_medium.ttf"
+			"name" "maven_pro_medium"
 		}
-		"10"	//KBNHud Default Font
+		"C"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-bold.ttf"
-			"name" "Maven Pro Bold"
+			"font" "resource/fonts/mavenpro_bold.ttf"
+			"name" "maven_pro_bold"
 		}
-		"11"	//KBNHud Default Font
+		"D"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-black.ttf"
-			"name" "Maven Pro Black"
+			"font" "resource/fonts/mavenpro_black.ttf"
+			"name" "maven_pro_black"
 		}
+		"J" "resource/fonts/dejavusansmono.ttf"
 	}
 }

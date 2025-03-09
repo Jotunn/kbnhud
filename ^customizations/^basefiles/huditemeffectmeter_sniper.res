@@ -89,7 +89,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"MavenProMedium12"
+		"font"					"MavenProMedium13"
 		"fgcolor_override"	"255 255 255 255"
 	}
 	"ItemEffectMeterCountShadow"
@@ -109,7 +109,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"MavenProMedium12"
+		"font"					"MavenProMedium13"
 		"fgcolor_override"	"0 0 0 255"
 	}
 	"ItemEffectMeterIcon"

@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo ---------------------- KBNHud v516 - Miami Disco Edition ----------------------;
+			echo -------------------- KBNHud v517 - Stoyat Devchonki Edition -------------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo ------- To decades gone past and decades to come! Take care, everyone! --------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v516"
-		"tooltip"			"Miami Disco Edition; October 27, 2024"
+		"label" 			"KBNHud v517"
+		"tooltip"			"Stoyat Devchonki Edition; March 9, 2025"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"

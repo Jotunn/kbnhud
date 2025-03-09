@@ -207,7 +207,7 @@
 	{
 		"ControlName"							"CExLabel"
 		"fieldName"								"KBNHudLabel"
-		"font"									"MavenProBold24"
+		"font"									"MavenProBlack24"
 		"textAlignment"							"center"
 		"xpos"									"cs-0.5"
 		"ypos"									"-4"
@@ -248,7 +248,7 @@
 			"font"								"MavenProBold24"
 			"fgcolor_override"					"White"
 			"textAlignment"						"center"
-			"textinsety"						"-6"
+			"textinsety"						"-3"
 			"use_proportional_insets" 			"0"
 			"dulltext"							"0"
 			"brighttext"						"0"

@@ -24,7 +24,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"4" 
 			
 			"weight"	"500" 
@@ -37,7 +37,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"5" 
 			"tall"		"6" [$LINUX]
 			"weight"	"500" 
@@ -50,7 +50,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"7" 
 			"tall"		"8" [$LINUX]
 			"weight"	"500" 
@@ -63,7 +63,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"8" 
 			"tall"		"9" [$LINUX]
 			"weight"	"500" 
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"8"
 			"tall"		"9" [$LINUX]
 			"weight"	"500"
@@ -90,7 +90,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"9" 
 			"tall"		"10" [$LINUX]
 			"weight"	"500" 
@@ -103,7 +103,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"10" 
 			"tall"		"11" [$LINUX]
 			"weight"	"500" 
@@ -116,8 +116,8 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
-			"tall"		"11" 
+			"name"		"maven_pro_regular"
+			"tall"		"11"
 			"tall"		"12" [$LINUX]
 			"weight"	"500" 
 			//"weight"	"250" [$LINUX]
@@ -129,7 +129,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"12" 
 			"tall"		"13" [$LINUX]
 			"weight"	"500" 
@@ -142,7 +142,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"14" 
 			"tall"		"15" [$LINUX]
 			"weight"	"500" 
@@ -155,7 +155,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"16" 
 			"tall"		"17" [$LINUX]
 			"weight"	"500" 
@@ -168,7 +168,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"18" 
 			"tall"		"19" [$LINUX]
 			"weight"	"500" 
@@ -181,7 +181,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"24" 
 			"tall"		"25" [$LINUX]
 			"weight"	"500" 
@@ -194,7 +194,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Regular"
+			"name"		"maven_pro_regular"
 			"tall"		"48" 
 			"tall"		"49" [$LINUX]
 			"weight"	"500" 
@@ -207,7 +207,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"6"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -218,7 +218,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"7"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -229,7 +229,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"8"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -240,7 +240,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"9"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -251,7 +251,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"9"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -263,7 +263,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"10"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -274,7 +274,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"11"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -285,7 +285,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"12"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -296,7 +296,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"12"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -308,7 +308,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"13"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -319,7 +319,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"14"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -330,7 +330,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"14"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -342,7 +342,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"16"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -353,7 +353,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"18"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -364,7 +364,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"20"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -375,7 +375,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"21"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -386,7 +386,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"24"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -397,7 +397,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"26"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -408,7 +408,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"28"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -419,7 +419,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"30"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -430,7 +430,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"32"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -441,7 +441,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"36"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -452,7 +452,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Medium"
+			"name"		"maven_pro_medium"
 			"tall"		"50"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -463,7 +463,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"7"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -474,7 +474,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"8"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -485,7 +485,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"9"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -496,7 +496,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"10"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -507,7 +507,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"11"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -518,7 +518,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"12"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -529,7 +529,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"14"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -540,7 +540,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"16"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -551,7 +551,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"18"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -563,7 +563,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"18"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -575,7 +575,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"20"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -586,7 +586,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"21"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -597,7 +597,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"22"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -608,7 +608,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"24"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -619,7 +619,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"30"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -630,7 +630,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"36"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -641,7 +641,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"38"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -652,7 +652,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Bold"
+			"name"		"maven_pro_bold"
 			"tall"		"72"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -663,7 +663,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"8"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -674,7 +674,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"9"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -685,7 +685,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"10"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -696,7 +696,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"11"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -707,7 +707,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"11"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -719,7 +719,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"12"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -730,7 +730,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"12"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -742,7 +742,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"13"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -753,7 +753,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"14"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -764,7 +764,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"14"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -776,7 +776,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"16"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -787,7 +787,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"18"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -798,7 +798,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"20"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -809,7 +809,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"21"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -820,7 +820,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"22"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -831,7 +831,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"24"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -842,7 +842,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"26"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -853,7 +853,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"28"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -864,7 +864,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"30"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -875,7 +875,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"36"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -886,7 +886,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"40"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -897,7 +897,7 @@ Scheme
 		{
 			"1"
 			{
-			"name"		"Maven Pro Black"
+			"name"		"maven_pro_black"
 			"tall"		"44"
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
@@ -908,9 +908,9 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"ToonHUD Icons"
+				"name"			"toonhud_icons"
 				"tall"			"12" 
-				"tall"			"11" [$LINUX]
+				"tall"			"10" [$LINUX]
 				"weight"		"400"
 				"additive"		"0"
 				"antialias" 	"1"
@@ -921,7 +921,7 @@ Scheme
 			"isproportional" "only"
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"	
 				"tall"		"12"	[$LINUX]
 				"weight"	"500" 	
@@ -930,7 +930,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"12"	
 				"tall"		"13"	[$LINUX]
 				"weight"	"500" 	
@@ -939,7 +939,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"13"	
 				"tall"		"14"	[$LINUX]
 				"weight"	"500" 	
@@ -949,7 +949,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"19"	
 				"tall"		"20"	[$LINUX]
 				"weight"	"500" 	
@@ -959,7 +959,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"tall"		"9"	[$LINUX]
 				"weight"	"500" 	
@@ -969,7 +969,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"	
 				"tall"		"12"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
@@ -978,7 +978,7 @@ Scheme
 			}
 			"7"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"	
 				"tall"		"12"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
@@ -992,7 +992,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"12"	
 				"tall"		"13"	[$LINUX]
 				"weight"	"500" 	
@@ -1002,7 +1002,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"	
 				"tall"		"12"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
@@ -1014,7 +1014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"tall"		"9"	[$LINUX]
 				"weight"	"0"
@@ -1022,7 +1022,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"9"
 				"tall"		"10"	[$LINUX]
 				"weight"	"0"
@@ -1030,7 +1030,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"10"
 				"tall"		"11"	[$LINUX]
 				"weight"	"0"
@@ -1039,7 +1039,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"16"
 				"tall"		"17"	[$LINUX]
 				"weight"	"0"
@@ -1048,7 +1048,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"tall"		"9"	[$LINUX]
 				"weight"	"0"
@@ -1057,7 +1057,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"12"
 				"tall"		"13"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
@@ -1070,7 +1070,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"9"
 				"tall"		"10"	[$LINUX]
 				"weight"	"0"
@@ -1078,7 +1078,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"
 				"tall"		"12"	[$LINUX]
 				"weight"	"0"
@@ -1086,7 +1086,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"13"
 				"tall"		"4"	[$LINUX]
 				"weight"	"0"
@@ -1095,7 +1095,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"15"
 				"tall"		"16"	[$LINUX]
 				"weight"	"0"
@@ -1104,7 +1104,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"9"
 				"tall"		"10"	[$LINUX]
 				"weight"	"0"
@@ -1116,21 +1116,21 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"21"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1138,7 +1138,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"28"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1146,7 +1146,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -1154,14 +1154,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"20"	
 				"tall"		"22"	[$LINUX]
 				"range" 		"0x0000 0x00FF"
@@ -1174,7 +1174,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"Maven Pro Medium" [!$OSX]
+				"name"		"maven_pro_medium" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"500"
@@ -1187,7 +1187,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -1198,32 +1198,32 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"700"
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"700"
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"weight"	"700"
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"700"
 			}
@@ -1232,7 +1232,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -1241,7 +1241,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -1250,7 +1250,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -1258,7 +1258,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -1266,7 +1266,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1277,7 +1277,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -1290,7 +1290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -1303,7 +1303,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1315,7 +1315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1326,7 +1326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1337,7 +1337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1369,7 +1369,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -1380,7 +1380,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -1391,7 +1391,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1404,7 +1404,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -1417,7 +1417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -1429,7 +1429,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1440,7 +1440,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1451,7 +1451,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1463,7 +1463,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1474,7 +1474,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1486,7 +1486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1497,7 +1497,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1508,7 +1508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1519,7 +1519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1530,7 +1530,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1541,7 +1541,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1552,7 +1552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1563,7 +1563,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -1576,7 +1576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -1651,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1664,7 +1664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1677,7 +1677,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -1688,7 +1688,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -1699,7 +1699,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -1712,7 +1712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -1724,7 +1724,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1734,7 +1734,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1745,7 +1745,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -1754,7 +1754,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -1763,7 +1763,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -1783,7 +1783,7 @@ Scheme
 			}
 			"1"	[$X360]
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -1837,7 +1837,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "Maven Pro Medium"
+				"name"  "maven_pro_medium"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -1848,7 +1848,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1859,7 +1859,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1871,7 +1871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1882,7 +1882,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -1894,7 +1894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"500"
@@ -1929,7 +1929,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -1939,7 +1939,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -1950,7 +1950,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -1961,7 +1961,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -1975,7 +1975,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Bold"
+				"name"			"maven_pro_bold"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -1990,7 +1990,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Bold"
+				"name"			"maven_pro_bold"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -2005,7 +2005,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -2018,7 +2018,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Bold"
+				"name"			"maven_pro_bold"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -2032,7 +2032,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"6"	
 				"tall"		"7"	[$LINUX]
 				"weight"	"400" 	
@@ -2045,7 +2045,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"	
 				"tall"		"9"	[$LINUX]
 				"weight"	"400" 	
@@ -2058,7 +2058,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"tall"		"9"	[$LINUX]
 				"weight"	"400" 	
@@ -2071,7 +2071,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"7"
 				"tall"		"8"	[$LINUX]
 				"weight"	"400" 	
@@ -2085,7 +2085,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"20"	
 				"tall"		"21"	[$LINUX]
 				"weight"	"400" 	
@@ -2099,7 +2099,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"20"	
 				"tall"		"21"	[$LINUX]
 				"weight"	"400" 	
@@ -2113,7 +2113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"14"	
 				"tall"		"15"	[$LINUX]
 				"weight"	"400" 	
@@ -2127,7 +2127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"20"	
 				"tall"		"21"	[$LINUX]
 				"weight"	"400" 	
@@ -2141,7 +2141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"34"	
 				"tall"		"35"	[$LINUX]
 				"weight"	"400" 	
@@ -2156,7 +2156,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"36"	
 				"tall"		"37"	[$LINUX]
 				"weight"	"400" 	
@@ -2169,7 +2169,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"52"	
 				"tall"		"53"	[$LINUX]
 				"range" 	"0x0000 0x00FF"
@@ -2179,7 +2179,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"72"	
 				"tall"		"73"	[$LINUX]
 				"range" 	"0x0000 0x00FF"
@@ -2189,7 +2189,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"100"	
 				"tall"		"101"	[$LINUX]
 				"range" 	"0x0000 0x00FF"
@@ -2199,7 +2199,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"140"	
 				"tall"		"141"	[$LINUX]
 				"range" 	"0x0000 0x00FF"
@@ -2209,7 +2209,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"180"	
 				"tall"		"181"	[$LINUX]
 				"range" 	"0x0000 0x00FF"
@@ -2222,7 +2222,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"36"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2234,7 +2234,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2245,7 +2245,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"weight"	"400"
 				"additive"	"0"
@@ -2256,7 +2256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -2267,7 +2267,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2278,7 +2278,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2290,7 +2290,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2304,7 +2304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"700"
 				// "yres"		"480 599"
@@ -2312,7 +2312,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"weight"	"700"
 				// "yres"		"600 767"
@@ -2320,7 +2320,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"700"
 				// "yres"		"768 1023"
@@ -2328,7 +2328,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"weight"	"700"
 				// "yres"		"1024 1199"
@@ -2336,7 +2336,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"weight"	"700"
 				// "yres"		"1200 10000"
@@ -2347,7 +2347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"700"
 				// "yres"		"480 599"
@@ -2355,7 +2355,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"weight"	"700"
 				// "yres"		"600 767"
@@ -2363,7 +2363,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"700"
 				// "yres"		"768 1023"
@@ -2371,7 +2371,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"weight"	"700"
 				// "yres"		"1024 1199"
@@ -2379,7 +2379,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"24"
 				"weight"	"700"
 				// "yres"		"1200 10000"
@@ -2390,7 +2390,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"700"
 				// "yres"		"480 599"
@@ -2398,7 +2398,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"700"
 				// "yres"		"600 767"
@@ -2406,7 +2406,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"weight"	"700"
 				// "yres"		"768 1023"
@@ -2414,7 +2414,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"700"
 				// "yres"		"1024 1199"
@@ -2422,7 +2422,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"15"
 				"weight"	"700"
 				// "yres"		"1200 10000"
@@ -2434,7 +2434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Maven Pro Black"
+				"name"			"maven_pro_black"
 				"tall"			"8"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
@@ -2447,7 +2447,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2460,7 +2460,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2472,7 +2472,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2485,7 +2485,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -2498,7 +2498,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -2512,7 +2512,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -2525,7 +2525,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -2535,7 +2535,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2545,7 +2545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -2555,7 +2555,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2564,7 +2564,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2573,7 +2573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -2582,7 +2582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -2591,7 +2591,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"500"
@@ -2601,7 +2601,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"500"
@@ -2611,7 +2611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"15"
 				"weight"	"500"
 			}
@@ -2621,7 +2621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2632,7 +2632,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -2643,7 +2643,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -2654,7 +2654,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias" "1"
@@ -2664,7 +2664,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -2675,7 +2675,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2686,7 +2686,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -2698,7 +2698,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"10"	
 				"tall"		"11"	[$LINUX]
 				"weight"	"0"
@@ -2708,7 +2708,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"12"	
 				"tall"		"13"	[$LINUX]
 				"weight"	"0"
@@ -2718,7 +2718,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"15"	
 				"tall"		"16"	[$LINUX]
 				"weight"	"0"
@@ -2732,7 +2732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2743,7 +2743,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -2754,7 +2754,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2765,7 +2765,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"20"
 				"weight"	"500"
 				"additive"	"0"
@@ -2776,7 +2776,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"7"
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
@@ -2788,7 +2788,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500" 	
@@ -2799,7 +2799,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"8"
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
@@ -2811,7 +2811,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"11"
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
@@ -2823,7 +2823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"14"
 				"weight"	"500" 	
 				"weight"	"250" 	[$LINUX]
@@ -2836,7 +2836,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -2847,7 +2847,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"9"
 				"weight"	"500"
 				"blur"		"3"
@@ -2859,7 +2859,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2870,7 +2870,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"0"
 				"additive"	"1"
@@ -2881,7 +2881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2891,7 +2891,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"0"
 				"blur"		"3"
@@ -2903,7 +2903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"7"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -2995,7 +2995,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -3007,7 +3007,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"400"
 				// "yres"		"480 599"
@@ -3016,7 +3016,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3025,7 +3025,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3038,7 +3038,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"400"
 				// "yres"		"480 599"
@@ -3048,7 +3048,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -3058,7 +3058,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -3072,7 +3072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"800"
 				// "yres"		"480 599"
@@ -3081,7 +3081,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -3090,7 +3090,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -3103,7 +3103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -3115,7 +3115,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -3127,7 +3127,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -3139,7 +3139,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -3150,7 +3150,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -3161,7 +3161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -3173,7 +3173,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"
@@ -3189,7 +3189,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3197,7 +3197,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3205,7 +3205,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3214,7 +3214,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3223,7 +3223,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3235,7 +3235,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3246,7 +3246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3254,7 +3254,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3262,7 +3262,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3271,7 +3271,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3280,7 +3280,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3289,7 +3289,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"Maven Pro Regular"
+				"name"		"maven_pro_regular"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -3299,7 +3299,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3310,7 +3310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3321,7 +3321,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3334,7 +3334,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3345,7 +3345,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3362,7 +3362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3373,7 +3373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Bold"
+				"name"		"maven_pro_bold"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3385,7 +3385,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -3398,7 +3398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Medium"
+				"name"		"maven_pro_medium"
 				"tall"		"9"
 				"weight"	"400"
 				"additive"	"0"
@@ -3410,7 +3410,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias" 	"1"
@@ -3421,7 +3421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"11"
 				"weight"	"500"
 				"blur"		"3"
@@ -3434,7 +3434,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Maven Pro Black"
+				"name"		"maven_pro_black"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -3516,7 +3516,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"8"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3526,7 +3526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"10"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3536,7 +3536,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3546,7 +3546,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"25"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3556,7 +3556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"26"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3566,7 +3566,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"KBNHud Icons"
+				"name"			"kbnhud_icons"
 				"tall"			"48"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3576,7 +3576,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Class Icons"
+				"name"			"tf2_class_icons"
 				"tall"			"16"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3586,7 +3586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Class Icons"
+				"name"			"tf2_class_icons"
 				"tall"			"26"
 				"additive"  	"0"
 				"antialias"		"1"
@@ -3596,7 +3596,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Class Icons"
+				"name"			"tf2_class_icons"
 				"tall"			"54"
 				"additive"  	"0"
 				"antialias"		"1"

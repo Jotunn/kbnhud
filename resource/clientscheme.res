@@ -131,54 +131,54 @@ Scheme
 				"range" "0x0000 0x007E"
 			}
 		}
-		"8"		//KBNHud Default Font
+		"A"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-regular.ttf"
-			"name" "Maven Pro Regular"
+			"font" "resource/fonts/mavenpro_regular.ttf"
+			"name" "maven_pro_regular"
 		}
-		"9"		//KBNHud Default Font
+		"B"		//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-medium.ttf"
-			"name" "Maven Pro Medium"
+			"font" "resource/fonts/mavenpro_medium.ttf"
+			"name" "maven_pro_medium"
 		}
-		"10"	//KBNHud Default Font
+		"C"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-bold.ttf"
-			"name" "Maven Pro Bold"
+			"font" "resource/fonts/mavenpro_bold.ttf"
+			"name" "maven_pro_bold"
 		}
-		"11"	//KBNHud Default Font
+		"D"	//KBNHud Default Font
 		{
-			"font" "resource/fonts/mavenpro-black.ttf"
-			"name" "Maven Pro Black"
+			"font" "resource/fonts/mavenpro_black.ttf"
+			"name" "maven_pro_black"
 		}
-		"12" 	//Aim Guide Font
+		"E" 	//Aim Guide Font
 		{
 			"font" "resource/fonts/formasge.ttf"
-			"name" "Formas germetricas 1"
+			"name" "formasge"
 		}
-		"13"	//Hypno's crosshairs
+		"F"	//Hypno's crosshairs
 		{
 			"font" "resource/fonts/tf2crosshairs.ttf"  [$WINDOWS]
 			"font" "resource/fonts/tf2crosshairs_linux.ttf" [$LINUX]
-			"name" "TF2Crosshairs"
+			"name" "tf2crosshairs"
 		}
-		"14"	//Menu Symbols
+		"G"	//Menu Symbols
 		{
 			"font" "resource/fonts/kbnhudicons.otf"
 			"font" "resource/fonts/kbnhudicons_linux.otf" [$LINUX]
-			"name" "KBNHud Icons"
+			"name" "kbnhud_icons"
 		}
-		"15"	//Loadout Screen Symbols
+		"H"	//Loadout Screen Symbols
 		{
 			"font" "resource/fonts/tf2classicons.otf"  [$WINDOWS]
 			"font" "resource/fonts/tf2classicons_linux.otf" [$LINUX]
-			"name" "TF2 Class Icons"
+			"name" "tf2_class_icons"
 		}
-		"16"	//F4 Ready mode symbols
+		"I"	//F4 Ready mode symbols
 		{
 			"font" "resource/fonts/readyupsymbols.otf"
 			"name" "ReadyUp Symbols"
 		}
-		"17" "resource/fonts/toonhudicons.ttf"
+		"J" "resource/fonts/toonhudicons.ttf"
 	}
 }

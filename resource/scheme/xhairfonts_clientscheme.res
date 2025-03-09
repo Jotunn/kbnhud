@@ -6,7 +6,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Formas germetricas 1"
+				"name"		"formasge"
 				"tall"		"30"
 				"weight"	"0"
 				"antialias"	"1"
@@ -16,7 +16,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"10"
 				"weight"		"0"
 				"antialias"		"1"
@@ -26,7 +26,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"11"
 				"weight"		"0"
 				"antialias"		"1"
@@ -36,7 +36,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"12"
 				"weight"		"0"
 				"antialias"		"1"
@@ -46,7 +46,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"13"
 				"weight"		"0"
 				"antialias"		"1"
@@ -56,7 +56,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"14"
 				"weight"		"0"
 				"antialias"		"1"
@@ -66,7 +66,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"15"
 				"weight"		"0"
 				"antialias"		"1"
@@ -76,7 +76,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"16"
 				"weight"		"0"
 				"antialias"		"1"
@@ -86,7 +86,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"17"
 				"weight"		"0"
 				"antialias"		"1"
@@ -96,7 +96,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
@@ -106,7 +106,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"19"
 				"weight"		"0"
 				"antialias"		"1"
@@ -116,7 +116,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"20"
 				"weight"		"0"
 				"antialias"		"1"
@@ -126,7 +126,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"21"
 				"weight"		"0"
 				"antialias"		"1"
@@ -136,7 +136,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"22"
 				"weight"		"0"
 				"antialias"		"1"
@@ -146,7 +146,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"23"
 				"weight"		"0"
 				"antialias"		"1"
@@ -156,7 +156,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"24"
 				"weight"		"0"
 				"antialias"		"1"
@@ -166,7 +166,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"25"
 				"weight"		"0"
 				"antialias"		"1"
@@ -176,7 +176,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"26"
 				"weight"		"0"
 				"antialias"		"1"
@@ -186,7 +186,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"27"
 				"weight"		"0"
 				"antialias"		"1"
@@ -196,7 +196,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"28"
 				"weight"		"0"
 				"antialias"		"1"
@@ -206,7 +206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"29"
 				"weight"		"0"
 				"antialias"		"1"
@@ -216,7 +216,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"30"
 				"weight"		"0"
 				"antialias"		"1"
@@ -227,7 +227,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"10"
 				"weight"		"0"
 				"antialias"		"1"
@@ -238,7 +238,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"11"
 				"weight"		"0"
 				"antialias"		"1"
@@ -249,7 +249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"12"
 				"weight"		"0"
 				"antialias"		"1"
@@ -260,7 +260,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"13"
 				"weight"		"0"
 				"antialias"		"1"
@@ -271,7 +271,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"14"
 				"weight"		"0"
 				"antialias"		"1"
@@ -282,7 +282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"15"
 				"weight"		"0"
 				"antialias"		"1"
@@ -293,7 +293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"16"
 				"weight"		"0"
 				"antialias"		"1"
@@ -304,7 +304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"17"
 				"weight"		"0"
 				"antialias"		"1"
@@ -315,7 +315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"18"
 				"weight"		"0"
 				"antialias"		"1"
@@ -326,7 +326,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"19"
 				"weight"		"0"
 				"antialias"		"1"
@@ -337,7 +337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"20"
 				"weight"		"0"
 				"antialias"		"1"
@@ -348,7 +348,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"21"
 				"weight"		"0"
 				"antialias"		"1"
@@ -359,7 +359,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"22"
 				"weight"		"0"
 				"antialias"		"1"
@@ -370,7 +370,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"23"
 				"weight"		"0"
 				"antialias"		"1"
@@ -381,7 +381,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"24"
 				"weight"		"0"
 				"antialias"		"1"
@@ -392,7 +392,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"25"
 				"weight"		"0"
 				"antialias"		"1"
@@ -403,7 +403,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"26"
 				"weight"		"0"
 				"antialias"		"1"
@@ -414,7 +414,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"27"
 				"weight"		"0"
 				"antialias"		"1"
@@ -425,7 +425,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"28"
 				"weight"		"0"
 				"antialias"		"1"
@@ -436,7 +436,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"29"
 				"weight"		"0"
 				"antialias"		"1"
@@ -447,7 +447,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2Crosshairs"
+				"name"			"tf2crosshairs"
 				"tall"			"30"
 				"weight"		"0"
 				"antialias"		"1"

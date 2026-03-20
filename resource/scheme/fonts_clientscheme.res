@@ -648,6 +648,18 @@ Scheme
 			"antialias"	"1"
 			}
 		}
+		"MavenProBoldO38"
+		{
+			"1"
+			{
+			"name"		"maven_pro_bold"
+			"tall"		"38"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"1"
+			}
+		}
 		"MavenProBold72"
 		{
 			"1"
@@ -902,6 +914,18 @@ Scheme
 			"weight"	"500"
 			"range"		"0x0000 0x017F"
 			"antialias"	"1"
+			}
+		}
+		"MavenProBlackO44"
+		{
+			"1"
+			{
+			"name"		"maven_pro_black"
+			"tall"		"44"
+			"weight"	"500"
+			"range"		"0x0000 0x017F"
+			"antialias"	"1"
+			"outline"	"1"
 			}
 		}
 		"ToonHUDIcons"

@@ -1079,100 +1079,100 @@
 	
 	"TeamNavPanel"
 	{
-		"ControlName"								"CNavigationPanel"
-		"fieldName"									"TeamNavPanel"
-		"xpos"										"c-222"
-		"ypos"										"c-176"
-		"zpos"										"2"
-		"wide"										"19"
-		"tall"										"40"
-		"autoResize"								"0"
-		"pinCorner"									"0"
-		"visible"									"1"
-		"enabled"									"1"
-		
-		"auto_scale"								"1"
-		"auto_layout"								"1"
-		"selected_button_default"					"0"
-		"auto_layout_vertical_buffer"				"-4"
-		"display_vertically"						"1"
-		"align"										"west"
-		
+		"ControlName"		"CNavigationPanel"
+		"fieldName"			"TeamNavPanel"
+		"xpos"				"c-220"
+		"ypos"				"c-173"
+		"zpos"				"2"
+		"wide"				"19"
+		"tall"				"40"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"auto_scale"		"1"
+		"auto_layout"		"1"
+		"selected_button_default"	"0"
+		"auto_layout_vertical_buffer"	"-4"
+		"display_vertically"	"1"
+		"align"				"west"
+
 		"ButtonSettings"
 		{
-			"wide"									"19"
-			"tall"									"19"
-			"autoResize"							"0"
-			"pinCorner"								"2"
-			"visible"								"1"
-			"enabled"								"1"
-			"tabPosition"							"0"
-			"labelText"								""
-			"textAlignment"							"south-west"
-			"scaleImage"							"1"
-			
-			"fgcolor"								"White"
-			"defaultFgColor_override" 				"White"
-			"armedFgColor_override" 				"White"
-			"depressedFgColor_override" 			"White"
-			
-			"sound_depressed"						"UI/buttonclick.wav"
-			"sound_released"						"UI/buttonclickrelease.wav"
-			"sound_armed"							"UI/buttonrollover.wav"
-			
-			"paintBackground"						"0"
-			"paintBackgroundtype"					"0"
-			"defaultBgColor_Override"				"Black"
-			
-			"paintborder"							"0"
-			
-			"image_drawcolor"						"255 255 255 77"
-			"image_armedcolor"						"255 255 255 128"
-			"image_selectedcolor"					"255 255 255 255"
-			
-			"stayselectedonclick"					"1"
-			"keyboardinputenabled"					"0"
-			
+			"wide"				"19"
+			"tall"				"19"
+			"autoResize"		"0"
+			"pinCorner"			"2"
+			"visible"			"1"
+			"enabled"			"1"
+			"tabPosition"		"0"
+			"labelText"			""
+			"textAlignment"		"south-west"
+			"scaleImage"		"1"
+
+			"fgcolor"			"TanDark"
+			"defaultFgColor_override" "TanDark"
+			"armedFgColor_override" "TanDark"
+			"depressedFgColor_override" "TanDark"
+
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			"sound_armed"		"UI/buttonrollover.wav"
+
+			"paintbackground"	"0"
+			"paintbackgroundtype"	"0"
+			"defaultBgColor_Override"	"0 0 0 255"
+
+			"paintborder"		"0"
+
+			"image_drawcolor"		"255 255 255 77"
+			"image_armedcolor"		"255 255 255 128"
+			"image_selectedcolor"	"255 255 255 255"
+
+			"stayselectedonclick"	"1"
+			"keyboardinputenabled"	"0"
+
 			"SubImage"
 			{
-				"ControlName"						"ImagePanel"
-				"fieldName"							"SubImage"
-				"xpos"								"0"
-				"ypos"								"0"
-				"zpos"								"7"
-				"wide"								"19"
-				"tall"								"19"
-				"visible"							"1"
-				"enabled"							"1"
-				"scaleImage"						"1"
-			}				
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"7"
+				"wide"			"19"
+				"tall"			"19"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
 		}
-		
+
 		"Buttons"
 		{
 			"all"
 			{
-				"userdata"							"2"
-				"image_default"						"store/store_redteam"
-				"image_armed"						"store/store_redteam"
-				"image_selected"					"store/store_redteam"
-				
+				"userdata"			"2"
+				"image_default"		"store/store_redteam"
+				"image_armed"		"store/store_redteam"
+				"image_selected"	"store/store_redteam"
+
 				"SubImage"
 				{
-					"image"							"store/store_redteam"
-				}				
+					"image"			"store/store_redteam"
+				}
 			}
 			"scout"
 			{
-				"userdata"							"3"
-				"image_default"						"store/store_blueteam"
-				"image_armed"						"store/store_blueteam"
-				"image_selected"					"store/store_blueteam"
-				
+				"userdata"			"3"
+				"image_default"		"store/store_blueteam"
+				"image_armed"		"store/store_blueteam"
+				"image_selected"	"store/store_blueteam"
+
 				"SubImage"
 				{
-					"image"							"store/store_blueteam"
-				}				
+					"image"			"store/store_blueteam"
+				}
 			}
 		}
 	}

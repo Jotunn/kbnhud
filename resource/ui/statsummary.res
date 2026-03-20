@@ -11,7 +11,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 	}
-	
+
 	"Background"
 	{
 		"ControlName"	"ImagePanel"
@@ -23,7 +23,8 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"Black"
+		"image"			"../console/background_2fort_widescreen"
+		"scaleImage"	"1"
 	}
 
 	"MapType"

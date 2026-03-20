@@ -1084,6 +1084,20 @@
 			
 		}
 	}
+	"RankBackground"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"RankBackground"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5-92"
+		"zpos"			"-200"
+		"wide"			"194"
+		"tall"			"75"
+		"visible"		"1"
+		"enabled"		"1"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"	"TransparentBlack"
+	}
 	"ReloadScheme"
 	{
 		"ControlName"							"EditablePanel"
@@ -1559,7 +1573,7 @@
 
 			"bgcolor_override"					"0 0 0 100"
 		}
-	}
+	}"outline"	"1"
 	////////////////////Right Inside Column//////////////////////
 	"Twitch"
 	{

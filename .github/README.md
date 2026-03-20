@@ -1,7 +1,7 @@
 
-![alt text](https://i.imgur.com/ehYUnaI.png)
+![alt text](https://i.imgur.com/r6Yv3Pz.png)
 
-v517: Stoyat Devchonki Edition
+v518: Long As I Can See The Light Edition
 ======
 
 To decades gone past and decades to come. Take care, everyone!
@@ -16,7 +16,7 @@ I made this HUD from the bones of KNHUD when I was a sniper in (low tier) UGC, a
 
 [Steam Group, join for updates](http://steamcommunity.com/groups/KBNHud "KBNHud Steam Group")
 
-[Screenshots album (imgur)](https://imgur.com/a/nmXU42d "Screenshots")
+[Screenshots album (imgur)](https://imgur.com/a/MIXppFP "Screenshots")
 
 [KBNHud GitHub Wiki, this has detailed instructions and help](https://github.com/Jotunn/KBNHud/wiki "Also linked at the top of the page")
 
@@ -32,11 +32,11 @@ Installing the HUD
 
 * Windows
 * Mac OS
-* Linux (KBNHud is developed in Linux)
+* Linux (KBNHud is developed in Linux, one of very few)
 
 ### Download
 
-**If you're on Windows, KBNHud is now included in [CriticalFlaw's and Revan's HUD Editor](http://www.criticalflaw.ca/TF2HUD.Editor/), an installer and customization tool that provides a visual system for enabling the customizations you use, as well as set up your crosshairs, colors, and more.**
+**If you're on Windows or Linux, KBNHud is now included in [CriticalFlaw's and Revan's HUD Editor](https://github.com/CriticalFlaw/TF2HUD.Editor), an installer and customization tool that provides a visual system for enabling the customizations you use, as well as set up your crosshairs, colors, and more.**
 
 To download the HUD, click the green `Code` button above, then click `Download Zip` in the menu that pops up. Then, extract `kbnhud-master.zip`, which should create a folder of the same name.
 
@@ -117,7 +117,7 @@ Credits
 
 **MENU VTFS:** extracrispy & Rawsor
 
-**MAIN MENU BACKGROUND, BANNERS:** Alena Aenami, via her [ArtStation](https://aenamiart.artstation.com/). The piece used is called [Stardust](https://aenamiart.artstation.com/projects/4Xa124).
+**MAIN MENU BACKGROUND, BANNERS:** Myself, all backgrounds from March 2026 onward are photos taken by me on a 35mm film camera.
 
 **HITMARKERS:** Originally written by Quartz, updated versions by Hypnotize
 

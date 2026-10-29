@@ -8,7 +8,7 @@
         "xpos"              "c-95"    //c-184    [$WIN32]
         "ypos"              "r180"        [$WIN32]
         "wide"              "33"
-        "tall"              "8"
+        "tall"              "10"
         "MeterFG"           "White"
         "MeterBG"           "Gray"
     }
@@ -59,7 +59,7 @@
         "ControlName"       "CExLabel"
         "fieldName"         "ItemEffectMeterCount"
         "xpos"              "7"
-        "ypos"              "-7"
+        "ypos"              "-6"
         "zpos"              "2"
         "wide"              "40"
         "tall"              "20"        
@@ -79,7 +79,7 @@
         "ControlName"       "CExLabel"
         "fieldName"         "ItemEffectMeterCountShadow"
         "xpos"              "8"
-        "ypos"              "-7"
+        "ypos"              "-6"
         "zpos"              "2"
         "wide"              "40"
         "tall"              "20"        

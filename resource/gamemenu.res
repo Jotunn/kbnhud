@@ -3,7 +3,7 @@
 	"KBNHudButton"
     {
         "command" "engine toggleconsole;
-			play ui/kabong.mp3
+			play ui/paip.mp3
 			echo ````````````````````````````````````@``````````````````````````````````````````;
 			echo ```````````````````````````````````@@@`````````````````````````````````````````;
 			echo `````````````````````````````````@@@@@@@```````````````````````````````````````;
@@ -26,15 +26,15 @@
 			echo ``````````````````````````````````````````@@@``````````````````````````````````;
 			echo ```````````````````````````````````````````@```````````````````````````````````;
 			echo -------------------------------------------------------------------------------;
-			echo -------------- KBNHud v518 - Long As I Can See The Light Edition --------------;
+			echo ------------------ KBNHud v519 - Down On The Riverbed Edition -----------------;
 			echo -------------------------- To check for updates go to: -----------------------;
 			echo --------------------------- github.com/Jotunn/kbnhud --------------------------;
 			echo ------------------------- comfig.app/huds/page/kbnhud -------------------------;
 			echo ----------------------- steamcommunity.com/groups/KBNHud ----------------------;
 			echo ------- To decades gone past and decades to come! Take care, everyone! --------;
 			echo -------------------------------------------------------------------------------"
-		"label" 			"KBNHud v518"
-		"tooltip"			"Long As I Can See The Light Edition; March 9, 2025"
+		"label" 			"KBNHud v519"
+		"tooltip"			"Down On The Riverbed Edition; October 29, 2026"
     }
 	////////////////////////Left Column//////////////////////////
 	"Inventory"
